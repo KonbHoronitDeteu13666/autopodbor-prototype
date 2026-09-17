@@ -1,0 +1,1735 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Кликабельный прототип Android-приложения для осмотра подержанных автомобилей.">
+<meta name="theme-color" content="#E8E9E5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0D1113" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A7%3C/text%3E%3C/svg%3E">
+<style>
+:root{color-scheme:light dark}
+*{-webkit-tap-highlight-color:transparent}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<title>Автоподбор</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#E8E9E5;
+  --surface:#FFFFFF;
+  --surface-2:#F2F3F0;
+  --ink:#14191B;
+  --ink-2:#4A5357;
+  --muted:#798387;
+  --line:#D3D6D1;
+  --line-strong:#B6BBB6;
+
+  --accent:#0E6675;
+  --accent-ink:#FFFFFF;
+  --accent-soft:#D6EAEC;
+
+  --ok:#2F6B4F;
+  --ok-soft:#DCEBE1;
+  --warn:#96580C;
+  --warn-soft:#F5E6CC;
+  --bad:#A93826;
+  --bad-soft:#F6DED8;
+  --crit:#7C1A0E;
+  --crit-soft:#F3D4CC;
+
+  --shadow:0 1px 2px rgba(20,25,27,.08), 0 8px 24px rgba(20,25,27,.07);
+  --radius:10px;
+
+  --f-display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Barlow",system-ui,-apple-system,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0D1113;
+    --surface:#161C1F;
+    --surface-2:#1E2528;
+    --ink:#E5EAEA;
+    --ink-2:#AAB4B6;
+    --muted:#7D8A8D;
+    --line:#2A3236;
+    --line-strong:#3B4549;
+
+    --accent:#3DB3C6;
+    --accent-ink:#06282E;
+    --accent-soft:#14343A;
+
+    --ok:#6FBF95;
+    --ok-soft:#162C22;
+    --warn:#D69B41;
+    --warn-soft:#2E2413;
+    --bad:#E4796A;
+    --bad-soft:#331915;
+    --crit:#F0917F;
+    --crit-soft:#3B1710;
+
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px rgba(0,0,0,.45);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0D1113;
+  --surface:#161C1F;
+  --surface-2:#1E2528;
+  --ink:#E5EAEA;
+  --ink-2:#AAB4B6;
+  --muted:#7D8A8D;
+  --line:#2A3236;
+  --line-strong:#3B4549;
+
+  --accent:#3DB3C6;
+  --accent-ink:#06282E;
+  --accent-soft:#14343A;
+
+  --ok:#6FBF95;
+  --ok-soft:#162C22;
+  --warn:#D69B41;
+  --warn-soft:#2E2413;
+  --bad:#E4796A;
+  --bad-soft:#331915;
+  --crit:#F0917F;
+  --crit-soft:#3B1710;
+
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px rgba(0,0,0,.45);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:var(--f-body);
+  font-size:15px;
+  line-height:1.45;
+  -webkit-font-smoothing:antialiased;
+}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+/* ---------- page shell ---------- */
+.page{
+  max-width:1180px;
+  margin:0 auto;
+  padding-inline:20px;
+  padding-block:28px 56px;
+}
+.masthead{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-end;
+  gap:16px 28px;
+  padding-bottom:18px;
+  border-bottom:1px solid var(--line);
+}
+.masthead h1{
+  font-family:var(--f-display);
+  font-weight:700;
+  font-size:clamp(30px,5vw,42px);
+  letter-spacing:.01em;
+  margin:0;
+  line-height:1;
+  text-wrap:balance;
+}
+.masthead p{
+  margin:0;
+  max-width:52ch;
+  color:var(--ink-2);
+  font-size:14px;
+}
+.tag{
+  font-family:var(--f-mono);
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--accent);
+  border:1px solid var(--accent);
+  border-radius:999px;
+  padding:3px 9px;
+  white-space:nowrap;
+}
+
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,300px) minmax(0,1fr);
+  gap:36px;
+  align-items:start;
+  margin-top:28px;
+}
+@media (max-width:860px){
+  .layout{grid-template-columns:minmax(0,1fr);gap:26px}
+  .rail{order:2}
+}
+
+/* ---------- rail ---------- */
+.rail h2, .notes h2{
+  font-family:var(--f-display);
+  text-transform:uppercase;
+  letter-spacing:.09em;
+  font-size:13px;
+  color:var(--muted);
+  margin:0 0 10px;
+  font-weight:600;
+}
+.rail ol{
+  list-style:none;
+  margin:0 0 24px;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  gap:1px;
+  background:var(--line);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  overflow:hidden;
+}
+.rail li button{
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+  width:100%;
+  padding:9px 12px;
+  background:var(--surface);
+  color:var(--ink-2);
+  font-size:14px;
+}
+.rail li button:hover{background:var(--surface-2);color:var(--ink)}
+.rail li button[aria-current="true"]{
+  background:var(--accent);
+  color:var(--accent-ink);
+  font-weight:600;
+}
+.rail li button[aria-current="true"] .idx{color:var(--accent-ink);opacity:.75}
+.idx{
+  font-family:var(--f-mono);
+  font-size:11px;
+  color:var(--muted);
+  min-width:16px;
+}
+.notes{
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  background:var(--surface);
+  padding:14px 15px;
+}
+.notes p{margin:0;font-size:14px;color:var(--ink-2)}
+.notes p + p{margin-top:9px}
+.notes b{color:var(--ink);font-weight:600}
+
+/* ---------- phone ---------- */
+.stage{display:flex;justify-content:center}
+.phone{
+  width:100%;
+  max-width:392px;
+  background:var(--surface);
+  border:1px solid var(--line-strong);
+  border-radius:26px;
+  box-shadow:var(--shadow);
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  height:min(78vh,780px);
+  min-height:560px;
+}
+.statusbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:8px 18px 4px;
+  font-family:var(--f-mono);
+  font-size:11px;
+  color:var(--muted);
+  background:var(--surface);
+}
+.appbar{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:6px 14px 10px;
+  border-bottom:1px solid var(--line);
+  background:var(--surface);
+}
+.appbar .back{
+  width:28px;height:28px;
+  display:grid;place-items:center;
+  border-radius:8px;
+  color:var(--ink-2);
+  flex:none;
+}
+.appbar .back:hover{background:var(--surface-2);color:var(--ink)}
+.appbar .titles{min-width:0;flex:1}
+.appbar .eyebrow{
+  font-family:var(--f-mono);
+  font-size:10px;
+  letter-spacing:.07em;
+  text-transform:uppercase;
+  color:var(--muted);
+  display:block;
+}
+.appbar h3{
+  font-family:var(--f-display);
+  font-size:21px;
+  font-weight:600;
+  margin:0;
+  line-height:1.15;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.viewport{flex:1;overflow-y:auto;overscroll-behavior:contain;background:var(--ground)}
+.screen{display:none;padding:14px 14px 22px;flex-direction:column;gap:12px}
+.screen.is-active{display:flex}
+
+/* ---------- nav ---------- */
+.tabbar{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  border-top:1px solid var(--line);
+  background:var(--surface);
+}
+.tabbar button{
+  padding:8px 4px 11px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:3px;
+  color:var(--muted);
+  font-size:11px;
+}
+.tabbar button[aria-current="true"]{color:var(--accent);font-weight:600}
+.tabbar svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- generic blocks ---------- */
+.card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:13px 14px;
+}
+.card.flush{padding:0;overflow:hidden}
+.rows{display:flex;flex-direction:column}
+.row{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  width:100%;
+  padding:11px 14px;
+  background:var(--surface);
+  border-bottom:1px solid var(--line);
+}
+.row:last-child{border-bottom:0}
+.row:hover{background:var(--surface-2)}
+.row .grow{flex:1;min-width:0}
+.row .ttl{font-weight:500;display:block}
+.row .sub{font-size:12.5px;color:var(--muted);display:block}
+.chev{color:var(--muted);flex:none}
+
+.sectionhead{
+  font-family:var(--f-display);
+  text-transform:uppercase;
+  letter-spacing:.09em;
+  font-size:12px;
+  font-weight:600;
+  color:var(--muted);
+  margin:6px 2px -4px;
+}
+
+.chip{
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  font-family:var(--f-display);
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  padding:2px 8px;
+  border-radius:5px;
+  white-space:nowrap;
+}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+.chip.bad{background:var(--bad-soft);color:var(--bad)}
+.chip.crit{background:var(--crit-soft);color:var(--crit)}
+.chip.neutral{background:var(--surface-2);color:var(--ink-2)}
+
+.stripe{width:3px;align-self:stretch;border-radius:2px;flex:none;min-height:34px}
+.stripe.ok{background:var(--ok)}
+.stripe.warn{background:var(--warn)}
+.stripe.bad{background:var(--bad)}
+.stripe.crit{background:var(--crit)}
+
+.btn{
+  display:block;
+  width:100%;
+  text-align:center;
+  padding:12px;
+  border-radius:var(--radius);
+  background:var(--accent);
+  color:var(--accent-ink);
+  font-weight:600;
+  font-size:15px;
+}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.btn.quiet{background:var(--surface);color:var(--ink-2);border:1px solid var(--line)}
+
+.note{
+  display:flex;
+  gap:9px;
+  padding:10px 12px;
+  border-radius:var(--radius);
+  font-size:13.5px;
+  line-height:1.4;
+  border:1px solid transparent;
+}
+.note.warn{background:var(--warn-soft);color:var(--warn);border-color:color-mix(in srgb,var(--warn) 25%,transparent)}
+.note.crit{background:var(--crit-soft);color:var(--crit);border-color:color-mix(in srgb,var(--crit) 25%,transparent)}
+.note.info{background:var(--accent-soft);color:var(--accent);border-color:color-mix(in srgb,var(--accent) 22%,transparent)}
+.note b{font-weight:600}
+
+.kv{display:grid;grid-template-columns:auto 1fr;gap:5px 14px;font-size:13.5px}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0;text-align:right;font-weight:500}
+
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+h4.blockttl{
+  font-family:var(--f-display);
+  font-size:17px;
+  font-weight:600;
+  margin:0 0 6px;
+  letter-spacing:.01em;
+}
+.body-text{font-size:14px;color:var(--ink-2);margin:0}
+.body-text + .body-text{margin-top:8px}
+
+ol.steps{margin:0;padding:0;list-style:none;counter-reset:s;display:flex;flex-direction:column;gap:9px}
+ol.steps li{
+  counter-increment:s;
+  display:grid;
+  grid-template-columns:22px 1fr;
+  gap:10px;
+  font-size:14px;
+  color:var(--ink-2);
+}
+ol.steps li::before{
+  content:counter(s);
+  font-family:var(--f-mono);
+  font-size:12px;
+  font-weight:600;
+  color:var(--accent);
+  background:var(--accent-soft);
+  border-radius:5px;
+  width:22px;height:22px;
+  display:grid;place-items:center;
+}
+
+/* ---------- catalog search ---------- */
+.search{
+  display:flex;align-items:center;gap:9px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:10px 12px;
+  color:var(--muted);
+  font-size:14.5px;
+}
+
+/* ---------- brand accordion ---------- */
+.brandrow{
+  display:flex;align-items:center;gap:10px;
+  width:100%;padding:12px 14px;
+  background:var(--surface);
+  border-bottom:1px solid var(--line);
+  font-weight:500;
+}
+.brandrow:hover{background:var(--surface-2)}
+.brandrow .grow{flex:1}
+.brandrow .cnt{font-size:12.5px;color:var(--muted);font-family:var(--f-mono)}
+.brandrow .caret{color:var(--muted);transition:transform .15s}
+.brandrow[aria-expanded="true"] .caret{transform:rotate(90deg)}
+.brandrow[aria-expanded="true"]{color:var(--accent)}
+.modelrow{
+  display:flex;align-items:center;gap:10px;
+  width:100%;padding:10px 14px 10px 30px;
+  background:var(--surface-2);
+  border-bottom:1px solid var(--line);
+  font-size:14.5px;
+}
+.modelrow:hover{filter:brightness(.97)}
+.modelrow .grow{flex:1;min-width:0}
+.modelrow .sub{display:block;font-size:12px;color:var(--muted)}
+.models[hidden]{display:none}
+
+/* ---------- selects ---------- */
+.field{display:flex;flex-direction:column;gap:5px}
+.field label{
+  font-family:var(--f-display);
+  text-transform:uppercase;letter-spacing:.08em;
+  font-size:11.5px;font-weight:600;color:var(--muted);
+  padding-left:2px;
+}
+.field select{
+  font:inherit;font-size:15px;
+  width:100%;
+  padding:11px 34px 11px 12px;
+  border-radius:var(--radius);
+  border:1px solid var(--line-strong);
+  background:var(--surface);
+  color:var(--ink);
+  appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);
+  background-position:calc(100% - 17px) calc(50% + 1px),calc(100% - 12px) calc(50% + 1px);
+  background-size:5px 5px,5px 5px;
+  background-repeat:no-repeat;
+}
+.field select:disabled{color:var(--muted);background-color:var(--surface-2)}
+
+/* ---------- selector steps ---------- */
+.pickgrid{display:grid;gap:8px}
+.pick{
+  border:1px solid var(--line);
+  background:var(--surface);
+  border-radius:var(--radius);
+  padding:11px 13px;
+  display:flex;
+  align-items:center;
+  gap:11px;
+}
+.pick[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.pick .grow{flex:1;min-width:0}
+.pick .ttl{font-weight:600;display:block}
+.pick .sub{font-size:12.5px;color:var(--muted)}
+.tick{
+  width:19px;height:19px;border-radius:5px;
+  border:1.5px solid var(--line-strong);
+  display:grid;place-items:center;flex:none;
+  color:transparent;
+}
+.pick[aria-pressed="true"] .tick{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.tick svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- body section ---------- */
+.summary{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  overflow:hidden;
+  background:var(--line);
+  gap:1px;
+}
+.summary div{background:var(--surface);padding:9px 10px}
+.summary dt{
+  font-family:var(--f-display);
+  font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:2px;
+}
+.summary dd{
+  margin:0;
+  font-family:var(--f-mono);
+  font-size:17px;
+  font-weight:600;
+  font-variant-numeric:tabular-nums;
+}
+
+/* ---------- scanner ---------- */
+.dtc{
+  display:flex;align-items:center;gap:11px;
+  width:100%;padding:11px 14px;
+  background:var(--surface);
+  border-bottom:1px solid var(--line);
+}
+.dtc:last-child{border-bottom:0}
+.dtc:hover{background:var(--surface-2)}
+.dtc .code{
+  font-family:var(--f-mono);
+  font-size:15px;font-weight:600;
+  letter-spacing:.02em;
+}
+.dtc .grow{flex:1;min-width:0}
+.dtc .sub{font-size:12.5px;color:var(--muted);display:block}
+
+.link{color:var(--accent);font-weight:500}
+
+/* ---------- checklist ---------- */
+.checkrow{
+  display:flex;align-items:center;gap:10px;
+  padding:9px 12px;
+  background:var(--surface);
+  border-bottom:1px solid var(--line);
+}
+.checkrow:last-child{border-bottom:0}
+.checkrow .grow{flex:1;min-width:0}
+.checkrow .ttl{font-weight:500;display:block;font-size:14.5px;line-height:1.25}
+.checkrow .sub{font-size:12px;color:var(--muted);display:block}
+.marks{display:flex;gap:5px;flex:none}
+.mark{
+  width:32px;height:32px;
+  border-radius:8px;
+  border:1px solid var(--line-strong);
+  display:grid;place-items:center;
+  color:var(--muted);
+  background:var(--surface);
+}
+.mark svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.mark:hover{background:var(--surface-2)}
+.mark[data-on="true"][data-kind="ok"]{background:var(--ok);border-color:var(--ok);color:#fff}
+.mark[data-on="true"][data-kind="found"]{background:var(--bad);border-color:var(--bad);color:#fff}
+:root[data-theme="dark"] .mark[data-on="true"][data-kind="ok"],
+:root[data-theme="dark"] .mark[data-on="true"][data-kind="found"]{color:#0D1113}
+.comment{
+  padding:0 12px 10px 12px;
+  background:var(--surface);
+  border-bottom:1px solid var(--line);
+}
+.comment input{
+  width:100%;
+  font:inherit;font-size:13.5px;
+  padding:7px 10px;
+  border-radius:8px;
+  border:1px solid var(--line-strong);
+  background:var(--surface-2);
+  color:var(--ink);
+}
+.comment input::placeholder{color:var(--muted)}
+.progress{
+  height:5px;border-radius:3px;background:var(--line);overflow:hidden;
+}
+.progress i{display:block;height:100%;background:var(--accent);transition:width .2s}
+.notefield{
+  width:100%;
+  font:inherit;font-size:14px;
+  padding:9px 11px;
+  border-radius:8px;
+  border:1px solid var(--line-strong);
+  background:var(--surface-2);
+  color:var(--ink);
+}
+.notefield::placeholder{color:var(--muted)}
+
+/* ---------- report ---------- */
+.reportline{
+  display:flex;justify-content:space-between;gap:12px;
+  padding:8px 0;border-bottom:1px solid var(--line);
+  font-size:14px;
+}
+.reportline:last-child{border-bottom:0}
+.reportline .lbl{color:var(--muted)}
+.reportline .val{font-weight:500;text-align:right}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+<style>
+/* телефон в телефоне не нужен: на узком экране макет занимает весь экран */
+@media (max-width:560px){
+  .page{padding-inline:0;padding-block:16px 0}
+  .masthead{padding-inline:16px;padding-bottom:14px}
+  .layout{margin-top:0;gap:0}
+  .rail{padding:20px 16px 32px;order:2}
+  .stage{order:1}
+  .phone{
+    max-width:none;
+    border:0;border-left:0;border-right:0;
+    border-radius:0;
+    box-shadow:none;
+    height:auto;min-height:0;
+  }
+  .statusbar{display:none}
+  .appbar{position:sticky;top:0;z-index:5}
+  .viewport{overflow:visible}
+  .tabbar{position:sticky;bottom:0;z-index:5;padding-bottom:env(safe-area-inset-bottom)}
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+  <header class="masthead">
+    <h1>Автоподбор</h1>
+    <span class="tag">Прототип · Camry XV40</span>
+    <p>Кликабельный макет Android-приложения. Справочный контент настоящий — неисправности, нормы ЛКП, расшифровка кодов из наполнения первой модели. Показания приборов, пробег и VIN выдуманы для примера: их вводит пользователь во время осмотра.</p>
+  </header>
+
+  <div class="layout">
+    <nav class="rail" aria-label="Экраны прототипа">
+      <h2>Экраны</h2>
+      <ol id="rail"></ol>
+      <div class="notes">
+        <h2>Что смотреть</h2>
+        <div id="note"></div>
+      </div>
+    </nav>
+
+    <div class="stage">
+      <div class="phone">
+        <div class="statusbar"><span>9:41</span><span>◍ ▲ ▮</span></div>
+
+        <div class="appbar">
+          <button class="back" id="back" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <div class="titles">
+            <span class="eyebrow" id="bar-eyebrow"></span>
+            <h3 id="bar-title"></h3>
+          </div>
+        </div>
+
+        <div class="viewport" id="viewport">
+
+          <!-- 1 КАТАЛОГ -->
+          <section class="screen" id="s-catalog">
+            <div class="search">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+              Марка или модель
+            </div>
+
+            <p class="sectionhead">Недавние</p>
+            <div class="card flush rows">
+              <button class="row" data-go="generation">
+                <div class="grow"><span class="ttl">Toyota Camry, 2006–2011</span><span class="sub">3.5 V6 · U660E · данные от 18.09.2026</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            </div>
+
+            <p class="sectionhead">Марки</p>
+            <div class="card flush" id="brand-list"></div>
+
+            <div class="note info">
+              <span>Каталог целиком лежит на телефоне. Сеть нужна раз в неделю, чтобы забрать обновления.</span>
+            </div>
+          </section>
+
+          <!-- 2 ВЫБОР -->
+          <section class="screen" id="s-pick">
+            <div class="card">
+              <h4 class="blockttl" id="pick-car">Toyota Camry</h4>
+              <p class="body-text">Год определяет поколение, мотор и коробка — какие неисправности к вам относятся. У Camry наборы проблем 2.4 и 3.5 пересекаются меньше чем наполовину.</p>
+            </div>
+
+            <div class="field">
+              <label for="sel-year">Год выпуска</label>
+              <select id="sel-year"></select>
+            </div>
+
+            <div class="field">
+              <label for="sel-engine">Двигатель</label>
+              <select id="sel-engine"></select>
+            </div>
+
+            <div class="field">
+              <label for="sel-gearbox">Коробка передач</label>
+              <select id="sel-gearbox"></select>
+            </div>
+
+            <div id="pick-warning"></div>
+
+            <p class="sectionhead">Что есть в машине</p>
+            <div class="pickgrid">
+              <button class="pick" aria-pressed="true" data-pick="opt">
+                <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+                <span class="grow"><span class="ttl">Люк</span><span class="sub">видно снаружи и с водительского места</span></span>
+              </button>
+              <button class="pick" aria-pressed="true" data-pick="opt">
+                <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+                <span class="grow"><span class="ttl">Кожаный салон</span><span class="sub">видно сразу</span></span>
+              </button>
+              <button class="pick" aria-pressed="false" data-pick="opt">
+                <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+                <span class="grow"><span class="ttl">Ксенон</span><span class="sub">линзы в фарах, холодный свет</span></span>
+              </button>
+              <button class="pick" aria-pressed="false" data-pick="opt">
+                <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+                <span class="grow"><span class="ttl">Камера заднего вида</span><span class="sub">картинка на экране при задней передаче</span></span>
+              </button>
+            </div>
+
+            <button class="btn" id="pick-next" data-go="generation">Дальше</button>
+          </section>
+
+          <!-- 3 КАРТОЧКА ПОКОЛЕНИЯ -->
+          <section class="screen" id="s-generation">
+            <div class="card">
+              <h4 class="blockttl">Toyota Camry XV40</h4>
+              <dl class="kv">
+                <dt>Годы</dt><dd>2006–2011</dd>
+                <dt>Двигатель</dt><dd>2GR-FE 3.5 V6</dd>
+                <dt>Коробка</dt><dd>U660E, автомат</dd>
+                <dt>Данные обновлены</dt><dd>18.09.2026</dd>
+              </dl>
+              <button class="link" data-go="pick" style="margin-top:9px;font-size:13.5px">Изменить мотор и опции</button>
+            </div>
+
+            <div class="note crit">
+              <span><b>Проверить первым.</b> На машинах до 2010 года масляная трубка V6 рвётся без предупреждения. Мотору после этого остаётся четверть часа.</span>
+            </div>
+
+            <div class="card flush rows">
+              <button class="row" data-go="issues">
+                <span class="stripe crit"></span>
+                <div class="grow"><span class="ttl">Неисправности</span><span class="sub">9 позиций для 3.5 · 3 проверить первыми</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+              <button class="row" data-go="body">
+                <span class="stripe warn"></span>
+                <div class="grow"><span class="ttl">Кузов</span><span class="sub">нормы ЛКП · 7 очагов коррозии</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+              <button class="row" data-go="guide">
+                <span class="stripe warn"></span>
+                <div class="grow"><span class="ttl">Инструкции</span><span class="sub">3 пошаговых · для новичка</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            </div>
+
+            <button class="btn" data-go="inspection">Начать осмотр</button>
+            <button class="btn quiet" data-go="scanner">Подключить сканер</button>
+          </section>
+
+          <!-- 4 БОЛЯЧКИ -->
+          <section class="screen" id="s-issues">
+            <div class="note warn">
+              <span>Отсортировано по тому, что смотреть раньше, а не по узлам.</span>
+            </div>
+
+            <p class="body-text" style="font-size:13px;margin:0 2px">Показаны позиции для мотора 3.5. Три позиции, которые касаются только 2.4 — жор масла, перегрев, срыв резьбы ГБЦ — скрыты: к этой машине они отношения не имеют.</p>
+
+            <p class="sectionhead">Проверить первым делом</p>
+            <div class="card flush rows">
+              <button class="row" data-go="issue" data-issue="oil-tube">
+                <span class="stripe crit"></span>
+                <div class="grow"><span class="ttl">Разрыв масляной трубки VVT-i</span><span class="sub">Двигатель · до 2010 года</span></div>
+                <span class="chip crit">Дорогой</span>
+              </button>
+              <button class="row" data-go="issue" data-issue="u660e">
+                <span class="stripe bad"></span>
+                <div class="grow"><span class="ttl">Пинки автомата U660E</span><span class="sub">Коробка · от 100 000 км</span></div>
+                <span class="chip bad">Дорогой</span>
+              </button>
+              <button class="row" data-go="issue" data-issue="chain">
+                <span class="stripe bad"></span>
+                <div class="grow"><span class="ttl">Растяжение цепи ГРМ</span><span class="sub">Двигатель · от 120 000 км</span></div>
+                <span class="chip warn">Средний</span>
+              </button>
+            </div>
+
+            <p class="sectionhead">Остальное</p>
+            <div class="card flush rows">
+              <button class="row" data-go="issue" data-issue="valves">
+                <span class="stripe warn"></span>
+                <div class="grow"><span class="ttl">Регулировка клапанов</span><span class="sub">Двигатель · каждые 80–100 000 км</span></div>
+                <span class="chip warn">Средний</span>
+              </button>
+              <button class="row" data-go="issue" data-issue="arms">
+                <span class="stripe warn"></span>
+                <div class="grow"><span class="ttl">Рычаги и шаровые опоры</span><span class="sub">Подвеска · от 150 000 км</span></div>
+                <span class="chip warn">Средний</span>
+              </button>
+              <button class="row" data-go="issue" data-issue="radiator">
+                <span class="stripe warn"></span>
+                <div class="grow"><span class="ttl">Коррозия радиатора</span><span class="sub">Охлаждение · по возрасту</span></div>
+                <span class="chip warn">Средний</span>
+              </button>
+              <button class="row" data-go="issue" data-issue="maf">
+                <span class="stripe ok"></span>
+                <div class="grow"><span class="ttl">Загрязнение ДМРВ и дросселя</span><span class="sub">Двигатель · от 150 000 км</span></div>
+                <span class="chip ok">Недорогой</span>
+              </button>
+              <button class="row" data-go="issue" data-issue="sunroof">
+                <span class="stripe ok"></span>
+                <div class="grow"><span class="ttl">Течь люка</span><span class="sub">Кузов · только с люком</span></div>
+                <span class="chip ok">Недорогой</span>
+              </button>
+              <button class="row" data-go="issue" data-issue="stab">
+                <span class="stripe ok"></span>
+                <div class="grow"><span class="ttl">Стойки стабилизатора</span><span class="sub">Подвеска · от 50 000 км</span></div>
+                <span class="chip ok">Недорогой</span>
+              </button>
+            </div>
+          </section>
+
+          <!-- 5 КАРТОЧКА БОЛЯЧКИ -->
+          <section class="screen" id="s-issue"></section>
+
+          <!-- 6 КУЗОВ -->
+          <section class="screen" id="s-body">
+            <div class="card">
+              <p class="sectionhead" style="margin:0 0 9px">Нормы толщины краски</p>
+              <dl class="summary">
+                <div><dt>Заводская</dt><dd>100–130</dd></div>
+                <div><dt>Перекрас</dt><dd style="color:var(--warn)">200+</dd></div>
+                <div><dt>Шпаклёвка</dt><dd style="color:var(--bad)">300+</dd></div>
+              </dl>
+              <p class="body-text" style="margin-top:10px">Значения в микронах. Смотреть надо не на цифру, а на ровность: если по всему кузову 110–125, а на одном крыле 247 — красили именно его.</p>
+            </div>
+
+            <div class="note info">
+              <span><b>Весь кузов стальной.</b> Подойдёт самый дешёвый магнитный толщиномер. Алюминий у Camry появился только с XV70 — там магнитный прибор на капоте показал бы ноль.</span>
+            </div>
+
+            <div class="card">
+              <p class="sectionhead" style="margin:0 0 7px">Стойкость покрытия</p>
+              <p class="body-text">Лак слабый: к ста тысячам заметно тускнеет, плохо держит реагенты и камни, передний бампер страдает первым. При этом по сопротивлению коррозии машина в классе одна из лучших.</p>
+              <p class="body-text"><b style="color:var(--ink)">Вывод для осмотра.</b> Затёртый лак и сколы на бампере — норма возраста, а не запущенность. Смотреть надо туда, где металл гниёт скрытно.</p>
+            </div>
+
+            <p class="sectionhead">Где гниёт · 7 мест</p>
+            <p class="body-text" style="margin:-2px 2px 0;font-size:13px"><b style="color:var(--ink)">Сверху то, что важнее.</b> Чип справа — насколько это страшно, слово под названием — как часто встречается. Это разные вещи: ржавые болты под капотом бывают почти у всех и ни на что не влияют.</p>
+            <div class="card flush rows" id="rust-list"></div>
+
+            <div class="note warn">
+              <span>Все места, кроме днища, проверяются руками и фонарём без подъёмника. Днище — отдельный пункт: либо смотровая яма, либо остаётся неизвестным.</span>
+            </div>
+          </section>
+
+          <!-- 6a ОЧАГ КОРРОЗИИ -->
+          <section class="screen" id="s-rust"></section>
+
+          <!-- 7 ИНСТРУКЦИЯ -->
+          <section class="screen" id="s-guide">
+            <div style="display:flex;justify-content:space-between;align-items:baseline">
+              <span class="chip neutral">Шаг 2 из 4</span>
+              <span class="mono" style="font-size:12px;color:var(--muted)">Подкапотное пространство</span>
+            </div>
+
+            <div class="card">
+              <h4 class="blockttl">Найти масляную трубку VVT-i</h4>
+              <p class="body-text" style="font-size:16px;color:var(--ink);line-height:1.5">Встаньте перед машиной со стороны водителя. Трубка идёт от передней части двигателя вверх, слева от крышки ремня привода — примерно на уровне ваших локтей.</p>
+            </div>
+
+            <div class="note info">
+              <span><b>Подсказка для новичка.</b> Это единственная тонкая трубка в том месте. Толстые чёрные шланги рядом — система охлаждения, их трогать не надо.</span>
+            </div>
+
+            <div class="card">
+              <p class="sectionhead" style="margin:0 0 6px">Что должно получиться</p>
+              <p class="body-text">Вы видите трубку целиком, от нижнего крепления до верхнего. Если середина чёрная и матовая — она металлопластиковая, это плохой вариант.</p>
+            </div>
+
+            <div style="display:flex;gap:9px">
+              <button class="btn quiet" style="flex:1">Назад</button>
+              <button class="btn" style="flex:2">Шаг пройден</button>
+            </div>
+          </section>
+
+          <!-- 8 СКАНЕР -->
+          <section class="screen" id="s-scanner">
+            <div class="card" style="display:flex;align-items:center;gap:11px">
+              <span class="stripe ok" style="min-height:30px"></span>
+              <div class="grow">
+                <span class="ttl" style="font-weight:600">ELM327 v1.5</span>
+                <span class="sub" style="font-size:12.5px;color:var(--muted);display:block">Bluetooth · подключён · протокол CAN 11/500</span>
+              </div>
+              <span class="chip ok">На связи</span>
+            </div>
+
+            <p class="sectionhead">Сохранённые ошибки · 2</p>
+            <div class="card flush">
+              <button class="dtc" data-go="dtc" data-dtc="p0171">
+                <span class="stripe bad"></span>
+                <div class="grow"><span class="code">P0171</span><span class="sub">Бедная смесь, банк 1</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+              <button class="dtc" data-go="dtc" data-dtc="p0300">
+                <span class="stripe warn"></span>
+                <div class="grow"><span class="code">P0300</span><span class="sub">Пропуски зажигания, цилиндр не определён</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            </div>
+
+            <p class="sectionhead">Ожидающие · 1</p>
+            <div class="card flush">
+              <button class="dtc" data-go="dtc" data-dtc="p0420">
+                <span class="stripe warn"></span>
+                <div class="grow"><span class="code">P0420</span><span class="sub">Эффективность катализатора ниже порога</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            </div>
+
+            <div class="note warn">
+              <span><b>Ошибки стирали недавно.</b> Мониторы самодиагностики не готовы, пройдено 14 циклов. Продавец мог сбросить память перед показом.</span>
+            </div>
+
+            <button class="btn quiet">Стереть ошибки</button>
+            <p class="body-text" style="text-align:center;font-size:12.5px;margin-top:-4px">Стирание сбрасывает готовность систем к проверке.</p>
+          </section>
+
+          <!-- 9 КОД -->
+          <section class="screen" id="s-dtc"></section>
+
+          <!-- 10 ОСМОТР -->
+          <section class="screen" id="s-inspection">
+            <div class="card">
+              <dl class="kv">
+                <dt>Машина</dt><dd>Camry XV40 · 3.5</dd>
+                <dt>Пробег</dt><dd class="mono">187 400 км</dd>
+                <dt>VIN</dt><dd class="mono" style="font-size:12.5px">JTNBE46K***12345</dd>
+                <dt>Дата</dt><dd>18.09.2026</dd>
+              </dl>
+            </div>
+
+            <div class="card">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:7px">
+                <span class="sectionhead" style="margin:0">Чеклист</span>
+                <span class="mono" style="font-size:13px" id="check-count">0 из 16</span>
+              </div>
+              <div class="progress"><i id="check-bar" style="width:0%"></i></div>
+              <p class="body-text" style="margin-top:9px;font-size:13px">Галочка — в порядке, восклицательный знак — нашли. Нажать повторно, чтобы снять отметку. Непроверенное так и остаётся непроверенным: в отчёте это видно.</p>
+            </div>
+
+            <p class="sectionhead">Двигатель и агрегаты · <span id="c-issues">0/9</span></p>
+            <div class="card flush" id="check-issues"></div>
+
+            <p class="sectionhead">Кузов · <span id="c-rust">0/7</span></p>
+            <div class="card flush" id="check-rust"></div>
+
+            <p class="sectionhead">Замеры толщиномера</p>
+            <div class="card">
+              <input id="body-note" class="notefield" value="по кузову 112–124, заднее левое крыло 247" placeholder="Например: по кузову 110–125, всё ровно">
+              <p class="body-text" style="margin-top:7px;font-size:12.5px">Пустое поле в отчёт не попадёт.</p>
+            </div>
+
+            <p class="sectionhead">Ошибки сканера</p>
+            <div class="card flush rows">
+              <button class="row" data-go="scanner">
+                <div class="grow"><span class="ttl">Считано 3 кода</span><span class="sub">P0171, P0300, P0420 · память стирали</span></div>
+                <span class="chip warn">3</span>
+              </button>
+            </div>
+
+            <button class="btn" data-go="report">Собрать отчёт</button>
+          </section>
+
+          <!-- 11 ОТЧЁТ -->
+          <section class="screen" id="s-report">
+            <div id="report-body"></div>
+            <div style="display:flex;gap:9px">
+              <button class="btn ghost" style="flex:1">PDF</button>
+              <button class="btn" style="flex:1">Отправить</button>
+            </div>
+          </section>
+
+          <!-- 12 ПРОФИЛЬ -->
+          <section class="screen" id="s-profile">
+            <div class="card">
+              <p class="sectionhead" style="margin:0 0 8px">Аккаунт</p>
+              <div class="reportline"><span class="lbl">Почта</span><span class="val">ivan@example.ru</span></div>
+              <div class="reportline"><span class="lbl">Осмотров проведено</span><span class="val mono">47</span></div>
+            </div>
+
+            <div class="card">
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:9px">
+                <span class="sectionhead" style="margin:0">Подписка</span>
+                <span class="chip ok">Активна</span>
+              </div>
+              <div class="reportline"><span class="lbl">Тариф</span><span class="val">Годовой</span></div>
+              <div class="reportline"><span class="lbl">Действует до</span><span class="val">14 марта 2027</span></div>
+              <div class="reportline"><span class="lbl">Оплата</span><span class="val">RuStore</span></div>
+              <button class="link" style="margin-top:10px;font-size:13.5px">Управлять подпиской</button>
+            </div>
+
+            <div class="card">
+              <p class="sectionhead" style="margin:0 0 8px">Данные о машинах</p>
+              <div class="reportline"><span class="lbl">Моделей в каталоге</span><span class="val mono">15</span></div>
+              <div class="reportline"><span class="lbl">Обновлены</span><span class="val">18.09.2026, 09:12</span></div>
+              <div class="reportline"><span class="lbl">Занято на телефоне</span><span class="val mono">2,8 МБ</span></div>
+              <button class="btn quiet" style="margin-top:11px">Проверить обновления</button>
+            </div>
+
+            <div class="card flush rows">
+              <button class="row">
+                <div class="grow"><span class="ttl">OBD-адаптер</span><span class="sub">ELM327 v1.5 · подключался сегодня</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+              <button class="row">
+                <div class="grow"><span class="ttl">Журнал связи с адаптером</span><span class="sub">отправить в поддержку, если не подключается</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+              <button class="row">
+                <div class="grow"><span class="ttl">Шаблон отчёта</span><span class="sub">что попадает в PDF и подпись внизу</span></div>
+                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            </div>
+
+            <button class="btn quiet">Выйти из аккаунта</button>
+          </section>
+
+        </div>
+
+        <nav class="tabbar" id="tabbar">
+          <button data-go="catalog" data-tab="catalog">
+            <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+            Каталог
+          </button>
+          <button data-go="inspection" data-tab="inspection">
+            <svg viewBox="0 0 24 24"><path d="M9 4h6v3H9zM6 7h12v13H6z"/><path d="M9 12h6M9 16h4"/></svg>
+            Осмотр
+          </button>
+          <button data-go="report" data-tab="report">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4.5l3 1.8"/></svg>
+            История
+          </button>
+          <button data-go="profile" data-tab="profile">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.5"/><path d="M5 20c1.4-3.6 4-5.4 7-5.4s5.6 1.8 7 5.4"/></svg>
+            Профиль
+          </button>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const SCREENS = [
+  {id:"catalog",    label:"Каталог",           eyebrow:"9 марок · 15 поколений", title:"Каталог",
+   note:"<p>Марки списком, модели раскрываются по нажатию. Тапни <b>Toyota → Camry</b> — она наполнена, остальные помечены «в наполнении».</p><p>Каталог целиком лежит на устройстве, экрана «скачать модель» нет. Человек у машины не должен обнаружить, что нужную модель забыл скачать дома.</p>"},
+  {id:"pick",       label:"Год, мотор, коробка", eyebrow:"Выбор машины", title:"Выбор машины",
+   note:"<p>Три выпадающих списка, связанных по цепочке: <b>год → мотор → коробка</b>. Год выбран не случайно: кодов поколений вроде XV40 люди не знают, а год выпуска знают все, и он однозначно задаёт поколение.</p><p>Смена года пересобирает список моторов, смена мотора — список коробок. Если с мотором ставилась одна коробка, список блокируется и это подписано.</p><p>Комплектации нет: на пригнанной из США машине это LE и XLE вместо Комфорта и Престижа, а посмотреть их негде. Вместо неё опции — их видно глазами за десять секунд.</p>"},
+  {id:"generation", label:"Карточка машины",   eyebrow:"2006–2011 · 3.5 V6", title:"Camry XV40",
+   note:"<p>Три раздела вместо четырёх: цен в рублях в продукте нет. Стоимость ремонта — три категории, которые не устаревают и которые не надо поддерживать по пятнадцати моделям.</p><p>Критичное вынесено над списком, а не спрятано внутрь.</p>"},
+  {id:"issues",     label:"Неисправности",     eyebrow:"9 позиций · мотор 3.5", title:"Неисправности",
+   note:"<p>Сортировка по <b>приоритету проверки</b>, а не по узлам. В первом наполнении масляная трубка V6 стояла двенадцатой просто потому, что её записали двенадцатой — а она забирает мотор за пятнадцать минут.</p><p>Категория ремонта — чип справа: недорогой, средний, дорогой. Открой несколько разных: у каждой свой способ проверки.</p>"},
+  {id:"issue",      label:"Карточка неисправности", eyebrow:"Camry XV40 · 3.5", title:"Неисправность",
+   note:"<p>Главное поле — <b>способ проверки</b>, и он проходит один фильтр: выполним за пятнадцать минут на чужой машине. «Сделать эндоскопию» этот фильтр не проходит и помечается как следующий шаг.</p><p>Обрати внимание на связанные коды внизу: из неисправности можно уйти в код и обратно.</p>"},
+  {id:"body",       label:"Кузов",             eyebrow:"Нормы и очаги коррозии", title:"Кузов",
+   note:"<p>Раздел <b>справочный</b>: он объясняет, что искать, и ничего не принимает на ввод. Схемы кузова с полями для замеров больше нет — подборщик умеет пользоваться толщиномером, число он видит на приборе.</p><p>Нормы ЛКП занимают три строки, потому что они почти одинаковы у всех машин. Остальное место отдано тому, что <b>знанием не заменишь</b>: где у этой конкретной модели металл гниёт скрытно.</p><p>Список идёт <b>по важности</b>, и это теперь написано на экране. Раньше не было — и порядок читался как случайный.</p>"},
+  {id:"rust",       label:"Очаг коррозии",     eyebrow:"Camry XV40 · кузов", title:"Очаг коррозии",
+   note:"<p>Снаружи все эти места выглядят целыми. Ценность не в том, что «бывает ржавчина», а в том, <b>куда именно залезть рукой</b> и что там увидеть.</p><p>Серьёзность и частота разведены намеренно. В первой версии этого экрана «частое» было выкрашено в красный, и безобидные ржавые болты выглядели страшнее арки лобового стекла, которая реально съедает кузов.</p><p>Пункт про болты — вообще обратный случай: ржавые болты норма, а <b>блестящие новые</b> на пятнадцатилетней машине означают, что деталь снимали.</p>"},
+  {id:"guide",      label:"Инструкция",        eyebrow:"Шаг 2 из 4", title:"Инструкция",
+   note:"<p>Картинок нет, поэтому расположение описывается словами и точно: «слева от крышки ремня привода, на уровне ваших локтей». Плюс у каждого шага — <b>что должно получиться</b>, иначе новичок не понимает, нашёл он нужное или нет.</p>"},
+  {id:"scanner",    label:"Сканер",            eyebrow:"ELM327 v1.5 · CAN", title:"Ошибки",
+   note:"<p>Прямое подключение к адаптеру, без сторонних приложений. Поддерживаются оба транспорта — classic Bluetooth и BLE, потому что массовые клоны бывают и такими, и такими.</p><p><b>Факт недавнего стирания памяти — сам по себе информация.</b> Приложение показывает его отдельно.</p>"},
+  {id:"dtc",        label:"Код ошибки",        eyebrow:"Сохранённая ошибка", title:"P0171",
+   note:"<p>Код бесполезен без двух вещей: причин именно на этой модели и того, к чему он приведёт. «Бедная смесь» не аргумент для торга. «Недорогая чистка сейчас или дорогой катализатор потом» — аргумент.</p>"},
+  {id:"inspection", label:"Осмотр",            eyebrow:"187 400 км · 18.09.2026", title:"Осмотр",
+   note:"<p><b>Чеклист рабочий — потыкай.</b> Галочка ставит «в порядке», восклицательный знак «нашли», повторное нажатие снимает. Прогресс сверху и отчёт пересчитываются на ходу.</p><p>Шестнадцать пунктов: девять по агрегатам для мотора 3.5 и семь по кузову. Работает полностью офлайн.</p><p>Непроверенное остаётся <b>непроверенным</b>, а не исчезает: днище без подъёмника не посмотреть, и в отчёте это должно быть видно тому, кто его читает.</p>"},
+  {id:"profile",    label:"Профиль",           eyebrow:"ivan@example.ru", title:"Профиль",
+   note:"<p>Раньше вкладка «Профиль» открывала экран выбора мотора — я повесил её на первый попавшийся экран и забыл сделать настоящий.</p><p>Здесь то, что человек открывает редко, но обязан найти: подписка и до какого числа она действует, сколько занимают данные и когда обновлялись, шаблон отчёта.</p><p><b>Журнал связи с адаптером</b> — не для красоты. Клонов ELM327 на рынке десятки вариантов, и жалобу «не подключается к моему адаптеру» без журнала разобрать нельзя.</p>"},
+  {id:"report",     label:"Отчёт",             eyebrow:"Camry XV40 · 3.5", title:"Отчёт",
+   note:"<p>Документ, с которым идут торговаться. Собирается <b>только из заполненного</b>: непроверенные пункты в него не попадают, пустая заметка про краску — тоже. Раздел, в котором нечего показать, исчезает целиком.</p><p>Проверь: сними все отметки в осмотре и вернись сюда — отчёт схлопнется. Верни — разделы появятся обратно.</p><p>Коды сохраняются строкой, а не ссылкой: отчёт годичной давности не должен меняться из-за того, что редактор переписал расшифровку.</p>"}
+];
+
+const ISSUES = {
+  "oil-tube":{
+    title:"Разрыв масляной трубки VVT-i", short:"Масляная трубка",
+    chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","2GR-FE 3.5"]],
+    desc:"На машинах до 2010 года трубка подачи масла к механизму VVT-i металлопластиковая. При разрыве масло уходит за минуты: мотору остаётся примерно четверть часа работы до клина. Заводское решение — замена на цельнометаллическую.",
+    alert:["crit","<b>Симптомов до разрыва нет.</b> В этом и проблема: машина едет нормально ровно до того момента, когда ехать уже нельзя."],
+    steps:["Уточнить год выпуска. С 2010 года трубка уже металлическая.",
+           "На машине до 2010 спросить, менялась ли трубка, и попросить чек или заказ-наряд.",
+           "Найти трубку под капотом: металлопластиковая имеет чёрную пластиковую вставку в средней части, цельнометаллическая — полностью металлическая.",
+           "Если замена не подтверждена, закладывать её сразу. Работа недорогая и снимает риск потерять мотор целиком."],
+    cost:[["Ремонт профилактикой","Недорогой","ok"],["Ремонт после разрыва","Дорогой","crit"]],
+    codes:[["p0011","P0011","Рассогласование фаз, впускной распредвал"]]
+  },
+  "u660e":{
+    title:"Пинки автомата U660E", short:"Автомат U660E",
+    chips:[["bad","Высокая"],["neutral","Коробка"],["neutral","от 100 000 км"]],
+    desc:"Ранний износ накладок блокировки гидротрансформатора. Продукты износа забивают каналы гидроблока, и дальше идёт лавина: соленоиды, плита, фрикционы.",
+    alert:["warn","<b>Симптомы.</b> Толчки при переключениях, вибрация при разгоне на малых оборотах, задержки при трогании."],
+    steps:["Проехать не меньше десяти километров с разгонами и торможениями, обязательно в городе со светофорами.",
+           "Отдельно проверить трогание с места и переход на вторую передачу — толчки вылезают именно там.",
+           "Посмотреть цвет жидкости, если есть щуп или сервисная пробка. Тёмная с запахом гари — коробка уже в работе.",
+           "Спросить про интервал замены жидкости. Правильный ответ — каждые 50–60 тысяч. Ответ «залита на весь срок службы» означает, что коробку не обслуживали."],
+    cost:[["Ремонт","Дорогой","bad"]],
+    codes:[]
+  },
+  "chain":{
+    title:"Растяжение цепи ГРМ", short:"Цепь ГРМ",
+    chips:[["bad","Средняя"],["neutral","Двигатель"],["neutral","от 120 000 км"]],
+    desc:"Цепь вытягивается, натяжитель выбирает ход до предела. На 3.5 проявляется раньше и заметнее, чем на 2.4.",
+    alert:["warn","<b>Смотреть только на холодной машине.</b> На прогретом моторе цепь не слышно. Осмотр «с уже прогретой» — либо небрежность, либо умысел продавца."],
+    steps:["Договориться смотреть машину холодной, простоявшей ночь.",
+           "Послушать самый первый запуск, стоя у открытого капота.",
+           "Металлический треск в первые две-три секунды с последующим затиханием — цепь растянута.",
+           "Заодно послушать на холостых: цокот от головки блока — это уже зазоры клапанов, отдельный пункт."],
+    cost:[["Ремонт","Средний","warn"]],
+    codes:[["p0011","P0011","Рассогласование фаз, впускной распредвал"]]
+  },
+  "valves":{
+    title:"Регулировка клапанов", short:"Клапаны",
+    chips:[["warn","Низкая"],["neutral","Двигатель"],["neutral","2GR-FE 3.5"]],
+    desc:"Гидрокомпенсаторов нет, зазоры регулируются подбором шайб. Работа плановая, каждые 80–100 тысяч километров, но её массово пропускают: машина ездит и так.",
+    alert:null,
+    steps:["Послушать мотор на холостых с открытым капотом.",
+           "Цокот от головки блока означает, что зазоры ушли.",
+           "Спросить, когда регулировались клапаны, и попросить заказ-наряд.",
+           "Ответ «не делал, машина же японская» — прямой плюс к торгу на стоимость работы."],
+    cost:[["Ремонт","Средний","warn"]],
+    codes:[]
+  },
+  "arms":{
+    title:"Рычаги и шаровые опоры", short:"Рычаги",
+    chips:[["warn","Средняя"],["neutral","Подвеска"],["neutral","от 150 000 км"]],
+    desc:"Изнашиваются сайлентблоки рычагов и шаровые опоры. На разбитых дорогах раньше заявленного срока.",
+    alert:null,
+    steps:["Взяться за колесо в положении «три и девять часов» и подёргать. Люфта быть не должно.",
+           "Осмотреть пыльники шаровых опор. Порванный пыльник означает, что опора доживает.",
+           "Проехать по неровностям на малой скорости с открытым окном и послушать стуки.",
+           "Посмотреть на износ шин: разный износ по краям означает ушедшие углы установки, а это следствие разбитой подвески."],
+    cost:[["Ремонт","Средний","warn"]],
+    codes:[]
+  },
+  "radiator":{
+    title:"Коррозия радиатора", short:"Радиатор",
+    chips:[["warn","Средняя"],["neutral","Охлаждение"],["neutral","по возрасту"]],
+    desc:"Нижняя часть радиатора разрушается коррозией примерно к десяти годам. Для XV40, которой сейчас пятнадцать и больше, это не «может быть», а «уже».",
+    alert:["warn","<b>Почему это важнее, чем кажется.</b> Система охлаждения у этой машины слабая, а перегрев ведёт к поведённой головке блока — то есть к дорогому ремонту из дешёвой причины."],
+    steps:["Посветить фонарём на нижнюю часть радиатора снизу.",
+           "Поискать следы антифриза и белый или цветной налёт.",
+           "Посмотреть на соты радиатора на просвет: забитые видно глазом.",
+           "Проверить уровень и цвет жидкости в расширительном бачке. Ржавая или мутная — систему не обслуживали."],
+    cost:[["Замена радиатора","Средний","warn"],["Если довели до ГБЦ","Дорогой","crit"]],
+    codes:[]
+  },
+  "maf":{
+    title:"Загрязнение ДМРВ и дросселя", short:"ДМРВ",
+    chips:[["ok","Низкая"],["neutral","Двигатель"],["neutral","от 150 000 км"]],
+    desc:"Слабая система вентиляции картера гонит масло во впуск. Датчик массового расхода воздуха и дроссельная заслонка покрываются масляным налётом, и блок управления начинает считать смесь неверно.",
+    alert:["info","<b>Симптомы.</b> Плавающие обороты, провалы при разгоне, ошибки P0171 и P0300."],
+    steps:["Снять патрубок воздуховода — он на защёлке или хомуте, инструмент не нужен.",
+           "Посмотреть на масляный налёт внутри патрубка и на заслонке.",
+           "Обильное масло — это ещё и косвенный признак износа поршневой, то есть повод проверить расход масла."],
+    cost:[["Чистка","Недорогой","ok"]],
+    codes:[["p0171","P0171","Бедная смесь, банк 1"],["p0300","P0300","Пропуски зажигания"]]
+  },
+  "sunroof":{
+    title:"Течь люка", short:"Люк",
+    chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","только с люком"]],
+    desc:"Дренажные трубки люка забиваются листвой и грязью. Вода идёт в салон по стойкам, намокает обивка потолка, дальше идёт запах и коррозия под ковром.",
+    alert:["info","<b>Эта позиция показана потому, что вы отметили люк.</b> Без него её в списке нет."],
+    steps:["Открыть люк и посмотреть на желоба по периметру: листва и грязь означают забитый дренаж.",
+           "Пощупать обивку потолка по углам и верх передних стоек — ищем сырость.",
+           "Поднять передние коврики и проверить пол под ними.",
+           "Понюхать салон. Устойчивый запах сырости в сухую погоду — вода уже внутри."],
+    cost:[["Прочистка дренажа","Недорогой","ok"],["Если добралось до коррозии","Средний","warn"]],
+    codes:[]
+  },
+  "stab":{
+    title:"Стойки стабилизатора", short:"Стойки стабилизатора",
+    chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 50 000 км"]],
+    desc:"Чистый расходник. Важен не сам износ, а то, что любой стук в подвеске продавцы списывают именно на стойки, а причина бывает в разы дороже.",
+    alert:["warn","<b>Не верить объяснению на слово.</b> «Это стойки стабилизатора, копейки» — самая частая фраза, за которой стоят рычаги или опоры стоек."],
+    steps:["Покачать машину за крыло и послушать.",
+           "Проехать по неровностям на малой скорости с открытым окном.",
+           "Если стучит — уточнить на подъёмнике, стойки это или рычаги. Разница в деньгах большая."],
+    cost:[["Замена пары стоек","Недорогой","ok"]],
+    codes:[]
+  }
+};
+
+const DTCS = {
+  "p0171":{
+    code:"P0171", urgency:["warn","Срочность средняя"],
+    summary:"Бедная смесь, банк 1. Двигатель получает больше воздуха или меньше топлива, чем рассчитывает блок управления.",
+    causes:"Загрязнённый ДМРВ — частая причина, следствие масла во впуске. Подсос воздуха после ДМРВ. Изношенный топливный насос. Форсунки.",
+    consequence:["bad","<b>К чему приведёт.</b> Долгая работа на бедной смеси перегревает катализатор и убивает его. Чистка ДМРВ — недорогой ремонт, замена катализатора — дорогой. Разница целиком в том, сколько с этим ездили."],
+    order:"Рядом висит P0300. Сначала разбираются с P0171: пропуски зажигания часто его следствие, а не отдельная неисправность.",
+    issues:[["maf","Загрязнение ДМРВ и дросселя","Часто · недорогой ремонт","ok"]]
+  },
+  "p0300":{
+    code:"P0300", urgency:["bad","Срочность высокая"],
+    summary:"Пропуски зажигания, цилиндр не определён. Смесь не воспламеняется в одном или нескольких цилиндрах.",
+    causes:"Катушки зажигания. Свечи с просроченным интервалом — на 3.5 их меняют каждые 40 000 км. Следствие бедной смеси по P0171. На запущенном 2.4 — последствие износа поршневой.",
+    consequence:["bad","<b>К чему приведёт.</b> Несгоревшее топливо уходит в катализатор и разрушает его. Катушка стоит недорого, катализатор — дорого. Ездить с постоянными пропусками нельзя."],
+    order:"Рядом висит P0171. Сначала разбираются с ним: пропуски часто оказываются его следствием, и после устранения причины этот код уходит сам.",
+    issues:[["maf","Загрязнение ДМРВ и дросселя","Вероятно · недорогой ремонт","ok"]]
+  },
+  "p0420":{
+    code:"P0420", urgency:["ok","Срочность низкая"],
+    summary:"Эффективность катализатора ниже порога. Блок сравнивает показания датчиков до и после катализатора и не видит между ними разницы.",
+    causes:"На этих моторах частая причина — задний кислородный датчик, а не сам катализатор. Прежде чем считать замену катализатора, проверяют датчик: это разница между недорогим и дорогим ремонтом.",
+    consequence:["warn","<b>К чему приведёт.</b> Само по себе ни к чему, кроме горящей лампы. Но код бывает верхушкой: за ним стоят пропуски зажигания или богатая смесь, которые катализатор и доедают."],
+    order:"Отдельный сигнал для торга: продавец, недавно стёрший ошибки, часто выдаёт себя именно этим кодом. P0420 возвращается не сразу, а через несколько сотен километров — если он висит как ожидающий, память чистили недавно.",
+    issues:[]
+  },
+  "p0011":{
+    code:"P0011", urgency:["warn","Срочность средняя"],
+    summary:"Рассогласование фаз газораспределения, впускной распредвал. Фактическое положение вала не совпадает с тем, которое задаёт блок управления.",
+    causes:"Грязное масло в каналах VVT-i. Неисправный клапан VVT-i. Растянутая цепь ГРМ. На 2GR-FE — отдельный повод проверить состояние системы подачи масла целиком.",
+    consequence:["warn","<b>К чему приведёт.</b> Потеря тяги и рост расхода топлива. Если причина в клапане — ремонт недорогой. Если в цепи — средний. Если за этим стоит масляное голодание — дорогой."],
+    order:"Смотреть вместе с масляной трубкой и цепью: у этих трёх позиций общая причина — масло, которое не доходит куда надо.",
+    issues:[["oil-tube","Разрыв масляной трубки VVT-i","Проверить первым","crit"],
+            ["chain","Растяжение цепи ГРМ","Вероятно · средний ремонт","warn"]]
+  }
+};
+
+const CHEV = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>';
+
+function renderIssue(id){
+  const d = ISSUES[id] || ISSUES["oil-tube"];
+  const el = document.getElementById("s-issue");
+  let h = '<div style="display:flex;gap:7px;flex-wrap:wrap">' +
+    d.chips.map(c => '<span class="chip ' + c[0] + '">' + c[1] + '</span>').join("") + '</div>';
+  h += '<div class="card"><h4 class="blockttl">' + d.title + '</h4><p class="body-text">' + d.desc + '</p></div>';
+  if(d.alert) h += '<div class="note ' + d.alert[0] + '"><span>' + d.alert[1] + '</span></div>';
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 9px">Как проверить</p><ol class="steps">' +
+       d.steps.map(s => '<li>' + s + '</li>').join("") + '</ol></div>';
+  h += '<div class="card"><dl class="kv">' +
+       d.cost.map(c => '<dt>' + c[0] + '</dt><dd style="color:var(--' + c[2] + ')">' + c[1] + '</dd>').join("") +
+       '</dl></div>';
+  if(d.codes.length){
+    h += '<p class="sectionhead">Связанные коды</p><div class="card flush rows">' +
+      d.codes.map(c => '<button class="row" data-go="dtc" data-dtc="' + c[0] + '">' +
+        '<div class="grow"><span class="ttl mono">' + c[1] + '</span><span class="sub">' + c[2] + '</span></div>' +
+        CHEV + '</button>').join("") + '</div>';
+  }
+  h += '<button class="btn ghost" data-go="inspection">Отметить в осмотре</button>';
+  el.innerHTML = h;
+  return d.short;
+}
+
+function renderDtc(id){
+  const d = DTCS[id] || DTCS["p0171"];
+  const el = document.getElementById("s-dtc");
+  let h = '<div class="card"><div style="display:flex;align-items:center;justify-content:space-between;gap:10px">' +
+    '<span class="mono" style="font-size:26px;font-weight:600">' + d.code + '</span>' +
+    '<span class="chip ' + d.urgency[0] + '">' + d.urgency[1] + '</span></div>' +
+    '<p class="body-text" style="margin-top:6px">' + d.summary + '</p></div>';
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 7px">Причины на этой машине</p><p class="body-text">' + d.causes + '</p></div>';
+  h += '<div class="note ' + d.consequence[0] + '" style="background:var(--' + d.consequence[0] + '-soft);color:var(--' + d.consequence[0] + ');border-color:color-mix(in srgb,var(--' + d.consequence[0] + ') 25%,transparent)"><span>' + d.consequence[1] + '</span></div>';
+  if(d.order) h += '<div class="card"><p class="sectionhead" style="margin:0 0 7px">Порядок разбора</p><p class="body-text">' + d.order + '</p></div>';
+  if(d.issues.length){
+    h += '<p class="sectionhead">Связанные неисправности</p><div class="card flush rows">' +
+      d.issues.map(i => '<button class="row" data-go="issue" data-issue="' + i[0] + '">' +
+        '<span class="stripe ' + i[3] + '"></span>' +
+        '<div class="grow"><span class="ttl">' + i[1] + '</span><span class="sub">' + i[2] + '</span></div>' +
+        CHEV + '</button>').join("") + '</div>';
+  }
+  el.innerHTML = h;
+  return d.code;
+}
+
+/* ---------- каталог ---------- */
+const CATALOG = [
+  {brand:"Toyota", models:[
+    {name:"Camry", gens:[
+      {years:"2006–2011", gen:"XV40", ready:true, engines:[
+        {label:"2AZ-FE · 2.4 · 167 л.с.", gearboxes:["U250E · автомат, 5 ступеней"]},
+        {label:"2GR-FE · 3.5 V6 · 277 л.с.", gearboxes:["U660E · автомат, 6 ступеней"]}]},
+      {years:"2011–2017", gen:"XV50", ready:false, engines:[
+        {label:"2AR-FE · 2.5 · 181 л.с.", gearboxes:["U760E · автомат, 6 ступеней"]},
+        {label:"2GR-FE · 3.5 V6 · 249 л.с.", gearboxes:["U660E · автомат, 6 ступеней"]}]}]},
+    {name:"RAV4", gens:[
+      {years:"2012–2018", gen:"XA40", ready:false, engines:[
+        {label:"3ZR-FE · 2.0 · 146 л.с.", gearboxes:["вариатор"]},
+        {label:"2AR-FE · 2.5 · 180 л.с.", gearboxes:["U760E · автомат, 6 ступеней"]}]}]}]},
+  {brand:"Mazda", models:[
+    {name:"6", gens:[{years:"2012–2018", gen:"GJ", ready:false, engines:[
+      {label:"PE-VPS · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней","механика, 6 ступеней"]},
+      {label:"PY-VPS · 2.5 · 192 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]},
+    {name:"CX-5", gens:[{years:"2011–2017", gen:"KE", ready:false, engines:[
+      {label:"PE-VPS · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней"]},
+      {label:"PY-VPS · 2.5 · 192 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]}]},
+  {brand:"Volkswagen", models:[
+    {name:"Passat", gens:[{years:"2010–2015", gen:"B7", ready:false, engines:[
+      {label:"CAXA · 1.4 TSI · 122 л.с.", gearboxes:["DSG-7","механика, 6 ступеней"]},
+      {label:"CCZB · 1.8 TSI · 152 л.с.", gearboxes:["DSG-7"]}]}]},
+    {name:"Tiguan", gens:[{years:"2007–2016", gen:"5N", ready:false, engines:[
+      {label:"CAWA · 2.0 TSI · 170 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]}]},
+  {brand:"Kia", models:[
+    {name:"Optima", gens:[{years:"2015–2020", gen:"JF", ready:false, engines:[
+      {label:"G4NA · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней"]},
+      {label:"G4KJ · 2.4 GDI · 188 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]},
+    {name:"Sportage", gens:[{years:"2015–2021", gen:"QL", ready:false, engines:[
+      {label:"G4NA · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней"]},
+      {label:"D4HA · 2.0 CRDi · 185 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]}]},
+  {brand:"Hyundai", models:[
+    {name:"Tucson", gens:[{years:"2015–2020", gen:"TL", ready:false, engines:[
+      {label:"G4NA · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]}]},
+  {brand:"Nissan", models:[
+    {name:"X-Trail", gens:[{years:"2007–2014", gen:"T31", ready:false, engines:[
+      {label:"MR20DE · 2.0 · 141 л.с.", gearboxes:["вариатор","механика, 6 ступеней"]},
+      {label:"QR25DE · 2.5 · 169 л.с.", gearboxes:["вариатор"]}]}]},
+    {name:"Qashqai", gens:[{years:"2013–2019", gen:"J11", ready:false, engines:[
+      {label:"MR20DD · 2.0 · 144 л.с.", gearboxes:["вариатор"]},
+      {label:"HR16DE · 1.6 · 117 л.с.", gearboxes:["вариатор","механика, 5 ступеней"]}]}]}]},
+  {brand:"BMW", models:[
+    {name:"3 серии", gens:[{years:"2011–2019", gen:"F30", ready:false, engines:[
+      {label:"N20B20 · 2.0 · 184 л.с.", gearboxes:["автомат, 8 ступеней"]},
+      {label:"N55B30 · 3.0 · 306 л.с.", gearboxes:["автомат, 8 ступеней"]}]}]}]},
+  {brand:"Mercedes-Benz", models:[
+    {name:"C-класс", gens:[{years:"2007–2014", gen:"W204", ready:false, engines:[
+      {label:"M271 · 1.8 · 156 л.с.", gearboxes:["автомат, 7 ступеней"]},
+      {label:"M276 · 3.5 · 306 л.с.", gearboxes:["автомат, 7 ступеней"]}]}]}]},
+  {brand:"Audi", models:[
+    {name:"A4", gens:[{years:"2007–2015", gen:"B8", ready:false, engines:[
+      {label:"CDNC · 2.0 TFSI · 211 л.с.", gearboxes:["мультитроник","автомат, 8 ступеней"]},
+      {label:"CAGA · 2.0 TDI · 143 л.с.", gearboxes:["механика, 6 ступеней"]}]}]}]}
+];
+
+const SEL = {brand:"Toyota", model:"Camry", genIdx:0, engIdx:1, gbIdx:0};
+
+function renderBrands(){
+  document.getElementById("brand-list").innerHTML = CATALOG.map((b, bi) => {
+    const models = b.models.map((m, mi) => {
+      const ready = m.gens.some(g => g.ready);
+      return '<button class="modelrow" data-brand="' + bi + '" data-model="' + mi + '">' +
+        '<span class="grow"><span>' + m.name + '</span>' +
+        '<span class="sub">' + m.gens.map(g => g.years).join(", ") + '</span></span>' +
+        (ready ? '<span class="chip ok">Готово</span>' : '<span class="chip neutral">В наполнении</span>') +
+        '</button>';
+    }).join("");
+    return '<button class="brandrow" data-brandtoggle="' + bi + '" aria-expanded="false">' +
+        '<svg class="caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>' +
+        '<span class="grow">' + b.brand + '</span>' +
+        '<span class="cnt">' + b.models.length + '</span>' +
+      '</button>' +
+      '<div class="models" data-models="' + bi + '" hidden>' + models + '</div>';
+  }).join("");
+}
+
+function currentModel(){
+  const b = CATALOG.find(x => x.brand === SEL.brand);
+  return b ? b.models.find(m => m.name === SEL.model) : null;
+}
+
+function renderPick(){
+  const m = currentModel();
+  if(!m) return "Выбор машины";
+  const gens = m.gens;
+  if(SEL.genIdx >= gens.length) SEL.genIdx = 0;
+  const g = gens[SEL.genIdx];
+  if(SEL.engIdx >= g.engines.length) SEL.engIdx = 0;
+  const e = g.engines[SEL.engIdx];
+  if(SEL.gbIdx >= e.gearboxes.length) SEL.gbIdx = 0;
+
+  document.getElementById("pick-car").textContent = SEL.brand + " " + m.name;
+
+  const opt = (arr, cur, fmt) => arr.map((x, i) =>
+    '<option value="' + i + '"' + (i === cur ? " selected" : "") + '>' + fmt(x) + '</option>').join("");
+
+  document.getElementById("sel-year").innerHTML =
+    opt(gens, SEL.genIdx, x => x.years + " · " + x.gen);
+  document.getElementById("sel-engine").innerHTML =
+    opt(g.engines, SEL.engIdx, x => x.label);
+  document.getElementById("sel-gearbox").innerHTML =
+    opt(e.gearboxes, SEL.gbIdx, x => x);
+
+  const single = e.gearboxes.length === 1;
+  document.getElementById("sel-gearbox").disabled = single;
+
+  const next = document.getElementById("pick-next");
+  document.getElementById("pick-warning").innerHTML = g.ready
+    ? (single ? '<p class="body-text" style="margin:-4px 2px 0;font-size:13px">С этим мотором других коробок не ставилось.</p>' : "")
+    : '<div class="note warn"><span><b>Данные по этому поколению ещё не готовы.</b> В прототипе наполнена одна машина: Toyota Camry 2006–2011.</span></div>';
+  next.style.opacity = g.ready ? "1" : ".45";
+  next.style.pointerEvents = g.ready ? "auto" : "none";
+
+  return SEL.brand + " " + m.name;
+}
+
+document.addEventListener("click", e => {
+  const bt = e.target.closest("[data-brandtoggle]");
+  if(bt){
+    const list = document.querySelector('[data-models="' + bt.dataset.brandtoggle + '"]');
+    const open = bt.getAttribute("aria-expanded") === "true";
+    bt.setAttribute("aria-expanded", String(!open));
+    list.hidden = open;
+    return;
+  }
+  const mr = e.target.closest("[data-model]");
+  if(mr){
+    const b = CATALOG[+mr.dataset.brand];
+    SEL.brand = b.brand;
+    SEL.model = b.models[+mr.dataset.model].name;
+    SEL.genIdx = 0; SEL.engIdx = 0; SEL.gbIdx = 0;
+    go("pick");
+  }
+});
+
+["sel-year","sel-engine","sel-gearbox"].forEach(id =>
+  document.addEventListener("change", e => {
+    if(e.target.id !== id) return;
+    if(id === "sel-year"){ SEL.genIdx = +e.target.value; SEL.engIdx = 0; SEL.gbIdx = 0; }
+    if(id === "sel-engine"){ SEL.engIdx = +e.target.value; SEL.gbIdx = 0; }
+    if(id === "sel-gearbox"){ SEL.gbIdx = +e.target.value; }
+    renderPick();
+  }));
+
+/* ---------- чеклист осмотра ---------- */
+const ISSUE_ORDER = ["oil-tube","u660e","chain","valves","arms","radiator","maf","sunroof","stab"];
+const ISSUE_SUB = {
+  "oil-tube":"Двигатель · проверить первым",
+  "u660e":"Коробка · проверить первым",
+  "chain":"Двигатель · проверить первым",
+  "valves":"Двигатель", "arms":"Подвеска", "radiator":"Охлаждение",
+  "maf":"Двигатель", "sunroof":"Кузов · опция «люк»", "stab":"Подвеска"
+};
+const CHECK_STATE = {
+  "i:oil-tube":{v:"found", c:"Металлопластиковая, следов замены нет"},
+  "i:u660e":{v:"found", c:"Толчок при переходе на вторую, жидкость тёмная"},
+  "i:chain":{v:"ok", c:""},
+  "i:valves":{v:"ok", c:""},
+  "r:windshield":{v:"ok", c:""},
+  "r:liners":{v:"found", c:"Слева грязь и рыжие потёки по верху арки"}
+};
+const MARK_OK = '<svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg>';
+const MARK_FOUND = '<svg viewBox="0 0 24 24"><path d="M12 5v9"/><circle cx="12" cy="18.5" r="1.2" fill="currentColor" stroke="none"/></svg>';
+
+function checkRow(key, title, sub){
+  const st = CHECK_STATE[key] || {v:"none", c:""};
+  let h = '<div class="checkrow">' +
+    '<div class="grow"><span class="ttl">' + title + '</span><span class="sub">' + sub + '</span></div>' +
+    '<div class="marks">' +
+      '<button class="mark" data-kind="ok" data-key="' + key + '" data-on="' + (st.v === "ok") + '" aria-label="В порядке">' + MARK_OK + '</button>' +
+      '<button class="mark" data-kind="found" data-key="' + key + '" data-on="' + (st.v === "found") + '" aria-label="Найдено">' + MARK_FOUND + '</button>' +
+    '</div></div>';
+  if(st.v === "found"){
+    h += '<div class="comment"><input id="cm-' + key.replace(":","-") + '" value="' + st.c.replace(/"/g,"&quot;") +
+         '" placeholder="Что именно нашли"></div>';
+  }
+  return h;
+}
+
+function renderChecklist(){
+  document.getElementById("check-issues").innerHTML =
+    ISSUE_ORDER.map(id => checkRow("i:" + id, ISSUES[id].title, ISSUE_SUB[id])).join("");
+  document.getElementById("check-rust").innerHTML =
+    RUST.map(r => checkRow("r:" + r.id, r.place, r.prev + " · " + r.where)).join("");
+
+  const done = k => Object.keys(CHECK_STATE).filter(x => x.startsWith(k) && CHECK_STATE[x].v !== "none").length;
+  const di = done("i:"), dr = done("r:"), total = ISSUE_ORDER.length + RUST.length;
+  document.getElementById("c-issues").textContent = di + "/" + ISSUE_ORDER.length;
+  document.getElementById("c-rust").textContent = dr + "/" + RUST.length;
+  document.getElementById("check-count").textContent = (di + dr) + " из " + total;
+  document.getElementById("check-bar").style.width = Math.round((di + dr) / total * 100) + "%";
+}
+
+function harvestComments(){
+  document.querySelectorAll(".comment input").forEach(inp => {
+    const key = inp.id.slice(3).replace("-", ":");
+    if(CHECK_STATE[key]) CHECK_STATE[key].c = inp.value;
+  });
+}
+
+document.addEventListener("click", e => {
+  const m = e.target.closest(".mark");
+  if(!m) return;
+  harvestComments();
+  const key = m.dataset.key, kind = m.dataset.kind;
+  const cur = (CHECK_STATE[key] || {v:"none"}).v;
+  CHECK_STATE[key] = {v: cur === kind ? "none" : kind, c: (CHECK_STATE[key] || {c:""}).c};
+  renderChecklist();
+});
+
+const SCAN = {done:true, wiped:true, codes:[
+  ["P0171","Бедная смесь"], ["P0300","Пропуски зажигания"], ["P0420","Катализатор"]
+]};
+
+function nameOf(k){
+  return k.startsWith("i:")
+    ? ISSUES[k.slice(2)].title
+    : (RUST.find(r => r.id === k.slice(2)) || {}).place;
+}
+
+function renderFindings(){
+  harvestComments();
+  const noteInput = document.getElementById("body-note");
+  const bodyNote = noteInput ? noteInput.value.trim() : "";
+
+  const entries = Object.entries(CHECK_STATE);
+  const found = entries.filter(([, s]) => s.v === "found");
+  const ok = entries.filter(([, s]) => s.v === "ok");
+  const critFound = found.some(([k]) => k === "i:oil-tube");
+
+  let h = '<div class="card"><h4 class="blockttl">Toyota Camry XV40 · 3.5</h4>' +
+    '<div class="reportline"><span class="lbl">Пробег</span><span class="val mono">187 400 км</span></div>' +
+    '<div class="reportline"><span class="lbl">Осмотр</span><span class="val">18 сентября 2026</span></div>';
+  if(found.length)
+    h += '<div class="reportline"><span class="lbl">Замечаний</span>' +
+         '<span class="val" style="color:var(--bad)">' + found.length + '</span></div>';
+  h += '</div>';
+
+  if(critFound){
+    h += '<div class="note crit"><span><b>Критично.</b> Масляная трубка VVT-i не менялась. ' +
+         'При разрыве мотор клинит за четверть часа. До покупки — либо замена за счёт продавца, либо в торг.</span></div>';
+  }
+
+  if(found.length){
+    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Замечания</p>' +
+      found.map(([k, s]) =>
+        '<div class="reportline"><span class="lbl">' + nameOf(k) + '</span>' +
+        '<span class="val" style="color:var(--bad)">' + (s.c || "найдено") + '</span></div>').join("") +
+      '</div>';
+  }
+
+  if(ok.length){
+    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Проверено, в порядке</p>' +
+      ok.map(([k]) =>
+        '<div class="reportline"><span class="lbl">' + nameOf(k) + '</span>' +
+        '<span class="val" style="color:var(--ok)">в порядке</span></div>').join("") +
+      '</div>';
+  }
+
+  if(bodyNote){
+    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Толщина краски</p>' +
+         '<p class="body-text">' + bodyNote + '</p></div>';
+  }
+
+  if(SCAN.done && SCAN.codes.length){
+    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Ошибки</p>' +
+      SCAN.codes.map(c =>
+        '<div class="reportline"><span class="lbl mono">' + c[0] + '</span>' +
+        '<span class="val">' + c[1] + '</span></div>').join("");
+    if(SCAN.wiped)
+      h += '<div class="reportline"><span class="lbl">Память</span>' +
+           '<span class="val" style="color:var(--warn)">стирали недавно</span></div>';
+    h += '</div>';
+  }
+
+  if(!found.length && !ok.length && !bodyNote && !SCAN.done){
+    h += '<div class="card"><p class="body-text">Отчёт пустой. Отметьте что-нибудь в осмотре — сюда попадёт только заполненное.</p></div>';
+  }
+
+  document.getElementById("report-body").innerHTML = h;
+}
+
+const railEl = document.getElementById("rail");
+const noteEl = document.getElementById("note");
+const barTitle = document.getElementById("bar-title");
+const barEyebrow = document.getElementById("bar-eyebrow");
+const viewport = document.getElementById("viewport");
+const backBtn = document.getElementById("back");
+
+let currentArg = null;
+
+SCREENS.forEach((s, i) => {
+  const li = document.createElement("li");
+  const b = document.createElement("button");
+  b.innerHTML = '<span class="idx">' + String(i + 1).padStart(2, "0") + '</span><span>' + s.label + '</span>';
+  b.addEventListener("click", () => go(s.id));
+  li.appendChild(b);
+  railEl.appendChild(li);
+});
+
+const TAB_OF = {catalog:"catalog", pick:"pick", generation:"catalog", issues:"catalog", issue:"catalog",
+                body:"catalog", rust:"catalog", guide:"catalog", scanner:"inspection",
+                dtc:"inspection", inspection:"inspection", report:"report",
+                profile:"profile"};
+
+let current = null;
+const stack = [];
+
+function go(id, arg, viaBack){
+  const s = SCREENS.find(x => x.id === id);
+  if(!s) return;
+  if(!viaBack && current && current !== id) stack.push([current, currentArg]);
+  current = id;
+  currentArg = arg || null;
+
+  let title = s.title;
+  if(id === "issue") title = renderIssue(arg || "oil-tube");
+  if(id === "dtc") title = renderDtc(arg || "p0171");
+  if(id === "rust") title = renderRust(arg || "windshield");
+  if(id === "pick") title = renderPick();
+  if(id === "inspection") renderChecklist();
+  if(id === "report") renderFindings();
+
+  document.querySelectorAll(".screen").forEach(el => el.classList.remove("is-active"));
+  document.getElementById("s-" + id).classList.add("is-active");
+
+  barTitle.textContent = title;
+  barEyebrow.textContent = s.eyebrow;
+  noteEl.innerHTML = s.note;
+
+  railEl.querySelectorAll("button").forEach((b, i) =>
+    b.setAttribute("aria-current", SCREENS[i].id === id ? "true" : "false"));
+
+  const tab = TAB_OF[id];
+  document.querySelectorAll("#tabbar button").forEach(b =>
+    b.setAttribute("aria-current", b.dataset.tab === tab ? "true" : "false"));
+
+  backBtn.style.visibility = stack.length ? "visible" : "hidden";
+  viewport.scrollTop = 0;
+}
+
+backBtn.addEventListener("click", () => {
+  if(stack.length){ const [id, arg] = stack.pop(); go(id, arg, true); }
+});
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-go]");
+  if(t) go(t.dataset.go, t.dataset.issue || t.dataset.dtc || t.dataset.rust || null);
+});
+
+document.querySelectorAll('.pick[data-pick="opt"]').forEach(b => {
+  b.addEventListener("click", () => b.setAttribute("aria-pressed", b.getAttribute("aria-pressed") === "true" ? "false" : "true"));
+});
+
+const RUST = [
+  {id:"windshield", place:"Арка лобового стекла", where:"под уплотнителем", prev:"частое", sev:"bad",
+   why:"Под резиновым уплотнителем и молдингом скапливается влага и грязь, и оттуда ржавчина идёт по кромке проёма. Снаружи при этом видны только сколы краски — металла не видно. Самое проблемное место кузова у этой машины.",
+   how:["Отогнуть резиновый уплотнитель по верхней кромке проёма и по бокам.",
+        "Провести пальцем по кромке: искать вздутия, рыжие точки, шероховатость под краской.",
+        "Посмотреть, как сидит уплотнитель. Неровно или подозрительно свежий — туда уже лазили."]},
+  {id:"liners", place:"Под войлочными подкрылками", where:"верх арки и стык с порогом", prev:"частое", sev:"bad",
+   why:"Между подкрылком и крылом набивается грязь, держит воду и не даёт металлу сохнуть. Снаружи арка при этом выглядит целой.",
+   how:["Вывернуть колесо, отогнуть край подкрылка рукой.",
+        "Посветить фонарём в верхнюю часть арки и в место стыка с порогом.",
+        "Слежавшаяся мокрая грязь и рыжие потёки — начало процесса."]},
+  {id:"arches", place:"Кромки арок задних крыльев", where:"загиб по всей длине", prev:"встречается", sev:"warn",
+   why:"Пескоструй от колёс плюс реагенты. Чаще у машин из Москвы и Петербурга с пробегом от 150 000 км.",
+   how:["Присесть у заднего колеса и осмотреть загиб арки по всей длине.",
+        "Повторить с другой стороны: гниёт обычно несимметрично.",
+        "Вздутия под краской по кромке означают, что коррозия идёт изнутри наружу."]},
+  {id:"cups", place:"Чашки стоек", where:"под капотом, под шумоизоляцией", prev:"встречается", sev:"warn",
+   why:"Влага затекает под шумоизоляционный материал и остаётся там надолго.",
+   how:["Открыть капот, осмотреть верхние опоры стоек с обеих сторон.",
+        "Где есть шумоизоляция — отогнуть край и посветить под неё.",
+        "Рыжие разводы вокруг гаек — повод смотреть внимательнее."]},
+  {id:"floor", place:"Пол салона у водителя", where:"под ковром", prev:"встречается", sev:"warn",
+   why:"Вода с обуви зимой скапливается под ковром и не испаряется.",
+   how:["Поднять водительский коврик.",
+        "Отогнуть край ковролина у порога и в районе рычага лючка бензобака.",
+        "Пощупать рукой: сырость или жёсткий налёт под тканью означает, что металл под ней уже не свежий."]},
+  {id:"tank", place:"Днище у бензобака", where:"усилители и швы", prev:"встречается", sev:"warn",
+   why:"Днище традиционно гниёт первым, а усилители у бака собирают грязь.",
+   how:["Нужен подъёмник или смотровая яма — руками не достать.",
+        "Осмотреть усилители и сварные швы в районе бака.",
+        "Без подъёмника оценить невозможно. Честнее оставить пункт непроверенным, чем считать его пройденным."]},
+  {id:"bolts", place:"Крепёж и хром под капотом", where:"болты крыльев и петель", prev:"частое", sev:"ok",
+   why:"Болты и хромированные элементы не из нержавейки, ржавеют сами по себе. Для металла кузова это безобидно.",
+   how:["Открыть капот, посмотреть на болты крепления крыльев и петель.",
+        "Ржавые болты на пятнадцатилетней машине — норма.",
+        "А вот блестящие новые болты на такой машине означают, что крылья или петли снимали."]}
+];
+const SEV_CHIP = {bad:["bad","Серьёзно"], warn:["warn","Заметно"], ok:["ok","Безобидно"]};
+
+const rustListEl = document.getElementById("rust-list");
+rustListEl.innerHTML = RUST.map(r =>
+  '<button class="row" data-go="rust" data-rust="' + r.id + '">' +
+    '<span class="stripe ' + r.sev + '"></span>' +
+    '<div class="grow"><span class="ttl">' + r.place + '</span>' +
+      '<span class="sub">' + r.prev + ' · ' + r.where + '</span></div>' +
+    '<span class="chip ' + SEV_CHIP[r.sev][0] + '">' + SEV_CHIP[r.sev][1] + '</span>' +
+  '</button>').join("");
+
+function renderRust(id){
+  const r = RUST.find(x => x.id === id) || RUST[0];
+  let h = '<div style="display:flex;gap:7px;flex-wrap:wrap">' +
+    '<span class="chip ' + SEV_CHIP[r.sev][0] + '">' + SEV_CHIP[r.sev][1] + '</span>' +
+    '<span class="chip neutral">' + r.prev[0].toUpperCase() + r.prev.slice(1) + '</span>' +
+    '<span class="chip neutral">Кузов</span></div>';
+  h += '<div class="card"><h4 class="blockttl">' + r.place + '</h4>' +
+       '<p class="body-text" style="color:var(--muted);margin-bottom:8px">' + r.where + '</p>' +
+       '<p class="body-text">' + r.why + '</p></div>';
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 9px">Как проверить</p><ol class="steps">' +
+       r.how.map(s => '<li>' + s + '</li>').join("") + '</ol></div>';
+  h += '<button class="btn ghost" data-go="inspection">Отметить в осмотре</button>';
+  document.getElementById("s-rust").innerHTML = h;
+  return r.place;
+}
+
+renderBrands();
+go("catalog");
+</script>
+</body>
+</html>
