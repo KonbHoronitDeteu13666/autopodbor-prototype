@@ -3,9 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Кликабельный прототип Android-приложения для осмотра подержанных автомобилей.">
+<meta name="description" content="Приложение для осмотра подержанных автомобилей: неисправности по модели, кузов, сканер ошибок, отчёт.">
 <meta name="theme-color" content="#E8E9E5" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0D1113" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A7%3C/text%3E%3C/svg%3E">
 <style>
 :root{color-scheme:light dark}
@@ -114,117 +115,16 @@ body{
 button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
 
-/* ---------- page shell ---------- */
-.page{
-  max-width:1180px;
-  margin:0 auto;
-  padding-inline:20px;
-  padding-block:28px 56px;
-}
-.masthead{
-  display:flex;
-  flex-wrap:wrap;
-  align-items:flex-end;
-  gap:16px 28px;
-  padding-bottom:18px;
-  border-bottom:1px solid var(--line);
-}
-.masthead h1{
-  font-family:var(--f-display);
-  font-weight:700;
-  font-size:clamp(30px,5vw,42px);
-  letter-spacing:.01em;
-  margin:0;
-  line-height:1;
-  text-wrap:balance;
-}
-.masthead p{
-  margin:0;
-  max-width:52ch;
-  color:var(--ink-2);
-  font-size:14px;
-}
-.tag{
-  font-family:var(--f-mono);
-  font-size:11px;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-  color:var(--accent);
-  border:1px solid var(--accent);
-  border-radius:999px;
-  padding:3px 9px;
-  white-space:nowrap;
-}
-
-.layout{
-  display:grid;
-  grid-template-columns:minmax(0,300px) minmax(0,1fr);
-  gap:36px;
-  align-items:start;
-  margin-top:28px;
-}
-@media (max-width:860px){
-  .layout{grid-template-columns:minmax(0,1fr);gap:26px}
-  .rail{order:2}
-}
-
-/* ---------- rail ---------- */
-.rail h2, .notes h2{
-  font-family:var(--f-display);
-  text-transform:uppercase;
-  letter-spacing:.09em;
-  font-size:13px;
-  color:var(--muted);
-  margin:0 0 10px;
-  font-weight:600;
-}
-.rail ol{
-  list-style:none;
-  margin:0 0 24px;
-  padding:0;
-  display:flex;
-  flex-direction:column;
-  gap:1px;
-  background:var(--line);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  overflow:hidden;
-}
-.rail li button{
-  display:flex;
-  align-items:baseline;
-  gap:10px;
-  width:100%;
-  padding:9px 12px;
-  background:var(--surface);
-  color:var(--ink-2);
-  font-size:14px;
-}
-.rail li button:hover{background:var(--surface-2);color:var(--ink)}
-.rail li button[aria-current="true"]{
-  background:var(--accent);
-  color:var(--accent-ink);
-  font-weight:600;
-}
-.rail li button[aria-current="true"] .idx{color:var(--accent-ink);opacity:.75}
-.idx{
-  font-family:var(--f-mono);
-  font-size:11px;
-  color:var(--muted);
-  min-width:16px;
-}
-.notes{
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  background:var(--surface);
-  padding:14px 15px;
-}
-.notes p{margin:0;font-size:14px;color:var(--ink-2)}
-.notes p + p{margin-top:9px}
-.notes b{color:var(--ink);font-weight:600}
 
 /* ---------- phone ---------- */
-.stage{display:flex;justify-content:center}
+.stage{
+  min-height:100vh;
+  min-height:100dvh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:24px 16px;
+}
 .phone{
   width:100%;
   max-width:392px;
@@ -235,8 +135,24 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   overflow:hidden;
   display:flex;
   flex-direction:column;
-  height:min(78vh,780px);
+  height:min(84vh,820px);
   min-height:560px;
+}
+
+/* на телефоне приложение занимает весь экран */
+@media (max-width:560px){
+  .stage{padding:0;min-height:0}
+  .phone{
+    max-width:none;
+    border:0;
+    border-radius:0;
+    box-shadow:none;
+    height:100vh;
+    height:100dvh;
+    min-height:0;
+  }
+  .statusbar{display:none}
+  .tabbar{padding-bottom:env(safe-area-inset-bottom)}
 }
 .statusbar{
   display:flex;
@@ -627,46 +543,8 @@ ol.steps li::before{
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
-<style>
-/* телефон в телефоне не нужен: на узком экране макет занимает весь экран */
-@media (max-width:560px){
-  .page{padding-inline:0;padding-block:16px 0}
-  .masthead{padding-inline:16px;padding-bottom:14px}
-  .layout{margin-top:0;gap:0}
-  .rail{padding:20px 16px 32px;order:2}
-  .stage{order:1}
-  .phone{
-    max-width:none;
-    border:0;border-left:0;border-right:0;
-    border-radius:0;
-    box-shadow:none;
-    height:auto;min-height:0;
-  }
-  .statusbar{display:none}
-  .appbar{position:sticky;top:0;z-index:5}
-  .viewport{overflow:visible}
-  .tabbar{position:sticky;bottom:0;z-index:5;padding-bottom:env(safe-area-inset-bottom)}
-}
-</style>
 </head>
 <body>
-
-<div class="page">
-  <header class="masthead">
-    <h1>Автоподбор</h1>
-    <span class="tag">Прототип · Camry XV40</span>
-    <p>Кликабельный макет Android-приложения. Справочный контент настоящий — неисправности, нормы ЛКП, расшифровка кодов из наполнения первой модели. Показания приборов, пробег и VIN выдуманы для примера: их вводит пользователь во время осмотра.</p>
-  </header>
-
-  <div class="layout">
-    <nav class="rail" aria-label="Экраны прототипа">
-      <h2>Экраны</h2>
-      <ol id="rail"></ol>
-      <div class="notes">
-        <h2>Что смотреть</h2>
-        <div id="note"></div>
-      </div>
-    </nav>
 
     <div class="stage">
       <div class="phone">
@@ -703,7 +581,7 @@ ol.steps li::before{
             <div class="card flush" id="brand-list"></div>
 
             <div class="note info">
-              <span>Каталог целиком лежит на телефоне. Сеть нужна раз в неделю, чтобы забрать обновления.</span>
+              <span>Все данные лежат на телефоне и работают без сети. Обновлены 18.09.2026.</span>
             </div>
           </section>
 
@@ -1083,37 +961,22 @@ ol.steps li::before{
         </nav>
       </div>
     </div>
-  </div>
-</div>
 
 <script>
 const SCREENS = [
-  {id:"catalog",    label:"Каталог",           eyebrow:"9 марок · 15 поколений", title:"Каталог",
-   note:"<p>Марки списком, модели раскрываются по нажатию. Тапни <b>Toyota → Camry</b> — она наполнена, остальные помечены «в наполнении».</p><p>Каталог целиком лежит на устройстве, экрана «скачать модель» нет. Человек у машины не должен обнаружить, что нужную модель забыл скачать дома.</p>"},
-  {id:"pick",       label:"Год, мотор, коробка", eyebrow:"Выбор машины", title:"Выбор машины",
-   note:"<p>Три выпадающих списка, связанных по цепочке: <b>год → мотор → коробка</b>. Год выбран не случайно: кодов поколений вроде XV40 люди не знают, а год выпуска знают все, и он однозначно задаёт поколение.</p><p>Смена года пересобирает список моторов, смена мотора — список коробок. Если с мотором ставилась одна коробка, список блокируется и это подписано.</p><p>Комплектации нет: на пригнанной из США машине это LE и XLE вместо Комфорта и Престижа, а посмотреть их негде. Вместо неё опции — их видно глазами за десять секунд.</p>"},
-  {id:"generation", label:"Карточка машины",   eyebrow:"2006–2011 · 3.5 V6", title:"Camry XV40",
-   note:"<p>Три раздела вместо четырёх: цен в рублях в продукте нет. Стоимость ремонта — три категории, которые не устаревают и которые не надо поддерживать по пятнадцати моделям.</p><p>Критичное вынесено над списком, а не спрятано внутрь.</p>"},
-  {id:"issues",     label:"Неисправности",     eyebrow:"9 позиций · мотор 3.5", title:"Неисправности",
-   note:"<p>Сортировка по <b>приоритету проверки</b>, а не по узлам. В первом наполнении масляная трубка V6 стояла двенадцатой просто потому, что её записали двенадцатой — а она забирает мотор за пятнадцать минут.</p><p>Категория ремонта — чип справа: недорогой, средний, дорогой. Открой несколько разных: у каждой свой способ проверки.</p>"},
-  {id:"issue",      label:"Карточка неисправности", eyebrow:"Camry XV40 · 3.5", title:"Неисправность",
-   note:"<p>Главное поле — <b>способ проверки</b>, и он проходит один фильтр: выполним за пятнадцать минут на чужой машине. «Сделать эндоскопию» этот фильтр не проходит и помечается как следующий шаг.</p><p>Обрати внимание на связанные коды внизу: из неисправности можно уйти в код и обратно.</p>"},
-  {id:"body",       label:"Кузов",             eyebrow:"Нормы и очаги коррозии", title:"Кузов",
-   note:"<p>Раздел <b>справочный</b>: он объясняет, что искать, и ничего не принимает на ввод. Схемы кузова с полями для замеров больше нет — подборщик умеет пользоваться толщиномером, число он видит на приборе.</p><p>Нормы ЛКП занимают три строки, потому что они почти одинаковы у всех машин. Остальное место отдано тому, что <b>знанием не заменишь</b>: где у этой конкретной модели металл гниёт скрытно.</p><p>Список идёт <b>по важности</b>, и это теперь написано на экране. Раньше не было — и порядок читался как случайный.</p>"},
-  {id:"rust",       label:"Очаг коррозии",     eyebrow:"Camry XV40 · кузов", title:"Очаг коррозии",
-   note:"<p>Снаружи все эти места выглядят целыми. Ценность не в том, что «бывает ржавчина», а в том, <b>куда именно залезть рукой</b> и что там увидеть.</p><p>Серьёзность и частота разведены намеренно. В первой версии этого экрана «частое» было выкрашено в красный, и безобидные ржавые болты выглядели страшнее арки лобового стекла, которая реально съедает кузов.</p><p>Пункт про болты — вообще обратный случай: ржавые болты норма, а <b>блестящие новые</b> на пятнадцатилетней машине означают, что деталь снимали.</p>"},
-  {id:"guide",      label:"Инструкция",        eyebrow:"Шаг 2 из 4", title:"Инструкция",
-   note:"<p>Картинок нет, поэтому расположение описывается словами и точно: «слева от крышки ремня привода, на уровне ваших локтей». Плюс у каждого шага — <b>что должно получиться</b>, иначе новичок не понимает, нашёл он нужное или нет.</p>"},
-  {id:"scanner",    label:"Сканер",            eyebrow:"ELM327 v1.5 · CAN", title:"Ошибки",
-   note:"<p>Прямое подключение к адаптеру, без сторонних приложений. Поддерживаются оба транспорта — classic Bluetooth и BLE, потому что массовые клоны бывают и такими, и такими.</p><p><b>Факт недавнего стирания памяти — сам по себе информация.</b> Приложение показывает его отдельно.</p>"},
-  {id:"dtc",        label:"Код ошибки",        eyebrow:"Сохранённая ошибка", title:"P0171",
-   note:"<p>Код бесполезен без двух вещей: причин именно на этой модели и того, к чему он приведёт. «Бедная смесь» не аргумент для торга. «Недорогая чистка сейчас или дорогой катализатор потом» — аргумент.</p>"},
-  {id:"inspection", label:"Осмотр",            eyebrow:"187 400 км · 18.09.2026", title:"Осмотр",
-   note:"<p><b>Чеклист рабочий — потыкай.</b> Галочка ставит «в порядке», восклицательный знак «нашли», повторное нажатие снимает. Прогресс сверху и отчёт пересчитываются на ходу.</p><p>Шестнадцать пунктов: девять по агрегатам для мотора 3.5 и семь по кузову. Работает полностью офлайн.</p><p>Непроверенное остаётся <b>непроверенным</b>, а не исчезает: днище без подъёмника не посмотреть, и в отчёте это должно быть видно тому, кто его читает.</p>"},
-  {id:"profile",    label:"Профиль",           eyebrow:"ivan@example.ru", title:"Профиль",
-   note:"<p>Раньше вкладка «Профиль» открывала экран выбора мотора — я повесил её на первый попавшийся экран и забыл сделать настоящий.</p><p>Здесь то, что человек открывает редко, но обязан найти: подписка и до какого числа она действует, сколько занимают данные и когда обновлялись, шаблон отчёта.</p><p><b>Журнал связи с адаптером</b> — не для красоты. Клонов ELM327 на рынке десятки вариантов, и жалобу «не подключается к моему адаптеру» без журнала разобрать нельзя.</p>"},
-  {id:"report",     label:"Отчёт",             eyebrow:"Camry XV40 · 3.5", title:"Отчёт",
-   note:"<p>Документ, с которым идут торговаться. Собирается <b>только из заполненного</b>: непроверенные пункты в него не попадают, пустая заметка про краску — тоже. Раздел, в котором нечего показать, исчезает целиком.</p><p>Проверь: сними все отметки в осмотре и вернись сюда — отчёт схлопнется. Верни — разделы появятся обратно.</p><p>Коды сохраняются строкой, а не ссылкой: отчёт годичной давности не должен меняться из-за того, что редактор переписал расшифровку.</p>"}
+  {id:"catalog",    eyebrow:"9 марок · 15 поколений",   title:"Каталог"},
+  {id:"pick",       eyebrow:"Выбор машины",             title:"Выбор машины"},
+  {id:"generation", eyebrow:"2006–2011 · 3.5 V6",       title:"Camry XV40"},
+  {id:"issues",     eyebrow:"9 позиций · мотор 3.5",    title:"Неисправности"},
+  {id:"issue",      eyebrow:"Camry XV40 · 3.5",         title:"Неисправность"},
+  {id:"body",       eyebrow:"Нормы и очаги коррозии",   title:"Кузов"},
+  {id:"rust",       eyebrow:"Camry XV40 · кузов",       title:"Очаг коррозии"},
+  {id:"guide",      eyebrow:"Шаг 2 из 4",               title:"Инструкция"},
+  {id:"scanner",    eyebrow:"ELM327 v1.5 · CAN",        title:"Ошибки"},
+  {id:"dtc",        eyebrow:"Сохранённая ошибка",       title:"P0171"},
+  {id:"inspection", eyebrow:"187 400 км · 18.09.2026",  title:"Осмотр"},
+  {id:"report",     eyebrow:"Camry XV40 · 3.5",         title:"Отчёт"},
+  {id:"profile",    eyebrow:"ivan@example.ru",          title:"Профиль"}
 ];
 
 const ISSUES = {
@@ -1419,7 +1282,7 @@ function renderPick(){
   const next = document.getElementById("pick-next");
   document.getElementById("pick-warning").innerHTML = g.ready
     ? (single ? '<p class="body-text" style="margin:-4px 2px 0;font-size:13px">С этим мотором других коробок не ставилось.</p>' : "")
-    : '<div class="note warn"><span><b>Данные по этому поколению ещё не готовы.</b> В прототипе наполнена одна машина: Toyota Camry 2006–2011.</span></div>';
+    : '<div class="note warn"><span><b>Данные по этому поколению ещё готовятся.</b> Сейчас доступна Toyota Camry 2006–2011.</span></div>';
   next.style.opacity = g.ready ? "1" : ".45";
   next.style.pointerEvents = g.ready ? "auto" : "none";
 
@@ -1592,23 +1455,12 @@ function renderFindings(){
   document.getElementById("report-body").innerHTML = h;
 }
 
-const railEl = document.getElementById("rail");
-const noteEl = document.getElementById("note");
 const barTitle = document.getElementById("bar-title");
 const barEyebrow = document.getElementById("bar-eyebrow");
 const viewport = document.getElementById("viewport");
 const backBtn = document.getElementById("back");
 
 let currentArg = null;
-
-SCREENS.forEach((s, i) => {
-  const li = document.createElement("li");
-  const b = document.createElement("button");
-  b.innerHTML = '<span class="idx">' + String(i + 1).padStart(2, "0") + '</span><span>' + s.label + '</span>';
-  b.addEventListener("click", () => go(s.id));
-  li.appendChild(b);
-  railEl.appendChild(li);
-});
 
 const TAB_OF = {catalog:"catalog", pick:"pick", generation:"catalog", issues:"catalog", issue:"catalog",
                 body:"catalog", rust:"catalog", guide:"catalog", scanner:"inspection",
@@ -1638,10 +1490,6 @@ function go(id, arg, viaBack){
 
   barTitle.textContent = title;
   barEyebrow.textContent = s.eyebrow;
-  noteEl.innerHTML = s.note;
-
-  railEl.querySelectorAll("button").forEach((b, i) =>
-    b.setAttribute("aria-current", SCREENS[i].id === id ? "true" : "false"));
 
   const tab = TAB_OF[id];
   document.querySelectorAll("#tabbar button").forEach(b =>
