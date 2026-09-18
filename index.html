@@ -611,19 +611,19 @@ ol.steps li::before{
 
             <p class="sectionhead">Что есть в машине</p>
             <div class="pickgrid">
-              <button class="pick" aria-pressed="true" data-pick="opt">
+              <button class="pick" aria-pressed="true" data-pick="opt" data-opt="sunroof">
                 <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
                 <span class="grow"><span class="ttl">Люк</span><span class="sub">видно снаружи и с водительского места</span></span>
               </button>
-              <button class="pick" aria-pressed="true" data-pick="opt">
+              <button class="pick" aria-pressed="true" data-pick="opt" data-opt="leather">
                 <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
                 <span class="grow"><span class="ttl">Кожаный салон</span><span class="sub">видно сразу</span></span>
               </button>
-              <button class="pick" aria-pressed="false" data-pick="opt">
+              <button class="pick" aria-pressed="false" data-pick="opt" data-opt="xenon">
                 <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
                 <span class="grow"><span class="ttl">Ксенон</span><span class="sub">линзы в фарах, холодный свет</span></span>
               </button>
-              <button class="pick" aria-pressed="false" data-pick="opt">
+              <button class="pick" aria-pressed="false" data-pick="opt" data-opt="camera">
                 <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
                 <span class="grow"><span class="ttl">Камера заднего вида</span><span class="sub">картинка на экране при задней передаче</span></span>
               </button>
@@ -635,24 +635,22 @@ ol.steps li::before{
           <!-- 3 КАРТОЧКА ПОКОЛЕНИЯ -->
           <section class="screen" id="s-generation">
             <div class="card">
-              <h4 class="blockttl">Toyota Camry XV40</h4>
+              <h4 class="blockttl" id="gen-title">Toyota Camry XV40</h4>
               <dl class="kv">
-                <dt>Годы</dt><dd>2006–2011</dd>
-                <dt>Двигатель</dt><dd>2GR-FE 3.5 V6</dd>
-                <dt>Коробка</dt><dd>U660E, автомат</dd>
+                <dt>Годы</dt><dd id="gen-years">2006–2011</dd>
+                <dt>Двигатель</dt><dd id="gen-engine">2GR-FE 3.5 V6</dd>
+                <dt>Коробка</dt><dd id="gen-gearbox">U660E</dd>
                 <dt>Данные обновлены</dt><dd>18.09.2026</dd>
               </dl>
               <button class="link" data-go="pick" style="margin-top:9px;font-size:13.5px">Изменить мотор и опции</button>
             </div>
 
-            <div class="note crit">
-              <span><b>Проверить первым.</b> На машинах до 2010 года масляная трубка V6 рвётся без предупреждения. Мотору после этого остаётся четверть часа.</span>
-            </div>
+            <div id="gen-alert"></div>
 
             <div class="card flush rows">
               <button class="row" data-go="issues">
-                <span class="stripe crit"></span>
-                <div class="grow"><span class="ttl">Неисправности</span><span class="sub">9 позиций для 3.5 · 3 проверить первыми</span></div>
+                <span class="stripe crit" id="gen-issues-stripe"></span>
+                <div class="grow"><span class="ttl">Неисправности</span><span class="sub" id="gen-issues-sub">9 позиций</span></div>
                 <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
               </button>
               <button class="row" data-go="body">
@@ -671,67 +669,7 @@ ol.steps li::before{
             <button class="btn quiet" data-go="scanner">Подключить сканер</button>
           </section>
 
-          <!-- 4 БОЛЯЧКИ -->
-          <section class="screen" id="s-issues">
-            <div class="note warn">
-              <span>Отсортировано по тому, что смотреть раньше, а не по узлам.</span>
-            </div>
-
-            <p class="body-text" style="font-size:13px;margin:0 2px">Показаны позиции для мотора 3.5. Три позиции, которые касаются только 2.4 — жор масла, перегрев, срыв резьбы ГБЦ — скрыты: к этой машине они отношения не имеют.</p>
-
-            <p class="sectionhead">Проверить первым делом</p>
-            <div class="card flush rows">
-              <button class="row" data-go="issue" data-issue="oil-tube">
-                <span class="stripe crit"></span>
-                <div class="grow"><span class="ttl">Разрыв масляной трубки VVT-i</span><span class="sub">Двигатель · до 2010 года</span></div>
-                <span class="chip crit">Дорогой</span>
-              </button>
-              <button class="row" data-go="issue" data-issue="u660e">
-                <span class="stripe bad"></span>
-                <div class="grow"><span class="ttl">Пинки автомата U660E</span><span class="sub">Коробка · от 100 000 км</span></div>
-                <span class="chip bad">Дорогой</span>
-              </button>
-              <button class="row" data-go="issue" data-issue="chain">
-                <span class="stripe bad"></span>
-                <div class="grow"><span class="ttl">Растяжение цепи ГРМ</span><span class="sub">Двигатель · от 120 000 км</span></div>
-                <span class="chip warn">Средний</span>
-              </button>
-            </div>
-
-            <p class="sectionhead">Остальное</p>
-            <div class="card flush rows">
-              <button class="row" data-go="issue" data-issue="valves">
-                <span class="stripe warn"></span>
-                <div class="grow"><span class="ttl">Регулировка клапанов</span><span class="sub">Двигатель · каждые 80–100 000 км</span></div>
-                <span class="chip warn">Средний</span>
-              </button>
-              <button class="row" data-go="issue" data-issue="arms">
-                <span class="stripe warn"></span>
-                <div class="grow"><span class="ttl">Рычаги и шаровые опоры</span><span class="sub">Подвеска · от 150 000 км</span></div>
-                <span class="chip warn">Средний</span>
-              </button>
-              <button class="row" data-go="issue" data-issue="radiator">
-                <span class="stripe warn"></span>
-                <div class="grow"><span class="ttl">Коррозия радиатора</span><span class="sub">Охлаждение · по возрасту</span></div>
-                <span class="chip warn">Средний</span>
-              </button>
-              <button class="row" data-go="issue" data-issue="maf">
-                <span class="stripe ok"></span>
-                <div class="grow"><span class="ttl">Загрязнение ДМРВ и дросселя</span><span class="sub">Двигатель · от 150 000 км</span></div>
-                <span class="chip ok">Недорогой</span>
-              </button>
-              <button class="row" data-go="issue" data-issue="sunroof">
-                <span class="stripe ok"></span>
-                <div class="grow"><span class="ttl">Течь люка</span><span class="sub">Кузов · только с люком</span></div>
-                <span class="chip ok">Недорогой</span>
-              </button>
-              <button class="row" data-go="issue" data-issue="stab">
-                <span class="stripe ok"></span>
-                <div class="grow"><span class="ttl">Стойки стабилизатора</span><span class="sub">Подвеска · от 50 000 км</span></div>
-                <span class="chip ok">Недорогой</span>
-              </button>
-            </div>
-          </section>
+          <section class="screen" id="s-issues"></section>
 
           <!-- 5 КАРТОЧКА БОЛЯЧКИ -->
           <section class="screen" id="s-issue"></section>
@@ -982,6 +920,8 @@ const SCREENS = [
 const ISSUES = {
   "oil-tube":{
     title:"Разрыв масляной трубки VVT-i", short:"Масляная трубка",
+    eng:"2GR-FE", node:"Двигатель", when:"до 2010 года",
+    sev:"crit", cost:["crit","Дорогой"], prio:1,
     chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","2GR-FE 3.5"]],
     desc:"На машинах до 2010 года трубка подачи масла к механизму VVT-i металлопластиковая. При разрыве масло уходит за минуты: мотору остаётся примерно четверть часа работы до клина. Заводское решение — замена на цельнометаллическую.",
     alert:["crit","<b>Симптомов до разрыва нет.</b> В этом и проблема: машина едет нормально ровно до того момента, когда ехать уже нельзя."],
@@ -989,11 +929,57 @@ const ISSUES = {
            "На машине до 2010 спросить, менялась ли трубка, и попросить чек или заказ-наряд.",
            "Найти трубку под капотом: металлопластиковая имеет чёрную пластиковую вставку в средней части, цельнометаллическая — полностью металлическая.",
            "Если замена не подтверждена, закладывать её сразу. Работа недорогая и снимает риск потерять мотор целиком."],
-    cost:[["Ремонт профилактикой","Недорогой","ok"],["Ремонт после разрыва","Дорогой","crit"]],
+    costs:[["Ремонт профилактикой","Недорогой","ok"],["Ремонт после разрыва","Дорогой","crit"]],
     codes:[["p0011","P0011","Рассогласование фаз, впускной распредвал"]]
+  },
+  "oil-burn":{
+    title:"Жор масла", short:"Жор масла",
+    eng:"2AZ-FE", node:"Двигатель", when:"от 150 000 км",
+    sev:"bad", cost:["bad","Дорогой"], prio:1,
+    chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","2AZ-FE 2.4"]],
+    desc:"Залегание маслосъёмных колец, в запущенных случаях задиры на стенках цилиндров. Расход доходит до литра на тысячу километров. Лечится заменой поршневой группы, то есть вскрытием мотора.",
+    alert:["warn","<b>Симптомы.</b> Уровень масла падает между заменами. Сизый дым при резком газе после холостых. Нагар на свечах."],
+    steps:["Вынуть щуп на холодном моторе: уровень у нижней метки при заявленной недавней замене — плохой знак.",
+           "Спросить, как часто доливает масло. Прямой вопрос работает: для владельца это привычная рутина, и он обычно отвечает честно.",
+           "Открутить маслозаливную крышку на работающем моторе. Сильный выхлоп из горловины — прорыв газов в картер.",
+           "Попросить погазовать и посмотреть в выхлоп со стороны: сизый дым при сбросе газа — кольца.",
+           "Надёжный способ один — эндоскоп в свечное отверстие. Это уже сервис, а не осмотр: делается, если машина всерьёз рассматривается."],
+    costs:[["Ремонт поршневой","Дорогой","bad"]],
+    codes:[["p0300","P0300","Пропуски зажигания"]]
+  },
+  "overheat":{
+    title:"Перегрев и слабое охлаждение", short:"Перегрев",
+    eng:"2AZ-FE", node:"Охлаждение", when:"от 80 000 км",
+    sev:"bad", cost:["warn","Средний"], prio:1,
+    chips:[["bad","Высокая"],["neutral","Охлаждение"],["neutral","2AZ-FE 2.4"]],
+    desc:"Система охлаждения у 2.4 слабая. Помпа течёт, радиатор забивается. Результат перегрева — поведённая головка блока, и это уже другой порядок денег.",
+    alert:["warn","<b>Симптомы.</b> Стрелка температуры гуляет. Запах антифриза. Конденсат на расширительном бачке."],
+    steps:["Посмотреть на расширительный бачок: уровень, цвет жидкости, налёт на стенках. Ржавая или мутная — систему не обслуживали.",
+           "Осмотреть морду радиатора на просвет: забитые соты видно глазом.",
+           "Поискать следы подтёков антифриза под помпой и по патрубкам — белые или цветные разводы.",
+           "На прогреве последить за стрелкой минуту-другую: она должна стоять, а не плавать.",
+           "Открыть крышку бачка на холодном моторе и понюхать: запах выхлопа означает прорыв газов, то есть прокладку ГБЦ."],
+    costs:[["Помпа и радиатор","Средний","warn"],["Если довели до ГБЦ","Дорогой","crit"]],
+    codes:[]
+  },
+  "head-bolts":{
+    title:"Срыв резьбы под болты ГБЦ", short:"Резьба ГБЦ",
+    eng:"2AZ-FE", node:"Двигатель", when:"не зависит от пробега",
+    sev:"bad", cost:["bad","Дорогой"], prio:2,
+    chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","2AZ-FE 2.4"]],
+    desc:"Болты головки вытягивались из блока вместе с резьбой, чаще центральные. В 2006 году Toyota заменила болты с 24 мм на 30 мм, и на XV40 проблема в основном осталась в прошлом. Но у запущенных перегретых экземпляров встречается.",
+    alert:null,
+    steps:["Осмотреть стык головки блока и самого блока с обеих сторон мотора.",
+           "Искать масляные или антифризные подтёки по стыку.",
+           "Сухой стык — хорошо. Мокрый — повод для диагностики на подъёмнике.",
+           "Отдельно проверить, не уходит ли антифриз без видимых течей."],
+    costs:[["Ремонт","Дорогой","bad"]],
+    codes:[]
   },
   "u660e":{
     title:"Пинки автомата U660E", short:"Автомат U660E",
+    gb:"U660E", node:"Коробка", when:"от 100 000 км",
+    sev:"bad", cost:["bad","Дорогой"], prio:1,
     chips:[["bad","Высокая"],["neutral","Коробка"],["neutral","от 100 000 км"]],
     desc:"Ранний износ накладок блокировки гидротрансформатора. Продукты износа забивают каналы гидроблока, и дальше идёт лавина: соленоиды, плита, фрикционы.",
     alert:["warn","<b>Симптомы.</b> Толчки при переключениях, вибрация при разгоне на малых оборотах, задержки при трогании."],
@@ -1001,23 +987,41 @@ const ISSUES = {
            "Отдельно проверить трогание с места и переход на вторую передачу — толчки вылезают именно там.",
            "Посмотреть цвет жидкости, если есть щуп или сервисная пробка. Тёмная с запахом гари — коробка уже в работе.",
            "Спросить про интервал замены жидкости. Правильный ответ — каждые 50–60 тысяч. Ответ «залита на весь срок службы» означает, что коробку не обслуживали."],
-    cost:[["Ремонт","Дорогой","bad"]],
+    costs:[["Ремонт","Дорогой","bad"]],
+    codes:[]
+  },
+  "u250e":{
+    title:"Износ гидротрансформатора U250E", short:"Автомат U250E",
+    gb:"U250E", node:"Коробка", when:"от 120 000 км",
+    sev:"warn", cost:["warn","Средний"], prio:2,
+    chips:[["warn","Средняя"],["neutral","Коробка"],["neutral","от 120 000 км"]],
+    desc:"Пятиступенчатый автомат у 2.4 крепче шестиступенчатого, но при критическом износе накладок продукты забивают каналы гидроблока так же.",
+    alert:["info","Эта коробка надёжнее U660E с мотора 3.5, но не вечная: всё решает, меняли ли жидкость."],
+    steps:["Проехать не меньше десяти километров в городском режиме со светофорами.",
+           "Проверить трогание и переход на вторую: толчки и задержки вылезают там.",
+           "Посмотреть цвет жидкости: тёмная с запахом гари — коробка в работе.",
+           "Спросить про интервал замены. «Залита на весь срок службы» означает, что её не обслуживали."],
+    costs:[["Ремонт","Средний","warn"]],
     codes:[]
   },
   "chain":{
     title:"Растяжение цепи ГРМ", short:"Цепь ГРМ",
-    chips:[["bad","Средняя"],["neutral","Двигатель"],["neutral","от 120 000 км"]],
+    node:"Двигатель", when:"от 120 000 км на 3.5",
+    sev:"bad", cost:["warn","Средний"], prio:1,
+    chips:[["bad","Средняя"],["neutral","Двигатель"],["neutral","оба мотора"]],
     desc:"Цепь вытягивается, натяжитель выбирает ход до предела. На 3.5 проявляется раньше и заметнее, чем на 2.4.",
     alert:["warn","<b>Смотреть только на холодной машине.</b> На прогретом моторе цепь не слышно. Осмотр «с уже прогретой» — либо небрежность, либо умысел продавца."],
     steps:["Договориться смотреть машину холодной, простоявшей ночь.",
            "Послушать самый первый запуск, стоя у открытого капота.",
            "Металлический треск в первые две-три секунды с последующим затиханием — цепь растянута.",
            "Заодно послушать на холостых: цокот от головки блока — это уже зазоры клапанов, отдельный пункт."],
-    cost:[["Ремонт","Средний","warn"]],
+    costs:[["Ремонт","Средний","warn"]],
     codes:[["p0011","P0011","Рассогласование фаз, впускной распредвал"]]
   },
   "valves":{
     title:"Регулировка клапанов", short:"Клапаны",
+    eng:"2GR-FE", node:"Двигатель", when:"каждые 80–100 000 км",
+    sev:"warn", cost:["warn","Средний"], prio:2,
     chips:[["warn","Низкая"],["neutral","Двигатель"],["neutral","2GR-FE 3.5"]],
     desc:"Гидрокомпенсаторов нет, зазоры регулируются подбором шайб. Работа плановая, каждые 80–100 тысяч километров, но её массово пропускают: машина ездит и так.",
     alert:null,
@@ -1025,11 +1029,13 @@ const ISSUES = {
            "Цокот от головки блока означает, что зазоры ушли.",
            "Спросить, когда регулировались клапаны, и попросить заказ-наряд.",
            "Ответ «не делал, машина же японская» — прямой плюс к торгу на стоимость работы."],
-    cost:[["Ремонт","Средний","warn"]],
+    costs:[["Ремонт","Средний","warn"]],
     codes:[]
   },
   "arms":{
     title:"Рычаги и шаровые опоры", short:"Рычаги",
+    node:"Подвеска", when:"от 150 000 км",
+    sev:"warn", cost:["warn","Средний"], prio:2,
     chips:[["warn","Средняя"],["neutral","Подвеска"],["neutral","от 150 000 км"]],
     desc:"Изнашиваются сайлентблоки рычагов и шаровые опоры. На разбитых дорогах раньше заявленного срока.",
     alert:null,
@@ -1037,34 +1043,40 @@ const ISSUES = {
            "Осмотреть пыльники шаровых опор. Порванный пыльник означает, что опора доживает.",
            "Проехать по неровностям на малой скорости с открытым окном и послушать стуки.",
            "Посмотреть на износ шин: разный износ по краям означает ушедшие углы установки, а это следствие разбитой подвески."],
-    cost:[["Ремонт","Средний","warn"]],
+    costs:[["Ремонт","Средний","warn"]],
     codes:[]
   },
   "radiator":{
     title:"Коррозия радиатора", short:"Радиатор",
+    node:"Охлаждение", when:"по возрасту, около 10 лет",
+    sev:"warn", cost:["warn","Средний"], prio:2,
     chips:[["warn","Средняя"],["neutral","Охлаждение"],["neutral","по возрасту"]],
     desc:"Нижняя часть радиатора разрушается коррозией примерно к десяти годам. Для XV40, которой сейчас пятнадцать и больше, это не «может быть», а «уже».",
-    alert:["warn","<b>Почему это важнее, чем кажется.</b> Система охлаждения у этой машины слабая, а перегрев ведёт к поведённой головке блока — то есть к дорогому ремонту из дешёвой причины."],
+    alert:["warn","<b>Почему это важнее, чем кажется.</b> Перегрев ведёт к поведённой головке блока — то есть к дорогому ремонту из дешёвой причины."],
     steps:["Посветить фонарём на нижнюю часть радиатора снизу.",
            "Поискать следы антифриза и белый или цветной налёт.",
            "Посмотреть на соты радиатора на просвет: забитые видно глазом.",
-           "Проверить уровень и цвет жидкости в расширительном бачке. Ржавая или мутная — систему не обслуживали."],
-    cost:[["Замена радиатора","Средний","warn"],["Если довели до ГБЦ","Дорогой","crit"]],
+           "Проверить уровень и цвет жидкости в расширительном бачке."],
+    costs:[["Замена радиатора","Средний","warn"],["Если довели до ГБЦ","Дорогой","crit"]],
     codes:[]
   },
   "maf":{
     title:"Загрязнение ДМРВ и дросселя", short:"ДМРВ",
+    node:"Двигатель", when:"от 150 000 км",
+    sev:"ok", cost:["ok","Недорогой"], prio:2,
     chips:[["ok","Низкая"],["neutral","Двигатель"],["neutral","от 150 000 км"]],
     desc:"Слабая система вентиляции картера гонит масло во впуск. Датчик массового расхода воздуха и дроссельная заслонка покрываются масляным налётом, и блок управления начинает считать смесь неверно.",
     alert:["info","<b>Симптомы.</b> Плавающие обороты, провалы при разгоне, ошибки P0171 и P0300."],
     steps:["Снять патрубок воздуховода — он на защёлке или хомуте, инструмент не нужен.",
            "Посмотреть на масляный налёт внутри патрубка и на заслонке.",
            "Обильное масло — это ещё и косвенный признак износа поршневой, то есть повод проверить расход масла."],
-    cost:[["Чистка","Недорогой","ok"]],
+    costs:[["Чистка","Недорогой","ok"]],
     codes:[["p0171","P0171","Бедная смесь, банк 1"],["p0300","P0300","Пропуски зажигания"]]
   },
   "sunroof":{
     title:"Течь люка", short:"Люк",
+    opt:"sunroof", node:"Кузов", when:"только с люком",
+    sev:"ok", cost:["ok","Недорогой"], prio:2,
     chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","только с люком"]],
     desc:"Дренажные трубки люка забиваются листвой и грязью. Вода идёт в салон по стойкам, намокает обивка потолка, дальше идёт запах и коррозия под ковром.",
     alert:["info","<b>Эта позиция показана потому, что вы отметили люк.</b> Без него её в списке нет."],
@@ -1072,21 +1084,55 @@ const ISSUES = {
            "Пощупать обивку потолка по углам и верх передних стоек — ищем сырость.",
            "Поднять передние коврики и проверить пол под ними.",
            "Понюхать салон. Устойчивый запах сырости в сухую погоду — вода уже внутри."],
-    cost:[["Прочистка дренажа","Недорогой","ok"],["Если добралось до коррозии","Средний","warn"]],
+    costs:[["Прочистка дренажа","Недорогой","ok"],["Если добралось до коррозии","Средний","warn"]],
+    codes:[]
+  },
+  "leather":{
+    title:"Износ кожи сидений", short:"Кожа",
+    opt:"leather", node:"Салон", when:"от 5 лет",
+    sev:"ok", cost:["warn","Средний"], prio:2,
+    chips:[["ok","Низкая"],["neutral","Салон"],["neutral","только с кожей"]],
+    desc:"Кожа у XV40 качеством не блещет: трескается и вытирается за пять лет даже при аккуратной эксплуатации. Первой сдаётся боковая поддержка водительского сиденья со стороны двери.",
+    alert:["info","<b>Эта позиция показана потому, что вы отметили кожаный салон.</b>"],
+    steps:["Осмотреть боковую поддержку водительского сиденья со стороны двери — она вытирается первой.",
+           "Проверить, нет ли трещин на подушке у края.",
+           "Сопоставить состояние кожи с заявленным пробегом: убитое сиденье при ста тысячах означает скрутку."],
+    costs:[["Перетяжка сиденья","Средний","warn"]],
     codes:[]
   },
   "stab":{
     title:"Стойки стабилизатора", short:"Стойки стабилизатора",
+    node:"Подвеска", when:"от 50 000 км",
+    sev:"ok", cost:["ok","Недорогой"], prio:2,
     chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 50 000 км"]],
     desc:"Чистый расходник. Важен не сам износ, а то, что любой стук в подвеске продавцы списывают именно на стойки, а причина бывает в разы дороже.",
     alert:["warn","<b>Не верить объяснению на слово.</b> «Это стойки стабилизатора, копейки» — самая частая фраза, за которой стоят рычаги или опоры стоек."],
     steps:["Покачать машину за крыло и послушать.",
            "Проехать по неровностям на малой скорости с открытым окном.",
            "Если стучит — уточнить на подъёмнике, стойки это или рычаги. Разница в деньгах большая."],
-    cost:[["Замена пары стоек","Недорогой","ok"]],
+    costs:[["Замена пары стоек","Недорогой","ok"]],
     codes:[]
   }
 };
+
+const ISSUE_SEQ = ["oil-tube","oil-burn","overheat","u660e","chain","u250e","head-bolts",
+                   "valves","arms","radiator","maf","sunroof","leather","stab"];
+
+const OPTS = {sunroof:true, leather:true, xenon:false, camera:false};
+
+function engKey(){ return (SEL.engLabel || "").split(" ")[0]; }
+function gbKey(){ return (SEL.gbLabel || "").split(" ")[0]; }
+
+function activeIssues(){
+  const e = engKey(), g = gbKey();
+  return ISSUE_SEQ.filter(id => {
+    const d = ISSUES[id];
+    if(d.eng && d.eng !== e) return false;
+    if(d.gb && d.gb !== g) return false;
+    if(d.opt && !OPTS[d.opt]) return false;
+    return true;
+  });
+}
 
 const DTCS = {
   "p0171":{
@@ -1125,6 +1171,58 @@ const DTCS = {
 };
 
 const CHEV = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>';
+
+function issueRow(id){
+  const d = ISSUES[id];
+  return '<button class="row" data-go="issue" data-issue="' + id + '">' +
+    '<span class="stripe ' + d.sev + '"></span>' +
+    '<div class="grow"><span class="ttl">' + d.title + '</span>' +
+      '<span class="sub">' + d.node + ' · ' + d.when + '</span></div>' +
+    '<span class="chip ' + d.cost[0] + '">' + d.cost[1] + '</span></button>';
+}
+
+function renderGeneration(){
+  const ids = activeIssues();
+  const first = ids.filter(id => ISSUES[id].prio === 1);
+  const worst = ids.map(id => ISSUES[id]).sort((a, b) =>
+    ["crit","bad","warn","ok"].indexOf(a.sev) - ["crit","bad","warn","ok"].indexOf(b.sev))[0];
+
+  document.getElementById("gen-title").textContent = SEL.brand + " " + SEL.model + " " + SEL.gen;
+  document.getElementById("gen-years").textContent = SEL.years;
+  document.getElementById("gen-engine").textContent = (SEL.engLabel || "").split(" · ").slice(0,2).join(" ");
+  document.getElementById("gen-gearbox").textContent = SEL.gbLabel || "";
+  document.getElementById("gen-issues-sub").textContent =
+    ids.length + " позиций · " + first.length + " проверить первыми";
+  document.getElementById("gen-issues-stripe").className = "stripe " + (worst ? worst.sev : "warn");
+
+  const top = ids.map(id => ISSUES[id]).find(d => d.prio === 1);
+  document.getElementById("gen-alert").innerHTML = top
+    ? '<div class="note ' + (top.sev === "crit" ? "crit" : "warn") + '"><span><b>Проверить первым.</b> ' +
+      top.title + ' — ' + top.node.toLowerCase() + ', ' + top.when + '.</span></div>'
+    : "";
+}
+
+function renderIssues(){
+  const ids = activeIssues();
+  const first = ids.filter(id => ISSUES[id].prio === 1);
+  const rest  = ids.filter(id => ISSUES[id].prio !== 1);
+  const hidden = ISSUE_SEQ.length - ids.length;
+
+  let h = '<div class="note warn"><span>Отсортировано по тому, что смотреть раньше, а не по узлам.</span></div>';
+  h += '<p class="body-text" style="font-size:13px;margin:0 2px">Список собран под <b style="color:var(--ink)">' +
+       (SEL.engLabel || "").split(" · ").slice(0,2).join(" ") + '</b> и <b style="color:var(--ink)">' +
+       gbKey() + '</b>' +
+       (hidden ? '. Ещё ' + hidden + ' — к этой машине не относятся и скрыты' : '') + '.</p>';
+
+  if(first.length)
+    h += '<p class="sectionhead">Проверить первым делом</p><div class="card flush rows">' +
+         first.map(issueRow).join("") + '</div>';
+  if(rest.length)
+    h += '<p class="sectionhead">Остальное</p><div class="card flush rows">' +
+         rest.map(issueRow).join("") + '</div>';
+
+  document.getElementById("s-issues").innerHTML = h;
+}
 
 function renderIssue(id){
   const d = ISSUES[id] || ISSUES["oil-tube"];
@@ -1228,7 +1326,9 @@ const CATALOG = [
       {label:"CAGA · 2.0 TDI · 143 л.с.", gearboxes:["механика, 6 ступеней"]}]}]}]}
 ];
 
-const SEL = {brand:"Toyota", model:"Camry", genIdx:0, engIdx:1, gbIdx:0};
+const SEL = {brand:"Toyota", model:"Camry", genIdx:0, engIdx:1, gbIdx:0,
+             engLabel:"2GR-FE · 3.5 V6 · 277 л.с.", gbLabel:"U660E · автомат, 6 ступеней",
+             years:"2006–2011", gen:"XV40"};
 
 function renderBrands(){
   document.getElementById("brand-list").innerHTML = CATALOG.map((b, bi) => {
@@ -1276,6 +1376,11 @@ function renderPick(){
   document.getElementById("sel-gearbox").innerHTML =
     opt(e.gearboxes, SEL.gbIdx, x => x);
 
+  SEL.engLabel = e.label;
+  SEL.gbLabel = e.gearboxes[SEL.gbIdx];
+  SEL.years = g.years;
+  SEL.gen = g.gen;
+
   const single = e.gearboxes.length === 1;
   document.getElementById("sel-gearbox").disabled = single;
 
@@ -1318,14 +1423,6 @@ document.addEventListener("click", e => {
   }));
 
 /* ---------- чеклист осмотра ---------- */
-const ISSUE_ORDER = ["oil-tube","u660e","chain","valves","arms","radiator","maf","sunroof","stab"];
-const ISSUE_SUB = {
-  "oil-tube":"Двигатель · проверить первым",
-  "u660e":"Коробка · проверить первым",
-  "chain":"Двигатель · проверить первым",
-  "valves":"Двигатель", "arms":"Подвеска", "radiator":"Охлаждение",
-  "maf":"Двигатель", "sunroof":"Кузов · опция «люк»", "stab":"Подвеска"
-};
 const CHECK_STATE = {
   "i:oil-tube":{v:"found", c:"Металлопластиковая, следов замены нет"},
   "i:u660e":{v:"found", c:"Толчок при переходе на вторую, жидкость тёмная"},
@@ -1353,14 +1450,22 @@ function checkRow(key, title, sub){
 }
 
 function renderChecklist(){
+  const ids = activeIssues();
   document.getElementById("check-issues").innerHTML =
-    ISSUE_ORDER.map(id => checkRow("i:" + id, ISSUES[id].title, ISSUE_SUB[id])).join("");
+    ids.map(id => {
+      const d = ISSUES[id];
+      return checkRow("i:" + id, d.title, d.node + (d.prio === 1 ? " · проверить первым" : ""));
+    }).join("");
   document.getElementById("check-rust").innerHTML =
     RUST.map(r => checkRow("r:" + r.id, r.place, r.prev + " · " + r.where)).join("");
 
-  const done = k => Object.keys(CHECK_STATE).filter(x => x.startsWith(k) && CHECK_STATE[x].v !== "none").length;
-  const di = done("i:"), dr = done("r:"), total = ISSUE_ORDER.length + RUST.length;
-  document.getElementById("c-issues").textContent = di + "/" + ISSUE_ORDER.length;
+  const di = Object.keys(CHECK_STATE)
+    .filter(x => x.startsWith("i:") && CHECK_STATE[x].v !== "none" && ids.includes(x.slice(2))).length;
+  const dr = Object.keys(CHECK_STATE)
+    .filter(x => x.startsWith("r:") && CHECK_STATE[x].v !== "none").length;
+  const total = ids.length + RUST.length;
+
+  document.getElementById("c-issues").textContent = di + "/" + ids.length;
   document.getElementById("c-rust").textContent = dr + "/" + RUST.length;
   document.getElementById("check-count").textContent = (di + dr) + " из " + total;
   document.getElementById("check-bar").style.width = Math.round((di + dr) / total * 100) + "%";
@@ -1398,7 +1503,9 @@ function renderFindings(){
   const noteInput = document.getElementById("body-note");
   const bodyNote = noteInput ? noteInput.value.trim() : "";
 
-  const entries = Object.entries(CHECK_STATE);
+  const ids = activeIssues();
+  const relevant = k => k.startsWith("r:") || ids.includes(k.slice(2));
+  const entries = Object.entries(CHECK_STATE).filter(([k]) => relevant(k));
   const found = entries.filter(([, s]) => s.v === "found");
   const ok = entries.filter(([, s]) => s.v === "ok");
   const critFound = found.some(([k]) => k === "i:oil-tube");
@@ -1482,6 +1589,8 @@ function go(id, arg, viaBack){
   if(id === "dtc") title = renderDtc(arg || "p0171");
   if(id === "rust") title = renderRust(arg || "windshield");
   if(id === "pick") title = renderPick();
+  if(id === "generation") renderGeneration();
+  if(id === "issues") renderIssues();
   if(id === "inspection") renderChecklist();
   if(id === "report") renderFindings();
 
@@ -1509,7 +1618,11 @@ document.addEventListener("click", e => {
 });
 
 document.querySelectorAll('.pick[data-pick="opt"]').forEach(b => {
-  b.addEventListener("click", () => b.setAttribute("aria-pressed", b.getAttribute("aria-pressed") === "true" ? "false" : "true"));
+  b.addEventListener("click", () => {
+    const on = b.getAttribute("aria-pressed") !== "true";
+    b.setAttribute("aria-pressed", String(on));
+    OPTS[b.dataset.opt] = on;
+  });
 });
 
 const RUST = [
