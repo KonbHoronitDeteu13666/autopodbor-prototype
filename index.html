@@ -200,7 +200,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 /* ---------- nav ---------- */
 .tabbar{
   display:grid;
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns:repeat(3,1fr);
   border-top:1px solid var(--line);
   background:var(--surface);
 }
@@ -649,12 +649,7 @@ ol.steps li::before{
             </div>
 
             <p class="sectionhead">Недавние</p>
-            <div class="card flush rows">
-              <button class="row" data-go="generation">
-                <div class="grow"><span class="ttl">Toyota Camry, 2006–2011</span><span class="sub">3.5 V6 · U660E · данные от 18.09.2026</span></div>
-                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
-              </button>
-            </div>
+            <div class="card flush rows" id="recent-list"></div>
 
             <p class="sectionhead">Марки</p>
             <div class="card flush" id="brand-list"></div>
@@ -689,23 +684,7 @@ ol.steps li::before{
             <div id="pick-warning"></div>
 
             <p class="sectionhead">Что есть в машине</p>
-            <div class="pickgrid">
-              <button class="pick" aria-pressed="true" data-pick="opt" data-opt="sunroof">
-                <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
-                <span class="grow"><span class="ttl">Люк</span><span class="sub">видно снаружи и с водительского места</span></span>
-              </button>
-              <button class="pick" aria-pressed="true" data-pick="opt" data-opt="leather">
-                <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
-                <span class="grow"><span class="ttl">Кожаный салон</span><span class="sub">видно сразу</span></span>
-              </button>
-              <button class="pick" aria-pressed="false" data-pick="opt" data-opt="xenon">
-                <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
-                <span class="grow"><span class="ttl">Ксенон</span><span class="sub">линзы в фарах, холодный свет</span></span>
-              </button>
-              <button class="pick" aria-pressed="false" data-pick="opt" data-opt="camera">
-                <span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
-                <span class="grow"><span class="ttl">Камера заднего вида</span><span class="sub">картинка на экране при задней передаче</span></span>
-              </button>
+            <div class="pickgrid" id="opt-grid"></div>
             </div>
 
             <button class="btn" id="pick-next" data-go="generation">Дальше</button>
@@ -729,22 +708,22 @@ ol.steps li::before{
             <div class="card flush rows">
               <button class="row" data-go="issues">
                 <span class="stripe crit" id="gen-issues-stripe"></span>
-                <div class="grow"><span class="ttl">Неисправности</span><span class="sub" id="gen-issues-sub">9 позиций</span></div>
+                <div class="grow"><span class="ttl">Неисправности</span><span class="sub" id="gen-issues-sub">—</span></div>
                 <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
               </button>
               <button class="row" data-go="body">
                 <span class="stripe warn"></span>
-                <div class="grow"><span class="ttl">Кузов</span><span class="sub">нормы ЛКП · 7 очагов коррозии</span></div>
+                <div class="grow"><span class="ttl">Кузов</span><span class="sub" id="gen-body-sub">—</span></div>
                 <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
               </button>
               <button class="row" data-go="guide">
                 <span class="stripe warn"></span>
-                <div class="grow"><span class="ttl">Инструкции</span><span class="sub">3 пошаговых · для новичка</span></div>
+                <div class="grow"><span class="ttl">Инструкции</span><span class="sub" id="gen-guide-sub">—</span></div>
                 <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
               </button>
               <button class="row" data-go="codes">
                 <span class="stripe warn"></span>
-                <div class="grow"><span class="ttl">Коды ошибок</span><span class="sub">расшифровка под этот мотор</span></div>
+                <div class="grow"><span class="ttl">Коды ошибок</span><span class="sub" id="gen-codes-sub">—</span></div>
                 <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
               </button>
             </div>
@@ -758,66 +737,13 @@ ol.steps li::before{
           <section class="screen" id="s-issue"></section>
 
           <!-- 6 КУЗОВ -->
-          <section class="screen" id="s-body">
-            <div class="card">
-              <p class="sectionhead" style="margin:0 0 9px">Нормы толщины краски</p>
-              <dl class="summary">
-                <div><dt>Заводская</dt><dd>100–130</dd></div>
-                <div><dt>Перекрас</dt><dd style="color:var(--warn)">200+</dd></div>
-                <div><dt>Шпаклёвка</dt><dd style="color:var(--bad)">300+</dd></div>
-              </dl>
-              <p class="body-text" style="margin-top:10px">Значения в микронах. Смотреть надо не на цифру, а на ровность: если по всему кузову 110–125, а на одном крыле 247 — красили именно его.</p>
-            </div>
-
-            <div class="note info">
-              <span><b>Весь кузов стальной.</b> Подойдёт самый дешёвый магнитный толщиномер. Алюминий у Camry появился только с XV70 — там магнитный прибор на капоте показал бы ноль.</span>
-            </div>
-
-            <div class="card">
-              <p class="sectionhead" style="margin:0 0 7px">Стойкость покрытия</p>
-              <p class="body-text">Лак слабый: к ста тысячам заметно тускнеет, плохо держит реагенты и камни, передний бампер страдает первым. При этом по сопротивлению коррозии машина в классе одна из лучших.</p>
-              <p class="body-text"><b style="color:var(--ink)">Вывод для осмотра.</b> Затёртый лак и сколы на бампере — норма возраста, а не запущенность. Смотреть надо туда, где металл гниёт скрытно.</p>
-            </div>
-
-            <p class="sectionhead">Где гниёт · 7 мест</p>
-            <p class="body-text" style="margin:0 2px;font-size:13px"><b style="color:var(--ink)">Сверху то, что важнее.</b> Полоса слева — насколько серьёзно, чип справа — во сколько обойдётся ремонт, слово под названием — как часто встречается. Ржавые болты под капотом бывают почти у всех и ни на что не влияют.</p>
-            <div class="card flush rows" id="rust-list"></div>
-
-            <div class="note warn">
-              <span>Все места, кроме днища, проверяются руками и фонарём без подъёмника. Днище — отдельный пункт: либо смотровая яма, либо остаётся неизвестным.</span>
-            </div>
-          </section>
+          <section class="screen" id="s-body"></section>
 
           <!-- 6a ОЧАГ КОРРОЗИИ -->
           <section class="screen" id="s-rust"></section>
 
           <!-- 7 ИНСТРУКЦИЯ -->
-          <section class="screen" id="s-guide">
-            <div style="display:flex;justify-content:space-between;align-items:baseline">
-              <span class="chip neutral">Шаг 2 из 4</span>
-              <span class="mono" style="font-size:12px;color:var(--muted)">Подкапотное пространство</span>
-            </div>
-
-            <div class="card">
-              <h4 class="blockttl">Найти масляную трубку VVT-i</h4>
-              <p class="body-text" style="font-size:16px;color:var(--ink);line-height:1.5">Встаньте перед машиной со стороны водителя. Трубка идёт от передней части двигателя вверх, слева от крышки ремня привода — примерно на уровне ваших локтей.</p>
-            </div>
-
-            <div class="note info">
-              <span><b>Подсказка для новичка.</b> Это единственная тонкая трубка в том месте. Толстые чёрные шланги рядом — система охлаждения, их трогать не надо.</span>
-            </div>
-
-            <div class="card">
-              <p class="sectionhead" style="margin:0 0 6px">Что должно получиться</p>
-              <p class="body-text">Вы видите трубку целиком, от нижнего крепления до верхнего. Если середина чёрная и матовая — она металлопластиковая, это плохой вариант.</p>
-            </div>
-
-            <div style="display:flex;gap:9px">
-              <button class="btn quiet" style="flex:1">Назад</button>
-              <button class="btn" style="flex:2">Шаг пройден</button>
-            </div>
-          </section>
-
+          <section class="screen" id="s-guide"></section>
           <!-- 8 КОДЫ ОШИБОК -->
           <section class="screen" id="s-codes"></section>
 
@@ -872,51 +798,6 @@ ol.steps li::before{
             </div>
           </section>
 
-          <!-- 12 ПРОФИЛЬ -->
-          <section class="screen" id="s-profile">
-            <div class="card">
-              <p class="sectionhead" style="margin:0 0 8px">Аккаунт</p>
-              <div class="reportline"><span class="lbl">Почта</span><span class="val">ivan@example.ru</span></div>
-              <div class="reportline"><span class="lbl">Осмотров проведено</span><span class="val mono">47</span></div>
-            </div>
-
-            <div class="card">
-              <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:9px">
-                <span class="sectionhead" style="margin:0">Подписка</span>
-                <span class="chip ok">Активна</span>
-              </div>
-              <div class="reportline"><span class="lbl">Тариф</span><span class="val">Годовой</span></div>
-              <div class="reportline"><span class="lbl">Действует до</span><span class="val">14 марта 2027</span></div>
-              <div class="reportline"><span class="lbl">Оплата</span><span class="val">RuStore</span></div>
-              <button class="link" style="margin-top:10px;font-size:13.5px">Управлять подпиской</button>
-            </div>
-
-            <div class="card">
-              <p class="sectionhead" style="margin:0 0 8px">Данные о машинах</p>
-              <div class="reportline"><span class="lbl">Моделей в каталоге</span><span class="val mono">15</span></div>
-              <div class="reportline"><span class="lbl">Обновлены</span><span class="val">18.09.2026, 09:12</span></div>
-              <div class="reportline"><span class="lbl">Занято на телефоне</span><span class="val mono">2,8 МБ</span></div>
-              <button class="btn quiet" style="margin-top:11px">Проверить обновления</button>
-            </div>
-
-            <div class="card flush rows">
-              <button class="row">
-                <div class="grow"><span class="ttl">OBD-адаптер</span><span class="sub">ELM327 v1.5 · подключался сегодня</span></div>
-                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
-              </button>
-              <button class="row">
-                <div class="grow"><span class="ttl">Журнал связи с адаптером</span><span class="sub">отправить в поддержку, если не подключается</span></div>
-                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
-              </button>
-              <button class="row">
-                <div class="grow"><span class="ttl">Шаблон отчёта</span><span class="sub">что попадает в PDF и подпись внизу</span></div>
-                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
-              </button>
-            </div>
-
-            <button class="btn quiet">Выйти из аккаунта</button>
-          </section>
-
         </div>
 
         <nav class="tabbar" id="tabbar">
@@ -932,12 +813,9 @@ ol.steps li::before{
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4.5l3 1.8"/></svg>
             История
           </button>
-          <button data-go="profile" data-tab="profile">
-            <svg viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.5"/><path d="M5 20c1.4-3.6 4-5.4 7-5.4s5.6 1.8 7 5.4"/></svg>
-            Профиль
-          </button>
         </nav>
       </div>
+    </div>
     </div>
 
 <script>
@@ -1322,159 +1200,10 @@ function renderDtc(id){
   return d.code;
 }
 
-/* ---------- каталог ---------- */
-const CATALOG = [
-  {brand:"Toyota", models:[
-    {name:"Camry", gens:[
-      {years:"2006–2011", gen:"XV40", ready:true, engines:[
-        {label:"2AZ-FE · 2.4 · 167 л.с.", gearboxes:["U250E · автомат, 5 ступеней"]},
-        {label:"2GR-FE · 3.5 V6 · 277 л.с.", gearboxes:["U660E · автомат, 6 ступеней"]}]},
-      {years:"2011–2017", gen:"XV50", ready:false, engines:[
-        {label:"2AR-FE · 2.5 · 181 л.с.", gearboxes:["U760E · автомат, 6 ступеней"]},
-        {label:"2GR-FE · 3.5 V6 · 249 л.с.", gearboxes:["U660E · автомат, 6 ступеней"]}]}]},
-    {name:"RAV4", gens:[
-      {years:"2012–2018", gen:"XA40", ready:false, engines:[
-        {label:"3ZR-FE · 2.0 · 146 л.с.", gearboxes:["вариатор"]},
-        {label:"2AR-FE · 2.5 · 180 л.с.", gearboxes:["U760E · автомат, 6 ступеней"]}]}]}]},
-  {brand:"Mazda", models:[
-    {name:"6", gens:[{years:"2012–2018", gen:"GJ", ready:false, engines:[
-      {label:"PE-VPS · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней","механика, 6 ступеней"]},
-      {label:"PY-VPS · 2.5 · 192 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]},
-    {name:"CX-5", gens:[{years:"2011–2017", gen:"KE", ready:false, engines:[
-      {label:"PE-VPS · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней"]},
-      {label:"PY-VPS · 2.5 · 192 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]}]},
-  {brand:"Volkswagen", models:[
-    {name:"Passat", gens:[{years:"2010–2015", gen:"B7", ready:false, engines:[
-      {label:"CAXA · 1.4 TSI · 122 л.с.", gearboxes:["DSG-7","механика, 6 ступеней"]},
-      {label:"CCZB · 1.8 TSI · 152 л.с.", gearboxes:["DSG-7"]}]}]},
-    {name:"Tiguan", gens:[{years:"2007–2016", gen:"5N", ready:false, engines:[
-      {label:"CAWA · 2.0 TSI · 170 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]}]},
-  {brand:"Kia", models:[
-    {name:"Optima", gens:[{years:"2015–2020", gen:"JF", ready:false, engines:[
-      {label:"G4NA · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней"]},
-      {label:"G4KJ · 2.4 GDI · 188 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]},
-    {name:"Sportage", gens:[{years:"2015–2021", gen:"QL", ready:false, engines:[
-      {label:"G4NA · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней"]},
-      {label:"D4HA · 2.0 CRDi · 185 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]}]},
-  {brand:"Hyundai", models:[
-    {name:"Tucson", gens:[{years:"2015–2020", gen:"TL", ready:false, engines:[
-      {label:"G4NA · 2.0 · 150 л.с.", gearboxes:["автомат, 6 ступеней"]}]}]}]},
-  {brand:"Nissan", models:[
-    {name:"X-Trail", gens:[{years:"2007–2014", gen:"T31", ready:false, engines:[
-      {label:"MR20DE · 2.0 · 141 л.с.", gearboxes:["вариатор","механика, 6 ступеней"]},
-      {label:"QR25DE · 2.5 · 169 л.с.", gearboxes:["вариатор"]}]}]},
-    {name:"Qashqai", gens:[{years:"2013–2019", gen:"J11", ready:false, engines:[
-      {label:"MR20DD · 2.0 · 144 л.с.", gearboxes:["вариатор"]},
-      {label:"HR16DE · 1.6 · 117 л.с.", gearboxes:["вариатор","механика, 5 ступеней"]}]}]}]},
-  {brand:"BMW", models:[
-    {name:"3 серии", gens:[{years:"2011–2019", gen:"F30", ready:false, engines:[
-      {label:"N20B20 · 2.0 · 184 л.с.", gearboxes:["автомат, 8 ступеней"]},
-      {label:"N55B30 · 3.0 · 306 л.с.", gearboxes:["автомат, 8 ступеней"]}]}]}]},
-  {brand:"Mercedes-Benz", models:[
-    {name:"C-класс", gens:[{years:"2007–2014", gen:"W204", ready:false, engines:[
-      {label:"M271 · 1.8 · 156 л.с.", gearboxes:["автомат, 7 ступеней"]},
-      {label:"M276 · 3.5 · 306 л.с.", gearboxes:["автомат, 7 ступеней"]}]}]}]},
-  {brand:"Audi", models:[
-    {name:"A4", gens:[{years:"2007–2015", gen:"B8", ready:false, engines:[
-      {label:"CDNC · 2.0 TFSI · 211 л.с.", gearboxes:["мультитроник","автомат, 8 ступеней"]},
-      {label:"CAGA · 2.0 TDI · 143 л.с.", gearboxes:["механика, 6 ступеней"]}]}]}]}
-];
-
 const SEL = {brand:"Toyota", model:"Camry", genIdx:0, engIdx:1, gbIdx:0,
              engLabel:"2GR-FE · 3.5 V6 · 277 л.с.", gbLabel:"U660E · автомат, 6 ступеней",
              years:"2006–2011", gen:"XV40"};
 
-function renderBrands(){
-  document.getElementById("brand-list").innerHTML = CATALOG.map((b, bi) => {
-    const models = b.models.map((m, mi) => {
-      const ready = m.gens.some(g => g.ready);
-      return '<button class="modelrow" data-brand="' + bi + '" data-model="' + mi + '">' +
-        '<span class="grow"><span>' + m.name + '</span>' +
-        '<span class="sub">' + m.gens.map(g => g.years).join(", ") + '</span></span>' +
-        (ready ? '<span class="chip ok">Готово</span>' : '<span class="chip neutral">В наполнении</span>') +
-        '</button>';
-    }).join("");
-    return '<button class="brandrow" data-brandtoggle="' + bi + '" aria-expanded="false">' +
-        '<svg class="caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>' +
-        '<span class="grow">' + b.brand + '</span>' +
-        '<span class="cnt">' + b.models.length + '</span>' +
-      '</button>' +
-      '<div class="models" data-models="' + bi + '" hidden>' + models + '</div>';
-  }).join("");
-}
-
-function currentModel(){
-  const b = CATALOG.find(x => x.brand === SEL.brand);
-  return b ? b.models.find(m => m.name === SEL.model) : null;
-}
-
-function renderPick(){
-  const m = currentModel();
-  if(!m) return "Выбор машины";
-  const gens = m.gens;
-  if(SEL.genIdx >= gens.length) SEL.genIdx = 0;
-  const g = gens[SEL.genIdx];
-  if(SEL.engIdx >= g.engines.length) SEL.engIdx = 0;
-  const e = g.engines[SEL.engIdx];
-  if(SEL.gbIdx >= e.gearboxes.length) SEL.gbIdx = 0;
-
-  document.getElementById("pick-car").textContent = SEL.brand + " " + m.name;
-
-  const opt = (arr, cur, fmt) => arr.map((x, i) =>
-    '<option value="' + i + '"' + (i === cur ? " selected" : "") + '>' + fmt(x) + '</option>').join("");
-
-  document.getElementById("sel-year").innerHTML =
-    opt(gens, SEL.genIdx, x => x.years + " · " + x.gen);
-  document.getElementById("sel-engine").innerHTML =
-    opt(g.engines, SEL.engIdx, x => x.label);
-  document.getElementById("sel-gearbox").innerHTML =
-    opt(e.gearboxes, SEL.gbIdx, x => x);
-
-  SEL.engLabel = e.label;
-  SEL.gbLabel = e.gearboxes[SEL.gbIdx];
-  SEL.years = g.years;
-  SEL.gen = g.gen;
-
-  const single = e.gearboxes.length === 1;
-  document.getElementById("sel-gearbox").disabled = single;
-
-  const next = document.getElementById("pick-next");
-  document.getElementById("pick-warning").innerHTML = g.ready
-    ? (single ? '<p class="body-text" style="margin:0 2px;font-size:13px">С этим мотором других коробок не ставилось.</p>' : "")
-    : '<div class="note warn"><span><b>Данные по этому поколению ещё готовятся.</b> Сейчас доступна Toyota Camry 2006–2011.</span></div>';
-  next.style.opacity = g.ready ? "1" : ".45";
-  next.style.pointerEvents = g.ready ? "auto" : "none";
-
-  return SEL.brand + " " + m.name;
-}
-
-document.addEventListener("click", e => {
-  const bt = e.target.closest("[data-brandtoggle]");
-  if(bt){
-    const list = document.querySelector('[data-models="' + bt.dataset.brandtoggle + '"]');
-    const open = bt.getAttribute("aria-expanded") === "true";
-    bt.setAttribute("aria-expanded", String(!open));
-    list.hidden = open;
-    return;
-  }
-  const mr = e.target.closest("[data-model]");
-  if(mr){
-    const b = CATALOG[+mr.dataset.brand];
-    SEL.brand = b.brand;
-    SEL.model = b.models[+mr.dataset.model].name;
-    SEL.genIdx = 0; SEL.engIdx = 0; SEL.gbIdx = 0;
-    go("pick");
-  }
-});
-
-["sel-year","sel-engine","sel-gearbox"].forEach(id =>
-  document.addEventListener("change", e => {
-    if(e.target.id !== id) return;
-    if(id === "sel-year"){ SEL.genIdx = +e.target.value; SEL.engIdx = 0; SEL.gbIdx = 0; }
-    if(id === "sel-engine"){ SEL.engIdx = +e.target.value; SEL.gbIdx = 0; }
-    if(id === "sel-gearbox"){ SEL.gbIdx = +e.target.value; }
-    renderPick();
-  }));
 
 /* ---------- коды ошибок ---------- */
 const ADDED_CODES = ["p0171"];
@@ -1722,11 +1451,13 @@ function go(id, arg, viaBack){
   currentArg = arg || null;
 
   let title = s.title;
-  if(id === "issue") title = renderIssue(arg || "oil-tube");
-  if(id === "dtc") title = renderDtc(arg || "p0171");
-  if(id === "rust") title = renderRust(arg || "windshield");
+  if(id === "issue") title = renderIssue(arg);
+  if(id === "dtc") title = renderDtc(arg);
+  if(id === "rust") title = renderRust(arg);
   if(id === "pick") title = renderPick();
   if(id === "generation") renderGeneration();
+  if(id === "body") title = renderBody();
+  if(id === "guide") title = renderGuide();
   if(id === "issues") renderIssues();
   if(id === "inspection"){ renderChecklist(); renderInspCodes(); }
   if(id === "report") renderFindings();
@@ -1753,14 +1484,6 @@ backBtn.addEventListener("click", () => {
 document.addEventListener("click", e => {
   const t = e.target.closest("[data-go]");
   if(t) go(t.dataset.go, t.dataset.issue || t.dataset.dtc || t.dataset.rust || null);
-});
-
-document.querySelectorAll('.pick[data-pick="opt"]').forEach(b => {
-  b.addEventListener("click", () => {
-    const on = b.getAttribute("aria-pressed") !== "true";
-    b.setAttribute("aria-pressed", String(on));
-    OPTS[b.dataset.opt] = on;
-  });
 });
 
 const RUST = [
@@ -1834,6 +1557,2079 @@ function renderRust(id){
   return r.place;
 }
 
+
+const CARS = {};
+/* ---------- Toyota ---------- */
+CARS["camry-xv50"] = {
+  brand:"Toyota", model:"Camry", gen:"XV50", years:"2011–2017", body:"седан", updated:"19.09.2026",
+  engines:[
+    {key:"2AR-FE", label:"2AR-FE · 2.5 · 181 л.с.", gearboxes:["U760E · автомат, 6 ступеней"]},
+    {key:"2GR-FE", label:"2GR-FE · 3.5 V6 · 249 л.с.", gearboxes:["U660E · автомат, 6 ступеней"]}
+  ],
+  options:[
+    {id:"sunroof", name:"Люк", spot:"видно снаружи и с водительского места"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"xenon", name:"Ксенон", spot:"линзы в фарах, холодный свет"},
+    {id:"camera", name:"Камера заднего вида", spot:"картинка на экране при задней передаче"}
+  ],
+  paint:{min:95, max:125, repaint:200, filler:300,
+    material:"Весь кузов стальной. Годится любой магнитный толщиномер.",
+    quality:"Лак тоньше, чем у XV40, и хуже держит сколы. Капот и передний бампер к ста тысячам обычно уже в мелких точках — это возраст, а не запущенность."},
+  rust:[
+    {id:"arches", place:"Кромки арок задних крыльев", where:"загиб по всей длине", prev:"частое", sev:"warn", cost:["warn","Средний"],
+     why:"Тонкий лак плюс реагенты. У машин из Москвы и Петербурга вылезает раньше, чем у южных.",
+     how:["Присесть у заднего колеса и провести пальцем по загибу арки.","Искать вздутия краски — коррозия идёт изнутри.","Повторить с другой стороны, гниёт несимметрично."]},
+    {id:"liners", place:"Под подкрылками", where:"верх арки и стык с порогом", prev:"частое", sev:"warn", cost:["warn","Средний"],
+     why:"Грязь между подкрылком и крылом держит воду.",
+     how:["Вывернуть колесо, отогнуть край подкрылка.","Посветить фонарём в верх арки и на стык с порогом.","Мокрая слежавшаяся грязь — начало процесса."]},
+    {id:"trunk", place:"Кромка крышки багажника", where:"под резинкой у номера", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Вода задерживается под уплотнителем и у площадки подсветки номера.",
+     how:["Открыть багажник, отогнуть уплотнитель по нижней кромке.","Посмотреть вокруг площадки номера и фонарей.","Вздутия под краской — уже коррозия."]},
+    {id:"floor", place:"Пол под ковром у водителя", where:"под ковролином", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Вода с обуви зимой не испаряется под ковром.",
+     how:["Поднять коврик, отогнуть край ковролина у порога.","Пощупать рукой: сырость или жёсткий налёт.","Заодно понюхать салон в сухую погоду."]},
+    {id:"bolts", place:"Крепёж под капотом", where:"болты крыльев и петель", prev:"частое", sev:"ok", cost:["ok","Недорогой"],
+     why:"Обычный крепёж, ржавеет сам по себе и кузову не вредит.",
+     how:["Открыть капот, посмотреть на болты крыльев и петель.","Ржавые — норма для возраста.","Блестящие новые на десятилетней машине означают, что деталь снимали."]}
+  ],
+  issueSeq:["oil-burn25","u760e","chain50","rack","valves50","radiator50","maf50","sunroof50","noise"],
+  issues:{
+    "oil-burn25":{title:"Расход масла на 2AR-FE", short:"Расход масла", eng:"2AR-FE", node:"Двигатель", when:"от 150 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","2AR-FE 2.5"]],
+      desc:"Мотор спокойнее, чем 2AZ-FE у прошлого поколения, но кольца закоксовываются на тех же пробегах, особенно при длинных интервалах замены масла и городском режиме.",
+      alert:["warn","<b>Симптомы.</b> Уровень падает между заменами, сизый дым при резком газе, нагар на свечах."],
+      steps:["Вынуть щуп на холодном моторе: уровень у нижней метки при свежей замене — плохой знак.",
+             "Спросить, доливает ли масло и сколько. Владельцы отвечают честно, для них это рутина.",
+             "Открутить маслозаливную крышку на работающем моторе: сильный выхлоп из горловины — прорыв газов.",
+             "Попросить погазовать и посмотреть в выхлоп со стороны."],
+      costs:[["Раскоксовка","Недорогой","ok"],["Ремонт поршневой","Дорогой","bad"]], codes:[["p0300","P0300","Пропуски зажигания"]]},
+    "u760e":{title:"Толчки автомата U760E", short:"Автомат U760E", gb:"U760E", node:"Коробка", when:"от 120 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Коробка"],["neutral","от 120 000 км"]],
+      desc:"Коробка крепче шестиступенчатой с XV40, но живёт ровно столько, сколько ей меняют жидкость. Продукты износа блокировки гидротрансформатора забивают гидроблок.",
+      alert:["warn","<b>Симптомы.</b> Толчок при переходе на вторую, вибрация при разгоне на малых оборотах."],
+      steps:["Проехать не меньше десяти километров в городе со светофорами.",
+             "Отдельно проверить трогание и переход на вторую.",
+             "Посмотреть цвет жидкости: тёмная с запахом гари — коробка в работе.",
+             "Спросить интервал замены. «Залита на весь срок» означает, что не меняли."],
+      costs:[["Ремонт","Дорогой","bad"]], codes:[]},
+    "chain50":{title:"Растяжение цепи ГРМ", short:"Цепь ГРМ", node:"Двигатель", when:"от 150 000 км",
+      sev:"bad", cost:["warn","Средний"], prio:1,
+      chips:[["bad","Средняя"],["neutral","Двигатель"],["neutral","оба мотора"]],
+      desc:"Цепь вытягивается, натяжитель выбирает ход до предела.",
+      alert:["warn","<b>Смотреть только на холодной машине.</b> На прогретом моторе цепь не слышно."],
+      steps:["Договориться смотреть машину, простоявшую ночь.","Послушать первый запуск у открытого капота.",
+             "Металлический треск первые две-три секунды — цепь растянута."],
+      costs:[["Ремонт","Средний","warn"]], codes:[]},
+    "rack":{title:"Стук рулевой рейки", short:"Рулевая рейка", node:"Рулевое", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Рулевое"],["neutral","от 100 000 км"]],
+      desc:"Слабое место поколения. Вода попадает под пыльник, втулки изнашиваются, появляется люфт и стук на мелких неровностях.",
+      alert:null,
+      steps:["Проехать по мелким неровностям на малой скорости с открытым окном.","Покачать руль влево-вправо на месте — люфта и щелчков быть не должно.",
+             "Осмотреть пыльники рейки: порванный означает, что внутрь давно идёт вода.","Спросить, меняли ли рейку. Замена на этой машине массовая."],
+      costs:[["Ремонт или замена","Средний","warn"]], codes:[]},
+    "valves50":{title:"Регулировка клапанов", short:"Клапаны", eng:"2GR-FE", node:"Двигатель", when:"каждые 80–100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Низкая"],["neutral","Двигатель"],["neutral","2GR-FE 3.5"]],
+      desc:"Гидрокомпенсаторов нет, зазоры регулируются шайбами. Работу массово пропускают.",
+      alert:null,
+      steps:["Послушать мотор на холостых с открытым капотом.","Цокот от головки блока — зазоры ушли.","Спросить заказ-наряд на регулировку."],
+      costs:[["Ремонт","Средний","warn"]], codes:[]},
+    "radiator50":{title:"Забитый радиатор", short:"Радиатор", node:"Охлаждение", when:"от 120 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Охлаждение"],["neutral","от 120 000 км"]],
+      desc:"Соты забиваются грязью и тополиным пухом, мотор начинает греться в пробках.",
+      alert:null,
+      steps:["Посмотреть на радиатор на просвет спереди.","Поискать следы антифриза снизу.","Проверить цвет жидкости в расширительном бачке."],
+      costs:[["Промывка или замена","Средний","warn"]], codes:[]},
+    "maf50":{title:"Загрязнение дросселя", short:"Дроссель", node:"Двигатель", when:"от 120 000 км",
+      sev:"ok", cost:["ok","Недорогой"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Двигатель"],["neutral","от 120 000 км"]],
+      desc:"Масляный налёт из вентиляции картера садится на заслонку, обороты начинают плавать.",
+      alert:["info","<b>Симптомы.</b> Плавающие обороты, провалы при трогании."],
+      steps:["Снять патрубок воздуховода, он на хомуте.","Посмотреть на налёт внутри и на заслонке."],
+      costs:[["Чистка","Недорогой","ok"]], codes:[["p0171","P0171","Бедная смесь, банк 1"]]},
+    "sunroof50":{title:"Течь люка", short:"Люк", opt:"sunroof", node:"Кузов", when:"только с люком",
+      sev:"ok", cost:["ok","Недорогой"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","только с люком"]],
+      desc:"Дренажные трубки забиваются, вода идёт по стойкам в салон.",
+      alert:["info","<b>Показано потому, что вы отметили люк.</b>"],
+      steps:["Открыть люк, посмотреть на желоба по периметру.","Пощупать потолок по углам и верх передних стоек.","Поднять передние коврики."],
+      costs:[["Прочистка дренажа","Недорогой","ok"]], codes:[]},
+    "noise":{title:"Скрипы панели и обивки", short:"Скрипы", node:"Салон", when:"от 3 лет",
+      sev:"ok", cost:["ok","Недорогой"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Салон"],["neutral","от 3 лет"]],
+      desc:"Пластик тонкий, крепления слабые. К торгу отношения почти не имеет, но говорит о том, как машину эксплуатировали.",
+      alert:null,
+      steps:["Проехать по неровностям с выключенной музыкой.","Нажать ладонью на панель у лобового стекла и на дверные карты."],
+      costs:[["Проклейка","Недорогой","ok"]], codes:[]}
+  },
+  dtc:{
+    "p0171":{code:"P0171", urgency:["warn","Срочность средняя"],
+      summary:"Бедная смесь, банк 1. Двигатель получает больше воздуха или меньше топлива, чем рассчитывает блок.",
+      causes:"Грязная дроссельная заслонка, подсос воздуха по патрубкам, изношенный топливный насос.",
+      consequence:["bad","<b>К чему приведёт.</b> Долгая работа на бедной смеси перегревает катализатор. Чистка дросселя недорогая, замена катализатора дорогая."],
+      order:"Если рядом висит P0300, начинать с этого кода: пропуски часто его следствие.",
+      issues:[["maf50","Загрязнение дросселя","Часто · недорогой ремонт","ok"]]},
+    "p0300":{code:"P0300", urgency:["bad","Срочность высокая"],
+      summary:"Пропуски зажигания, цилиндр не определён.",
+      causes:"Катушки зажигания, свечи с просроченным интервалом, следствие бедной смеси. На моторе с большим расходом масла — износ поршневой.",
+      consequence:["bad","<b>К чему приведёт.</b> Несгоревшее топливо уходит в катализатор и разрушает его."],
+      order:"Смотреть вместе с расходом масла: если мотор ест масло, пропуски могут быть следствием износа.",
+      issues:[["oil-burn25","Расход масла на 2AR-FE","Вероятно · дорогой ремонт","bad"]]},
+    "p0420":{code:"P0420", urgency:["ok","Срочность низкая"],
+      summary:"Эффективность катализатора ниже порога.",
+      causes:"Часто виноват задний кислородный датчик, а не катализатор. Проверять датчик до того, как считать замену.",
+      consequence:["warn","<b>К чему приведёт.</b> Само по себе ничего. Но код бывает верхушкой: за ним стоят пропуски или богатая смесь."],
+      order:"Код возвращается не сразу после сброса. Если он висит как ожидающий, память чистили недавно.",
+      issues:[]}
+  },
+  guides:[
+    {title:"Проверить рулевую рейку", cat:"Рулевое",
+     steps:[{t:"Сядьте за руль на стоящей машине и покачайте руль влево-вправо в пределах свободного хода.", h:"Свободный ход должен быть еле заметным, без щелчков.", r:"Руль отзывается сразу, посторонних звуков нет."},
+            {t:"Проедьте по мелким неровностям со скоростью 20–30 км/ч с открытым окном.", h:"Слушайте не подвеску, а звук из-под передней панели по центру.", r:"Стука в районе рулевой колонки нет."},
+            {t:"Загляните под машину на передние пыльники рейки — это резиновые гофры по краям.", h:"Порванный пыльник означает, что внутрь давно идёт вода и грязь.", r:"Гофры целые, без трещин и потёков."}]},
+    {title:"Оценить расход масла за пять минут", cat:"Двигатель",
+     steps:[{t:"Откройте капот на холодном моторе и вытащите щуп.", h:"Масло должно быть между метками, не у нижней.", r:"Уровень в норме, масло не чёрное как смоль."},
+            {t:"Заведите мотор и открутите маслозаливную крышку.", h:"Слабое дыхание — норма, сильный выхлоп с дымом — прорыв газов в картер.", r:"Из горловины не бьёт."},
+            {t:"Попросите владельца газануть, встаньте сбоку и посмотрите в выхлоп.", h:"Сизый дым при сбросе газа — маслосъёмные кольца.", r:"Выхлоп чистый."}]}
+  ]
+};
+
+CARS["rav4-xa40"] = {
+  brand:"Toyota", model:"RAV4", gen:"XA40", years:"2012–2018", body:"кроссовер", updated:"19.09.2026",
+  engines:[
+    {key:"3ZR-FE", label:"3ZR-FE · 2.0 · 146 л.с.", gearboxes:["K111 · вариатор"]},
+    {key:"2AR-FE", label:"2AR-FE · 2.5 · 180 л.с.", gearboxes:["U760E · автомат, 6 ступеней"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод", spot:"шильдик AWD сзади, кардан под днищем"},
+    {id:"sunroof", name:"Люк", spot:"видно снаружи"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"camera", name:"Камера заднего вида", spot:"картинка при задней передаче"}
+  ],
+  paint:{min:90, max:120, repaint:190, filler:300,
+    material:"Кузов стальной, подойдёт любой толщиномер.",
+    quality:"Лак тонкий даже по меркам Toyota. Сколы на капоте и передних стойках к сотне тысяч — норма."},
+  rust:[
+    {id:"sills", place:"Пороги под накладками", where:"под пластиковыми накладками", prev:"частое", sev:"bad", cost:["bad","Дорогой"],
+     why:"Под накладкой копится грязь и не сохнет. Снаружи порог выглядит целым.",
+     how:["Открыть дверь и осмотреть край порога у самой накладки.","Если накладка снимается на защёлках — заглянуть под неё.","Вздутия по кромке означают, что процесс идёт изнутри."]},
+    {id:"arches", place:"Кромки арок", where:"загиб, все четыре", prev:"частое", sev:"warn", cost:["warn","Средний"],
+     why:"Пескоструй от колёс по тонкому лаку.",
+     how:["Провести пальцем по загибу каждой арки.","Искать вздутия и рыжие точки.","Смотреть все четыре: гниют несимметрично."]},
+    {id:"tailgate", place:"Пятая дверь", where:"нижняя кромка и под фонарями", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Вода задерживается в нижней кромке двери багажника.",
+     how:["Открыть багажник, осмотреть нижнюю кромку изнутри.","Отогнуть уплотнитель.","Посмотреть вокруг фонарей."]},
+    {id:"subframe", place:"Подрамник и днище", where:"сварные швы", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Реагенты плюс отсутствие обработки.",
+     how:["Нужна яма или подъёмник.","Осмотреть швы пола и подрамник.","Без ямы честнее оставить пункт непроверенным."]}
+  ],
+  issueSeq:["cvt-k111","oil-burn20","rack40","awd-coupling","chain40","susp40","paint40"],
+  issues:{
+    "cvt-k111":{title:"Вариатор K111", short:"Вариатор", gb:"K111", node:"Коробка", when:"от 120 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Коробка"],["neutral","вариатор"]],
+      desc:"Для вариатора K111 ведёт себя прилично, но ремонт стоит как половина машины. Любой посторонний шум, задержка при разгоне или рывок — это уже деньги.",
+      alert:["warn","<b>Главное правило.</b> У вариатора нет «немного пинается». Есть исправный и есть дорогой."],
+      steps:["Проехать не меньше пятнадцати километров, обязательно с разгонами до 80–100.",
+             "Разогнаться в горку: пробуксовка ремня чувствуется как провал при растущих оборотах.",
+             "Послушать на ходу: гул или вой, меняющийся со скоростью, — конус или подшипники.",
+             "Спросить интервал замены жидкости. Правильно — каждые 40–60 тысяч. Ответ «не меняется» означает убитый вариатор в перспективе."],
+      costs:[["Замена жидкости","Средний","warn"],["Ремонт вариатора","Дорогой","bad"]], codes:[]},
+    "oil-burn20":{title:"Расход масла на 3ZR-FE", short:"Расход масла", eng:"3ZR-FE", node:"Двигатель", when:"от 150 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","3ZR-FE 2.0"]],
+      desc:"Закоксовка колец при длинных интервалах замены. Мотор при этом продолжает ездить, и владельцы просто доливают.",
+      alert:["warn","<b>Симптомы.</b> Уровень падает между заменами, сизый дым при резком газе."],
+      steps:["Проверить уровень и состояние масла на холодном моторе.","Спросить про долив между заменами.",
+             "Открутить крышку маслозаливной горловины на работающем моторе.","Посмотреть в выхлоп при резком газе."],
+      costs:[["Раскоксовка","Недорогой","ok"],["Ремонт поршневой","Дорогой","bad"]], codes:[["p0300","P0300","Пропуски зажигания"]]},
+    "rack40":{title:"Стук рулевой рейки", short:"Рулевая рейка", node:"Рулевое", when:"от 150 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Рулевое"],["neutral","от 150 000 км"]],
+      desc:"Вода попадает через изношенный сальник, втулки корродируют, появляется люфт. На плохих дорогах вылезает раньше.",
+      alert:null,
+      steps:["Проехать по мелким неровностям с открытым окном.","Покачать руль на месте, слушая стук из-под панели.","Осмотреть пыльники рейки."],
+      costs:[["Ремонт или замена","Средний","warn"]], codes:[]},
+    "awd-coupling":{title:"Муфта полного привода", short:"Муфта AWD", opt:"awd", node:"Трансмиссия", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Трансмиссия"],["neutral","только с полным приводом"]],
+      desc:"Масло в муфте не меняют, оно стареет, муфта начинает греться и перестаёт подключать заднюю ось.",
+      alert:["info","<b>Показано потому, что вы отметили полный привод.</b>"],
+      steps:["Проверить, что кнопка блокировки на панели вообще работает и лампа гаснет.","Спросить, меняли ли масло в муфте.",
+             "Осмотреть муфту снизу на подтёки.","На скользком участке тронуться с пробуксовкой: задняя ось должна подключаться."],
+      costs:[["Замена масла","Недорогой","ok"],["Замена муфты","Средний","warn"]], codes:[]},
+    "chain40":{title:"Растяжение цепи ГРМ", short:"Цепь ГРМ", node:"Двигатель", when:"от 150 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","оба мотора"]],
+      desc:"Цепь вытягивается при пропущенных заменах масла.",
+      alert:["warn","<b>Слушать только холодный пуск.</b>"],
+      steps:["Приехать к холодной машине.","Послушать первые секунды после запуска.","Треск с затиханием — цепь."],
+      costs:[["Ремонт","Средний","warn"]], codes:[]},
+    "susp40":{title:"Стойки и сайлентблоки", short:"Подвеска", node:"Подвеска", when:"от 80 000 км",
+      sev:"ok", cost:["ok","Недорогой"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 80 000 км"]],
+      desc:"Расходник. Важно не то, что изношено, а что этим объясняют любой стук.",
+      alert:null,
+      steps:["Покачать машину за крыло.","Проехать по неровностям с открытым окном.","Если стучит — уточнить на подъёмнике, стойки это или рычаги."],
+      costs:[["Замена стоек","Недорогой","ok"]], codes:[]},
+    "paint40":{title:"Сколы на капоте и стойках", short:"Сколы ЛКП", node:"Кузов", when:"от 80 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","от 80 000 км"]],
+      desc:"Лак тонкий, сколы появляются рано. Сами по себе не страшны, но из них начинается коррозия, если их не трогать годами.",
+      alert:null,
+      steps:["Осмотреть капот и передние стойки крыши на просвет.","Проверить, нет ли рыжих точек в глубине сколов.","Наличие плёнки на капоте — хороший признак ухода."],
+      costs:[["Покраска капота","Средний","warn"]], codes:[]}
+  },
+  dtc:{
+    "p0300":{code:"P0300", urgency:["bad","Срочность высокая"],
+      summary:"Пропуски зажигания, цилиндр не определён.",
+      causes:"Катушки, свечи, следствие расхода масла на изношенной поршневой.",
+      consequence:["bad","<b>К чему приведёт.</b> Катализатор разрушается несгоревшим топливом."],
+      order:"Сначала проверить расход масла: на этом моторе пропуски часто его следствие.",
+      issues:[["oil-burn20","Расход масла на 3ZR-FE","Вероятно · дорогой ремонт","bad"]]},
+    "p0420":{code:"P0420", urgency:["ok","Срочность низкая"],
+      summary:"Эффективность катализатора ниже порога.",
+      causes:"Задний кислородный датчик или изношенный катализатор.",
+      consequence:["warn","<b>К чему приведёт.</b> Разрушенный катализатор на этих моторах опасен: керамическая пыль может попасть в цилиндры."],
+      order:"Если код ожидающий и память чистили — вернётся через несколько сотен километров.",
+      issues:[]},
+    "p0455":{code:"P0455", urgency:["ok","Срочность низкая"],
+      summary:"Большая утечка в системе улавливания паров топлива.",
+      causes:"Чаще всего недокрученная крышка бака. Дальше — клапан продувки адсорбера, трещина в патрубке.",
+      consequence:["ok","<b>К чему приведёт.</b> На ходовые качества не влияет. Но лампа мешает увидеть более важные коды."],
+      order:"Проверить крышку бака до всего остального.",
+      issues:[]}
+  },
+  guides:[
+    {title:"Проверить вариатор на тест-драйве", cat:"Коробка",
+     steps:[{t:"Найдите ровный участок, где можно разогнаться до 80–100 км/ч.", h:"Городской круг по светофорам вариатор не проверяет.", r:"Разгон плавный, без ступенек и рывков."},
+            {t:"Разгонитесь в горку с половины педали и следите за тахометром.", h:"Обороты растут, а скорость нет — ремень проскальзывает по конусам.", r:"Обороты и скорость растут вместе."},
+            {t:"Опустите окно и послушайте машину на 60–80 км/ч на ровной дороге.", h:"Гул или вой, меняющийся со скоростью, — подшипники или конусы.", r:"Слышно шины и ветер, не коробку."},
+            {t:"Спросите, когда меняли жидкость в вариаторе.", h:"Правильный ответ — каждые 40–60 тысяч. «Она залита на весь срок» — плохой ответ.", r:"Есть чек или заказ-наряд."}]},
+    {title:"Проверить полный привод", cat:"Трансмиссия",
+     steps:[{t:"Найдите кнопку блокировки муфты на центральной панели и нажмите её.", h:"Лампа должна загореться и погаснуть при наборе скорости.", r:"Кнопка реагирует, лампа ведёт себя как положено."},
+            {t:"Загляните под машину: от коробки назад идёт карданный вал.", h:"Если кардана нет — машина переднеприводная, что бы ни было написано в объявлении.", r:"Кардан на месте, пыльники целы."},
+            {t:"На грунте или снегу тронитесь с пробуксовкой.", h:"Задняя ось должна подключаться, машину не должно закапывать передними колёсами.", r:"Машина выезжает уверенно."}]}
+  ]
+};
+/* ---------- Mazda ---------- */
+const MAZDA_SKY = {
+  paint:{min:85, max:115, repaint:185, filler:300,
+    material:"Кузов стальной, толщиномер подойдёт любой.",
+    quality:"Лак тонкий и мягкий, сколов набирает быстро. Красный кузов выгорает заметнее прочих."},
+  dtc:{
+    "p0300":{code:"P0300", urgency:["bad","Срочность высокая"],
+      summary:"Пропуски зажигания, цилиндр не определён.",
+      causes:"У этих моторов первая версия — катушка зажигания: пробой изолятора выключает цилиндр. Дальше свечи, нагар на клапанах, форсунка.",
+      consequence:["bad","<b>К чему приведёт.</b> Несгоревшее топливо разрушает катализатор. Катушка стоит недорого, катализатор дорого."],
+      order:"Если код с номером цилиндра (P0301–P0304) — меняют катушку местами с соседней и смотрят, переехал ли код.",
+      issues:[["coils","Катушки зажигания","Часто · недорогой ремонт","ok"]]},
+    "p0301":{code:"P0301", urgency:["bad","Срочность высокая"],
+      summary:"Пропуски зажигания в первом цилиндре.",
+      causes:"Катушка, свеча, форсунка этого цилиндра. На пробегах за сто тысяч — нагар на впускных клапанах.",
+      consequence:["bad","<b>К чему приведёт.</b> Стабильные пропуски в одном цилиндре доедают катализатор и могут означать начало задиров."],
+      order:"Проверить в первую очередь: одиночный цилиндр даёт шанс на дешёвую причину.",
+      issues:[["coils","Катушки зажигания","Часто · недорогой ремонт","ok"],["scoring","Задиры цилиндров","Реже · дорогой ремонт","bad"]]},
+    "p0420":{code:"P0420", urgency:["ok","Срочность низкая"],
+      summary:"Эффективность катализатора ниже порога.",
+      causes:"Изношенный катализатор или задний кислородный датчик.",
+      consequence:["warn","<b>К чему приведёт.</b> Само по себе ничего, но код бывает следствием долгих пропусков зажигания."],
+      order:"Разбираться после пропусков, а не вместо них.",
+      issues:[]}
+  }
+};
+
+CARS["mazda6-gj"] = {
+  brand:"Mazda", model:"6", gen:"GJ", years:"2012–2018", body:"седан", updated:"19.09.2026",
+  engines:[
+    {key:"PE-VPS", label:"PE-VPS · 2.0 · 150 л.с.", gearboxes:["FW6AX · автомат, 6 ступеней","механика, 6 ступеней"]},
+    {key:"PY-VPS", label:"PY-VPS · 2.5 · 192 л.с.", gearboxes:["FW6AX · автомат, 6 ступеней"]}
+  ],
+  options:[
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"sunroof", name:"Люк", spot:"видно снаружи"},
+    {id:"istop", name:"Система i-stop", spot:"кнопка отключения у рычага, мотор глохнет на светофоре"},
+    {id:"camera", name:"Камера заднего вида", spot:"картинка при задней передаче"}
+  ],
+  paint:MAZDA_SKY.paint,
+  rust:[
+    {id:"arches", place:"Кромки задних арок", where:"загиб по всей длине", prev:"частое", sev:"bad", cost:["bad","Дорогой"],
+     why:"Историческая слабость марки. Тонкий лак, и кромка арки принимает весь пескоструй.",
+     how:["Присесть у заднего колеса и провести пальцем по всему загибу.","Искать вздутия под краской: снаружи может быть ровно, а металл уже слоится.",
+          "Повторить с другой стороны.","Свежая краска на одной арке при родной на другой — арку уже переваривали."]},
+    {id:"sills", place:"Пороги", where:"нижняя кромка и стык с аркой", prev:"частое", sev:"bad", cost:["bad","Дорогой"],
+     why:"То же самое плюс грязь из-под переднего колеса.",
+     how:["Открыть дверь и осмотреть порог по всей длине.","Пощупать нижнюю кромку снизу рукой.","Проверить стык порога с задней аркой — гниёт первым."]},
+    {id:"liners", place:"Под подкрылками", where:"верх арки", prev:"частое", sev:"warn", cost:["warn","Средний"],
+     why:"Грязь копится и держит влагу.",
+     how:["Отогнуть край подкрылка, посветить фонарём.","Смотреть верх арки и стык с порогом."]},
+    {id:"doors", place:"Нижние кромки дверей", where:"изнутри, под уплотнителем", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Забиваются дренажные отверстия, вода стоит внутри двери.",
+     how:["Открыть дверь и провести пальцем по нижней кромке изнутри.","Проверить, открыты ли дренажные отверстия снизу."]},
+    {id:"trunk", place:"Крышка багажника", where:"под уплотнителем у номера", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Вода задерживается у площадки подсветки номера.",
+     how:["Отогнуть уплотнитель по нижней кромке.","Осмотреть вокруг фонарей и площадки номера."]}
+  ],
+  issueSeq:["scoring","coils","rear-susp","istop-bat","chain-mz","clutch-mz","paint-mz"],
+  issues:{
+    "scoring":{title:"Задиры цилиндров", short:"Задиры", node:"Двигатель", when:"от 100 000 км",
+      sev:"crit", cost:["crit","Дорогой"], prio:1,
+      chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","оба мотора"]],
+      desc:"Прямой впрыск и высокая степень сжатия не прощают плохого топлива и грязных форсунок. Задиры идут со стороны форсунки и лечатся только вскрытием мотора.",
+      alert:["crit","<b>Это главное, ради чего сюда стоит лезть.</b> Внешне мотор может работать ровно, а стенки цилиндров уже в задирах."],
+      steps:["Послушать мотор на холостых и на прогреве: посторонний стук или неровная работа — повод остановиться.",
+             "Проверить расход масла: доливы между заменами на этом моторе ненормальны.",
+             "Посмотреть на свечи, если продавец разрешит их выкрутить.",
+             "Единственная надёжная проверка — эндоскоп в свечное отверстие. На этой машине это не перестраховка, а обязательный шаг перед покупкой."],
+      costs:[["Диагностика эндоскопом","Недорогой","ok"],["Ремонт мотора","Дорогой","crit"]],
+      codes:[["p0301","P0301","Пропуски в первом цилиндре"]]},
+    "coils":{title:"Катушки зажигания", short:"Катушки", node:"Двигатель", when:"от 80 000 км",
+      sev:"warn", cost:["ok","Недорогой"], prio:1,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","от 80 000 км"]],
+      desc:"Пробой изолятора катушки выключает цилиндр. Болячка характерная, но дешёвая — если не ездить так месяцами.",
+      alert:["warn","<b>Симптомы.</b> Тряска на холостых, провал при разгоне, мигающий чек."],
+      steps:["Завести мотор и дать поработать на холостых минуту.","Тряска и неровная работа — проверять катушки.",
+             "Попросить показать коды: P0301–P0304 указывают на конкретный цилиндр."],
+      costs:[["Замена катушки","Недорогой","ok"]], codes:[["p0301","P0301","Пропуски в первом цилиндре"]]},
+    "rear-susp":{title:"Стуки задней подвески", short:"Задняя подвеска", node:"Подвеска", when:"от 60 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Подвеска"],["neutral","от 60 000 км"]],
+      desc:"Сайлентблоки задних рычагов и стойки стабилизатора изнашиваются рано. Для марки это норма жизни, но разбитая задняя подвеска ест резину.",
+      alert:null,
+      steps:["Проехать по неровностям на малой скорости с открытыми окнами.","Покачать машину за задний бампер.",
+             "Осмотреть износ задних шин: разный износ по краям означает ушедшие углы."],
+      costs:[["Замена сайлентблоков","Средний","warn"]], codes:[]},
+    "istop-bat":{title:"Аккумулятор под i-stop", short:"i-stop", opt:"istop", node:"Электрика", when:"от 3 лет",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Электрика"],["neutral","только с i-stop"]],
+      desc:"Система требует специального аккумулятора и исправного датчика тока. Владельцы ставят обычную батарею, и система отключается или глючит.",
+      alert:["info","<b>Показано потому, что вы отметили i-stop.</b>"],
+      steps:["Прогреть мотор и постоять на светофоре: система должна глушить двигатель.","Если не работает — спросить почему.",
+             "Посмотреть на аккумулятор: обычная дешёвая батарея означает, что систему просто задавили."],
+      costs:[["Правильный аккумулятор","Средний","warn"]], codes:[]},
+    "chain-mz":{title:"Цепь ГРМ", short:"Цепь ГРМ", node:"Двигатель", when:"от 150 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","от 150 000 км"]],
+      desc:"Ресурс приличный, но при пропущенных заменах масла цепь вытягивается.",
+      alert:["warn","<b>Слушать только на холодную.</b>"],
+      steps:["Приехать к машине, простоявшей ночь.","Послушать первые секунды запуска."],
+      costs:[["Замена цепи","Средний","warn"]], codes:[]},
+    "clutch-mz":{title:"Сцепление на механике", short:"Сцепление", node:"Коробка", when:"от 120 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Коробка"],["neutral","только механика"]],
+      desc:"Расходник, но менять его на этой машине недёшево.",
+      alert:null,
+      steps:["На ровной дороге на четвёртой передаче резко добавить газ.","Если обороты подскочили, а скорость нет — диск изношен.",
+             "Проверить высоту схватывания педали: очень высокая означает конец ресурса."],
+      costs:[["Замена сцепления","Средний","warn"]], codes:[]},
+    "paint-mz":{title:"Сколы и выгорание лака", short:"Лак", node:"Кузов", when:"от 60 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","от 60 000 км"]],
+      desc:"Лак мягкий. На красных кузовах выгорание видно раньше всего. Само по себе косметика, но из сколов начинается коррозия, которая у этой марки дорогая.",
+      alert:null,
+      steps:["Осмотреть капот и крышу на просвет.","Поискать рыжие точки в глубине сколов.","Сравнить оттенок крыши и капота при дневном свете."],
+      costs:[["Полировка","Недорогой","ok"],["Покраска элемента","Средний","warn"]], codes:[]}
+  },
+  dtc:MAZDA_SKY.dtc,
+  guides:[
+    {title:"Осмотреть арки и пороги", cat:"Кузов",
+     steps:[{t:"Присядьте у заднего колеса и проведите пальцем по всему загибу арки, от порога до бампера.", h:"Ищите не ржавчину, а вздутия под краской — металл слоится изнутри.", r:"Кромка ровная и гладкая по всей длине."},
+            {t:"Повторите на второй стороне и сравните.", h:"Гниют несимметрично. Свежая краска на одной арке при родной на другой — её уже варили.", r:"Обе арки в одинаковом состоянии."},
+            {t:"Откройте обе двери с одной стороны и осмотрите порог целиком, особенно стык с задней аркой.", h:"Проведите рукой по нижней кромке порога снизу — там видно то, чего не видно сверху.", r:"Порог сухой, без вздутий и заусенцев."}]},
+    {title:"Понять, лазили ли в мотор", cat:"Двигатель",
+     steps:[{t:"Заведите холодный мотор и послушайте минуту с открытым капотом.", h:"Ровная работа без стука — хорошо, но это не гарантия: задиры бывают на тихом моторе.", r:"Мотор работает ровно, без посторонних стуков."},
+            {t:"Проверьте уровень и цвет масла на щупе.", h:"Долив между заменами для этого мотора — ненормально.", r:"Уровень между метками, масло не чёрное."},
+            {t:"Спросите прямо: делали ли эндоскопию цилиндров и есть ли фото.", h:"Владелец, который следит за машиной, такую съёмку обычно делал. Отказ показать — повод настоять на своей диагностике.", r:"Есть снимки или согласие на проверку."}]}
+  ]
+};
+
+CARS["cx5-ke"] = {
+  brand:"Mazda", model:"CX-5", gen:"KE", years:"2011–2017", body:"кроссовер", updated:"19.09.2026",
+  engines:[
+    {key:"PE-VPS", label:"PE-VPS · 2.0 · 150 л.с.", gearboxes:["FW6AX · автомат, 6 ступеней"]},
+    {key:"PY-VPS", label:"PY-VPS · 2.5 · 192 л.с.", gearboxes:["FW6AX · автомат, 6 ступеней"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод", spot:"шильдик AWD, кардан под днищем"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"istop", name:"Система i-stop", spot:"мотор глохнет на светофоре"},
+    {id:"sunroof", name:"Люк", spot:"видно снаружи"}
+  ],
+  paint:MAZDA_SKY.paint,
+  rust:[
+    {id:"arches", place:"Кромки арок", where:"загиб, все четыре", prev:"частое", sev:"bad", cost:["bad","Дорогой"],
+     why:"Та же слабость, что у седана, плюс больший клиренс и больше грязи.",
+     how:["Провести пальцем по загибу каждой арки.","Искать вздутия под краской.","Сравнить арки между собой."]},
+    {id:"sills", place:"Пороги под накладками", where:"под пластиком", prev:"частое", sev:"bad", cost:["bad","Дорогой"],
+     why:"Под накладкой копится грязь и не сохнет.",
+     how:["Осмотреть край порога у самой накладки.","Если накладка на защёлках — заглянуть под неё.","Пощупать нижнюю кромку рукой."]},
+    {id:"tailgate", place:"Пятая дверь", where:"нижняя кромка", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Вода задерживается в кромке и у фонарей.",
+     how:["Открыть багажник, осмотреть кромку изнутри.","Отогнуть уплотнитель."]},
+    {id:"subframe", place:"Днище и подрамник", where:"сварные швы", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Реагенты и отсутствие обработки.",
+     how:["Нужна яма или подъёмник.","Осмотреть швы и подрамник.","Без ямы оставить пункт непроверенным."]}
+  ],
+  issueSeq:["scoring","coils","awd-cx5","rear-susp-cx5","istop-bat","chain-mz"],
+  issues:{
+    "scoring":{title:"Задиры цилиндров", short:"Задиры", node:"Двигатель", when:"от 100 000 км",
+      sev:"crit", cost:["crit","Дорогой"], prio:1,
+      chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","оба мотора"]],
+      desc:"Мотор тот же, что у Mazda 6, и слабость та же: прямой впрыск, высокая степень сжатия, задиры со стороны форсунки при плохом топливе и грязных форсунках.",
+      alert:["crit","<b>Проверять эндоскопом обязательно.</b> Внешне мотор может работать ровно."],
+      steps:["Послушать мотор на холостых и на прогреве.","Проверить расход масла: доливы между заменами ненормальны.",
+             "Сделать эндоскопию цилиндров перед покупкой."],
+      costs:[["Диагностика эндоскопом","Недорогой","ok"],["Ремонт мотора","Дорогой","crit"]],
+      codes:[["p0301","P0301","Пропуски в первом цилиндре"]]},
+    "coils":{title:"Катушки зажигания", short:"Катушки", node:"Двигатель", when:"от 80 000 км",
+      sev:"warn", cost:["ok","Недорогой"], prio:1,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","от 80 000 км"]],
+      desc:"Пробой изолятора выключает цилиндр.",
+      alert:["warn","<b>Симптомы.</b> Тряска на холостых, провал при разгоне."],
+      steps:["Послушать мотор на холостых.","Попросить показать коды."],
+      costs:[["Замена катушки","Недорогой","ok"]], codes:[["p0301","P0301","Пропуски в первом цилиндре"]]},
+    "awd-cx5":{title:"Муфта полного привода", short:"Муфта AWD", opt:"awd", node:"Трансмиссия", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Трансмиссия"],["neutral","только с полным приводом"]],
+      desc:"Масло в муфте считается залитым навсегда, и его не меняют. Итог — перегрев и отказ подключать заднюю ось.",
+      alert:["info","<b>Показано потому, что вы отметили полный привод.</b>"],
+      steps:["Спросить, меняли ли масло в задней муфте.","Осмотреть муфту снизу на подтёки.","На скользком тронуться с пробуксовкой."],
+      costs:[["Замена масла","Недорогой","ok"],["Замена муфты","Средний","warn"]], codes:[]},
+    "rear-susp-cx5":{title:"Стуки задней подвески", short:"Задняя подвеска", node:"Подвеска", when:"от 60 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Подвеска"],["neutral","от 60 000 км"]],
+      desc:"Сайлентблоки и стойки стабилизатора изнашиваются рано.",
+      alert:null,
+      steps:["Проехать по неровностям с открытым окном.","Покачать машину за задний бампер.","Посмотреть на износ задних шин."],
+      costs:[["Замена сайлентблоков","Средний","warn"]], codes:[]},
+    "istop-bat":{title:"Аккумулятор под i-stop", short:"i-stop", opt:"istop", node:"Электрика", when:"от 3 лет",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Электрика"],["neutral","только с i-stop"]],
+      desc:"Нужен специальный аккумулятор. С обычным система отключается.",
+      alert:["info","<b>Показано потому, что вы отметили i-stop.</b>"],
+      steps:["Прогреть мотор и постоять на светофоре.","Посмотреть, какой стоит аккумулятор."],
+      costs:[["Правильный аккумулятор","Средний","warn"]], codes:[]},
+    "chain-mz":{title:"Цепь ГРМ", short:"Цепь ГРМ", node:"Двигатель", when:"от 150 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","от 150 000 км"]],
+      desc:"Вытягивается при пропущенных заменах масла.",
+      alert:["warn","<b>Слушать только на холодную.</b>"],
+      steps:["Приехать к холодной машине.","Послушать первые секунды запуска."],
+      costs:[["Замена цепи","Средний","warn"]], codes:[]}
+  },
+  dtc:MAZDA_SKY.dtc,
+  guides:[
+    {title:"Осмотреть арки и пороги", cat:"Кузов",
+     steps:[{t:"Проведите пальцем по загибу каждой из четырёх арок.", h:"Ищите вздутия под краской, а не готовую ржавчину.", r:"Кромки ровные."},
+            {t:"Осмотрите порог там, где заканчивается пластиковая накладка.", h:"Если накладка на защёлках, аккуратно отогните край и посветите фонарём.", r:"Под накладкой сухо, без грязевой корки."},
+            {t:"Откройте багажник и осмотрите нижнюю кромку пятой двери изнутри.", h:"Отогните уплотнитель — снаружи это место выглядит целым.", r:"Кромка сухая, краска не вспучена."}]},
+    {title:"Проверить полный привод", cat:"Трансмиссия",
+     steps:[{t:"Загляните под машину: от коробки назад должен идти карданный вал.", h:"Нет кардана — машина переднеприводная, что бы ни писали в объявлении.", r:"Кардан и задний редуктор на месте."},
+            {t:"Осмотрите заднюю муфту на подтёки масла.", h:"Мокрая муфта означает, что её грели.", r:"Сухая."},
+            {t:"Спросите, меняли ли масло в задней муфте.", h:"Регламентом оно «залито навсегда», и почти никто его не меняет — правильный ответ говорит об уходе.", r:"Есть заказ-наряд или внятный ответ."}]}
+  ]
+};
+
+/* ---------- Volkswagen ---------- */
+const VAG_DTC = {
+  "p0016":{code:"P0016", urgency:["bad","Срочность высокая"],
+    summary:"Рассогласование коленвала и распредвала.",
+    causes:"На этих моторах почти всегда растянутая цепь ГРМ или разрушенный натяжитель.",
+    consequence:["bad","<b>К чему приведёт.</b> Перескок цепи гнёт клапаны. Это не «поездить и посмотреть», это ремонт сейчас."],
+    order:"Единственный код в списке, при котором машину лучше не заводить лишний раз до диагностики.",
+    issues:[["chain-ea888","Цепь ГРМ","Почти всегда · средний ремонт","bad"]]},
+  "p2015":{code:"P2015", urgency:["warn","Срочность средняя"],
+    summary:"Датчик положения заслонок впускного коллектора.",
+    causes:"Классика для этих моторов: ломается пластиковая тяга заслонок, датчик перестаёт видеть положение.",
+    consequence:["warn","<b>К чему приведёт.</b> Потеря тяги на низах и рост расхода. Чинится ремкомплектом или заменой коллектора."],
+    order:"Код безобидный по последствиям, но показывает, что машину обслуживали по остаточному принципу.",
+    issues:[]},
+  "p0171":{code:"P0171", urgency:["warn","Срочность средняя"],
+    summary:"Бедная смесь, банк 1.",
+    causes:"Подсос воздуха по патрубкам и прокладкам, клапан вентиляции картера, изношенный ТНВД.",
+    consequence:["bad","<b>К чему приведёт.</b> Долгая работа на бедной смеси перегревает катализатор и вредит поршневой."],
+    order:"На этих моторах начинать с клапана вентиляции картера: он течёт чаще всего.",
+    issues:[["oil-ea888","Расход масла","Связано · дорогой ремонт","bad"]]}
+};
+
+CARS["passat-b7"] = {
+  brand:"Volkswagen", model:"Passat", gen:"B7", years:"2010–2015", body:"седан", updated:"19.09.2026",
+  engines:[
+    {key:"CAXA", label:"CAXA · 1.4 TSI · 122 л.с.", gearboxes:["DQ200 · DSG-7","механика, 6 ступеней"]},
+    {key:"CCZB", label:"CCZB · 1.8 TSI · 152 л.с.", gearboxes:["DQ200 · DSG-7"]}
+  ],
+  options:[
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"xenon", name:"Ксенон", spot:"линзы в фарах"},
+    {id:"sunroof", name:"Люк", spot:"видно снаружи"},
+    {id:"climate", name:"Раздельный климат", spot:"две независимые ручки температуры"}
+  ],
+  paint:{min:100, max:150, repaint:210, filler:300,
+    material:"Кузов стальной. Капот на части машин алюминиевый — на нём магнитный толщиномер покажет ноль. Если прибор на капоте молчит, а на крыле работает, это не поломка прибора.",
+    quality:"Заводское покрытие плотное, к коррозии кузов устойчив. Проблемы обычно не в металле, а в моторе и коробке."},
+  rust:[
+    {id:"tailgate", place:"Крышка багажника", where:"под хромовой накладкой", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Под накладкой скапливается влага, краска вспучивается по краям.",
+     how:["Осмотреть границы хромовой накладки над номером.","Искать вздутия и пузыри по краю."]},
+    {id:"doors", place:"Нижние кромки дверей", where:"изнутри", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Забитые дренажи держат воду внутри двери.",
+     how:["Провести пальцем по нижней кромке изнутри.","Проверить дренажные отверстия снизу."]},
+    {id:"arches", place:"Кромки задних арок", where:"загиб", prev:"редкое", sev:"ok", cost:["warn","Средний"],
+     why:"Для этого кузова редкость, обычно последствие плохо отремонтированного удара.",
+     how:["Провести пальцем по загибу.","Вздутия на одной арке при целой второй — признак ремонта."]}
+  ],
+  issueSeq:["chain-ea888","dsg-dq200","oil-ea888","pump-vw","intake-vw","susp-vw"],
+  issues:{
+    "chain-ea888":{title:"Цепь ГРМ и натяжитель", short:"Цепь ГРМ", node:"Двигатель", when:"от 120 000 км",
+      sev:"crit", cost:["warn","Средний"], prio:1,
+      chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","до 2012 года особенно"]],
+      desc:"Ресурс цепи на этих моторах редко превышает 120–150 тысяч. Натяжитель ранних версий не держит цепь при запуске, она перескакивает и гнёт клапаны.",
+      alert:["crit","<b>Если слышен треск — не ездить.</b> Здесь между шумом и загнутыми клапанами может быть один холодный запуск."],
+      steps:["Приехать к машине, простоявшей ночь. Прогретая машина при осмотре — повод насторожиться.",
+             "Послушать первые две-три секунды после запуска у открытого капота.",
+             "Металлический треск — цепь. Дальнейший тест-драйв бессмыслен, пока её не заменят.",
+             "Спросить документы на замену цепи. На машине старше десяти лет она должна быть уже заменена."],
+      costs:[["Замена цепи с натяжителем","Средний","warn"],["После перескока","Дорогой","crit"]],
+      codes:[["p0016","P0016","Рассогласование валов"]]},
+    "dsg-dq200":{title:"Мехатроник DSG-7", short:"DSG-7", gb:"DQ200", node:"Коробка", when:"от 100 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Коробка"],["neutral","DQ200"]],
+      desc:"Сухое сцепление и капризный блок управления. Симптомы появляются задолго до отказа: рывки при трогании, задумчивость при переключении на малой скорости, дёрганье в пробке.",
+      alert:["warn","<b>Проверять обязательно в пробке.</b> На трассе коробка ведёт себя прилично даже больной."],
+      steps:["Проехать в плотном городском режиме минимум двадцать минут, с остановками и троганиями.",
+             "Трогаться в горку: рывки и запах сцепления — износ дисков.",
+             "Ехать внатяг на малой скорости: дёрганье между первой и второй — типичный симптом.",
+             "Спросить про замену масла в мехатронике и сцепления. Обе работы плановые, и обе массово пропускают."],
+      costs:[["Замена масла","Средний","warn"],["Мехатроник или сцепление","Дорогой","bad"]], codes:[]},
+    "oil-ea888":{title:"Расход масла", short:"Расход масла", eng:"CCZB", node:"Двигатель", when:"от 100 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","1.8 TSI"]],
+      desc:"Маслосъёмные кольца этой серии моторов закоксовываются, расход доходит до литра на тысячу. Лечится заменой поршневой группы.",
+      alert:["warn","<b>Симптомы.</b> Постоянные доливы, запах масла, нагар на свечах."],
+      steps:["Спросить прямо, сколько масла уходит между заменами. Ответ «немного доливаю» на этом моторе означает проблему.",
+             "Проверить уровень и состояние масла на холодном моторе.",
+             "Осмотреть свечные колодцы и клапанную крышку на подтёки.",
+             "Посмотреть в выхлоп при резком газе."],
+      costs:[["Замена поршневой","Дорогой","bad"]], codes:[["p0171","P0171","Бедная смесь, банк 1"]]},
+    "pump-vw":{title:"Помпа и термостат в сборе", short:"Помпа", node:"Охлаждение", when:"от 90 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Охлаждение"],["neutral","от 90 000 км"]],
+      desc:"Помпа идёт в одном модуле с термостатом и меняется целиком. Течёт по корпусу.",
+      alert:null,
+      steps:["Осмотреть место стыка модуля с блоком на подтёки.","Проверить уровень антифриза в бачке.",
+             "На прогреве последить за температурой: долгий выход на рабочую — термостат."],
+      costs:[["Замена модуля","Средний","warn"]], codes:[]},
+    "intake-vw":{title:"Заслонки впускного коллектора", short:"Впуск", node:"Двигатель", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","от 100 000 км"]],
+      desc:"Ломается пластиковая тяга заслонок. Мотор теряет тягу на низах, вылезает код P2015.",
+      alert:null,
+      steps:["Попросить показать коды: P2015 говорит сам за себя.","На тест-драйве оценить тягу с низов."],
+      costs:[["Ремкомплект или коллектор","Средний","warn"]], codes:[["p2015","P2015","Заслонки впуска"]]},
+    "susp-vw":{title:"Передняя подвеска", short:"Подвеска", node:"Подвеска", when:"от 80 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 80 000 км"]],
+      desc:"Сайлентблоки рычагов и стойки стабилизатора — расходники на наших дорогах.",
+      alert:null,
+      steps:["Проехать по неровностям с открытым окном.","Покачать машину за крыло.","Подёргать колесо в положении три и девять часов."],
+      costs:[["Замена рычагов","Средний","warn"]], codes:[]}
+  },
+  dtc:VAG_DTC,
+  guides:[
+    {title:"Послушать цепь на холодном пуске", cat:"Двигатель",
+     steps:[{t:"Договоритесь смотреть машину утром, до того как её заведут.", h:"Если по приезде мотор тёплый, перенесите осмотр. На этой машине это не придирка.", r:"Капот холодный на ощупь."},
+            {t:"Откройте капот, встаньте сбоку и попросите завести мотор.", h:"Слушайте первые две-три секунды, дальше цепь не слышно.", r:"Запуск ровный, без металлического треска."},
+            {t:"Если треск есть — на этом осмотр можно заканчивать.", h:"Цепь на этом моторе перескакивает и гнёт клапаны. Торг тут не поможет, нужен ремонт до эксплуатации.", r:"Треска нет, можно ехать дальше."}]},
+    {title:"Проверить DSG в пробке", cat:"Коробка",
+     steps:[{t:"Выберите маршрут с плотным движением и светофорами, минимум на двадцать минут.", h:"На трассе эта коробка едет прилично даже изношенной.", r:"Есть где потолкаться."},
+            {t:"Трогайтесь с места несколько раз подряд, в том числе в горку.", h:"Рывок при трогании и запах горелого — износ сцепления.", r:"Трогается плавно, без подёргиваний."},
+            {t:"Проедьте внатяг на малой скорости, как в пробке.", h:"Дёрганье между первой и второй — типичный симптом мехатроника.", r:"Переключения незаметные."},
+            {t:"Спросите о замене масла в мехатронике и сцепления.", h:"Обе работы плановые и обе массово пропускают.", r:"Есть документы."}]}
+  ]
+};
+
+CARS["tiguan-5n"] = {
+  brand:"Volkswagen", model:"Tiguan", gen:"5N", years:"2007–2016", body:"кроссовер", updated:"19.09.2026",
+  engines:[
+    {key:"CAWA", label:"CAWA · 2.0 TSI · 170 л.с.", gearboxes:["автомат, 6 ступеней"]},
+    {key:"CCZC", label:"CCZC · 2.0 TSI · 170 л.с.", gearboxes:["автомат, 6 ступеней","DQ500 · DSG-7"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод 4Motion", spot:"шильдик сзади, кардан под днищем"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"xenon", name:"Ксенон", spot:"линзы в фарах"},
+    {id:"sunroof", name:"Панорамная крыша", spot:"видно снаружи"}
+  ],
+  paint:{min:100, max:150, repaint:210, filler:300,
+    material:"Кузов стальной, толщиномер подойдёт любой.",
+    quality:"Покрытие плотное, кузов держится хорошо. Слабое место машины не металл, а мотор."},
+  rust:[
+    {id:"tailgate", place:"Пятая дверь", where:"под накладкой у номера", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Влага под накладкой.",
+     how:["Осмотреть границы накладки.","Отогнуть уплотнитель по нижней кромке."]},
+    {id:"sills", place:"Пороги под накладками", where:"под пластиком", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Грязь под накладкой не сохнет.",
+     how:["Осмотреть край порога у накладки.","Заглянуть под неё, если снимается."]},
+    {id:"subframe", place:"Днище", where:"швы и подрамник", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Реагенты.",
+     how:["Нужна яма или подъёмник.","Осмотреть швы пола."]}
+  ],
+  issueSeq:["chain-ea888","oil-ea888","haldex","pump-vw","intake-vw","susp-vw"],
+  issues:{
+    "chain-ea888":{title:"Цепь ГРМ и натяжитель", short:"Цепь ГРМ", node:"Двигатель", when:"от 120 000 км",
+      sev:"crit", cost:["warn","Средний"], prio:1,
+      chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","ранние особенно"]],
+      desc:"Цепь вытягивается, натяжитель ранних версий не держит её при запуске. Перескок гнёт клапаны.",
+      alert:["crit","<b>Если слышен треск — не ездить.</b> Между шумом и загнутыми клапанами может быть один холодный запуск."],
+      steps:["Смотреть только холодную машину.","Послушать первые секунды после запуска.",
+             "Треск — прекращать осмотр.","Спросить документы на замену цепи."],
+      costs:[["Замена цепи","Средний","warn"],["После перескока","Дорогой","crit"]],
+      codes:[["p0016","P0016","Рассогласование валов"]]},
+    "oil-ea888":{title:"Расход масла", short:"Расход масла", node:"Двигатель", when:"от 100 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","2.0 TSI"]],
+      desc:"Закоксовка маслосъёмных колец. Расход до литра на тысячу километров.",
+      alert:["warn","<b>Симптомы.</b> Постоянные доливы, нагар на свечах."],
+      steps:["Спросить, сколько масла уходит между заменами.","Проверить уровень на холодном моторе.",
+             "Осмотреть свечные колодцы.","Посмотреть в выхлоп при резком газе."],
+      costs:[["Замена поршневой","Дорогой","bad"]], codes:[["p0171","P0171","Бедная смесь"]]},
+    "haldex":{title:"Муфта Haldex", short:"Haldex", opt:"awd", node:"Трансмиссия", when:"каждые 60 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Трансмиссия"],["neutral","только 4Motion"]],
+      desc:"Муфте нужна замена масла и чистка фильтра каждые шестьдесят тысяч. Без этого насос выходит из строя и полный привод пропадает.",
+      alert:["info","<b>Показано потому, что вы отметили полный привод.</b>"],
+      steps:["Спросить, когда обслуживали Haldex. Это не миф и не развод сервиса, это регламент.",
+             "Осмотреть муфту снизу на подтёки.","На скользком тронуться с пробуксовкой."],
+      costs:[["Обслуживание","Средний","warn"],["Замена насоса","Дорогой","bad"]], codes:[]},
+    "pump-vw":{title:"Помпа и термостат", short:"Помпа", node:"Охлаждение", when:"от 90 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Охлаждение"],["neutral","от 90 000 км"]],
+      desc:"Модуль течёт по корпусу, меняется целиком.",
+      alert:null,
+      steps:["Осмотреть стык модуля с блоком.","Проверить уровень антифриза."],
+      costs:[["Замена модуля","Средний","warn"]], codes:[]},
+    "intake-vw":{title:"Заслонки впуска", short:"Впуск", node:"Двигатель", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","от 100 000 км"]],
+      desc:"Ломается пластиковая тяга заслонок, падает тяга на низах.",
+      alert:null,
+      steps:["Попросить показать коды.","Оценить тягу с низов на тест-драйве."],
+      costs:[["Ремкомплект","Средний","warn"]], codes:[["p2015","P2015","Заслонки впуска"]]},
+    "susp-vw":{title:"Передняя подвеска", short:"Подвеска", node:"Подвеска", when:"от 80 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 80 000 км"]],
+      desc:"Сайлентблоки и стойки стабилизатора.",
+      alert:null,
+      steps:["Покачать машину за крыло.","Проехать по неровностям с открытым окном."],
+      costs:[["Замена рычагов","Средний","warn"]], codes:[]}
+  },
+  dtc:VAG_DTC,
+  guides:[
+    {title:"Послушать цепь на холодном пуске", cat:"Двигатель",
+     steps:[{t:"Приезжайте к машине, которая простояла ночь.", h:"Тёплый капот при встрече — перенесите осмотр.", r:"Капот холодный."},
+            {t:"Откройте капот и послушайте первые секунды запуска.", h:"Дальше цепь не слышно на любом состоянии.", r:"Без металлического треска."},
+            {t:"При треске осмотр прекращайте.", h:"Перескок цепи гнёт клапаны, это ремонт до эксплуатации.", r:"Треска нет."}]},
+    {title:"Проверить Haldex", cat:"Трансмиссия",
+     steps:[{t:"Спросите, когда последний раз меняли масло и фильтр в муфте.", h:"Регламент — каждые шестьдесят тысяч. Большинство владельцев об этом не знает.", r:"Есть заказ-наряд."},
+            {t:"Загляните под машину на муфту у заднего редуктора.", h:"Подтёки означают перегрев.", r:"Сухо."},
+            {t:"На грунте или снегу тронитесь с пробуксовкой.", h:"Задняя ось должна подключаться за доли секунды.", r:"Машина выезжает уверенно."}]}
+  ]
+};
+/* ---------- Kia и Hyundai ---------- */
+const KH_DTC = {
+  "p1326":{code:"P1326", urgency:["bad","Срочность высокая"],
+    summary:"Сработала система контроля детонации и вибраций коленвала.",
+    causes:"Заводская система слежения за состоянием вкладышей. Код появляется, когда датчик ловит стук, характерный для износа шатунных вкладышей.",
+    consequence:["bad","<b>К чему приведёт.</b> Это предвестник задиров и стука. Мотор может проехать ещё тысячи километров, а может застучать на следующей неделе."],
+    order:"Самый важный код на этих машинах. Если он есть, дальше можно не смотреть: это дорогой ремонт.",
+    issues:[["theta-knock","Задиры и стук вкладышей","Почти всегда · дорогой ремонт","crit"]]},
+  "p0300":{code:"P0300", urgency:["bad","Срочность высокая"],
+    summary:"Пропуски зажигания, цилиндр не определён.",
+    causes:"Катушки и свечи, нагар на клапанах прямого впрыска, форсунки. На изношенном моторе — следствие износа поршневой.",
+    consequence:["bad","<b>К чему приведёт.</b> Разрушает катализатор, а его керамика может попасть в цилиндры."],
+    order:"Проверять вместе с расходом масла: у этих моторов одно часто следствие другого.",
+    issues:[["theta-knock","Задиры и стук вкладышей","Возможно · дорогой ремонт","crit"]]},
+  "p0011":{code:"P0011", urgency:["warn","Срочность средняя"],
+    summary:"Рассогласование фаз, впускной распредвал.",
+    causes:"Грязное масло в каналах фазовращателя, сам клапан, растянутая цепь.",
+    consequence:["warn","<b>К чему приведёт.</b> Потеря тяги и рост расхода. Если причина в цепи — ремонт дороже."],
+    order:"На моторе, который просили доливать масло, смотреть вместе с состоянием поршневой.",
+    issues:[]}
+};
+
+const KH_THETA = {
+  title:"Задиры и стук вкладышей", short:"Стук вкладышей", node:"Двигатель", when:"от 100 000 км",
+  sev:"crit", cost:["crit","Дорогой"], prio:1,
+  chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","бензиновые"]],
+  desc:"Самая известная проблема этого семейства моторов: преждевременный износ шатунных вкладышей из-за огрехов обработки блока и масляного голодания. По этому дефекту были отзывные кампании в США и Корее.",
+  alert:["crit","<b>Смотреть в первую очередь.</b> Стук вкладышей означает капитальный ремонт или контрактный мотор. Дешёвых исходов тут нет."],
+  steps:["Приехать к холодной машине и послушать первые секунды запуска у открытого капота. Глухой стук снизу, пропадающий при прогреве, — вкладыши.",
+         "Прогреть мотор и послушать на холостых, потом резко газануть до трёх тысяч и отпустить.",
+         "Спросить, доливает ли владелец масло. На этих моторах расход — первый звонок.",
+         "Попросить показать коды. Код P1326 — заводской признак того, что блок уже поймал стук.",
+         "Проверить историю: была ли отзывная кампания и делали ли по ней что-нибудь."],
+  costs:[["Диагностика","Недорогой","ok"],["Ремонт или контрактный мотор","Дорогой","crit"]],
+  codes:[["p1326","P1326","Система контроля детонации"]]
+};
+
+CARS["optima-jf"] = {
+  brand:"Kia", model:"Optima", gen:"JF", years:"2015–2020", body:"седан", updated:"19.09.2026",
+  engines:[
+    {key:"G4NA", label:"G4NA · 2.0 · 150 л.с.", gearboxes:["A6MF · автомат, 6 ступеней"]},
+    {key:"G4KJ", label:"G4KJ · 2.4 GDI · 188 л.с.", gearboxes:["A6MF · автомат, 6 ступеней"]}
+  ],
+  options:[
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"sunroof", name:"Люк", spot:"видно снаружи"},
+    {id:"xenon", name:"Ксенон или LED", spot:"линзы в фарах"},
+    {id:"camera", name:"Камера заднего вида", spot:"картинка при задней передаче"}
+  ],
+  paint:{min:80, max:110, repaint:180, filler:300,
+    material:"Кузов стальной, толщиномер подойдёт любой.",
+    quality:"Лак тонкий и мягкий. Сколы на капоте и крыше набегают быстро, это особенность марки, а не признак плохой эксплуатации."},
+  rust:[
+    {id:"chips", place:"Сколы на капоте и крыше", where:"передняя кромка капота", prev:"частое", sev:"warn", cost:["warn","Средний"],
+     why:"Тонкое мягкое покрытие. Из глубоких сколов начинается коррозия.",
+     how:["Осмотреть переднюю кромку капота на просвет.","Поискать рыжие точки в глубине сколов.","Проверить крышу над лобовым стеклом."]},
+    {id:"arches", place:"Кромки задних арок", where:"загиб", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Реагенты по тонкому лаку.",
+     how:["Провести пальцем по загибу.","Искать вздутия под краской."]},
+    {id:"trunk", place:"Крышка багажника", where:"у площадки номера", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Вода задерживается под накладкой.",
+     how:["Отогнуть уплотнитель.","Осмотреть вокруг фонарей и номера."]},
+    {id:"doors", place:"Нижние кромки дверей", where:"изнутри", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Забитые дренажи.",
+     how:["Провести пальцем по кромке изнутри.","Проверить дренажные отверстия."]}
+  ],
+  issueSeq:["theta-knock","oil-gdi","carbon-gdi","akpp-a6mf","susp-kh","paint-kh"],
+  issues:{
+    "theta-knock":KH_THETA,
+    "oil-gdi":{title:"Расход масла", short:"Расход масла", node:"Двигатель", when:"от 80 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","оба мотора"]],
+      desc:"Идёт рука об руку с износом поршневой. На этих моторах расход масла — не безобидная особенность, а симптом.",
+      alert:["warn","<b>Здесь расход масла значит больше, чем на японцах.</b> У Camry это неприятность, здесь — предвестник дорогого ремонта."],
+      steps:["Спросить прямо, сколько уходит между заменами.","Проверить уровень и состояние масла на холодную.",
+             "Посмотреть в выхлоп при резком газе.","Оценить нагар на свечах, если дадут выкрутить."],
+      costs:[["Ремонт мотора","Дорогой","bad"]], codes:[["p0300","P0300","Пропуски зажигания"]]},
+    "carbon-gdi":{title:"Нагар на клапанах", short:"Нагар", eng:"G4KJ", node:"Двигатель", when:"от 80 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","2.4 GDI"]],
+      desc:"У прямого впрыска топливо не омывает впускные клапаны, и на них нарастает нагар. Мотор теряет тягу и начинает троить на холодную.",
+      alert:null,
+      steps:["Завести холодный мотор и послушать первые полминуты: неровная работа с последующим выравниванием — признак нагара.",
+             "Оценить тягу с низов на тест-драйве.","Спросить, делали ли чистку клапанов."],
+      costs:[["Чистка клапанов","Средний","warn"]], codes:[["p0300","P0300","Пропуски зажигания"]]},
+    "akpp-a6mf":{title:"Толчки автомата", short:"Автомат", gb:"A6MF", node:"Коробка", when:"от 120 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Коробка"],["neutral","от 120 000 км"]],
+      desc:"Коробка неплохая, но жидкость в ней считается залитой на весь срок, и её не меняют. Отсюда толчки и задержки на пробегах за сто тысяч.",
+      alert:null,
+      steps:["Проехать в городе со светофорами не меньше десяти километров.","Проверить трогание и переход на вторую.",
+             "Спросить про замену жидкости."],
+      costs:[["Замена жидкости","Средний","warn"],["Ремонт","Дорогой","bad"]], codes:[]},
+    "susp-kh":{title:"Стойки и рычаги", short:"Подвеска", node:"Подвеска", when:"от 70 000 км",
+      sev:"ok", cost:["ok","Недорогой"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 70 000 км"]],
+      desc:"Подвеска мягкая и недолговечная, но детали дешёвые.",
+      alert:null,
+      steps:["Покачать машину за крыло.","Проехать по неровностям с открытым окном.","Подёргать колесо в положении три и девять часов."],
+      costs:[["Замена стоек","Недорогой","ok"]], codes:[]},
+    "paint-kh":{title:"Тонкий лак", short:"Лак", node:"Кузов", when:"от 50 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","от 50 000 км"]],
+      desc:"Сколы и потёртости появляются рано. Само по себе косметика, но глубокие сколы дают коррозию.",
+      alert:null,
+      steps:["Осмотреть капот и крышу на просвет.","Поискать рыжие точки в сколах."],
+      costs:[["Покраска капота","Средний","warn"]], codes:[]}
+  },
+  dtc:KH_DTC,
+  guides:[
+    {title:"Послушать вкладыши на холодном пуске", cat:"Двигатель",
+     steps:[{t:"Договоритесь приехать к машине, которая простояла ночь.", h:"На прогретом моторе стук вкладышей почти не слышен — именно поэтому продавцы греют машину заранее.", r:"Капот холодный на ощупь."},
+            {t:"Откройте капот, встаньте сбоку и попросите завести.", h:"Слушайте не клапаны сверху, а глухой стук снизу блока.", r:"Запуск ровный, стука снизу нет."},
+            {t:"Дайте мотору прогреться и послушайте ещё раз на холостых.", h:"Стук, который был на холодную и пропал на горячую, — худший вариант из возможных.", r:"Мотор звучит одинаково на холодную и горячую."},
+            {t:"Спросите про расход масла и попросите показать коды.", h:"Код P1326 — заводской признак того, что блок уже поймал стук.", r:"Доливов нет, кода нет."}]},
+    {title:"Проверить автомат", cat:"Коробка",
+     steps:[{t:"Проедьте по городу со светофорами минимум десять километров.", h:"Толчки вылезают при трогании и переходе на вторую.", r:"Переключения мягкие."},
+            {t:"Разгонитесь и отпустите газ, потом снова добавьте.", h:"Задержка больше секунды — повод насторожиться.", r:"Коробка отзывается сразу."},
+            {t:"Спросите, меняли ли жидкость в коробке.", h:"«Она залита на весь срок службы» означает, что не меняли ни разу.", r:"Есть заказ-наряд."}]}
+  ]
+};
+
+CARS["sportage-ql"] = {
+  brand:"Kia", model:"Sportage", gen:"QL", years:"2015–2021", body:"кроссовер", updated:"19.09.2026",
+  engines:[
+    {key:"G4NA", label:"G4NA · 2.0 · 150 л.с.", gearboxes:["A6MF · автомат, 6 ступеней"]},
+    {key:"D4HA", label:"D4HA · 2.0 CRDi · 185 л.с.", gearboxes:["A6MF · автомат, 6 ступеней"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод", spot:"шильдик сзади, кардан под днищем"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"sunroof", name:"Панорамная крыша", spot:"видно снаружи"},
+    {id:"camera", name:"Камера заднего вида", spot:"картинка при задней передаче"}
+  ],
+  paint:{min:80, max:110, repaint:180, filler:300,
+    material:"Кузов стальной.",
+    quality:"Лак тонкий, сколы набегают быстро. Для марки это норма."},
+  rust:[
+    {id:"chips", place:"Сколы на капоте", where:"передняя кромка", prev:"частое", sev:"warn", cost:["warn","Средний"],
+     why:"Тонкое покрытие.",
+     how:["Осмотреть кромку капота на просвет.","Искать рыжие точки в сколах."]},
+    {id:"sills", place:"Пороги под накладками", where:"под пластиком", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Грязь под накладкой не сохнет.",
+     how:["Осмотреть край порога у накладки.","Заглянуть под неё."]},
+    {id:"tailgate", place:"Пятая дверь", where:"нижняя кромка", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Вода в кромке двери.",
+     how:["Осмотреть кромку изнутри.","Отогнуть уплотнитель."]},
+    {id:"subframe", place:"Днище", where:"швы и подрамник", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Реагенты.",
+     how:["Нужна яма или подъёмник.","Без ямы оставить непроверенным."]}
+  ],
+  issueSeq:["theta-knock","diesel-chain","awd-kh","akpp-a6mf","susp-kh","paint-kh"],
+  issues:{
+    "theta-knock":KH_THETA,
+    "diesel-chain":{title:"Цепь ГРМ на дизеле", short:"Цепь дизеля", eng:"D4HA", node:"Двигатель", when:"от 120 000 км",
+      sev:"bad", cost:["warn","Средний"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","2.0 CRDi"]],
+      desc:"Цепь и её натяжитель на дизеле — расходник, который массово пропускают. При перескоке гнёт клапаны.",
+      alert:["warn","<b>Слушать только холодный пуск.</b>"],
+      steps:["Приехать к холодной машине.","Послушать первые секунды запуска.","Треск — цепь. Спросить документы на замену.",
+             "Заодно спросить про форсунки: на дизеле это вторая по стоимости позиция."],
+      costs:[["Замена цепи","Средний","warn"],["После перескока","Дорогой","crit"]], codes:[]},
+    "awd-kh":{title:"Муфта полного привода", short:"Муфта AWD", opt:"awd", node:"Трансмиссия", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Трансмиссия"],["neutral","только с полным приводом"]],
+      desc:"Масло в муфте не меняют, она греется и перестаёт подключать заднюю ось.",
+      alert:["info","<b>Показано потому, что вы отметили полный привод.</b>"],
+      steps:["Спросить про замену масла в муфте.","Осмотреть её снизу на подтёки.","На скользком тронуться с пробуксовкой."],
+      costs:[["Замена масла","Недорогой","ok"],["Замена муфты","Средний","warn"]], codes:[]},
+    "akpp-a6mf":{title:"Толчки автомата", short:"Автомат", gb:"A6MF", node:"Коробка", when:"от 120 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Коробка"],["neutral","от 120 000 км"]],
+      desc:"Жидкость считается залитой навсегда и не меняется. Отсюда толчки на больших пробегах.",
+      alert:null,
+      steps:["Проехать по городу со светофорами.","Проверить трогание и переход на вторую.","Спросить про замену жидкости."],
+      costs:[["Замена жидкости","Средний","warn"]], codes:[]},
+    "susp-kh":{title:"Стойки и рычаги", short:"Подвеска", node:"Подвеска", when:"от 70 000 км",
+      sev:"ok", cost:["ok","Недорогой"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 70 000 км"]],
+      desc:"Подвеска мягкая, детали дешёвые.",
+      alert:null,
+      steps:["Покачать машину за крыло.","Проехать по неровностям с открытым окном."],
+      costs:[["Замена стоек","Недорогой","ok"]], codes:[]},
+    "paint-kh":{title:"Тонкий лак", short:"Лак", node:"Кузов", when:"от 50 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","от 50 000 км"]],
+      desc:"Сколы появляются рано, из глубоких начинается коррозия.",
+      alert:null,
+      steps:["Осмотреть капот и крышу на просвет.","Поискать рыжие точки."],
+      costs:[["Покраска капота","Средний","warn"]], codes:[]}
+  },
+  dtc:KH_DTC,
+  guides:[
+    {title:"Послушать вкладыши на холодном пуске", cat:"Двигатель",
+     steps:[{t:"Приезжайте к машине, простоявшей ночь.", h:"Прогретый мотор скрывает стук вкладышей.", r:"Капот холодный."},
+            {t:"Послушайте первые секунды запуска у открытого капота.", h:"Глухой стук снизу блока, а не цокот сверху.", r:"Стука нет."},
+            {t:"Попросите показать коды и спросите про расход масла.", h:"Код P1326 означает, что блок уже поймал стук.", r:"Ни кода, ни доливов."}]},
+    {title:"Проверить полный привод", cat:"Трансмиссия",
+     steps:[{t:"Загляните под машину: должен быть карданный вал назад.", h:"Нет кардана — привод передний.", r:"Кардан на месте."},
+            {t:"Осмотрите муфту у заднего редуктора на подтёки.", h:"Мокрая муфта означает перегрев.", r:"Сухо."},
+            {t:"На грунте тронитесь с пробуксовкой.", h:"Задняя ось должна подключаться сразу.", r:"Машина выезжает уверенно."}]}
+  ]
+};
+
+CARS["tucson-tl"] = {
+  brand:"Hyundai", model:"Tucson", gen:"TL", years:"2015–2020", body:"кроссовер", updated:"19.09.2026",
+  engines:[
+    {key:"G4NA", label:"G4NA · 2.0 · 150 л.с.", gearboxes:["A6MF · автомат, 6 ступеней"]},
+    {key:"D4HA", label:"D4HA · 2.0 CRDi · 185 л.с.", gearboxes:["A6MF · автомат, 6 ступеней"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод", spot:"шильдик сзади, кардан под днищем"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"sunroof", name:"Панорамная крыша", spot:"видно снаружи"},
+    {id:"camera", name:"Камера заднего вида", spot:"картинка при задней передаче"}
+  ],
+  paint:{min:80, max:110, repaint:180, filler:300,
+    material:"Кузов стальной.",
+    quality:"Лак тонкий, как у всей платформы. Сколы на капоте — норма возраста."},
+  rust:[
+    {id:"chips", place:"Сколы на капоте", where:"передняя кромка", prev:"частое", sev:"warn", cost:["warn","Средний"],
+     why:"Тонкое покрытие.",
+     how:["Осмотреть кромку на просвет.","Искать рыжие точки в сколах."]},
+    {id:"sills", place:"Пороги под накладками", where:"под пластиком", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Грязь не сохнет под накладкой.",
+     how:["Осмотреть край порога.","Заглянуть под накладку."]},
+    {id:"tailgate", place:"Пятая дверь", where:"нижняя кромка", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Вода в кромке.",
+     how:["Осмотреть изнутри.","Отогнуть уплотнитель."]},
+    {id:"subframe", place:"Днище", where:"швы", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Реагенты.",
+     how:["Нужен подъёмник.","Без него оставить непроверенным."]}
+  ],
+  issueSeq:["theta-knock","diesel-chain","awd-kh","akpp-a6mf","susp-kh","paint-kh"],
+  issues:{
+    "theta-knock":KH_THETA,
+    "diesel-chain":{title:"Цепь ГРМ на дизеле", short:"Цепь дизеля", eng:"D4HA", node:"Двигатель", when:"от 120 000 км",
+      sev:"bad", cost:["warn","Средний"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","2.0 CRDi"]],
+      desc:"Цепь и натяжитель — расходник, который пропускают. Перескок гнёт клапаны.",
+      alert:["warn","<b>Слушать только холодный пуск.</b>"],
+      steps:["Приехать к холодной машине.","Послушать первые секунды.","Спросить документы на замену цепи и состояние форсунок."],
+      costs:[["Замена цепи","Средний","warn"],["После перескока","Дорогой","crit"]], codes:[]},
+    "awd-kh":{title:"Муфта полного привода", short:"Муфта AWD", opt:"awd", node:"Трансмиссия", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Трансмиссия"],["neutral","только с полным приводом"]],
+      desc:"Масло не меняют, муфта греется и отказывает.",
+      alert:["info","<b>Показано потому, что вы отметили полный привод.</b>"],
+      steps:["Спросить про замену масла.","Осмотреть муфту на подтёки.","Тронуться с пробуксовкой на скользком."],
+      costs:[["Замена масла","Недорогой","ok"],["Замена муфты","Средний","warn"]], codes:[]},
+    "akpp-a6mf":{title:"Толчки автомата", short:"Автомат", gb:"A6MF", node:"Коробка", when:"от 120 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Коробка"],["neutral","от 120 000 км"]],
+      desc:"Жидкость не меняют, появляются толчки.",
+      alert:null,
+      steps:["Проехать по городу со светофорами.","Проверить трогание и вторую передачу.","Спросить про замену жидкости."],
+      costs:[["Замена жидкости","Средний","warn"]], codes:[]},
+    "susp-kh":{title:"Стойки и рычаги", short:"Подвеска", node:"Подвеска", when:"от 70 000 км",
+      sev:"ok", cost:["ok","Недорогой"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 70 000 км"]],
+      desc:"Мягкая подвеска, дешёвые детали.",
+      alert:null,
+      steps:["Покачать машину за крыло.","Проехать по неровностям."],
+      costs:[["Замена стоек","Недорогой","ok"]], codes:[]},
+    "paint-kh":{title:"Тонкий лак", short:"Лак", node:"Кузов", when:"от 50 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","от 50 000 км"]],
+      desc:"Сколы появляются рано.",
+      alert:null,
+      steps:["Осмотреть капот и крышу.","Поискать рыжие точки в сколах."],
+      costs:[["Покраска капота","Средний","warn"]], codes:[]}
+  },
+  dtc:KH_DTC,
+  guides:[
+    {title:"Послушать вкладыши на холодном пуске", cat:"Двигатель",
+     steps:[{t:"Приезжайте к холодной машине.", h:"Прогретый мотор скрывает стук.", r:"Капот холодный."},
+            {t:"Послушайте первые секунды запуска.", h:"Глухой стук снизу блока.", r:"Стука нет."},
+            {t:"Спросите про расход масла и коды.", h:"P1326 — заводской признак пойманного стука.", r:"Чисто."}]},
+    {title:"Проверить полный привод", cat:"Трансмиссия",
+     steps:[{t:"Проверьте наличие кардана под днищем.", h:"Нет кардана — привод передний.", r:"Кардан на месте."},
+            {t:"Осмотрите муфту на подтёки.", h:"Мокрая — грелась.", r:"Сухо."},
+            {t:"Тронитесь с пробуксовкой на грунте.", h:"Задняя ось должна подключаться.", r:"Выезжает уверенно."}]}
+  ]
+};
+
+/* ---------- Nissan ---------- */
+const NISSAN_DTC = {
+  "p0300":{code:"P0300", urgency:["bad","Срочность высокая"],
+    summary:"Пропуски зажигания, цилиндр не определён.",
+    causes:"Катушки, свечи, изношенная поршневая. На этих моторах отдельная причина — керамическая пыль от разрушенного катализатора, попавшая в цилиндры.",
+    consequence:["bad","<b>К чему приведёт.</b> Если причина в катализаторе, счёт идёт на дни: пыль работает как абразив и убивает мотор."],
+    order:"На этой машине при пропусках первым делом смотрят состояние катализатора, а не свечи.",
+    issues:[["cat-dust","Разрушение катализатора","Часто · дорогой ремонт","crit"]]},
+  "p0420":{code:"P0420", urgency:["bad","Срочность высокая"],
+    summary:"Эффективность катализатора ниже порога.",
+    causes:"Изношенный или разрушающийся катализатор, реже задний кислородный датчик.",
+    consequence:["crit","<b>На этой машине код опаснее обычного.</b> Разрушающийся катализатор засасывает керамику обратно в цилиндры и оставляет на стенках задиры."],
+    order:"Не откладывать. На большинстве машин P0420 — вопрос лампы, здесь — вопрос мотора.",
+    issues:[["cat-dust","Разрушение катализатора","Почти всегда · дорогой ремонт","crit"]]},
+  "p0744":{code:"P0744", urgency:["bad","Срочность высокая"],
+    summary:"Ошибка блокировки гидротрансформатора вариатора.",
+    causes:"Перегрев вариатора, изношенная жидкость, забитый радиатор охлаждения коробки.",
+    consequence:["bad","<b>К чему приведёт.</b> Вариатор ремонтируется дорого. Код означает, что процесс уже идёт."],
+    order:"Проверять вместе с рывками на разгоне.",
+    issues:[["cvt-nissan","Вариатор","Почти всегда · дорогой ремонт","bad"]]}
+};
+
+CARS["xtrail-t31"] = {
+  brand:"Nissan", model:"X-Trail", gen:"T31", years:"2007–2014", body:"кроссовер", updated:"19.09.2026",
+  engines:[
+    {key:"MR20DE", label:"MR20DE · 2.0 · 141 л.с.", gearboxes:["JF011E · вариатор","механика, 6 ступеней"]},
+    {key:"QR25DE", label:"QR25DE · 2.5 · 169 л.с.", gearboxes:["JF011E · вариатор"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод", spot:"шайба режимов у рычага, кардан под днищем"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"sunroof", name:"Люк", spot:"видно снаружи"},
+    {id:"xenon", name:"Ксенон", spot:"линзы в фарах"}
+  ],
+  paint:{min:85, max:115, repaint:185, filler:300,
+    material:"Кузов стальной.",
+    quality:"Лак тонкий, сколов набирает быстро. Коррозия для этого кузова не главная беда — главная в моторе и коробке."},
+  rust:[
+    {id:"tailgate", place:"Пятая дверь", where:"нижняя кромка и у фонарей", prev:"частое", sev:"warn", cost:["warn","Средний"],
+     why:"Вода задерживается в кромке двери багажника.",
+     how:["Открыть багажник, осмотреть кромку изнутри.","Отогнуть уплотнитель.","Посмотреть вокруг фонарей."]},
+    {id:"arches", place:"Кромки арок", where:"загиб, все четыре", prev:"частое", sev:"warn", cost:["warn","Средний"],
+     why:"Пескоструй по тонкому лаку.",
+     how:["Провести пальцем по загибу каждой арки.","Искать вздутия."]},
+    {id:"sills", place:"Пороги", where:"под накладками", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Грязь под накладкой.",
+     how:["Осмотреть край порога у накладки.","Заглянуть под неё."]},
+    {id:"subframe", place:"Днище и подрамник", where:"швы", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Реагенты.",
+     how:["Нужен подъёмник или яма.","Осмотреть швы и подрамник."]}
+  ],
+  issueSeq:["cat-dust","cvt-nissan","chain-mr20","awd-nissan","susp-nissan","paint-nissan"],
+  issues:{
+    "cat-dust":{title:"Разрушение катализатора и задиры", short:"Катализатор", eng:"QR25DE", node:"Двигатель", when:"от 150 000 км",
+      sev:"crit", cost:["crit","Дорогой"], prio:1,
+      chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","2.5"]],
+      desc:"Катализатор стоит близко к мотору и со временем рассыпается. Керамическая пыль засасывается обратно в цилиндры и работает как абразив: стенки получают задиры, мотор начинает есть масло и умирает.",
+      alert:["crit","<b>Главная причина, по которой эти моторы уходят в капремонт.</b> Сам по себе мотор крепкий и ходит по 350 тысяч — убивает его именно катализатор."],
+      steps:["Попросить показать коды. P0420 на этой машине — не про лампу, а про мотор.",
+             "Спросить, стоит ли катализатор на месте или его вырезали. Вырезанный — плохо для экологии, но мотор он больше не убьёт.",
+             "Проверить расход масла: доливы означают, что процесс уже пошёл.",
+             "Осмотреть выхлоп на запуске: сизый дым — задиры.",
+             "При серьёзных намерениях — эндоскоп в цилиндры."],
+      costs:[["Замена катализатора","Средний","warn"],["Ремонт мотора после задиров","Дорогой","crit"]],
+      codes:[["p0420","P0420","Эффективность катализатора"],["p0300","P0300","Пропуски зажигания"]]},
+    "cvt-nissan":{title:"Вариатор JF011E", short:"Вариатор", gb:"JF011E", node:"Коробка", when:"от 100 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Коробка"],["neutral","вариатор"]],
+      desc:"Основная беда на пробегах 100–150 тысяч — износ конусов, после которого ремень проскальзывает. Не прощает пропущенных замен жидкости: клапан заклинивает, ремень пилит конусы, выходят из строя гидроблок и шаговый мотор.",
+      alert:["warn","<b>Проверять на разгоне в горку.</b> На ровной дороге больной вариатор может ехать сносно."],
+      steps:["Проехать не меньше двадцати километров, обязательно с разгонами до сотни.",
+             "Разогнаться в горку с половины педали: обороты растут, а скорость нет — ремень проскальзывает.",
+             "Послушать на скорости 60–80 с открытым окном: гул, меняющийся со скоростью, — конусы или подшипники.",
+             "Спросить про замену жидкости. Правильно — каждые 40–60 тысяч.",
+             "Проверить радиатор охлаждения вариатора на забитость."],
+      costs:[["Замена жидкости","Средний","warn"],["Ремонт вариатора","Дорогой","bad"]],
+      codes:[["p0744","P0744","Блокировка гидротрансформатора"]]},
+    "chain-mr20":{title:"Цепь ГРМ на MR20DE", short:"Цепь ГРМ", eng:"MR20DE", node:"Двигатель", when:"от 120 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","2.0"]],
+      desc:"Цепь вытягивается, особенно при пропущенных заменах масла.",
+      alert:["warn","<b>Слушать только на холодную.</b>"],
+      steps:["Приехать к холодной машине.","Послушать первые секунды запуска.","Треск с затиханием — цепь."],
+      costs:[["Замена цепи","Средний","warn"]], codes:[]},
+    "awd-nissan":{title:"Муфта полного привода", short:"Муфта AWD", opt:"awd", node:"Трансмиссия", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Трансмиссия"],["neutral","только с полным приводом"]],
+      desc:"Масло не меняют, муфта греется и перестаёт работать. Режим LOCK при этом может включаться формально, а тяги на заднюю ось нет.",
+      alert:["info","<b>Показано потому, что вы отметили полный привод.</b>"],
+      steps:["Покрутить шайбу режимов: индикация должна меняться.","Спросить про замену масла в муфте.",
+             "Осмотреть муфту снизу.","На скользком включить LOCK и тронуться."],
+      costs:[["Замена масла","Недорогой","ok"],["Замена муфты","Средний","warn"]], codes:[]},
+    "susp-nissan":{title:"Стойки и сайлентблоки", short:"Подвеска", node:"Подвеска", when:"от 80 000 км",
+      sev:"ok", cost:["ok","Недорогой"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 80 000 км"]],
+      desc:"Расходник.",
+      alert:null,
+      steps:["Покачать машину за крыло.","Проехать по неровностям с открытым окном."],
+      costs:[["Замена стоек","Недорогой","ok"]], codes:[]},
+    "paint-nissan":{title:"Сколы на капоте", short:"Сколы", node:"Кузов", when:"от 80 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","от 80 000 км"]],
+      desc:"Тонкий лак. Из глубоких сколов начинается коррозия.",
+      alert:null,
+      steps:["Осмотреть капот на просвет.","Поискать рыжие точки."],
+      costs:[["Покраска капота","Средний","warn"]], codes:[]}
+  },
+  dtc:NISSAN_DTC,
+  guides:[
+    {title:"Проверить, жив ли катализатор", cat:"Двигатель",
+     steps:[{t:"Попросите показать коды ошибок любым сканером.", h:"P0420 здесь важнее, чем на любой другой машине: за ним стоит риск для мотора.", r:"Кода нет."},
+            {t:"Спросите прямо, штатный ли катализатор или его вырезали.", h:"Вырезанный катализатор — минус для экологии, но мотор он уже не убьёт. Штатный на пробеге за 150 тысяч — повод проверить.", r:"Получен внятный ответ."},
+            {t:"Заведите холодный мотор и посмотрите в выхлоп со стороны.", h:"Сизый дым означает, что задиры уже есть.", r:"Выхлоп чистый."},
+            {t:"Проверьте расход масла: спросите про доливы между заменами.", h:"Доливы на этом моторе — признак того, что абразив уже поработал.", r:"Доливов нет."}]},
+    {title:"Проверить вариатор на тест-драйве", cat:"Коробка",
+     steps:[{t:"Выберите маршрут с возможностью разогнаться до сотни и с подъёмом.", h:"Городской круг вариатор не проверяет.", r:"Есть где ехать."},
+            {t:"Разгонитесь в горку с половины педали и смотрите на тахометр.", h:"Обороты растут без роста скорости — ремень проскальзывает по конусам.", r:"Разгон линейный."},
+            {t:"На 60–80 км/ч опустите окно и послушайте.", h:"Гул, меняющийся со скоростью, — подшипники или конусы.", r:"Коробку не слышно."},
+            {t:"Спросите об интервале замены жидкости.", h:"Каждые 40–60 тысяч. Ответ «не меняется» означает, что вариатор доживает.", r:"Есть документы."}]}
+  ]
+};
+
+const QASHQAI_DTC = {
+  "p0300":{code:"P0300", urgency:["bad","Срочность высокая"],
+    summary:"Пропуски зажигания, цилиндр не определён.",
+    causes:"Катушки и свечи, нагар на впускных клапанах прямого впрыска, форсунки.",
+    consequence:["bad","<b>К чему приведёт.</b> Несгоревшее топливо разрушает катализатор."],
+    order:"На моторе с прямым впрыском начинать с нагара на клапанах.",
+    issues:[["carbon-mr20dd","Нагар на клапанах","Часто · средний ремонт","warn"]]},
+  "p0744":{code:"P0744", urgency:["bad","Срочность высокая"],
+    summary:"Ошибка блокировки гидротрансформатора вариатора.",
+    causes:"Перегрев вариатора, изношенная жидкость, забитый радиатор охлаждения коробки.",
+    consequence:["bad","<b>К чему приведёт.</b> Ремонт вариатора дорогой. Код означает, что процесс уже идёт."],
+    order:"Проверять вместе с рывками на разгоне 30–50 км/ч.",
+    issues:[["cvt-j11","Вариатор JF016E","Почти всегда · дорогой ремонт","bad"]]},
+  "p0420":{code:"P0420", urgency:["warn","Срочность средняя"],
+    summary:"Эффективность катализатора ниже порога.",
+    causes:"Изношенный катализатор или задний кислородный датчик.",
+    consequence:["warn","<b>К чему приведёт.</b> Сам по себе код о лампе, но за ним часто стоят долгие пропуски зажигания."],
+    order:"Разбираться после пропусков.",
+    issues:[]}
+};
+
+CARS["qashqai-j11"] = {
+  brand:"Nissan", model:"Qashqai", gen:"J11", years:"2013–2019", body:"кроссовер", updated:"19.09.2026",
+  engines:[
+    {key:"HR16DE", label:"HR16DE · 1.6 · 117 л.с.", gearboxes:["JF015E · вариатор","механика, 5 ступеней"]},
+    {key:"MR20DD", label:"MR20DD · 2.0 · 144 л.с.", gearboxes:["JF016E · вариатор"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод", spot:"шильдик сзади, кардан под днищем"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"sunroof", name:"Панорамная крыша", spot:"видно снаружи"},
+    {id:"camera", name:"Камера кругового обзора", spot:"картинка со всех сторон на экране"}
+  ],
+  paint:{min:85, max:115, repaint:185, filler:300,
+    material:"Кузов стальной.",
+    quality:"Лак тонкий, сколы набегают быстро. Кузов при этом держится неплохо."},
+  rust:[
+    {id:"tailgate", place:"Пятая дверь", where:"нижняя кромка", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Вода в кромке двери.",
+     how:["Осмотреть кромку изнутри.","Отогнуть уплотнитель."]},
+    {id:"arches", place:"Кромки арок", where:"загиб", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Пескоструй.",
+     how:["Провести пальцем по загибу.","Искать вздутия."]},
+    {id:"chips", place:"Сколы на капоте", where:"передняя кромка", prev:"частое", sev:"ok", cost:["warn","Средний"],
+     why:"Тонкий лак.",
+     how:["Осмотреть на просвет.","Поискать рыжие точки."]},
+    {id:"subframe", place:"Днище", where:"швы", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Реагенты.",
+     how:["Нужен подъёмник."]}
+  ],
+  issueSeq:["cvt-j11","carbon-mr20dd","chain-j11","awd-nissan-j11","susp-nissan","paint-nissan"],
+  issues:{
+    "cvt-j11":{title:"Вариатор JF016E", short:"Вариатор", node:"Коробка", when:"от 120 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Коробка"],["neutral","вариатор"]],
+      desc:"При замене жидкости каждые 40 тысяч проходит 150–180 тысяч без серьёзного ремонта. Характерный симптом — рывки при разгоне на 30–50 км/ч из-за загрязнения шагового мотора или клапана давления.",
+      alert:["warn","<b>Ключевой тест — разгон на 30–50 км/ч.</b> Именно там вылезают рывки."],
+      steps:["Разогнаться плавно с 30 до 60 несколько раз: рывки и подёргивания — загрязнение гидроблока.",
+             "Разогнаться в горку и посмотреть на тахометр.","Послушать на 60–80 с открытым окном.",
+             "Спросить про интервал замены жидкости — правильный ответ каждые 40 тысяч."],
+      costs:[["Замена жидкости","Средний","warn"],["Ремонт вариатора","Дорогой","bad"]],
+      codes:[["p0744","P0744","Блокировка гидротрансформатора"]]},
+    "carbon-mr20dd":{title:"Нагар на клапанах", short:"Нагар", eng:"MR20DD", node:"Двигатель", when:"от 80 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:1,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","2.0 прямой впрыск"]],
+      desc:"Прямой впрыск: топливо не омывает впускные клапаны, нагар нарастает. Мотор теряет тягу, троит на холодную, растёт расход.",
+      alert:null,
+      steps:["Завести холодный мотор и послушать первые полминуты.","Оценить тягу с низов на тест-драйве.",
+             "Спросить, делали ли чистку клапанов и чем."],
+      costs:[["Чистка клапанов","Средний","warn"]], codes:[["p0300","P0300","Пропуски зажигания"]]},
+    "chain-j11":{title:"Цепь ГРМ", short:"Цепь ГРМ", node:"Двигатель", when:"от 120 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","от 120 000 км"]],
+      desc:"Вытягивается при длинных интервалах замены масла.",
+      alert:["warn","<b>Слушать только холодный пуск.</b>"],
+      steps:["Приехать к холодной машине.","Послушать первые секунды."],
+      costs:[["Замена цепи","Средний","warn"]], codes:[]},
+    "awd-nissan-j11":{title:"Муфта полного привода", short:"Муфта AWD", opt:"awd", node:"Трансмиссия", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Трансмиссия"],["neutral","только с полным приводом"]],
+      desc:"Масло не меняют, муфта греется и отказывает.",
+      alert:["info","<b>Показано потому, что вы отметили полный привод.</b>"],
+      steps:["Спросить про замену масла.","Осмотреть муфту снизу.","Тронуться с пробуксовкой на скользком."],
+      costs:[["Замена масла","Недорогой","ok"],["Замена муфты","Средний","warn"]], codes:[]},
+    "susp-nissan":{title:"Стойки и сайлентблоки", short:"Подвеска", node:"Подвеска", when:"от 80 000 км",
+      sev:"ok", cost:["ok","Недорогой"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 80 000 км"]],
+      desc:"Расходник.",
+      alert:null,
+      steps:["Покачать машину за крыло.","Проехать по неровностям."],
+      costs:[["Замена стоек","Недорогой","ok"]], codes:[]},
+    "paint-nissan":{title:"Сколы на капоте", short:"Сколы", node:"Кузов", when:"от 80 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Кузов"],["neutral","от 80 000 км"]],
+      desc:"Тонкий лак, ранние сколы.",
+      alert:null,
+      steps:["Осмотреть капот на просвет.","Поискать рыжие точки."],
+      costs:[["Покраска капота","Средний","warn"]], codes:[]}
+  },
+  dtc:QASHQAI_DTC,
+  guides:[
+    {title:"Проверить вариатор на разгоне", cat:"Коробка",
+     steps:[{t:"Разгонитесь плавно с 30 до 60 км/ч несколько раз подряд.", h:"Именно в этом диапазоне вылезают рывки от загрязнённого гидроблока.", r:"Разгон ровный."},
+            {t:"Разгонитесь в горку и следите за тахометром.", h:"Обороты растут без скорости — проскальзывание.", r:"Скорость растёт вместе с оборотами."},
+            {t:"Спросите об интервале замены жидкости.", h:"Каждые 40 тысяч. При таком уходе коробка ходит 150–180 тысяч.", r:"Есть документы о заменах."}]},
+    {title:"Оценить нагар на клапанах", cat:"Двигатель",
+     steps:[{t:"Заведите холодный мотор и послушайте первые тридцать секунд.", h:"Неровная работа, выравнивающаяся по мере прогрева, — классический признак нагара.", r:"Мотор работает ровно с первых секунд."},
+            {t:"На тест-драйве оцените тягу с низких оборотов на четвёртой передаче.", h:"Вялость внизу при нормальной работе наверху — нагар.", r:"Тяга есть с низов."},
+            {t:"Спросите, делали ли чистку впускных клапанов.", h:"На прямом впрыске это плановая работа, а не ремонт.", r:"Есть заказ-наряд."}]}
+  ]
+};
+/* ---------- BMW, Mercedes-Benz, Audi ---------- */
+CARS["bmw3-f30"] = {
+  brand:"BMW", model:"3 серии", gen:"F30", years:"2011–2019", body:"седан", updated:"19.09.2026",
+  engines:[
+    {key:"N20B20", label:"N20B20 · 2.0 · 184 л.с.", gearboxes:["ZF 8HP · автомат, 8 ступеней"]},
+    {key:"N55B30", label:"N55B30 · 3.0 · 306 л.с.", gearboxes:["ZF 8HP · автомат, 8 ступеней"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод xDrive", spot:"шильдик xDrive сзади, кардан вперёд под днищем"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"xenon", name:"Ксенон или LED", spot:"линзы в фарах"},
+    {id:"sunroof", name:"Люк", spot:"видно снаружи"}
+  ],
+  paint:{min:100, max:150, repaint:210, filler:300,
+    material:"Кузов стальной, но капот на части машин алюминиевый. Если магнитный толщиномер на капоте показывает ноль, а на крыле работает — прибор исправен, деталь алюминиевая. Здесь нужен двухрежимный.",
+    quality:"Заводское покрытие плотное, к коррозии кузов устойчив. Смотреть надо мотор, а не металл."},
+  rust:[
+    {id:"tailgate", place:"Крышка багажника", where:"под хромовой планкой", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Влага под накладкой.",
+     how:["Осмотреть границы хромовой планки.","Искать пузыри по краю."]},
+    {id:"doors", place:"Нижние кромки дверей", where:"изнутри", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Забитые дренажные отверстия.",
+     how:["Провести пальцем по кромке изнутри.","Проверить дренажи снизу."]},
+    {id:"arches", place:"Кромки задних арок", where:"загиб", prev:"редкое", sev:"ok", cost:["warn","Средний"],
+     why:"Для этого кузова нетипично. Если есть — почти наверняка след плохо отремонтированного удара.",
+     how:["Провести пальцем по загибу.","Сравнить обе стороны: вздутия на одной при целой второй означают ремонт."]}
+  ],
+  issueSeq:["n20-chain","oil-leaks-bmw","vanos","cooling-bmw","zf8hp","susp-bmw"],
+  issues:{
+    "n20-chain":{title:"Цепь ГРМ на N20", short:"Цепь N20", eng:"N20B20", node:"Двигатель", when:"от 80 000 км",
+      sev:"crit", cost:["crit","Дорогой"], prio:1,
+      chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","N20 до 2015 года"]],
+      desc:"На ранних моторах пластик направляющих цепи со временем разрушается, обломки уходят в поддон, цепь растягивается и в худшем случае рвётся. Обрыв означает встречу поршней с клапанами.",
+      alert:["crit","<b>Это первое, что нужно выяснить по этой машине.</b> На моторах до 2015 года цепь и направляющие должны быть уже заменены. Если замены не было — закладывать её в цену."],
+      steps:["Приехать к холодной машине и послушать первые секунды запуска. Вой или дребезг спереди мотора — направляющие.",
+             "Послушать на прогретом холостом ходу: металлический дребезг не должен появляться.",
+             "Спросить документы на замену цепи и направляющих. На моторе до 2015 года это обязательный вопрос.",
+             "Если машина обслуживалась в сервисе — попросить посмотреть, находили ли пластиковую крошку в поддоне или на фильтре."],
+      costs:[["Замена цепи и направляющих","Дорогой","bad"],["После обрыва","Дорогой","crit"]],
+      codes:[["p0016","P0016","Рассогласование валов"]]},
+    "oil-leaks-bmw":{title:"Течи масла", short:"Течи масла", node:"Двигатель", when:"от 100 000 км",
+      sev:"bad", cost:["warn","Средний"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","оба мотора"]],
+      desc:"Классика марки: прокладка клапанной крышки, корпус масляного фильтра, задний сальник. Само по себе не смертельно, но масло попадает на ремень и проводку.",
+      alert:["warn","<b>Смотреть на подъёмнике.</b> Сверху видна только часть картины."],
+      steps:["Открыть капот и осмотреть стык клапанной крышки по периметру.","Посмотреть на корпус масляного фильтра — он часто мокрый.",
+             "Заглянуть под машину: капли на защите означают течь.","Оценить, насколько замаслен низ мотора: свежая мойка двигателя перед продажей скрывает именно это."],
+      costs:[["Прокладки","Средний","warn"],["Задний сальник","Дорогой","bad"]], codes:[]},
+    "vanos":{title:"Фазовращатели и клапан вентиляции", short:"Вентиляция картера", node:"Двигатель", when:"от 120 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","от 120 000 км"]],
+      desc:"Мембрана клапана вентиляции картера рвётся, мотор начинает сосать воздух и есть масло. Отдельно изнашиваются фазовращатели.",
+      alert:null,
+      steps:["Послушать мотор на холостых: свист или подсос — мембрана.","Снять маслозаливную крышку на работающем моторе: сильное разрежение означает проблему с вентиляцией.",
+             "Попросить показать коды: рассогласование фаз здесь частый гость."],
+      costs:[["Клапан вентиляции","Средний","warn"],["Фазовращатели","Дорогой","bad"]],
+      codes:[["p0016","P0016","Рассогласование валов"]]},
+    "cooling-bmw":{title:"Пластик системы охлаждения", short:"Охлаждение", node:"Охлаждение", when:"от 100 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Охлаждение"],["neutral","от 100 000 км"]],
+      desc:"Патрубки, расширительный бачок и корпус термостата пластиковые и трескаются от возраста. Итог — резкая потеря антифриза и перегрев.",
+      alert:null,
+      steps:["Осмотреть расширительный бачок на трещины и белый налёт по швам.","Пощупать патрубки: задубевшие меняют.",
+             "Проверить уровень антифриза и следы подтёков под машиной."],
+      costs:[["Замена патрубков и бачка","Средний","warn"],["После перегрева","Дорогой","crit"]], codes:[]},
+    "zf8hp":{title:"Автомат ZF 8HP", short:"Автомат", gb:"ZF", node:"Коробка", when:"от 120 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Коробка"],["neutral","от 120 000 км"]],
+      desc:"Одна из лучших коробок в классе, но жидкость в ней объявлена залитой на весь срок. Без замены к двумстам тысячам начинаются толчки.",
+      alert:null,
+      steps:["Проехать по городу и по трассе, оценить плавность переключений.","Обратить внимание на толчок при переходе на вторую и на кикдаун.",
+             "Спросить про замену жидкости: наличие замены — сильный плюс машине."],
+      costs:[["Замена жидкости","Средний","warn"],["Ремонт","Дорогой","bad"]], codes:[]},
+    "susp-bmw":{title:"Передняя подвеска", short:"Подвеска", node:"Подвеска", when:"от 80 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 80 000 км"]],
+      desc:"Алюминиевые рычаги меняются в сборе и стоят дороже, чем у японцев.",
+      alert:null,
+      steps:["Проехать по неровностям с открытым окном.","Покачать машину за крыло.","Подёргать колесо в положении три и девять часов."],
+      costs:[["Замена рычагов","Средний","warn"]], codes:[]}
+  },
+  dtc:{
+    "p0016":{code:"P0016", urgency:["bad","Срочность высокая"],
+      summary:"Рассогласование коленвала и распредвала.",
+      causes:"На N20 — растянутая цепь и разрушенные направляющие. Реже фазовращатель или его клапан.",
+      consequence:["crit","<b>К чему приведёт.</b> На этом моторе за таким кодом стоит цепь, а её обрыв гнёт клапаны. Ездить с ним нельзя."],
+      order:"Первый и единственный приоритет. Всё остальное после.",
+      issues:[["n20-chain","Цепь ГРМ на N20","Почти всегда · дорогой ремонт","crit"]]},
+    "p0171":{code:"P0171", urgency:["warn","Срочность средняя"],
+      summary:"Бедная смесь, банк 1.",
+      causes:"Порванная мембрана клапана вентиляции картера, подсос по патрубкам, реже ТНВД.",
+      consequence:["warn","<b>К чему приведёт.</b> Расход масла и нагрузка на катализатор. Мембрана меняется недорого."],
+      order:"Начинать с вентиляции картера: на этих моторах она первая в списке.",
+      issues:[["vanos","Клапан вентиляции картера","Часто · средний ремонт","warn"]]},
+    "p0300":{code:"P0300", urgency:["bad","Срочность высокая"],
+      summary:"Пропуски зажигания, цилиндр не определён.",
+      causes:"Катушки и свечи, следствие бедной смеси, на больших пробегах — форсунки прямого впрыска.",
+      consequence:["bad","<b>К чему приведёт.</b> Катализатор разрушается несгоревшим топливом."],
+      order:"Если рядом висит P0171 — сначала он.",
+      issues:[]}
+  },
+  guides:[
+    {title:"Выяснить историю цепи ГРМ", cat:"Двигатель",
+     steps:[{t:"Уточните год выпуска и модель мотора по документам.", h:"Цепь критична для N20 примерно до 2015 года. На N55 такой беды нет.", r:"Знаете, какой мотор перед вами."},
+            {t:"Приезжайте к холодной машине и послушайте первые секунды запуска.", h:"Слушайте вой или дребезг в передней части мотора, а не цокот клапанов.", r:"Запуск чистый."},
+            {t:"Спросите документы на замену цепи и направляющих.", h:"На машине с таким мотором это обязательный вопрос. Замены не было — закладывайте её в цену.", r:"Есть заказ-наряд с указанием направляющих."}]},
+    {title:"Найти течи масла", cat:"Двигатель",
+     steps:[{t:"Откройте капот и осмотрите стык клапанной крышки по всему периметру.", h:"Влажная грязь по шву — течь, а не «просто пыль».", r:"Стык сухой."},
+            {t:"Найдите корпус масляного фильтра и осмотрите его.", h:"Это второе по частоте место после клапанной крышки.", r:"Сухо."},
+            {t:"Загляните под машину на защиту двигателя.", h:"Свежая мойка мотора перед продажей делается ровно для того, чтобы это скрыть. Масло на защите скрыть сложнее.", r:"Защита сухая."}]}
+  ]
+};
+
+CARS["mercedes-c-w204"] = {
+  brand:"Mercedes-Benz", model:"C-класс", gen:"W204", years:"2007–2014", body:"седан", updated:"19.09.2026",
+  engines:[
+    {key:"M271", label:"M271 · 1.8 · 156 л.с.", gearboxes:["7G-Tronic · автомат, 7 ступеней"]},
+    {key:"M276", label:"M276 · 3.5 V6 · 306 л.с.", gearboxes:["7G-Tronic · автомат, 7 ступеней"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод 4MATIC", spot:"шильдик 4MATIC, кардан вперёд"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"xenon", name:"Ксенон", spot:"линзы в фарах"},
+    {id:"sunroof", name:"Люк", spot:"видно снаружи"}
+  ],
+  paint:{min:110, max:160, repaint:220, filler:300,
+    material:"Кузов стальной. Капот и крылья на части машин алюминиевые — магнитный толщиномер на них покажет ноль. Нужен двухрежимный прибор.",
+    quality:"Заводское покрытие толстое и плотное. Верхняя граница нормы выше, чем у японцев, — не пугайтесь цифр под 160."},
+  rust:[
+    {id:"tailgate", place:"Крышка багажника", where:"под хромовой планкой", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Влага под накладкой у номера.",
+     how:["Осмотреть края планки.","Искать пузыри по контуру."]},
+    {id:"doors", place:"Нижние кромки дверей", where:"изнутри", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Забитые дренажи.",
+     how:["Провести пальцем по кромке изнутри.","Проверить дренажные отверстия."]},
+    {id:"arches", place:"Кромки задних арок", where:"загиб", prev:"редкое", sev:"ok", cost:["warn","Средний"],
+     why:"Нетипично для кузова, обычно след ремонта.",
+     how:["Провести пальцем по загибу.","Сравнить обе стороны."]}
+  ],
+  issueSeq:["m271-chain","oil-leaks-mb","balance","7g-tronic","susp-mb","electro-mb"],
+  issues:{
+    "m271-chain":{title:"Цепь ГРМ и звёздочка на M271", short:"Цепь M271", eng:"M271", node:"Двигатель", when:"от 100 000 км",
+      sev:"crit", cost:["crit","Дорогой"], prio:1,
+      chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","M271, ранние особенно"]],
+      desc:"На ранних моторах изнашиваются цепь и звёздочка фазовращателя. Растянутая цепь сбивает фазы, а перескок гнёт клапаны.",
+      alert:["crit","<b>Слушать только холодный пуск.</b> Металлический треск в первые секунды — повод отказаться от машины, пока цепь не заменена."],
+      steps:["Приехать к машине, простоявшей ночь.","Послушать первые две-три секунды запуска у открытого капота.",
+             "Попросить показать коды: рассогласование фаз указывает на цепь.",
+             "Спросить документы на замену цепи и звёздочки. На возрастной машине это должно быть уже сделано."],
+      costs:[["Замена цепи и звёздочки","Дорогой","bad"],["После перескока","Дорогой","crit"]],
+      codes:[["p0016","P0016","Рассогласование валов"]]},
+    "oil-leaks-mb":{title:"Течи масла", short:"Течи масла", node:"Двигатель", when:"от 120 000 км",
+      sev:"bad", cost:["warn","Средний"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","оба мотора"]],
+      desc:"Прокладка клапанной крышки, уплотнение теплообменника, задний сальник. Для марки это возрастная норма, но замасленный низ означает будущие траты.",
+      alert:["warn","<b>Свежевымытый мотор перед продажей — сам по себе сигнал.</b> Смотреть надо на защиту и на подкапотную проводку."],
+      steps:["Осмотреть стык клапанной крышки по периметру.","Заглянуть под машину на защиту и подрамник.",
+             "Посмотреть на состояние проводки рядом с местами течей."],
+      costs:[["Прокладки","Средний","warn"],["Задний сальник","Дорогой","bad"]], codes:[]},
+    "balance":{title:"Балансирный механизм", short:"Балансир", eng:"M271", node:"Двигатель", when:"от 150 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:2,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","M271"]],
+      desc:"На части моторов изнашивается звёздочка балансирного вала. Ремонт требует разборки мотора, поэтому цену вопроса стоит знать заранее.",
+      alert:null,
+      steps:["Послушать мотор на холостых после прогрева.","Обратить внимание на вибрацию на холостых оборотах.",
+             "Попросить показать коды и историю обслуживания."],
+      costs:[["Ремонт","Дорогой","bad"]], codes:[]},
+    "7g-tronic":{title:"Автомат 7G-Tronic", short:"Автомат", gb:"7G-Tronic", node:"Коробка", when:"от 120 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Коробка"],["neutral","от 120 000 км"]],
+      desc:"Коробка живёт долго при регулярной замене жидкости. Слабое место — плата блока управления в поддоне и гидроблок.",
+      alert:null,
+      steps:["Проехать по городу и трассе, оценить переключения.","Обратить внимание на задержки при трогании и при включении задней передачи.",
+             "Спросить про замену жидкости и фильтра."],
+      costs:[["Замена жидкости","Средний","warn"],["Ремонт гидроблока","Дорогой","bad"]], codes:[]},
+    "susp-mb":{title:"Передняя подвеска", short:"Подвеска", node:"Подвеска", when:"от 100 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 100 000 км"]],
+      desc:"Многорычажка ходит долго, но детали дорогие и меняются в сборе.",
+      alert:null,
+      steps:["Проехать по неровностям с открытым окном.","Покачать машину за крыло.","Подёргать колесо."],
+      costs:[["Замена рычагов","Средний","warn"]], codes:[]},
+    "electro-mb":{title:"Электрика и блоки комфорта", short:"Электрика", node:"Электрика", when:"от 10 лет",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Электрика"],["neutral","от 10 лет"]],
+      desc:"Возрастные машины набирают мелкие отказы: доводчики, датчики, блоки комфорта. По отдельности недорого, вместе набегает.",
+      alert:null,
+      steps:["Проверить все стеклоподъёмники, зеркала, обогревы и климат.","Нажать все кнопки на руле и панели.",
+             "Проверить, гаснут ли лампы на панели после запуска."],
+      costs:[["Ремонт по мелочи","Средний","warn"]], codes:[]}
+  },
+  dtc:{
+    "p0016":{code:"P0016", urgency:["bad","Срочность высокая"],
+      summary:"Рассогласование коленвала и распредвала.",
+      causes:"На M271 это почти всегда растянутая цепь или изношенная звёздочка фазовращателя.",
+      consequence:["crit","<b>К чему приведёт.</b> Перескок цепи гнёт клапаны. Код означает ремонт до эксплуатации."],
+      order:"Приоритет над всем остальным.",
+      issues:[["m271-chain","Цепь ГРМ на M271","Почти всегда · дорогой ремонт","crit"]]},
+    "p0171":{code:"P0171", urgency:["warn","Срочность средняя"],
+      summary:"Бедная смесь, банк 1.",
+      causes:"Подсос воздуха по патрубкам и прокладкам, вентиляция картера, реже расходомер.",
+      consequence:["warn","<b>К чему приведёт.</b> Нагрузка на катализатор и рост расхода."],
+      order:"Искать подсос до замены датчиков.",
+      issues:[]},
+    "p0300":{code:"P0300", urgency:["bad","Срочность высокая"],
+      summary:"Пропуски зажигания.",
+      causes:"Катушки, свечи, следствие бедной смеси.",
+      consequence:["bad","<b>К чему приведёт.</b> Разрушение катализатора."],
+      order:"После разбора с бедной смесью, если она есть.",
+      issues:[]}
+  },
+  guides:[
+    {title:"Послушать цепь на холодном пуске", cat:"Двигатель",
+     steps:[{t:"Договоритесь смотреть машину, простоявшую ночь.", h:"Прогретый мотор при встрече — перенесите осмотр.", r:"Капот холодный."},
+            {t:"Откройте капот и послушайте первые две-три секунды запуска.", h:"Металлический треск спереди мотора — цепь и звёздочка.", r:"Запуск ровный."},
+            {t:"Спросите документы на замену цепи.", h:"На машине этого возраста замена должна быть уже сделана — или её стоимость должна быть в цене.", r:"Есть заказ-наряд."}]},
+    {title:"Проверить, чем скрывают течи", cat:"Двигатель",
+     steps:[{t:"Оцените чистоту подкапотного пространства.", h:"Идеально вымытый мотор на возрастной машине — не достоинство, а вопрос: что смывали.", r:"Мотор чистый, но не стерильный."},
+            {t:"Загляните под машину на защиту и подрамник.", h:"Масло на защите смыть труднее, чем сверху.", r:"Защита сухая."},
+            {t:"Осмотрите проводку рядом с клапанной крышкой и теплообменником.", h:"Замасленные разъёмы говорят о давней течи.", r:"Проводка сухая."}]}
+  ]
+};
+
+CARS["audi-a4-b8"] = {
+  brand:"Audi", model:"A4", gen:"B8", years:"2007–2015", body:"седан", updated:"19.09.2026",
+  engines:[
+    {key:"CDNC", label:"CDNC · 2.0 TFSI · 211 л.с.", gearboxes:["мультитроник · вариатор","автомат, 8 ступеней"]},
+    {key:"CAGA", label:"CAGA · 2.0 TDI · 143 л.с.", gearboxes:["механика, 6 ступеней","мультитроник · вариатор"]}
+  ],
+  options:[
+    {id:"awd", name:"Полный привод quattro", spot:"шильдик quattro, кардан назад"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"xenon", name:"Ксенон", spot:"линзы в фарах"},
+    {id:"sunroof", name:"Люк", spot:"видно снаружи"}
+  ],
+  paint:{min:100, max:150, repaint:210, filler:300,
+    material:"Кузов стальной, но капот и передние крылья на части машин алюминиевые. Магнитный прибор на них покажет ноль. Нужен двухрежимный толщиномер, иначе половина кузова окажется «непроверяемой».",
+    quality:"Покрытие плотное, кузов к коррозии устойчив. Проблемы этой машины в моторе и коробке."},
+  rust:[
+    {id:"tailgate", place:"Крышка багажника", where:"под накладкой", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Влага под хромовой накладкой.",
+     how:["Осмотреть края накладки.","Искать пузыри."]},
+    {id:"doors", place:"Нижние кромки дверей", where:"изнутри", prev:"встречается", sev:"warn", cost:["warn","Средний"],
+     why:"Забитые дренажи.",
+     how:["Провести пальцем по кромке.","Проверить дренажные отверстия."]},
+    {id:"arches", place:"Кромки арок", where:"загиб", prev:"редкое", sev:"ok", cost:["warn","Средний"],
+     why:"Нетипично, обычно след ремонта.",
+     how:["Провести пальцем по загибу.","Сравнить стороны."]}
+  ],
+  issueSeq:["oil-ea888-audi","chain-audi","tnvd","multitronic","carbon-audi","susp-audi"],
+  issues:{
+    "oil-ea888-audi":{title:"Расход масла на 2.0 TFSI", short:"Расход масла", eng:"CDNC", node:"Двигатель", when:"от 80 000 км",
+      sev:"crit", cost:["crit","Дорогой"], prio:1,
+      chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","2.0 TFSI"]],
+      desc:"Самая известная беда этих моторов: маслосъёмные кольца закоксовываются, расход доходит до литра на тысячу километров и хуже. Лечится только заменой поршневой группы.",
+      alert:["crit","<b>Спрашивать про расход масла до всего остального.</b> На этом моторе «немного доливаю» означает вскрытый мотор в перспективе."],
+      steps:["Спросить прямо, сколько масла уходит между заменами и как часто владелец доливает.",
+             "Проверить уровень и состояние масла на холодном моторе.",
+             "Осмотреть свечные колодцы и клапанную крышку, посмотреть на нагар.",
+             "Попросить показать историю: у аккуратных владельцев поршневая на этих машинах часто уже переделана, и это плюс, а не минус.",
+             "Посмотреть в выхлоп при резком газе."],
+      costs:[["Замена поршневой","Дорогой","crit"]], codes:[["p0171","P0171","Бедная смесь"]]},
+    "chain-audi":{title:"Натяжитель цепи ГРМ", short:"Цепь ГРМ", eng:"CDNC", node:"Двигатель", when:"от 100 000 км",
+      sev:"crit", cost:["warn","Средний"], prio:1,
+      chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","2.0 TFSI"]],
+      desc:"Натяжитель ранних версий не держит цепь при запуске. Перескок гнёт клапаны. Обновлённый натяжитель решает вопрос.",
+      alert:["crit","<b>Слушать только холодный пуск.</b> Треск в первые секунды означает, что ремонт нужен до эксплуатации."],
+      steps:["Приехать к холодной машине.","Послушать первые две-три секунды запуска.",
+             "Спросить, менялся ли натяжитель на обновлённый. Это ключевой вопрос по мотору."],
+      costs:[["Замена натяжителя","Средний","warn"],["После перескока","Дорогой","crit"]],
+      codes:[["p0016","P0016","Рассогласование валов"]]},
+    "tnvd":{title:"Толкатель ТНВД", short:"ТНВД", eng:"CDNC", node:"Двигатель", when:"от 100 000 км",
+      sev:"bad", cost:["warn","Средний"], prio:2,
+      chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","2.0 TFSI"]],
+      desc:"Толкатель насоса высокого давления протирается, в тяжёлом случае пробивает крышку и масло уходит. Проверяется при снятом насосе.",
+      alert:null,
+      steps:["Спросить, меняли ли толкатель ТНВД. На этом моторе вопрос такой же обязательный, как про цепь.",
+             "Осмотреть место установки насоса на подтёки масла.","Попросить сервисную историю."],
+      costs:[["Замена толкателя","Средний","warn"],["После пробоя","Дорогой","bad"]], codes:[]},
+    "multitronic":{title:"Мультитроник", short:"Мультитроник", gb:"мультитроник", node:"Коробка", when:"от 120 000 км",
+      sev:"bad", cost:["bad","Дорогой"], prio:1,
+      chips:[["bad","Высокая"],["neutral","Коробка"],["neutral","вариатор"]],
+      desc:"Вариатор чувствителен к качеству и свежести жидкости. Изношенная цепь и гидроблок дают рывки и пробуксовку, ремонт дорогой.",
+      alert:["warn","<b>Проверять разгоном в горку.</b> На ровной дороге изношенный мультитроник едет прилично."],
+      steps:["Проехать не меньше двадцати километров с разгонами.",
+             "Разогнаться в горку с половины педали: рост оборотов без роста скорости — проскальзывание.",
+             "Обратить внимание на рывки при трогании и на малой скорости.",
+             "Спросить про замену жидкости: каждые 50–60 тысяч, иначе коробка доживает."],
+      costs:[["Замена жидкости","Средний","warn"],["Ремонт","Дорогой","bad"]], codes:[]},
+    "carbon-audi":{title:"Нагар на клапанах", short:"Нагар", eng:"CDNC", node:"Двигатель", when:"от 80 000 км",
+      sev:"warn", cost:["warn","Средний"], prio:2,
+      chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","прямой впрыск"]],
+      desc:"У прямого впрыска топливо не омывает впускные клапаны. Нагар растёт, мотор теряет тягу и начинает троить на холодную.",
+      alert:null,
+      steps:["Завести холодный мотор и послушать первые полминуты.","Оценить тягу с низов.","Спросить, делали ли чистку клапанов."],
+      costs:[["Чистка клапанов","Средний","warn"]], codes:[["p0300","P0300","Пропуски зажигания"]]},
+    "susp-audi":{title:"Передняя подвеска", short:"Подвеска", node:"Подвеска", when:"от 80 000 км",
+      sev:"ok", cost:["warn","Средний"], prio:2,
+      chips:[["ok","Низкая"],["neutral","Подвеска"],["neutral","от 80 000 км"]],
+      desc:"Многорычажка с алюминиевыми рычагами. Ходит неплохо, но комплект стоит дорого.",
+      alert:null,
+      steps:["Проехать по неровностям с открытым окном.","Покачать машину за крыло.","Подёргать колесо."],
+      costs:[["Комплект рычагов","Средний","warn"]], codes:[]}
+  },
+  dtc:{
+    "p0016":{code:"P0016", urgency:["bad","Срочность высокая"],
+      summary:"Рассогласование коленвала и распредвала.",
+      causes:"Растянутая цепь или неисправный натяжитель.",
+      consequence:["crit","<b>К чему приведёт.</b> Перескок цепи гнёт клапаны."],
+      order:"Приоритет над всем остальным. До диагностики машину лучше не заводить лишний раз.",
+      issues:[["chain-audi","Натяжитель цепи ГРМ","Почти всегда · средний ремонт","crit"]]},
+    "p0171":{code:"P0171", urgency:["warn","Срочность средняя"],
+      summary:"Бедная смесь, банк 1.",
+      causes:"Подсос воздуха, клапан вентиляции картера, изношенный ТНВД.",
+      consequence:["bad","<b>К чему приведёт.</b> На этом моторе бедная смесь идёт рука об руку с расходом масла и износом поршневой."],
+      order:"Смотреть вместе с расходом масла, а не отдельно.",
+      issues:[["oil-ea888-audi","Расход масла на 2.0 TFSI","Связано · дорогой ремонт","crit"]]},
+    "p0300":{code:"P0300", urgency:["bad","Срочность высокая"],
+      summary:"Пропуски зажигания.",
+      causes:"Катушки, свечи, нагар на клапанах, изношенная поршневая.",
+      consequence:["bad","<b>К чему приведёт.</b> Катализатор разрушается."],
+      order:"На этом моторе проверять вместе с расходом масла.",
+      issues:[["carbon-audi","Нагар на клапанах","Часто · средний ремонт","warn"]]}
+  },
+  guides:[
+    {title:"Выяснить состояние мотора за десять минут", cat:"Двигатель",
+     steps:[{t:"Спросите прямо: сколько масла уходит на тысячу километров.", h:"На этом моторе вопрос не бестактный, а главный. Владелец аккуратной машины ответит цифрой.", r:"Расхода нет или он минимальный."},
+            {t:"Спросите, менялся ли натяжитель цепи на обновлённый и толкатель ТНВД.", h:"Оба вопроса стандартные для этой машины. Владелец, который следит, знает ответы.", r:"Обе работы сделаны, есть документы."},
+            {t:"Приезжайте к холодной машине и послушайте первые секунды запуска.", h:"Треск спереди мотора — натяжитель.", r:"Запуск ровный."},
+            {t:"Проверьте уровень и состояние масла.", h:"Уровень у нижней метки при свежей замене говорит сам за себя.", r:"Уровень между метками."}]},
+    {title:"Проверить мультитроник", cat:"Коробка",
+     steps:[{t:"Найдите маршрут с подъёмом и возможностью разогнаться.", h:"На ровной дороге изношенный вариатор едет прилично.", r:"Есть где ехать."},
+            {t:"Разгонитесь в горку с половины педали и следите за тахометром.", h:"Обороты растут, скорость нет — цепь проскальзывает.", r:"Разгон линейный."},
+            {t:"Потрогайтесь несколько раз в пробочном режиме.", h:"Рывки при трогании — гидроблок.", r:"Трогается плавно."},
+            {t:"Спросите об интервале замены жидкости.", h:"Каждые 50–60 тысяч. «Залита на весь срок» означает, что коробка доживает.", r:"Есть документы."}]}
+  ]
+};
+/* дизель Audi и V6 Mercedes — дополнение */
+Object.assign(CARS["audi-a4-b8"].issues, {
+  "oilpump-tdi":{title:"Привод масляного насоса", short:"Маслонасос", eng:"CAGA", node:"Двигатель", when:"от 120 000 км",
+    sev:"crit", cost:["crit","Дорогой"], prio:1,
+    chips:[["crit","Критическая"],["neutral","Двигатель"],["neutral","2.0 TDI"]],
+    desc:"Масляный насос на этом дизеле приводится шестигранным валом от балансирного механизма. Шестигранник слизывается, насос перестаёт качать, и мотор умирает от масляного голодания без единого предупреждения.",
+    alert:["crit","<b>Главная причина, по которой эти дизели уходят в капремонт.</b> Предупреждающих симптомов почти нет: лампа давления масла загорается, когда уже поздно."],
+    steps:["Спросить, менялся ли привод масляного насоса на доработанный. На возрастной машине это ключевой вопрос по мотору.",
+           "Попросить сервисную историю: работа заметная и в документах остаётся.",
+           "Обратить внимание, загоралась ли когда-нибудь лампа давления масла. Любой такой эпизод — повод отказаться.",
+           "Послушать мотор на холостых: посторонний стук снизу — уже поздно."],
+    costs:[["Замена привода","Средний","warn"],["После масляного голодания","Дорогой","crit"]], codes:[]},
+  "swirl":{title:"Вихревые заслонки впуска", short:"Заслонки впуска", eng:"CAGA", node:"Двигатель", when:"от 100 000 км",
+    sev:"bad", cost:["warn","Средний"], prio:1,
+    chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","2.0 TDI"]],
+    desc:"Заслонки коллектора закоксовываются и клинят, тяги ломаются. В худшем случае обломок попадает в цилиндр.",
+    alert:["warn","<b>Симптомы.</b> Провалы тяги, дёрганье на малых оборотах, ошибка по заслонкам."],
+    steps:["Попросить показать коды: ошибки по заслонкам вылезают раньше симптомов.",
+           "Оценить тягу с низов на тест-драйве.","Спросить, менялся ли коллектор или чистились ли заслонки."],
+    costs:[["Чистка или коллектор","Средний","warn"]], codes:[]},
+  "dpf":{title:"Сажевый фильтр", short:"Сажевый фильтр", eng:"CAGA", node:"Выпуск", when:"от 120 000 км",
+    sev:"warn", cost:["warn","Средний"], prio:2,
+    chips:[["warn","Средняя"],["neutral","Выпуск"],["neutral","2.0 TDI"]],
+    desc:"Городская езда короткими поездками не даёт фильтру прожигаться. Он забивается, мотор уходит в аварийный режим. Часть владельцев его вырезает — это надо выяснить до покупки.",
+    alert:null,
+    steps:["Спросить прямо: стоит сажевый фильтр или вырезан.","Проехать по трассе и посмотреть, не уходит ли машина в аварийный режим.",
+           "Оценить характер эксплуатации: только город — плохой сценарий для этого мотора."],
+    costs:[["Замена фильтра","Дорогой","bad"],["Если вырезан","Недорогой","ok"]], codes:[]},
+  "injectors-tdi":{title:"Форсунки", short:"Форсунки", eng:"CAGA", node:"Двигатель", when:"от 150 000 км",
+    sev:"warn", cost:["warn","Средний"], prio:2,
+    chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","2.0 TDI"]],
+    desc:"Изношенные форсунки дают жёсткую работу на холостых и дымность. Ремонт комплектом заметно дороже одной штуки.",
+    alert:null,
+    steps:["Послушать мотор на холостых после прогрева: цокот и неровность — форсунки.",
+           "Посмотреть в выхлоп при резком газе: чёрный дым — переливает.","Спросить про обратку и когда проверяли форсунки."],
+    costs:[["Ремонт форсунок","Средний","warn"]], codes:[]}
+});
+CARS["audi-a4-b8"].issueSeq = ["oil-ea888-audi","chain-audi","oilpump-tdi","swirl","multitronic","tnvd",
+                               "dpf","injectors-tdi","carbon-audi","susp-audi"];
+
+Object.assign(CARS["mercedes-c-w204"].issues, {
+  "chain-m276":{title:"Цепь ГРМ на ранних M276", short:"Цепь M276", eng:"M276", node:"Двигатель", when:"от 120 000 км",
+    sev:"bad", cost:["bad","Дорогой"], prio:1,
+    chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","M276, ранние"]],
+    desc:"На ранних выпусках V6 встречается растяжение цепи и износ звёздочек. Ремонт дорогой из-за трудоёмкости.",
+    alert:["warn","<b>Слушать только холодный пуск.</b>"],
+    steps:["Приехать к холодной машине.","Послушать первые секунды запуска у открытого капота.",
+           "Попросить показать коды: рассогласование фаз указывает на цепь.","Спросить документы на замену."],
+    costs:[["Замена цепи","Дорогой","bad"]], codes:[["p0016","P0016","Рассогласование валов"]]},
+  "injectors-mb":{title:"Форсунки и катушки", short:"Форсунки", node:"Двигатель", when:"от 120 000 км",
+    sev:"warn", cost:["warn","Средний"], prio:2,
+    chips:[["warn","Средняя"],["neutral","Двигатель"],["neutral","оба мотора"]],
+    desc:"Пьезофорсунки и катушки на этих моторах ходят не вечно. Симптом один: неровная работа на холостых и пропуски.",
+    alert:null,
+    steps:["Послушать мотор на холостых после прогрева.","Попросить показать коды по пропускам зажигания.",
+           "Оценить, ровно ли мотор набирает обороты."],
+    costs:[["Форсунка или катушка","Средний","warn"]], codes:[["p0300","P0300","Пропуски зажигания"]]}
+});
+CARS["mercedes-c-w204"].issueSeq = ["m271-chain","chain-m276","oil-leaks-mb","balance","injectors-mb",
+                                    "7g-tronic","susp-mb","electro-mb"];
+
+/* ================= каталог из данных о машинах ================= */
+
+CARS["camry-xv40"] = {
+  brand:"Toyota", model:"Camry", gen:"XV40", years:"2006–2011", body:"седан", updated:"19.09.2026",
+  engines:[
+    {key:"2AZ-FE", label:"2AZ-FE · 2.4 · 167 л.с.", gearboxes:["U250E · автомат, 5 ступеней"]},
+    {key:"2GR-FE", label:"2GR-FE · 3.5 V6 · 277 л.с.", gearboxes:["U660E · автомат, 6 ступеней"]}
+  ],
+  options:[
+    {id:"sunroof", name:"Люк", spot:"видно снаружи и с водительского места"},
+    {id:"leather", name:"Кожаный салон", spot:"видно сразу"},
+    {id:"xenon", name:"Ксенон", spot:"линзы в фарах, холодный свет"},
+    {id:"camera", name:"Камера заднего вида", spot:"картинка при задней передаче"}
+  ],
+  paint:{min:100, max:130, repaint:200, filler:300,
+    material:"Весь кузов стальной, алюминиевых навесных деталей нет — они появились у Camry только с XV70. Годится самый дешёвый магнитный толщиномер.",
+    quality:"Лак слабый: к ста тысячам тускнеет, хуже держит реагенты и камни, передний бампер страдает первым. При этом по сопротивлению коррозии машина в классе одна из лучших — беда в верхнем слое, а не в металле."},
+  rust:RUST, issueSeq:ISSUE_SEQ, issues:ISSUES, dtc:DTCS,
+  guides:[
+    {title:"Найти масляную трубку VVT-i", cat:"Подкапотное пространство",
+     steps:[{t:"Встаньте перед машиной со стороны водителя и откройте капот.", h:"Мотор должен быть холодным: к трубке придётся тянуться.", r:"Видите переднюю часть двигателя."},
+            {t:"Найдите трубку, идущую от передней части двигателя вверх, слева от крышки ремня привода.", h:"Это единственная тонкая трубка в том месте. Толстые чёрные шланги рядом — система охлаждения.", r:"Видите трубку целиком, от нижнего крепления до верхнего."},
+            {t:"Посмотрите на её среднюю часть.", h:"Чёрная матовая вставка означает металлопластиковую трубку — плохой вариант. Полностью металлическая — заводское решение проблемы.", r:"Понятно, какая трубка стоит."},
+            {t:"Если трубка металлопластиковая, спросите документы на замену.", h:"Работа недорогая и снимает риск потерять мотор целиком.", r:"Есть заказ-наряд или сумма заложена в торг."}]},
+    {title:"Проверить пробег по косвенным признакам", cat:"Салон",
+     steps:[{t:"Посмотрите на руль в положениях «десять» и «два».", h:"Именно там кожа протирается первой.", r:"Износ соответствует заявленному пробегу."},
+            {t:"Посмотрите на накладки педалей газа и тормоза.", h:"Стёртый до гладкого рисунок означает большой пробег независимо от одометра.", r:"Рисунок читается."},
+            {t:"Осмотрите боковую поддержку водительского сиденья со стороны двери.", h:"Она протирается раньше всего остального в салоне.", r:"Поддержка целая."},
+            {t:"Нажмите кнопку стеклоподъёмника водительской двери и посмотрите на её затёртость.", h:"Эта кнопка нажимается чаще всех остальных в машине.", r:"Затёртость соответствует пробегу."}]}
+  ]
+};
+
+/* ---- каталог собирается из CARS ---- */
+function buildCatalog(){
+  const byBrand = {};
+  Object.keys(CARS).forEach(id => {
+    const c = CARS[id];
+    byBrand[c.brand] = byBrand[c.brand] || {};
+    byBrand[c.brand][c.model] = byBrand[c.brand][c.model] || [];
+    byBrand[c.brand][c.model].push({id:id, years:c.years, gen:c.gen});
+  });
+  return Object.keys(byBrand).map(b => ({
+    brand:b,
+    models:Object.keys(byBrand[b]).map(m => ({name:m, gens:byBrand[b][m]}))
+  }));
+}
+const CAT = buildCatalog();
+
+SEL.carId = "camry-xv40";
+function CUR(){ return CARS[SEL.carId]; }
+
+function renderBrands(){
+  document.getElementById("brand-list").innerHTML = CAT.map((b, bi) => {
+    const models = b.models.map((m, mi) =>
+      '<button class="modelrow" data-brand="' + bi + '" data-model="' + mi + '">' +
+        '<span class="grow"><span>' + m.name + '</span>' +
+        '<span class="sub">' + m.gens.map(g => g.years).join(", ") + '</span></span>' +
+        '<span class="chip ok">' + m.gens.length + '</span></button>').join("");
+    return '<button class="brandrow" data-brandtoggle="' + bi + '" aria-expanded="false">' +
+        '<svg class="caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>' +
+        '<span class="grow">' + b.brand + '</span>' +
+        '<span class="cnt">' + b.models.length + '</span></button>' +
+      '<div class="models" data-models="' + bi + '" hidden>' + models + '</div>';
+  }).join("");
+
+  const r = document.getElementById("recent-list");
+  if(r){
+    const c = CUR();
+    r.innerHTML = '<button class="row" data-go="generation">' +
+      '<div class="grow"><span class="ttl">' + c.brand + " " + c.model + ", " + c.years + '</span>' +
+      '<span class="sub">' + engShort() + " · " + gbKey() + " · данные от " + c.updated + '</span></div>' + CHEV + '</button>';
+  }
+}
+
+/* ---- выбор машины ---- */
+function setCar(id){
+  SEL.carId = id;
+  const c = CARS[id];
+  SEL.brand = c.brand; SEL.model = c.model; SEL.gen = c.gen; SEL.years = c.years;
+  SEL.engIdx = 0; SEL.gbIdx = 0;
+  SEL.engLabel = c.engines[0].label;
+  SEL.gbLabel = c.engines[0].gearboxes[0];
+  Object.keys(OPTS).forEach(k => delete OPTS[k]);
+  c.options.forEach((o, i) => OPTS[o.id] = i < 2);
+}
+
+function renderPick(){
+  const c = CUR();
+  const gensOfModel = CAT.flatMap(b => b.models).filter(m => m.name === c.model)
+    .flatMap(m => m.gens).filter(g => CARS[g.id].brand === c.brand);
+  if(SEL.engIdx >= c.engines.length) SEL.engIdx = 0;
+  const e = c.engines[SEL.engIdx];
+  if(SEL.gbIdx >= e.gearboxes.length) SEL.gbIdx = 0;
+  SEL.engLabel = e.label;
+  SEL.gbLabel = e.gearboxes[SEL.gbIdx];
+
+  document.getElementById("pick-car").textContent = c.brand + " " + c.model;
+
+  const opt = (arr, cur, fmt, val) => arr.map((x, i) =>
+    '<option value="' + (val ? val(x, i) : i) + '"' +
+    ((val ? val(x, i) === SEL.carId : i === cur) ? " selected" : "") + '>' + fmt(x) + '</option>').join("");
+
+  document.getElementById("sel-year").innerHTML =
+    opt(gensOfModel, 0, g => g.years + " · " + g.gen, g => g.id);
+  document.getElementById("sel-engine").innerHTML = opt(c.engines, SEL.engIdx, x => x.label);
+  document.getElementById("sel-gearbox").innerHTML = opt(e.gearboxes, SEL.gbIdx, x => x);
+
+  const single = e.gearboxes.length === 1;
+  document.getElementById("sel-gearbox").disabled = single;
+  document.getElementById("pick-warning").innerHTML = single
+    ? '<p class="body-text" style="margin:0 2px;font-size:13px">С этим мотором других коробок не ставилось.</p>' : "";
+
+  const og = document.getElementById("opt-grid");
+  if(og) og.innerHTML = c.options.map(o =>
+    '<button class="pick" aria-pressed="' + (OPTS[o.id] ? "true" : "false") + '" data-opt="' + o.id + '">' +
+      '<span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>' +
+      '<span class="grow"><span class="ttl">' + o.name + '</span><span class="sub">' + o.spot + '</span></span></button>').join("");
+
+  const next = document.getElementById("pick-next");
+  next.style.opacity = "1"; next.style.pointerEvents = "auto";
+  return c.brand + " " + c.model;
+}
+
+/* ---- общие помощники ---- */
+function engKey(){ return (SEL.engLabel || "").split(" ")[0]; }
+function gbKey(){ return (SEL.gbLabel || "").split(" ")[0]; }
+function engShort(){ return (SEL.engLabel || "").split(" · ").slice(0, 2).join(" "); }
+function carShort(){ return SEL.brand + " " + SEL.model + " " + SEL.gen; }
+function whenOf(d){ return (d.whenBy && d.whenBy[engKey()]) || d.when; }
+
+function activeIssues(){
+  const c = CUR(), e = engKey(), g = gbKey();
+  return c.issueSeq.filter(id => {
+    const d = c.issues[id];
+    if(!d) return false;
+    if(d.eng && d.eng !== e) return false;
+    if(d.gb && d.gb !== g) return false;
+    if(d.opt && !OPTS[d.opt]) return false;
+    return true;
+  }).sort((a, b) => {
+    const A = c.issues[a], B = c.issues[b];
+    return (A.prio - B.prio) || (SEV_RANK[A.sev] - SEV_RANK[B.sev]);
+  });
+}
+
+/* ---- неисправности ---- */
+function issueRow(id){
+  const d = CUR().issues[id];
+  return '<button class="row" data-go="issue" data-issue="' + id + '">' +
+    '<span class="stripe ' + d.sev + '"></span>' +
+    '<div class="grow"><span class="ttl">' + d.title + '</span>' +
+      '<span class="sub">' + d.node + ' · ' + whenOf(d) + '</span></div>' +
+    '<span class="chip ' + d.cost[0] + '">' + d.cost[1] + '</span></button>';
+}
+
+function renderIssues(){
+  const c = CUR(), ids = activeIssues();
+  const first = ids.filter(id => c.issues[id].prio === 1);
+  const rest  = ids.filter(id => c.issues[id].prio !== 1);
+  const hidden = c.issueSeq.length - ids.length;
+
+  let h = '<div class="card"><p class="body-text" style="font-size:13.5px">Список собран под <b style="color:var(--ink)">' +
+    engShort() + '</b> и <b style="color:var(--ink)">' + gbKey() + '</b>' +
+    (hidden ? '. Ещё ' + hidden + ' позиций каталога к этой машине не относятся и скрыты' : '') + '.</p>' +
+    '<p class="body-text" style="font-size:13px;margin-top:8px"><b style="color:var(--ink)">Сверху то, что важнее.</b> ' +
+    'Полоса слева — насколько серьёзно, чип справа — во сколько обойдётся ремонт. Это разные вещи: дешёвый ремонт ' +
+    'бывает у серьёзной неисправности, если поймать её вовремя.</p></div>';
+  if(first.length)
+    h += '<p class="sectionhead">Проверить первым делом · ' + first.length + '</p><div class="card flush rows">' +
+         first.map(issueRow).join("") + '</div>';
+  if(rest.length)
+    h += '<p class="sectionhead">Остальное · ' + rest.length + '</p><div class="card flush rows">' +
+         rest.map(issueRow).join("") + '</div>';
+  document.getElementById("s-issues").innerHTML = h;
+}
+
+function renderIssue(id){
+  const c = CUR();
+  const d = c.issues[id] || c.issues[activeIssues()[0]];
+  let h = '<div style="display:flex;gap:7px;flex-wrap:wrap">' +
+    d.chips.map(x => '<span class="chip ' + x[0] + '">' + x[1] + '</span>').join("") + '</div>';
+  h += '<div class="card"><h4 class="blockttl">' + d.title + '</h4><p class="body-text">' + d.desc + '</p></div>';
+  if(d.alert) h += '<div class="note ' + d.alert[0] + '"><span>' + d.alert[1] + '</span></div>';
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 9px">Как проверить</p><ol class="steps">' +
+       d.steps.map(s => '<li>' + s + '</li>').join("") + '</ol></div>';
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Стоимость ремонта</p><dl class="kv">' +
+       d.costs.map(x => '<dt>' + x[0] + '</dt><dd style="color:var(--' + x[2] + ')">' + x[1] + '</dd>').join("") + '</dl></div>';
+  if(d.codes && d.codes.length)
+    h += '<p class="sectionhead">Связанные коды</p><div class="card flush rows">' +
+      d.codes.filter(x => c.dtc[x[0]]).map(x => '<button class="row" data-go="dtc" data-dtc="' + x[0] + '">' +
+        '<div class="grow"><span class="ttl mono">' + x[1] + '</span><span class="sub">' + x[2] + '</span></div>' +
+        CHEV + '</button>').join("") + '</div>';
+  h += '<button class="btn ghost" data-go="inspection">Отметить в осмотре</button>';
+  document.getElementById("s-issue").innerHTML = h;
+  return d.short;
+}
+
+/* ---- кузов ---- */
+function renderBody(){
+  const c = CUR(), p = c.paint;
+  let h = '<div class="card"><p class="sectionhead" style="margin:0 0 9px">Нормы толщины краски</p>' +
+    '<dl class="summary">' +
+      '<div><dt>Заводская</dt><dd>' + p.min + '–' + p.max + '</dd></div>' +
+      '<div><dt>Перекрас</dt><dd style="color:var(--warn)">' + p.repaint + '+</dd></div>' +
+      '<div><dt>Шпаклёвка</dt><dd style="color:var(--bad)">' + p.filler + '+</dd></div></dl>' +
+    '<p class="body-text" style="margin-top:10px">Значения в микронах. Смотреть надо не на цифру, а на ровность: ' +
+    'если по всему кузову одно значение, а на одной детали вдвое больше — красили именно её.</p></div>';
+  h += '<div class="note info"><span>' + p.material + '</span></div>';
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 7px">Стойкость покрытия</p>' +
+       '<p class="body-text">' + p.quality + '</p></div>';
+  h += '<p class="sectionhead">Где гниёт · ' + c.rust.length + ' мест</p>' +
+    '<p class="body-text" style="margin:0 2px;font-size:13px"><b style="color:var(--ink)">Сверху то, что важнее.</b> ' +
+    'Полоса слева — насколько серьёзно, чип справа — во сколько обойдётся ремонт, слово под названием — как часто встречается.</p>' +
+    '<div class="card flush rows">' +
+    c.rust.map(r => '<button class="row" data-go="rust" data-rust="' + r.id + '">' +
+      '<span class="stripe ' + r.sev + '"></span>' +
+      '<div class="grow"><span class="ttl">' + r.place + '</span>' +
+        '<span class="sub">' + r.prev + ' · ' + r.where + '</span></div>' +
+      '<span class="chip ' + r.cost[0] + '">' + r.cost[1] + '</span></button>').join("") + '</div>';
+  document.getElementById("s-body").innerHTML = h;
+  return "Кузов";
+}
+
+function renderRust(id){
+  const c = CUR();
+  const r = c.rust.find(x => x.id === id) || c.rust[0];
+  let h = '<div style="display:flex;gap:7px;flex-wrap:wrap">' +
+    '<span class="chip ' + SEV_CHIP[r.sev][0] + '">' + SEV_CHIP[r.sev][1] + '</span>' +
+    '<span class="chip ' + r.cost[0] + '">' + r.cost[1] + ' ремонт</span>' +
+    '<span class="chip neutral">' + r.prev[0].toUpperCase() + r.prev.slice(1) + '</span></div>';
+  h += '<div class="card"><h4 class="blockttl">' + r.place + '</h4>' +
+       '<p class="body-text" style="color:var(--muted);margin-bottom:8px">' + r.where + '</p>' +
+       '<p class="body-text">' + r.why + '</p></div>';
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 9px">Как проверить</p><ol class="steps">' +
+       r.how.map(s => '<li>' + s + '</li>').join("") + '</ol></div>';
+  h += '<button class="btn ghost" data-go="inspection">Отметить в осмотре</button>';
+  document.getElementById("s-rust").innerHTML = h;
+  return r.place;
+}
+
+/* ---- инструкции ---- */
+let guideIdx = 0, guideStep = 0;
+function renderGuide(){
+  const c = CUR();
+  if(!c.guides || !c.guides.length){
+    document.getElementById("s-guide").innerHTML =
+      '<div class="card"><p class="body-text">Для этой машины инструкции ещё готовятся.</p></div>';
+    return "Инструкции";
+  }
+  if(guideIdx >= c.guides.length) guideIdx = 0;
+  const g = c.guides[guideIdx];
+  if(guideStep >= g.steps.length) guideStep = 0;
+  const s = g.steps[guideStep];
+
+  let h = '<div class="card flush rows">' + c.guides.map((x, i) =>
+    '<button class="row" data-guide="' + i + '">' +
+      '<span class="stripe ' + (i === guideIdx ? "ok" : "") + '"' + (i === guideIdx ? '' : ' style="background:var(--line-strong)"') + '></span>' +
+      '<div class="grow"><span class="ttl">' + x.title + '</span><span class="sub">' + x.cat + ' · ' + x.steps.length + ' шага</span></div>' +
+      (i === guideIdx ? '<span class="chip ok">Открыта</span>' : CHEV) + '</button>').join("") + '</div>';
+
+  h += '<div style="display:flex;justify-content:space-between;align-items:baseline">' +
+    '<span class="chip neutral">Шаг ' + (guideStep + 1) + ' из ' + g.steps.length + '</span>' +
+    '<span class="mono" style="font-size:12px;color:var(--muted)">' + g.cat + '</span></div>';
+  h += '<div class="card"><h4 class="blockttl">' + g.title + '</h4>' +
+       '<p class="body-text" style="font-size:16px;color:var(--ink);line-height:1.5">' + s.t + '</p></div>';
+  if(s.h) h += '<div class="note info"><span><b>Подсказка.</b> ' + s.h + '</span></div>';
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 6px">Что должно получиться</p>' +
+       '<p class="body-text">' + s.r + '</p></div>';
+  h += '<div style="display:flex;gap:9px">' +
+    '<button class="btn quiet" style="flex:1" data-step="-1">Назад</button>' +
+    '<button class="btn" style="flex:2" data-step="1">' + (guideStep + 1 === g.steps.length ? "Готово" : "Шаг пройден") + '</button></div>';
+  document.getElementById("s-guide").innerHTML = h;
+  return g.title;
+}
+
+document.addEventListener("click", e => {
+  const gi = e.target.closest("[data-guide]");
+  if(gi){ guideIdx = +gi.dataset.guide; guideStep = 0; renderGuide(); return; }
+  const st = e.target.closest("[data-step]");
+  if(st){
+    const g = CUR().guides[guideIdx];
+    guideStep = Math.max(0, Math.min(g.steps.length - 1, guideStep + (+st.dataset.step)));
+    renderGuide();
+  }
+});
+
+/* ---- коды ---- */
+function renderDtc(id){
+  const c = CUR();
+  const d = c.dtc[id] || c.dtc[Object.keys(c.dtc)[0]];
+  let h = '<div class="card"><div style="display:flex;align-items:center;justify-content:space-between;gap:10px">' +
+    '<span class="mono" style="font-size:26px;font-weight:600">' + d.code + '</span>' +
+    '<span class="chip ' + d.urgency[0] + '">' + d.urgency[1] + '</span></div>' +
+    '<p class="body-text" style="margin-top:6px">' + d.summary + '</p></div>';
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 7px">Причины на этой машине</p><p class="body-text">' + d.causes + '</p></div>';
+  h += '<div class="note ' + d.consequence[0] + '" style="background:var(--' + d.consequence[0] + '-soft);color:var(--' +
+       d.consequence[0] + ');border-color:color-mix(in srgb,var(--' + d.consequence[0] + ') 25%,transparent)"><span>' +
+       d.consequence[1] + '</span></div>';
+  if(d.order) h += '<div class="card"><p class="sectionhead" style="margin:0 0 7px">Порядок разбора</p><p class="body-text">' + d.order + '</p></div>';
+  if(d.issues && d.issues.length)
+    h += '<p class="sectionhead">Связанные неисправности</p><div class="card flush rows">' +
+      d.issues.filter(i => c.issues[i[0]]).map(i => '<button class="row" data-go="issue" data-issue="' + i[0] + '">' +
+        '<span class="stripe ' + i[3] + '"></span>' +
+        '<div class="grow"><span class="ttl">' + i[1] + '</span><span class="sub">' + i[2] + '</span></div>' +
+        CHEV + '</button>').join("") + '</div>';
+  document.getElementById("s-dtc").innerHTML = h;
+  return d.code;
+}
+
+function codeRow(k){
+  const d = CUR().dtc[k];
+  return '<button class="row" data-go="dtc" data-dtc="' + k + '">' +
+    '<span class="stripe ' + d.urgency[0] + '"></span>' +
+    '<div class="grow"><span class="ttl mono">' + d.code + '</span>' +
+      '<span class="sub">' + d.summary.split(".")[0] + '</span></div>' + CHEV + '</button>';
+}
+
+function renderCodes(){
+  const c = CUR(), known = Object.keys(c.dtc);
+  const added = ADDED_CODES.filter(k => c.dtc[k]);
+  let h = '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Код с вашего сканера</p>' +
+    '<div style="display:flex;gap:8px">' +
+      '<input id="code-input" class="notefield mono" placeholder="' + c.dtc[known[0]].code + '" maxlength="5" style="text-transform:uppercase">' +
+      '<button class="btn" id="code-add" style="width:auto;padding:9px 16px">Найти</button></div>' +
+    '<p class="body-text" style="margin-top:8px;font-size:13px">Подойдёт любой сканер или приложение, которым вы уже пользуетесь. ' +
+    'Здесь код разбирается применительно к вашей машине: причины именно у этого мотора, к чему приведёт и что делать.</p></div>';
+  if(added.length)
+    h += '<p class="sectionhead">В осмотре · ' + added.length + '</p><div class="card flush rows">' +
+      added.map(codeRow).join("") + '</div>';
+  h += '<p class="sectionhead">Частые у этой машины</p><div class="card flush rows">' +
+    known.filter(k => !added.includes(k)).map(codeRow).join("") + '</div>';
+  h += '<div class="note info"><span><b>Подключение к адаптеру — следующий этап.</b> Сейчас код вводится руками. ' +
+    'Расшифровка от этого не меняется: она привязана к модели и мотору, а не к тому, чем вы код считали.</span></div>';
+  document.getElementById("s-codes").innerHTML = h;
+  return "Коды ошибок";
+}
+
+function renderInspCodes(){
+  const el = document.getElementById("insp-codes");
+  if(!el) return;
+  const c = CUR(), added = ADDED_CODES.filter(k => c.dtc[k]);
+  el.innerHTML = added.length ? added.map(codeRow).join("")
+    : '<div class="row"><div class="grow"><span class="sub">Кодов пока нет. Считайте их своим сканером и добавьте сюда.</span></div></div>';
+}
+
+/* ---- карточка машины ---- */
+function renderGeneration(){
+  const c = CUR(), ids = activeIssues();
+  const first = ids.filter(id => c.issues[id].prio === 1);
+  const worst = ids.map(id => c.issues[id]).sort((a, b) => SEV_RANK[a.sev] - SEV_RANK[b.sev])[0];
+
+  document.getElementById("gen-title").textContent = carShort();
+  document.getElementById("gen-years").textContent = c.years;
+  document.getElementById("gen-engine").textContent = engShort();
+  document.getElementById("gen-gearbox").textContent = SEL.gbLabel || "";
+  document.querySelectorAll("#s-generation .kv dd")[3].textContent = c.updated;
+  document.getElementById("gen-issues-sub").textContent = ids.length + " позиций · " + first.length + " проверить первыми";
+  document.getElementById("gen-body-sub").textContent = "нормы ЛКП · " + c.rust.length + " очагов коррозии";
+  document.getElementById("gen-guide-sub").textContent = (c.guides ? c.guides.length : 0) + " пошаговых · для новичка";
+  document.getElementById("gen-codes-sub").textContent = Object.keys(c.dtc).length + " кодов под этот мотор";
+  document.getElementById("gen-issues-stripe").className = "stripe " + (worst ? worst.sev : "warn");
+
+  const top = ids.map(id => c.issues[id]).find(d => d.prio === 1);
+  document.getElementById("gen-alert").innerHTML = top
+    ? '<div class="note ' + (top.sev === "crit" ? "crit" : "warn") + '"><span><b>Проверить первым.</b> ' +
+      top.title + ' — ' + top.node.toLowerCase() + ', ' + whenOf(top) + '.</span></div>' : "";
+}
+
+/* ---- чеклист и отчёт ---- */
+function renderChecklist(){
+  const c = CUR(), ids = activeIssues();
+  document.getElementById("check-issues").innerHTML = ids.map(id => {
+    const d = c.issues[id];
+    return checkRow("i:" + id, d.title, d.node + (d.prio === 1 ? " · проверить первым" : ""));
+  }).join("");
+  document.getElementById("check-rust").innerHTML =
+    c.rust.map(r => checkRow("r:" + r.id, r.place, r.prev + " · " + r.where)).join("");
+
+  const di = Object.keys(CHECK_STATE).filter(x => x.startsWith("i:") && CHECK_STATE[x].v !== "none" && ids.includes(x.slice(2))).length;
+  const dr = Object.keys(CHECK_STATE).filter(x => x.startsWith("r:") && CHECK_STATE[x].v !== "none" && c.rust.some(r => r.id === x.slice(2))).length;
+  const total = ids.length + c.rust.length;
+  document.getElementById("c-issues").textContent = di + "/" + ids.length;
+  document.getElementById("c-rust").textContent = dr + "/" + c.rust.length;
+  document.getElementById("check-count").textContent = (di + dr) + " из " + total;
+  document.getElementById("check-bar").style.width = Math.round((di + dr) / total * 100) + "%";
+}
+
+function nameOf(k){
+  const c = CUR();
+  return k.startsWith("i:") ? (c.issues[k.slice(2)] || {}).title
+                            : ((c.rust.find(r => r.id === k.slice(2)) || {}).place);
+}
+
+function renderFindings(){
+  harvestComments();
+  const c = CUR(), ids = activeIssues();
+  const relevant = k => k.startsWith("r:") ? c.rust.some(r => r.id === k.slice(2)) : ids.includes(k.slice(2));
+  const entries = Object.entries(CHECK_STATE).filter(([k]) => relevant(k));
+  const found = entries.filter(([, s]) => s.v === "found");
+  const ok = entries.filter(([, s]) => s.v === "ok");
+  const noteInput = document.getElementById("body-note");
+  const bodyNote = noteInput ? noteInput.value.trim() : "";
+  const codes = ADDED_CODES.filter(k => c.dtc[k]);
+  const crit = found.map(([k]) => k).filter(k => k.startsWith("i:") && c.issues[k.slice(2)] && c.issues[k.slice(2)].sev === "crit");
+
+  let h = '<div class="card"><h4 class="blockttl">' + c.brand + " " + c.model + " " + c.gen + " · " + engShort() + '</h4>' +
+    '<div class="reportline"><span class="lbl">Пробег</span><span class="val mono">187 400 км</span></div>' +
+    '<div class="reportline"><span class="lbl">Осмотр</span><span class="val">19 сентября 2026</span></div>';
+  if(found.length) h += '<div class="reportline"><span class="lbl">Замечаний</span><span class="val" style="color:var(--bad)">' + found.length + '</span></div>';
+  h += '</div>';
+
+  if(crit.length){
+    const d = c.issues[crit[0].slice(2)];
+    h += '<div class="note crit"><span><b>Критично.</b> ' + d.title + '. ' + d.desc.split(".")[0] + '. ' +
+         'До покупки — либо ремонт за счёт продавца, либо в торг.</span></div>';
+  }
+  if(found.length)
+    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Замечания</p>' +
+      found.map(([k, s]) => '<div class="reportline"><span class="lbl">' + nameOf(k) + '</span>' +
+        '<span class="val" style="color:var(--bad)">' + (s.c || "найдено") + '</span></div>').join("") + '</div>';
+  if(ok.length)
+    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Проверено, в порядке</p>' +
+      ok.map(([k]) => '<div class="reportline"><span class="lbl">' + nameOf(k) + '</span>' +
+        '<span class="val" style="color:var(--ok)">в порядке</span></div>').join("") + '</div>';
+  if(bodyNote)
+    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Толщина краски</p><p class="body-text">' + bodyNote + '</p></div>';
+  if(codes.length)
+    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Ошибки</p>' +
+      codes.map(k => '<div class="reportline"><span class="lbl mono">' + c.dtc[k].code + '</span>' +
+        '<span class="val">' + c.dtc[k].summary.split(",")[0] + '</span></div>').join("") + '</div>';
+  if(!found.length && !ok.length && !bodyNote && !codes.length)
+    h += '<div class="card"><p class="body-text">Отчёт пустой. Отметьте что-нибудь в осмотре — сюда попадёт только заполненное.</p></div>';
+
+  document.getElementById("report-body").innerHTML = h;
+}
+
+/* ---- подписи экранов ---- */
+function eyebrowFor(id){
+  switch(id){
+    case "catalog":    return CAT.length + " марок · " + Object.keys(CARS).length + " поколений";
+    case "pick":       return SEL.brand + " " + SEL.model;
+    case "generation": return SEL.years + " · " + engShort();
+    case "issues":     return activeIssues().length + " позиций · " + engShort() + " · " + gbKey();
+    case "issue":      return carShort() + " · " + engShort();
+    case "body":       return carShort() + " · кузов";
+    case "rust":       return carShort() + " · кузов";
+    case "guide":      return carShort();
+    case "codes":      return carShort() + " · " + engShort();
+    case "inspection": return carShort() + " · " + engShort();
+    case "report":     return SEL.brand + " " + SEL.model + " · " + engShort();
+    default:           return null;
+  }
+}
+
+/* ---- навигация ---- */
+document.addEventListener("click", e => {
+  const mr = e.target.closest("[data-model]");
+  if(!mr) return;
+  const b = CAT[+mr.dataset.brand], m = b.models[+mr.dataset.model];
+  setCar(m.gens[0].id);
+  go("pick");
+});
+
+document.addEventListener("change", e => {
+  if(e.target.id === "sel-year"){ setCar(e.target.value); renderPick(); }
+});
+
+document.addEventListener("click", e => {
+  const o = e.target.closest("[data-opt]");
+  if(!o) return;
+  OPTS[o.dataset.opt] = o.getAttribute("aria-pressed") !== "true";
+  renderPick();
+});
+
+setCar("camry-xv40");
 renderBrands();
 go("catalog");
 </script>
