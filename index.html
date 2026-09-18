@@ -475,6 +475,61 @@ ol.steps li::before{
 
 .link{color:var(--accent);font-weight:500}
 
+/* ---------- segmented control ---------- */
+.seg{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:3px;
+  padding:3px;
+  background:var(--surface-2);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+}
+.seg button{
+  padding:8px 6px;
+  text-align:center;
+  border-radius:7px;
+  font-size:14px;
+  font-weight:500;
+  color:var(--ink-2);
+}
+.seg button[aria-pressed="true"]{
+  background:var(--surface);
+  color:var(--ink);
+  font-weight:600;
+  box-shadow:0 1px 2px rgba(0,0,0,.12);
+}
+
+/* ---------- meter ---------- */
+.meter{
+  position:relative;
+  height:6px;
+  border-radius:3px;
+  background:var(--line);
+  overflow:hidden;
+  margin:7px 0 4px;
+}
+.meter i{display:block;height:100%;border-radius:3px}
+.meter b{
+  position:absolute;top:-2px;bottom:-2px;width:2px;
+  background:var(--ink-2);
+}
+.metric{padding:11px 14px;border-bottom:1px solid var(--line)}
+.metric:last-child{border-bottom:0}
+.metric .head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.metric .name{font-weight:500;font-size:14.5px}
+.metric .val{font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-size:15px;font-weight:600}
+.metric .why{font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.35}
+
+.monitors{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line)}
+.monitors div{
+  background:var(--surface);
+  padding:8px 11px;
+  font-size:13px;
+  display:flex;align-items:center;gap:7px;
+}
+.dot{width:7px;height:7px;border-radius:50%;flex:none}
+
 /* ---------- checklist ---------- */
 .checkrow{
   display:flex;align-items:center;gap:10px;
@@ -746,35 +801,12 @@ ol.steps li::before{
               <span class="chip ok">На связи</span>
             </div>
 
-            <p class="sectionhead">Сохранённые ошибки · 2</p>
-            <div class="card flush">
-              <button class="dtc" data-go="dtc" data-dtc="p0171">
-                <span class="stripe bad"></span>
-                <div class="grow"><span class="code">P0171</span><span class="sub">Бедная смесь, банк 1</span></div>
-                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
-              </button>
-              <button class="dtc" data-go="dtc" data-dtc="p0300">
-                <span class="stripe warn"></span>
-                <div class="grow"><span class="code">P0300</span><span class="sub">Пропуски зажигания, цилиндр не определён</span></div>
-                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
-              </button>
+            <div class="seg" id="scan-tabs">
+              <button data-scan="dtc" aria-pressed="true">Ошибки · 3</button>
+              <button data-scan="state" aria-pressed="false">Состояние</button>
             </div>
 
-            <p class="sectionhead">Ожидающие · 1</p>
-            <div class="card flush">
-              <button class="dtc" data-go="dtc" data-dtc="p0420">
-                <span class="stripe warn"></span>
-                <div class="grow"><span class="code">P0420</span><span class="sub">Эффективность катализатора ниже порога</span></div>
-                <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
-              </button>
-            </div>
-
-            <div class="note warn">
-              <span><b>Ошибки стирали недавно.</b> Мониторы самодиагностики не готовы, пройдено 14 циклов. Продавец мог сбросить память перед показом.</span>
-            </div>
-
-            <button class="btn quiet">Стереть ошибки</button>
-            <p class="body-text" style="text-align:center;font-size:12.5px;margin-top:-4px">Стирание сбрасывает готовность систем к проверке.</p>
+            <div id="scan-body"></div>
           </section>
 
           <!-- 9 КОД -->
@@ -1436,6 +1468,146 @@ document.addEventListener("click", e => {
     renderPick();
   }));
 
+/* ---------- сканер: ошибки и состояние ---------- */
+const SCAN_STATE = {
+  cleared:{minutes:38, km:14, warmups:2},
+  monitors:[
+    ["Пропуски зажигания","ok"], ["Топливная система","ok"],
+    ["Компоненты","ok"], ["Катализатор","no"],
+    ["Подогрев катализатора","no"], ["Система улавливания паров","no"],
+    ["Датчики кислорода","no"], ["Подогрев датчиков","ok"]
+  ],
+  trims:[
+    {name:"Долгосрочная коррекция, банк 1", val:"+18,0 %", num:18, lo:-10, hi:10, tone:"bad",
+     why:"Блок управления добавляет 18% топлива, чтобы догнать смесь. Норма — от минус десяти до плюс десяти. Так выглядит подсос воздуха или грязный расходомер."},
+    {name:"Краткосрочная коррекция, банк 1", val:"+4,7 %", num:4.7, lo:-10, hi:10, tone:"ok",
+     why:"В норме. Мгновенная подстройка гуляет всегда, смотреть надо на долгосрочную."}
+  ],
+  tests:[
+    {name:"Эффективность катализатора", val:"0,62", num:0.62, limit:0.70, tone:"warn",
+     why:"Порог 0,70. Значение ниже — катализатор деградирует, но ошибку ещё не зажёг. Через несколько тысяч километров зажжёт."},
+    {name:"Пропуски, цилиндр 3", val:"14", num:14, limit:60, tone:"ok",
+     why:"Порог 60 за цикл. Сейчас в норме."},
+    {name:"Датчик кислорода, отклик", val:"не проверялся", tone:"none",
+     why:"Тест не прогонялся после сброса памяти. Нужна поездка."}
+  ],
+  ecu:{
+    name:"Toyota 89661-06B90",
+    calId:"33A0B000",
+    cvn:"5A2F19C4",
+    match:false
+  },
+  live:[
+    {name:"Температура охлаждающей жидкости", val:"88 °C", tone:"ok",
+     why:"Рабочая. Если бы застряла на 70–75 — термостат."},
+    {name:"Обороты холостого хода", val:"690 об/мин", tone:"ok", why:"Ровные, без плавания."},
+    {name:"Расчётная нагрузка", val:"19 %", tone:"ok", why:"Норма для холостого хода."}
+  ]
+};
+
+function toneVar(t){ return t === "none" ? "muted" : t; }
+
+function metric(m){
+  let h = '<div class="metric"><div class="head"><span class="name">' + m.name + '</span>' +
+          '<span class="val" style="color:var(--' + toneVar(m.tone) + ')">' + m.val + '</span></div>';
+  if(m.num !== undefined && m.limit !== undefined){
+    const pct = Math.min(100, Math.round(m.num / m.limit * 100));
+    h += '<div class="meter"><i style="width:' + pct + '%;background:var(--' + toneVar(m.tone) + ')"></i>' +
+         '<b style="left:100%"></b></div>';
+  }
+  if(m.num !== undefined && m.hi !== undefined){
+    const span = m.hi - m.lo, pos = Math.max(0, Math.min(100, (m.num - m.lo) / span * 100));
+    h += '<div class="meter"><i style="width:' + pos + '%;background:var(--' + toneVar(m.tone) + ')"></i>' +
+         '<b style="left:100%"></b></div>';
+  }
+  h += '<p class="why">' + m.why + '</p></div>';
+  return h;
+}
+
+function scanDtcView(){
+  return '<p class="sectionhead">Сохранённые · 2</p>' +
+    '<div class="card flush">' +
+      '<button class="dtc" data-go="dtc" data-dtc="p0171"><span class="stripe bad"></span>' +
+      '<div class="grow"><span class="code">P0171</span><span class="sub">Бедная смесь, банк 1</span></div>' + CHEV + '</button>' +
+      '<button class="dtc" data-go="dtc" data-dtc="p0300"><span class="stripe warn"></span>' +
+      '<div class="grow"><span class="code">P0300</span><span class="sub">Пропуски зажигания, цилиндр не определён</span></div>' + CHEV + '</button>' +
+    '</div>' +
+    '<p class="sectionhead">Ожидающие · 1</p>' +
+    '<div class="card flush">' +
+      '<button class="dtc" data-go="dtc" data-dtc="p0420"><span class="stripe warn"></span>' +
+      '<div class="grow"><span class="code">P0420</span><span class="sub">Эффективность катализатора ниже порога</span></div>' + CHEV + '</button>' +
+    '</div>' +
+    '<div class="note warn"><span><b>Память стирали недавно.</b> Подробности на вкладке «Состояние» — там видно, когда именно и сколько систем ещё не проверилось.</span></div>' +
+    '<button class="btn quiet">Стереть ошибки</button>' +
+    '<p class="body-text" style="text-align:center;font-size:12.5px;margin-top:-4px">Стирание сбрасывает готовность систем к проверке.</p>';
+}
+
+function scanStateView(){
+  const c = SCAN_STATE.cleared;
+  const notReady = SCAN_STATE.monitors.filter(m => m[1] === "no").length;
+
+  let h = '<div class="note crit"><span><b>Ошибки стёрли перед показом.</b> С момента сброса прошло ' +
+          c.minutes + ' минут, ' + c.km + ' км и ' + c.warmups + ' прогрева. Машина не «чистая» — она подготовленная.</span></div>';
+
+  h += '<p class="sectionhead">Сброс памяти</p><div class="card flush">' +
+    metric({name:"Прошло времени", val:c.minutes + " мин", tone:"bad",
+      why:"Блок считает минуты с момента очистки. За такой срок ни один монитор не успевает пройти."}) +
+    metric({name:"Пройдено километров", val:c.km + " км", tone:"bad",
+      why:"Для полного набора мониторов нужно 150–300 км смешанного режима."}) +
+    metric({name:"Циклов прогрева", val:String(c.warmups), tone:"bad",
+      why:"Прогрев считается, когда мотор поднимается до рабочей температуры с холодного пуска."}) +
+    '</div>';
+
+  h += '<p class="sectionhead">Готовность систем · ' + (8 - notReady) + ' из 8</p>' +
+    '<div class="card flush"><div class="monitors">' +
+    SCAN_STATE.monitors.map(m =>
+      '<div><i class="dot" style="background:var(--' + (m[1] === "ok" ? "ok" : "bad") + ')"></i>' +
+      '<span style="color:var(--' + (m[1] === "ok" ? "ink-2" : "bad") + ')">' + m[0] + '</span></div>').join("") +
+    '</div></div>' +
+    '<p class="body-text" style="font-size:13px;margin:0 2px">Монитор становится готовым, когда система успела проверить сама себя. После сброса памяти все слетают и набираются сотнями километров. ' +
+    notReady + ' неготовых подтверждают: стирали только что.</p>';
+
+  h += '<p class="sectionhead">Топливные коррекции</p><div class="card flush">' +
+    SCAN_STATE.trims.map(metric).join("") + '</div>';
+
+  h += '<p class="sectionhead">Бортовые тесты</p><div class="card flush">' +
+    SCAN_STATE.tests.map(metric).join("") + '</div>' +
+    '<p class="body-text" style="font-size:13px;margin:0 2px">Блок гоняет собственные тесты постоянно и хранит результаты числом. Здесь видно то, что ещё не дошло до лампы: катализатор уже ниже порога.</p>';
+
+  const e = SCAN_STATE.ecu;
+  h += '<p class="sectionhead">Блок управления</p><div class="card">' +
+    '<dl class="kv"><dt>Блок</dt><dd class="mono" style="font-size:13px">' + e.name + '</dd>' +
+    '<dt>Номер калибровки</dt><dd class="mono" style="font-size:13px">' + e.calId + '</dd>' +
+    '<dt>Контрольная сумма</dt><dd class="mono" style="font-size:13px">' + e.cvn + '</dd></dl>' +
+    '<div class="note ' + (e.match ? "info" : "warn") + '" style="margin-top:10px"><span>' +
+    (e.match
+      ? "Совпадает с заводской для этого поколения."
+      : "<b>Не совпадает с заводской.</b> Блок перепрошивали или меняли. Спросить зачем: за чип-тюнингом часто стоит скрученный пробег или замена мотора.") +
+    '</span></div></div>';
+
+  h += '<p class="sectionhead">Живые данные</p><div class="card flush">' +
+    SCAN_STATE.live.map(metric).join("") + '</div>';
+
+  h += '<div class="note info"><span><b>Чего сканер не покажет.</b> Пробега и моточасов в стандарте OBD-II нет: одометр лежит в приборной панели, моточасы — в заводских блоках. Сверить одно с другим через универсальный адаптер нельзя ни на одной массовой машине.</span></div>';
+
+  return h;
+}
+
+let scanTab = "dtc";
+function renderScanner(){
+  document.getElementById("scan-body").innerHTML =
+    scanTab === "dtc" ? scanDtcView() : scanStateView();
+  document.querySelectorAll("#scan-tabs button").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.scan === scanTab)));
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-scan]");
+  if(!t) return;
+  scanTab = t.dataset.scan;
+  renderScanner();
+});
+
 /* ---------- чеклист осмотра ---------- */
 const CHECK_STATE = {
   "i:oil-tube":{v:"found", c:"Металлопластиковая, следов замены нет"},
@@ -1621,6 +1793,7 @@ function go(id, arg, viaBack){
   if(id === "issues") renderIssues();
   if(id === "inspection") renderChecklist();
   if(id === "report") renderFindings();
+  if(id === "scanner") renderScanner();
 
   document.querySelectorAll(".screen").forEach(el => el.classList.remove("is-active"));
   document.getElementById("s-" + id).classList.add("is-active");
