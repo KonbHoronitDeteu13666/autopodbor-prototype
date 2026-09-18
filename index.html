@@ -1532,14 +1532,6 @@ const RUST = [
 ];
 const SEV_CHIP = {bad:["bad","Серьёзно"], warn:["warn","Заметно"], ok:["ok","Безобидно"]};
 
-const rustListEl = document.getElementById("rust-list");
-rustListEl.innerHTML = RUST.map(r =>
-  '<button class="row" data-go="rust" data-rust="' + r.id + '">' +
-    '<span class="stripe ' + r.sev + '"></span>' +
-    '<div class="grow"><span class="ttl">' + r.place + '</span>' +
-      '<span class="sub">' + r.prev + ' · ' + r.where + '</span></div>' +
-    '<span class="chip ' + r.cost[0] + '">' + r.cost[1] + '</span>' +
-  '</button>').join("");
 
 function renderRust(id){
   const r = RUST.find(x => x.id === id) || RUST[0];
