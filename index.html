@@ -697,7 +697,7 @@ ol.steps li::before{
             </div>
 
             <p class="sectionhead">Где гниёт · 7 мест</p>
-            <p class="body-text" style="margin:-2px 2px 0;font-size:13px"><b style="color:var(--ink)">Сверху то, что важнее.</b> Чип справа — насколько это страшно, слово под названием — как часто встречается. Это разные вещи: ржавые болты под капотом бывают почти у всех и ни на что не влияют.</p>
+            <p class="body-text" style="margin:-2px 2px 0;font-size:13px"><b style="color:var(--ink)">Сверху то, что важнее.</b> Полоса слева — насколько серьёзно, чип справа — во сколько обойдётся ремонт, слово под названием — как часто встречается. Ржавые болты под капотом бывают почти у всех и ни на что не влияют.</p>
             <div class="card flush rows" id="rust-list"></div>
 
             <div class="note warn">
@@ -1122,6 +1122,8 @@ const OPTS = {sunroof:true, leather:true, xenon:false, camera:false};
 
 function engKey(){ return (SEL.engLabel || "").split(" ")[0]; }
 function gbKey(){ return (SEL.gbLabel || "").split(" ")[0]; }
+function engShort(){ return (SEL.engLabel || "").split(" · ").slice(0, 2).join(" "); }
+function carShort(){ return SEL.brand + " " + SEL.model + " " + SEL.gen; }
 
 function activeIssues(){
   const e = engKey(), g = gbKey();
@@ -1208,18 +1210,20 @@ function renderIssues(){
   const rest  = ids.filter(id => ISSUES[id].prio !== 1);
   const hidden = ISSUE_SEQ.length - ids.length;
 
-  let h = '<div class="note warn"><span>Отсортировано по тому, что смотреть раньше, а не по узлам.</span></div>';
-  h += '<p class="body-text" style="font-size:13px;margin:0 2px">Список собран под <b style="color:var(--ink)">' +
-       (SEL.engLabel || "").split(" · ").slice(0,2).join(" ") + '</b> и <b style="color:var(--ink)">' +
-       gbKey() + '</b>' +
-       (hidden ? '. Ещё ' + hidden + ' — к этой машине не относятся и скрыты' : '') + '.</p>';
+  let h = '<div class="card"><p class="body-text" style="font-size:13.5px">Список собран под <b style="color:var(--ink)">' +
+       engShort() + '</b> и <b style="color:var(--ink)">' + gbKey() + '</b>' +
+       (hidden ? '. Ещё ' + hidden + ' позиций каталога к этой машине не относятся и скрыты' : '') + '.</p>' +
+       '<p class="body-text" style="font-size:13px;margin-top:8px">' +
+       '<b style="color:var(--ink)">Сверху то, что важнее.</b> Полоса слева — насколько серьёзно, ' +
+       'чип справа — во сколько обойдётся ремонт. Это разные вещи: дешёвый ремонт бывает у серьёзной ' +
+       'неисправности, если поймать её вовремя.</p></div>';
 
   if(first.length)
-    h += '<p class="sectionhead">Проверить первым делом</p><div class="card flush rows">' +
-         first.map(issueRow).join("") + '</div>';
+    h += '<p class="sectionhead">Проверить первым делом · ' + first.length + '</p>' +
+         '<div class="card flush rows">' + first.map(issueRow).join("") + '</div>';
   if(rest.length)
-    h += '<p class="sectionhead">Остальное</p><div class="card flush rows">' +
-         rest.map(issueRow).join("") + '</div>';
+    h += '<p class="sectionhead">Остальное · ' + rest.length + '</p>' +
+         '<div class="card flush rows">' + rest.map(issueRow).join("") + '</div>';
 
   document.getElementById("s-issues").innerHTML = h;
 }
@@ -1569,6 +1573,20 @@ const backBtn = document.getElementById("back");
 
 let currentArg = null;
 
+function eyebrowFor(id){
+  switch(id){
+    case "pick":       return SEL.brand + " " + SEL.model;
+    case "generation": return SEL.years + " · " + engShort();
+    case "issues":     return activeIssues().length + " позиций · " + engShort() + " · " + gbKey();
+    case "issue":      return carShort() + " · " + engShort();
+    case "body":       return carShort() + " · кузов";
+    case "rust":       return carShort() + " · кузов";
+    case "inspection": return carShort() + " · " + engShort();
+    case "report":     return SEL.brand + " " + SEL.model + " · " + engShort();
+    default:           return null;
+  }
+}
+
 const TAB_OF = {catalog:"catalog", pick:"pick", generation:"catalog", issues:"catalog", issue:"catalog",
                 body:"catalog", rust:"catalog", guide:"catalog", scanner:"inspection",
                 dtc:"inspection", inspection:"inspection", report:"report",
@@ -1598,7 +1616,7 @@ function go(id, arg, viaBack){
   document.getElementById("s-" + id).classList.add("is-active");
 
   barTitle.textContent = title;
-  barEyebrow.textContent = s.eyebrow;
+  barEyebrow.textContent = eyebrowFor(id) || s.eyebrow;
 
   const tab = TAB_OF[id];
   document.querySelectorAll("#tabbar button").forEach(b =>
@@ -1627,36 +1645,43 @@ document.querySelectorAll('.pick[data-pick="opt"]').forEach(b => {
 
 const RUST = [
   {id:"windshield", place:"Арка лобового стекла", where:"под уплотнителем", prev:"частое", sev:"bad",
+   cost:["bad","Дорогой"],
    why:"Под резиновым уплотнителем и молдингом скапливается влага и грязь, и оттуда ржавчина идёт по кромке проёма. Снаружи при этом видны только сколы краски — металла не видно. Самое проблемное место кузова у этой машины.",
    how:["Отогнуть резиновый уплотнитель по верхней кромке проёма и по бокам.",
         "Провести пальцем по кромке: искать вздутия, рыжие точки, шероховатость под краской.",
         "Посмотреть, как сидит уплотнитель. Неровно или подозрительно свежий — туда уже лазили."]},
   {id:"liners", place:"Под войлочными подкрылками", where:"верх арки и стык с порогом", prev:"частое", sev:"bad",
+   cost:["warn","Средний"],
    why:"Между подкрылком и крылом набивается грязь, держит воду и не даёт металлу сохнуть. Снаружи арка при этом выглядит целой.",
    how:["Вывернуть колесо, отогнуть край подкрылка рукой.",
         "Посветить фонарём в верхнюю часть арки и в место стыка с порогом.",
         "Слежавшаяся мокрая грязь и рыжие потёки — начало процесса."]},
   {id:"arches", place:"Кромки арок задних крыльев", where:"загиб по всей длине", prev:"встречается", sev:"warn",
+   cost:["warn","Средний"],
    why:"Пескоструй от колёс плюс реагенты. Чаще у машин из Москвы и Петербурга с пробегом от 150 000 км.",
    how:["Присесть у заднего колеса и осмотреть загиб арки по всей длине.",
         "Повторить с другой стороны: гниёт обычно несимметрично.",
         "Вздутия под краской по кромке означают, что коррозия идёт изнутри наружу."]},
   {id:"cups", place:"Чашки стоек", where:"под капотом, под шумоизоляцией", prev:"встречается", sev:"warn",
+   cost:["warn","Средний"],
    why:"Влага затекает под шумоизоляционный материал и остаётся там надолго.",
    how:["Открыть капот, осмотреть верхние опоры стоек с обеих сторон.",
         "Где есть шумоизоляция — отогнуть край и посветить под неё.",
         "Рыжие разводы вокруг гаек — повод смотреть внимательнее."]},
   {id:"floor", place:"Пол салона у водителя", where:"под ковром", prev:"встречается", sev:"warn",
+   cost:["warn","Средний"],
    why:"Вода с обуви зимой скапливается под ковром и не испаряется.",
    how:["Поднять водительский коврик.",
         "Отогнуть край ковролина у порога и в районе рычага лючка бензобака.",
         "Пощупать рукой: сырость или жёсткий налёт под тканью означает, что металл под ней уже не свежий."]},
   {id:"tank", place:"Днище у бензобака", where:"усилители и швы", prev:"встречается", sev:"warn",
+   cost:["bad","Дорогой"],
    why:"Днище традиционно гниёт первым, а усилители у бака собирают грязь.",
    how:["Нужен подъёмник или смотровая яма — руками не достать.",
         "Осмотреть усилители и сварные швы в районе бака.",
         "Без подъёмника оценить невозможно. Честнее оставить пункт непроверенным, чем считать его пройденным."]},
   {id:"bolts", place:"Крепёж и хром под капотом", where:"болты крыльев и петель", prev:"частое", sev:"ok",
+   cost:["ok","Недорогой"],
    why:"Болты и хромированные элементы не из нержавейки, ржавеют сами по себе. Для металла кузова это безобидно.",
    how:["Открыть капот, посмотреть на болты крепления крыльев и петель.",
         "Ржавые болты на пятнадцатилетней машине — норма.",
@@ -1670,15 +1695,15 @@ rustListEl.innerHTML = RUST.map(r =>
     '<span class="stripe ' + r.sev + '"></span>' +
     '<div class="grow"><span class="ttl">' + r.place + '</span>' +
       '<span class="sub">' + r.prev + ' · ' + r.where + '</span></div>' +
-    '<span class="chip ' + SEV_CHIP[r.sev][0] + '">' + SEV_CHIP[r.sev][1] + '</span>' +
+    '<span class="chip ' + r.cost[0] + '">' + r.cost[1] + '</span>' +
   '</button>').join("");
 
 function renderRust(id){
   const r = RUST.find(x => x.id === id) || RUST[0];
   let h = '<div style="display:flex;gap:7px;flex-wrap:wrap">' +
     '<span class="chip ' + SEV_CHIP[r.sev][0] + '">' + SEV_CHIP[r.sev][1] + '</span>' +
-    '<span class="chip neutral">' + r.prev[0].toUpperCase() + r.prev.slice(1) + '</span>' +
-    '<span class="chip neutral">Кузов</span></div>';
+    '<span class="chip ' + r.cost[0] + '">' + r.cost[1] + ' ремонт</span>' +
+    '<span class="chip neutral">' + r.prev[0].toUpperCase() + r.prev.slice(1) + '</span></div>';
   h += '<div class="card"><h4 class="blockttl">' + r.place + '</h4>' +
        '<p class="body-text" style="color:var(--muted);margin-bottom:8px">' + r.where + '</p>' +
        '<p class="body-text">' + r.why + '</p></div>';
