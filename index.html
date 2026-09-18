@@ -139,21 +139,6 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   min-height:560px;
 }
 
-/* на телефоне приложение занимает весь экран */
-@media (max-width:560px){
-  .stage{padding:0;min-height:0}
-  .phone{
-    max-width:none;
-    border:0;
-    border-radius:0;
-    box-shadow:none;
-    height:100vh;
-    height:100dvh;
-    min-height:0;
-  }
-  .statusbar{display:none}
-  .tabbar{padding-bottom:env(safe-area-inset-bottom)}
-}
 .statusbar{
   display:flex;
   justify-content:space-between;
@@ -597,6 +582,24 @@ ol.steps li::before{
 .reportline .val{font-weight:500;text-align:right}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* на телефоне приложение занимает весь экран — блок держим последним,
+   иначе базовые правила ниже перебивают переопределения */
+@media (max-width:560px){
+  .stage{padding:0;min-height:0}
+  .phone{
+    max-width:none;
+    border:0;
+    border-radius:0;
+    box-shadow:none;
+    height:100vh;
+    height:100dvh;
+    min-height:0;
+  }
+  .statusbar{display:none}
+  .appbar{padding-top:calc(6px + env(safe-area-inset-top))}
+  .tabbar{padding-bottom:env(safe-area-inset-bottom)}
+}
 </style>
 </head>
 <body>
