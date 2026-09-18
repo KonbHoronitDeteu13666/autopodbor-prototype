@@ -188,6 +188,15 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .screen{display:none;padding:14px 14px 22px;flex-direction:column;gap:12px}
 .screen.is-active{display:flex}
 
+/* контейнеры, которые собираются скриптом, держат тот же ритм,
+   что и экран: иначе отступы внутри них живут по своим правилам */
+#scan-body, #report-body{display:flex;flex-direction:column;gap:12px}
+
+/* длинные слова вроде «гидротрансформатора» переносим, а не обрезаем */
+.ttl, .blockttl, .name, .code, .metric .name, .modcode span, .row .sub{
+  overflow-wrap:anywhere;
+}
+
 /* ---------- nav ---------- */
 .tabbar{
   display:grid;
@@ -239,7 +248,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   font-size:12px;
   font-weight:600;
   color:var(--muted);
-  margin:6px 2px -4px;
+  margin:4px 2px 0;
 }
 
 .chip{
@@ -767,7 +776,7 @@ ol.steps li::before{
             </div>
 
             <p class="sectionhead">Где гниёт · 7 мест</p>
-            <p class="body-text" style="margin:-2px 2px 0;font-size:13px"><b style="color:var(--ink)">Сверху то, что важнее.</b> Полоса слева — насколько серьёзно, чип справа — во сколько обойдётся ремонт, слово под названием — как часто встречается. Ржавые болты под капотом бывают почти у всех и ни на что не влияют.</p>
+            <p class="body-text" style="margin:0 2px;font-size:13px"><b style="color:var(--ink)">Сверху то, что важнее.</b> Полоса слева — насколько серьёзно, чип справа — во сколько обойдётся ремонт, слово под названием — как часто встречается. Ржавые болты под капотом бывают почти у всех и ни на что не влияют.</p>
             <div class="card flush rows" id="rust-list"></div>
 
             <div class="note warn">
@@ -1454,7 +1463,7 @@ function renderPick(){
 
   const next = document.getElementById("pick-next");
   document.getElementById("pick-warning").innerHTML = g.ready
-    ? (single ? '<p class="body-text" style="margin:-4px 2px 0;font-size:13px">С этим мотором других коробок не ставилось.</p>' : "")
+    ? (single ? '<p class="body-text" style="margin:0 2px;font-size:13px">С этим мотором других коробок не ставилось.</p>' : "")
     : '<div class="note warn"><span><b>Данные по этому поколению ещё готовятся.</b> Сейчас доступна Toyota Camry 2006–2011.</span></div>';
   next.style.opacity = g.ready ? "1" : ".45";
   next.style.pointerEvents = g.ready ? "auto" : "none";
