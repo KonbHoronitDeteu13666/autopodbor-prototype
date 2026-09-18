@@ -965,7 +965,7 @@ const ISSUES = {
   "head-bolts":{
     title:"Срыв резьбы под болты ГБЦ", short:"Резьба ГБЦ",
     eng:"2AZ-FE", node:"Двигатель", when:"не зависит от пробега",
-    sev:"bad", cost:["bad","Дорогой"], prio:2,
+    sev:"bad", cost:["bad","Дорогой"], prio:1,
     chips:[["bad","Высокая"],["neutral","Двигатель"],["neutral","2AZ-FE 2.4"]],
     desc:"Болты головки вытягивались из блока вместе с резьбой, чаще центральные. В 2006 году Toyota заменила болты с 24 мм на 30 мм, и на XV40 проблема в основном осталась в прошлом. Но у запущенных перегретых экземпляров встречается.",
     alert:null,
@@ -1006,7 +1006,8 @@ const ISSUES = {
   },
   "chain":{
     title:"Растяжение цепи ГРМ", short:"Цепь ГРМ",
-    node:"Двигатель", when:"от 120 000 км на 3.5",
+    node:"Двигатель", when:"от 120 000 км",
+    whenBy:{"2AZ-FE":"от 150 000 км", "2GR-FE":"от 120 000 км"},
     sev:"bad", cost:["warn","Средний"], prio:1,
     chips:[["bad","Средняя"],["neutral","Двигатель"],["neutral","оба мотора"]],
     desc:"Цепь вытягивается, натяжитель выбирает ход до предела. На 3.5 проявляется раньше и заметнее, чем на 2.4.",
@@ -1125,6 +1126,12 @@ function gbKey(){ return (SEL.gbLabel || "").split(" ")[0]; }
 function engShort(){ return (SEL.engLabel || "").split(" · ").slice(0, 2).join(" "); }
 function carShort(){ return SEL.brand + " " + SEL.model + " " + SEL.gen; }
 
+const SEV_RANK = {crit:0, bad:1, warn:2, ok:3};
+
+function whenOf(d){
+  return (d.whenBy && d.whenBy[engKey()]) || d.when;
+}
+
 function activeIssues(){
   const e = engKey(), g = gbKey();
   return ISSUE_SEQ.filter(id => {
@@ -1133,6 +1140,9 @@ function activeIssues(){
     if(d.gb && d.gb !== g) return false;
     if(d.opt && !OPTS[d.opt]) return false;
     return true;
+  }).sort((a, b) => {
+    const A = ISSUES[a], B = ISSUES[b];
+    return (A.prio - B.prio) || (SEV_RANK[A.sev] - SEV_RANK[B.sev]);
   });
 }
 
@@ -1179,7 +1189,7 @@ function issueRow(id){
   return '<button class="row" data-go="issue" data-issue="' + id + '">' +
     '<span class="stripe ' + d.sev + '"></span>' +
     '<div class="grow"><span class="ttl">' + d.title + '</span>' +
-      '<span class="sub">' + d.node + ' · ' + d.when + '</span></div>' +
+      '<span class="sub">' + d.node + ' · ' + whenOf(d) + '</span></div>' +
     '<span class="chip ' + d.cost[0] + '">' + d.cost[1] + '</span></button>';
 }
 
@@ -1200,7 +1210,7 @@ function renderGeneration(){
   const top = ids.map(id => ISSUES[id]).find(d => d.prio === 1);
   document.getElementById("gen-alert").innerHTML = top
     ? '<div class="note ' + (top.sev === "crit" ? "crit" : "warn") + '"><span><b>Проверить первым.</b> ' +
-      top.title + ' — ' + top.node.toLowerCase() + ', ' + top.when + '.</span></div>'
+      top.title + ' — ' + top.node.toLowerCase() + ', ' + whenOf(top) + '.</span></div>'
     : "";
 }
 
