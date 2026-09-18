@@ -1233,8 +1233,8 @@ function renderIssue(id){
   if(d.alert) h += '<div class="note ' + d.alert[0] + '"><span>' + d.alert[1] + '</span></div>';
   h += '<div class="card"><p class="sectionhead" style="margin:0 0 9px">Как проверить</p><ol class="steps">' +
        d.steps.map(s => '<li>' + s + '</li>').join("") + '</ol></div>';
-  h += '<div class="card"><dl class="kv">' +
-       d.cost.map(c => '<dt>' + c[0] + '</dt><dd style="color:var(--' + c[2] + ')">' + c[1] + '</dd>').join("") +
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Стоимость ремонта</p><dl class="kv">' +
+       d.costs.map(c => '<dt>' + c[0] + '</dt><dd style="color:var(--' + c[2] + ')">' + c[1] + '</dd>').join("") +
        '</dl></div>';
   if(d.codes.length){
     h += '<p class="sectionhead">Связанные коды</p><div class="card flush rows">' +
