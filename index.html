@@ -478,6 +478,7 @@ ol.steps li::before{
   font-weight:500;
   color:var(--ink-2);
 }
+.seg.seg-3{grid-template-columns:repeat(3,1fr)}
 .seg button[aria-pressed="true"]{
   background:var(--surface);
   color:var(--ink);
@@ -507,6 +508,17 @@ ol.steps li::before{
 .metric .why{font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.35}
 
 .monitors{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line)}
+.modbody{background:var(--surface-2);border-bottom:1px solid var(--line)}
+.modcode{
+  display:flex;align-items:center;gap:10px;
+  padding:9px 14px;
+  font-size:13.5px;
+  border-bottom:1px solid var(--line);
+}
+.modcode:last-child{border-bottom:0}
+.modcode .mono{font-weight:600;flex:none}
+.modbody .why{margin:0;font-size:12.5px;color:var(--muted);line-height:1.4;padding-top:10px}
+
 .monitors div{
   background:var(--surface);
   padding:8px 11px;
@@ -795,22 +807,28 @@ ol.steps li::before{
 
           <!-- 8 СКАНЕР -->
           <section class="screen" id="s-scanner">
-            <div class="card" style="display:flex;align-items:center;gap:11px">
-              <span class="stripe ok" style="min-height:30px"></span>
-              <div class="grow">
-                <span class="ttl" style="font-weight:600">ELM327 v1.5</span>
-                <span class="sub" style="font-size:12.5px;color:var(--muted);display:block">Bluetooth · подключён · протокол CAN 11/500</span>
-              </div>
-              <span class="chip ok">На связи</span>
+            <div class="card flush rows">
+              <button class="row" data-go="adapter">
+                <span class="stripe ok"></span>
+                <div class="grow">
+                  <span class="ttl">ELM327 v1.5</span>
+                  <span class="sub">подключён · CAN 11/500 · сменить адаптер</span>
+                </div>
+                <span class="chip ok">На связи</span>
+              </button>
             </div>
 
-            <div class="seg" id="scan-tabs">
-              <button data-scan="dtc" aria-pressed="true">Ошибки · 3</button>
+            <div class="seg seg-3" id="scan-tabs">
+              <button data-scan="dtc" aria-pressed="true">Ошибки</button>
+              <button data-scan="modules" aria-pressed="false">Блоки</button>
               <button data-scan="state" aria-pressed="false">Состояние</button>
             </div>
 
             <div id="scan-body"></div>
           </section>
+
+          <!-- 8a АДАПТЕР -->
+          <section class="screen" id="s-adapter"></section>
 
           <!-- 9 КОД -->
           <section class="screen" id="s-dtc"></section>
@@ -947,6 +965,7 @@ const SCREENS = [
   {id:"guide",      eyebrow:"Шаг 2 из 4",               title:"Инструкция"},
   {id:"scanner",    eyebrow:"ELM327 v1.5 · CAN",        title:"Ошибки"},
   {id:"dtc",        eyebrow:"Сохранённая ошибка",       title:"P0171"},
+  {id:"adapter",    eyebrow:"Выбор оборудования",       title:"Адаптер"},
   {id:"inspection", eyebrow:"187 400 км · 18.09.2026",  title:"Осмотр"},
   {id:"report",     eyebrow:"Camry XV40 · 3.5",         title:"Отчёт"},
   {id:"profile",    eyebrow:"ivan@example.ru",          title:"Профиль"}
@@ -1471,6 +1490,159 @@ document.addEventListener("click", e => {
     renderPick();
   }));
 
+/* ---------- адаптеры ---------- */
+const ADAPTERS = [
+  {id:"elm15", name:"ELM327 v1.5", chip:"PIC18F25K80", price:"700–1500 ₽",
+   link:"Bluetooth 3.0 или BLE", tier:"базовый", tone:"warn",
+   can:["Ошибки двигателя", "Состояние и бортовые тесты"],
+   cant:["Блоки подушек, ABS, коробки — медленно и не на всех экземплярах"],
+   note:"Самый массовый адаптер на рынке. Половина продающихся под этим именем — клоны разного качества: попадаются экземпляры, которые теряют символы и не держат соединение. Наклейка «v2.1» обычно означает клон хуже, а не новее."},
+  {id:"vgate", name:"Vgate vLinker MC+", chip:"фирменный", price:"2500–4000 ₽",
+   link:"Bluetooth 3.0 + BLE", tier:"рабочий", tone:"ok",
+   can:["Всё, что умеет ELM327", "Блоки подушек, ABS, коробки", "Устойчивое соединение"],
+   cant:[],
+   note:"Разумный выбор, если приложение покупается для работы. Стабильнее клонов и заметно быстрее на заводских запросах к блокам."},
+  {id:"obdlink", name:"OBDLink MX+", chip:"STN2120", price:"10 000–15 000 ₽",
+   link:"Bluetooth 3.0 + BLE", tier:"профессиональный", tone:"ok",
+   can:["Всё вышеперечисленное", "Несколько шин CAN", "Опрос блоков в разы быстрее", "Документированный протокол"],
+   cant:[],
+   note:"Эталон среди бытовых адаптеров. Для подборщика, который смотрит по несколько машин в день, окупается скоростью опроса блоков."},
+  {id:"closed", name:"Autel, Launch, Thinkcar", chip:"закрытый", price:"—",
+   link:"собственное приложение", tier:"не подойдёт", tone:"bad",
+   can:[],
+   cant:["К нашему приложению не подключаются"],
+   note:"Работают только со своими программами и наружу протокол не отдают. Это не адаптеры, а отдельные сканеры."}
+];
+
+let pickedAdapter = "elm15";
+
+function renderAdapter(){
+  let h = '<div class="card"><p class="body-text">Приложение работает с адаптерами, которые говорят на протоколе ELM327. ' +
+    'Модель выбирается заранее: от неё зависит, какие блоки удастся опросить и насколько быстро.</p></div>';
+
+  h += '<p class="sectionhead">Проверенные модели</p><div class="card flush rows">' +
+    ADAPTERS.map(a =>
+      '<button class="row" data-adapter="' + a.id + '">' +
+        '<span class="stripe ' + a.tone + '"></span>' +
+        '<div class="grow"><span class="ttl">' + a.name + '</span>' +
+          '<span class="sub">' + a.tier + ' · ' + a.price + '</span></div>' +
+        (a.id === pickedAdapter
+          ? '<span class="chip ok">Выбран</span>'
+          : '<span class="chip neutral">' + a.link.split(" ")[0] + '</span>') +
+      '</button>').join("") + '</div>';
+
+  const a = ADAPTERS.find(x => x.id === pickedAdapter);
+  h += '<div class="card"><h4 class="blockttl">' + a.name + '</h4>' +
+    '<dl class="kv"><dt>Чип</dt><dd>' + a.chip + '</dd>' +
+    '<dt>Связь</dt><dd>' + a.link + '</dd>' +
+    '<dt>Цена</dt><dd>' + a.price + '</dd></dl>' +
+    '<p class="body-text" style="margin-top:10px">' + a.note + '</p></div>';
+
+  if(a.can.length)
+    h += '<p class="sectionhead">Что получится</p><div class="card flush">' +
+      a.can.map(t => '<div class="modcode"><span class="dot" style="background:var(--ok)"></span><span>' + t + '</span></div>').join("") +
+      '</div>';
+  if(a.cant.length)
+    h += '<p class="sectionhead">Чего не будет</p><div class="card flush">' +
+      a.cant.map(t => '<div class="modcode"><span class="dot" style="background:var(--bad)"></span><span>' + t + '</span></div>').join("") +
+      '</div>';
+
+  h += '<div class="note info"><span><b>Модель определяется сама.</b> При подключении приложение спрашивает адаптер, ' +
+    'кто он такой, и сверяет со списком. Неизвестный клон подключится, но получит предупреждение: ' +
+    'на нём работают ошибки двигателя, а блоки могут не ответить.</span></div>';
+
+  document.getElementById("s-adapter").innerHTML = h;
+  return a.name;
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-adapter]");
+  if(!t) return;
+  pickedAdapter = t.dataset.adapter;
+  renderAdapter();
+});
+
+/* ---------- блоки автомобиля ---------- */
+const MODULES = [
+  {id:"ecm", name:"Двигатель", how:"стандарт", sev:"bad", status:["bad","3 кода"],
+   codes:[["P0171","Бедная смесь, банк 1"],["P0300","Пропуски зажигания"],["P0420","Катализатор"]],
+   note:"Единственный блок, который отдаёт коды по стандарту OBD-II. Все остальные ниже опрашиваются заводскими запросами."},
+  {id:"srs", name:"Подушки безопасности", how:"по-заводскому", sev:"crit", status:["crit","1 код"],
+   codes:[["B1801","Цепь подушки водителя — обрыв"]],
+   note:"Обрыв в цепи подушки означает одно из двух: подушки нет, либо вместо неё стоит резистор-обманка. И то и другое — машина после удара, где восстановление сделали дёшево. Смотреть вместе с лампой SRS на панели: если лампа не горит, а код есть, её отключили намеренно.",
+   tone:"crit"},
+  {id:"abs", name:"ABS и система стабилизации", how:"по-заводскому", sev:"warn", status:["warn","1 код"],
+   codes:[["C1235","Датчик скорости заднего левого колеса — нет сигнала"]],
+   note:"Чаще всего это грязь на датчике или перебитая проводка после ремонта. Но тот же датчик страдает при ударе в заднее крыло — а по кузову у нас как раз заднее левое крыло перекрашено.",
+   tone:"warn"},
+  {id:"tcm", name:"Автоматическая коробка", how:"по-заводскому", sev:"ok", status:["ok","Чисто"],
+   codes:[], params:[["Температура масла","78 °C"],["Адаптации","не сбрасывались"]],
+   note:"Кодов нет, но это не значит, что коробка здорова: пинки U660E появляются задолго до кода. Смотреть тест-драйвом."},
+  {id:"eps", name:"Электроусилитель руля", how:"по-заводскому", sev:"ok", status:["ok","Чисто"],
+   codes:[], note:"Кодов нет."},
+  {id:"sas", name:"Датчик угла поворота руля", how:"по-заводскому", sev:"warn", status:["warn","Не откалиброван"],
+   codes:[], note:"Калибровка слетает после развала-схождения или замены рулевой рейки. Сама по себе мелочь, но говорит, что подвеску недавно разбирали — а продавец об этом не упоминал.",
+   tone:"warn"},
+  {id:"hvac", name:"Климат-контроль", how:"по-заводскому", sev:"none", status:["neutral","Не опрошен"],
+   codes:[], note:"Для этого поколения запрос к блоку климата не описан. Проверяется руками: холод, обороты вентилятора, заслонки."}
+];
+
+function moduleRow(m, open){
+  let h = '<button class="row" data-module="' + m.id + '">' +
+    '<span class="stripe ' + (m.sev === "none" ? "" : m.sev) + '"' +
+      (m.sev === "none" ? ' style="background:var(--line-strong)"' : '') + '></span>' +
+    '<div class="grow"><span class="ttl">' + m.name + '</span>' +
+      '<span class="sub">' + m.how + '</span></div>' +
+    '<span class="chip ' + m.status[0] + '">' + m.status[1] + '</span></button>';
+  if(open){
+    h += '<div class="modbody">';
+    if(m.codes.length)
+      h += m.codes.map(c =>
+        '<div class="modcode"><span class="mono">' + c[0] + '</span><span>' + c[1] + '</span></div>').join("");
+    if(m.params)
+      h += m.params.map(p =>
+        '<div class="modcode"><span>' + p[0] + '</span><span class="mono">' + p[1] + '</span></div>').join("");
+    h += '<p class="why" style="padding:0 14px 12px">' + m.note + '</p></div>';
+  }
+  return h;
+}
+
+let openModule = "srs";
+
+function scanModulesView(){
+  const withCodes = MODULES.filter(m => m.codes.length).length;
+  const notQueried = MODULES.filter(m => m.sev === "none").length;
+
+  let h = '<div class="note crit"><span><b>Подушка водителя в обрыве.</b> Либо её нет, либо стоит обманка. ' +
+          'Это машина после удара — и это важнее всего, что показал двигатель.</span></div>';
+
+  h += '<p class="sectionhead">Блоки · ' + MODULES.length + '</p><div class="card flush rows">' +
+       MODULES.map(m => moduleRow(m, m.id === openModule)).join("") + '</div>';
+
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Почему блоки читаются по-разному</p>' +
+    '<p class="body-text">Стандарт OBD-II описывает только двигатель: его придумали ради контроля выхлопа. ' +
+    'Подушки, ABS, коробка и усилитель руля в стандарт не входят — каждый производитель опрашивает их ' +
+    'своими запросами и своими кодами.</p>' +
+    '<p class="body-text">Адаптер умеет и это, но поддержку приходится описывать отдельно для каждой модели. ' +
+    'Для Camry XV40 описаны шесть блоков из семи.</p></div>';
+
+  h += '<div class="note info"><span><b>Коды блоков — модельный контент.</b> Здесь показан пример для этой машины: ' +
+       'расшифровки заводских кодов заполняются отдельно для каждого поколения, как и неисправности.</span></div>';
+
+  h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Чего нет ни у кого</p>' +
+    '<p class="body-text">Числа прописанных ключей и журнала замен блок не отдаёт: это уровень дилерского ' +
+    'оборудования с доступом к иммобилайзеру. Считать количество ключей универсальным адаптером нельзя.</p></div>';
+
+  return h;
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-module]");
+  if(!t) return;
+  openModule = openModule === t.dataset.module ? null : t.dataset.module;
+  renderScanner();
+});
+
 /* ---------- сканер: ошибки и состояние ---------- */
 const SCAN_STATE = {
   cleared:{minutes:38, km:14, warmups:2},
@@ -1599,7 +1771,7 @@ function scanStateView(){
 let scanTab = "dtc";
 function renderScanner(){
   document.getElementById("scan-body").innerHTML =
-    scanTab === "dtc" ? scanDtcView() : scanStateView();
+    scanTab === "dtc" ? scanDtcView() : scanTab === "state" ? scanStateView() : scanModulesView();
   document.querySelectorAll("#scan-tabs button").forEach(b =>
     b.setAttribute("aria-pressed", String(b.dataset.scan === scanTab)));
 }
@@ -1775,7 +1947,7 @@ function eyebrowFor(id){
 const TAB_OF = {catalog:"catalog", pick:"pick", generation:"catalog", issues:"catalog", issue:"catalog",
                 body:"catalog", rust:"catalog", guide:"catalog", scanner:"inspection",
                 dtc:"inspection", inspection:"inspection", report:"report",
-                profile:"profile"};
+                profile:"profile", adapter:"inspection"};
 
 let current = null;
 const stack = [];
@@ -1797,6 +1969,7 @@ function go(id, arg, viaBack){
   if(id === "inspection") renderChecklist();
   if(id === "report") renderFindings();
   if(id === "scanner") renderScanner();
+  if(id === "adapter") title = renderAdapter();
 
   document.querySelectorAll(".screen").forEach(el => el.classList.remove("is-active"));
   document.getElementById("s-" + id).classList.add("is-active");
