@@ -238,6 +238,11 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .row .grow{flex:1;min-width:0}
 .row .ttl{font-weight:500;display:block}
 .row .sub{font-size:12.5px;color:var(--muted);display:block}
+.sev{font-weight:600}
+.sev.ok{color:var(--ok)}
+.sev.warn{color:var(--warn)}
+.sev.bad{color:var(--bad)}
+.sev.crit{color:var(--crit)}
 .chev{color:var(--muted);flex:none}
 
 .sectionhead{
@@ -767,11 +772,8 @@ ol.steps li::before{
               <p class="body-text" style="margin-top:9px;font-size:13px">Галочка — в порядке, восклицательный знак — нашли. Нажать повторно, чтобы снять отметку. Непроверенное так и остаётся непроверенным: в отчёте это видно.</p>
             </div>
 
-            <p class="sectionhead">Двигатель и агрегаты · <span id="c-issues">0/9</span></p>
-            <div class="card flush" id="check-issues"></div>
-
-            <p class="sectionhead">Кузов · <span id="c-rust">0/7</span></p>
-            <div class="card flush" id="check-rust"></div>
+            <p class="sectionhead">Что смотреть</p>
+            <div class="card flush" id="check-list"></div>
 
             <p class="sectionhead">Замеры толщиномера</p>
             <div class="card">
@@ -1035,6 +1037,16 @@ const ISSUE_SEQ = ["oil-tube","oil-burn","overheat","u660e","chain","u250e","hea
 const OPTS = {sunroof:true, leather:true, xenon:false, camera:false};
 
 const SEV_RANK = {crit:0, bad:1, warn:2, ok:3};
+const SEV_LABEL = {crit:"Критично", bad:"Серьёзно", warn:"Заметно", ok:"Безобидно"};
+
+function sevMark(sev){ return '<b class="sev ' + sev + '">' + SEV_LABEL[sev] + '</b>'; }
+
+function plural(n, one, few, many){
+  const d = n % 10, h = n % 100;
+  if(d === 1 && h !== 11) return one;
+  if(d >= 2 && d <= 4 && (h < 12 || h > 14)) return few;
+  return many;
+}
 
 const DTCS = {
   "p0171":{
@@ -2994,7 +3006,7 @@ function activeIssues(){
     return true;
   }).sort((a, b) => {
     const A = c.issues[a], B = c.issues[b];
-    return (A.prio - B.prio) || (SEV_RANK[A.sev] - SEV_RANK[B.sev]);
+    return (SEV_RANK[A.sev] - SEV_RANK[B.sev]) || (A.prio - B.prio);
   });
 }
 
@@ -3004,28 +3016,23 @@ function issueRow(id){
   return '<button class="row" data-go="issue" data-issue="' + id + '">' +
     '<span class="stripe ' + d.sev + '"></span>' +
     '<div class="grow"><span class="ttl">' + d.title + '</span>' +
-      '<span class="sub">' + d.node + ' · ' + whenOf(d) + '</span></div>' +
+      '<span class="sub">' + sevMark(d.sev) + ' · ' + d.node + ' · ' + whenOf(d) + '</span></div>' +
     '<span class="chip ' + d.cost[0] + '">' + d.cost[1] + '</span></button>';
 }
 
 function renderIssues(){
   const c = CUR(), ids = activeIssues();
-  const first = ids.filter(id => c.issues[id].prio === 1);
-  const rest  = ids.filter(id => c.issues[id].prio !== 1);
   const hidden = c.issueSeq.length - ids.length;
 
   let h = '<div class="card"><p class="body-text" style="font-size:13.5px">Список собран под <b style="color:var(--ink)">' +
     engShort() + '</b> и <b style="color:var(--ink)">' + gbKey() + '</b>' +
-    (hidden ? '. Ещё ' + hidden + ' позиций каталога к этой машине не относятся и скрыты' : '') + '.</p>' +
+    (hidden ? '. Скрыто ещё ' + hidden + ' ' + plural(hidden, "позиция", "позиции", "позиций") +
+      ' каталога — не для этой машины' : '') + '.</p>' +
     '<p class="body-text" style="font-size:13px;margin-top:8px"><b style="color:var(--ink)">Сверху то, что важнее.</b> ' +
-    'Полоса слева — насколько серьёзно, чип справа — во сколько обойдётся ремонт. Это разные вещи: дешёвый ремонт ' +
+    'Слово под названием — насколько серьёзно, чип справа — во сколько обойдётся ремонт. Это разные вещи: дешёвый ремонт ' +
     'бывает у серьёзной неисправности, если поймать её вовремя.</p></div>';
-  if(first.length)
-    h += '<p class="sectionhead">Проверить первым делом · ' + first.length + '</p><div class="card flush rows">' +
-         first.map(issueRow).join("") + '</div>';
-  if(rest.length)
-    h += '<p class="sectionhead">Остальное · ' + rest.length + '</p><div class="card flush rows">' +
-         rest.map(issueRow).join("") + '</div>';
+  h += '<p class="sectionhead">Что смотреть · ' + ids.length + '</p><div class="card flush rows">' +
+       ids.map(issueRow).join("") + '</div>';
   document.getElementById("s-issues").innerHTML = h;
 }
 
@@ -3063,14 +3070,15 @@ function renderBody(){
   h += '<div class="note info"><span>' + p.material + '</span></div>';
   h += '<div class="card"><p class="sectionhead" style="margin:0 0 7px">Стойкость покрытия</p>' +
        '<p class="body-text">' + p.quality + '</p></div>';
-  h += '<p class="sectionhead">Где гниёт · ' + c.rust.length + ' мест</p>' +
+  const rust = c.rust.slice().sort((a, b) => SEV_RANK[a.sev] - SEV_RANK[b.sev]);
+  h += '<p class="sectionhead">Где гниёт · ' + rust.length + ' ' + plural(rust.length, "место", "места", "мест") + '</p>' +
     '<p class="body-text" style="margin:0 2px;font-size:13px"><b style="color:var(--ink)">Сверху то, что важнее.</b> ' +
-    'Полоса слева — насколько серьёзно, чип справа — во сколько обойдётся ремонт, слово под названием — как часто встречается.</p>' +
+    'Слово под названием — насколько серьёзно, дальше — как часто встречается и где искать, чип справа — во сколько обойдётся ремонт.</p>' +
     '<div class="card flush rows">' +
-    c.rust.map(r => '<button class="row" data-go="rust" data-rust="' + r.id + '">' +
+    rust.map(r => '<button class="row" data-go="rust" data-rust="' + r.id + '">' +
       '<span class="stripe ' + r.sev + '"></span>' +
       '<div class="grow"><span class="ttl">' + r.place + '</span>' +
-        '<span class="sub">' + r.prev + ' · ' + r.where + '</span></div>' +
+        '<span class="sub">' + sevMark(r.sev) + ' · ' + r.prev + ' · ' + r.where + '</span></div>' +
       '<span class="chip ' + r.cost[0] + '">' + r.cost[1] + '</span></button>').join("") + '</div>';
   document.getElementById("s-body").innerHTML = h;
   return "Кузов";
@@ -3162,12 +3170,17 @@ function renderDtc(id){
   return d.code;
 }
 
-function codeRow(k){
+function codeRow(k, mark){
   const d = CUR().dtc[k];
   return '<button class="row" data-go="dtc" data-dtc="' + k + '">' +
     '<span class="stripe ' + d.urgency[0] + '"></span>' +
     '<div class="grow"><span class="ttl mono">' + d.code + '</span>' +
-      '<span class="sub">' + d.summary.split(".")[0] + '</span></div>' + CHEV + '</button>';
+      '<span class="sub"><b class="sev ' + d.urgency[0] + '">' + d.urgency[1] + '</b> · ' + d.summary.split(".")[0] + '</span></div>' +
+    (mark ? '<span class="chip neutral">В осмотре</span>' : '') + CHEV + '</button>';
+}
+
+function codesByUrgency(c){
+  return Object.keys(c.dtc).sort((a, b) => SEV_RANK[c.dtc[a].urgency[0]] - SEV_RANK[c.dtc[b].urgency[0]]);
 }
 
 function renderCodes(){
@@ -3179,11 +3192,8 @@ function renderCodes(){
       '<button class="btn" id="code-add" style="width:auto;padding:9px 16px">Найти</button></div>' +
     '<p class="body-text" style="margin-top:8px;font-size:13px">Подойдёт любой сканер или приложение, которым вы уже пользуетесь. ' +
     'Здесь код разбирается применительно к вашей машине: причины именно у этого мотора, к чему приведёт и что делать.</p></div>';
-  if(added.length)
-    h += '<p class="sectionhead">В осмотре · ' + added.length + '</p><div class="card flush rows">' +
-      added.map(codeRow).join("") + '</div>';
-  h += '<p class="sectionhead">Частые у этой машины</p><div class="card flush rows">' +
-    known.filter(k => !added.includes(k)).map(codeRow).join("") + '</div>';
+  h += '<p class="sectionhead">Коды этой машины · ' + known.length + '</p><div class="card flush rows">' +
+    codesByUrgency(c).map(k => codeRow(k, added.includes(k))).join("") + '</div>';
   h += '<div class="note info"><span><b>Подключение к адаптеру — следующий этап.</b> Сейчас код вводится руками. ' +
     'Расшифровка от этого не меняется: она привязана к модели и мотору, а не к тому, чем вы код считали.</span></div>';
   document.getElementById("s-codes").innerHTML = h;
@@ -3194,7 +3204,7 @@ function renderInspCodes(){
   const el = document.getElementById("insp-codes");
   if(!el) return;
   const c = CUR(), added = ADDED_CODES.filter(k => c.dtc[k]);
-  el.innerHTML = added.length ? added.map(codeRow).join("")
+  el.innerHTML = added.length ? added.map(k => codeRow(k)).join("")
     : '<div class="row"><div class="grow"><span class="sub">Кодов пока нет. Считайте их своим сканером и добавьте сюда.</span></div></div>';
 }
 
@@ -3235,20 +3245,18 @@ function renderChecklist(){
   const c = CUR(), ids = activeIssues();
   document.getElementById("insp-car").textContent = carShort() + " · " + engShort();
   document.getElementById("insp-date").textContent = "Осмотр " + today();
-  document.getElementById("check-issues").innerHTML = ids.map(id => {
+  const items = ids.map(id => {
     const d = c.issues[id];
-    return checkRow("i:" + id, d.title, d.node + (d.prio === 1 ? " · проверить первым" : ""));
-  }).join("");
-  document.getElementById("check-rust").innerHTML =
-    c.rust.map(r => checkRow("r:" + r.id, r.place, r.prev + " · " + r.where)).join("");
+    return {key:"i:" + id, sev:d.sev, title:d.title, sub:d.node};
+  }).concat(c.rust.map(r => ({key:"r:" + r.id, sev:r.sev, title:r.place, sub:"Кузов · " + r.where})))
+    .sort((a, b) => SEV_RANK[a.sev] - SEV_RANK[b.sev]);
 
-  const di = Object.keys(CHECK_STATE).filter(x => x.startsWith("i:") && CHECK_STATE[x].v !== "none" && ids.includes(x.slice(2))).length;
-  const dr = Object.keys(CHECK_STATE).filter(x => x.startsWith("r:") && CHECK_STATE[x].v !== "none" && c.rust.some(r => r.id === x.slice(2))).length;
-  const total = ids.length + c.rust.length;
-  document.getElementById("c-issues").textContent = di + "/" + ids.length;
-  document.getElementById("c-rust").textContent = dr + "/" + c.rust.length;
-  document.getElementById("check-count").textContent = (di + dr) + " из " + total;
-  document.getElementById("check-bar").style.width = Math.round((di + dr) / total * 100) + "%";
+  document.getElementById("check-list").innerHTML =
+    items.map(it => checkRow(it.key, it.title, sevMark(it.sev) + " · " + it.sub)).join("");
+
+  const done = items.filter(it => (CHECK_STATE[it.key] || {v:"none"}).v !== "none").length;
+  document.getElementById("check-count").textContent = done + " из " + items.length;
+  document.getElementById("check-bar").style.width = Math.round(done / items.length * 100) + "%";
 }
 
 function nameOf(k){
@@ -3261,7 +3269,10 @@ function renderFindings(){
   harvestComments();
   const c = CUR(), ids = activeIssues();
   const relevant = k => k.startsWith("r:") ? c.rust.some(r => r.id === k.slice(2)) : ids.includes(k.slice(2));
-  const entries = Object.entries(CHECK_STATE).filter(([k]) => relevant(k));
+  const sevOf = k => k.startsWith("i:") ? c.issues[k.slice(2)].sev
+                                        : (c.rust.find(r => r.id === k.slice(2)) || {sev:"ok"}).sev;
+  const entries = Object.entries(CHECK_STATE).filter(([k]) => relevant(k))
+    .sort(([a], [b]) => SEV_RANK[sevOf(a)] - SEV_RANK[sevOf(b)]);
   const found = entries.filter(([, s]) => s.v === "found");
   const ok = entries.filter(([, s]) => s.v === "ok");
   const noteInput = document.getElementById("body-note");
@@ -3276,7 +3287,9 @@ function renderFindings(){
     (/^[\d  ]+$/.test(odo) ? odo + " км" : odo) + '</span></div>';
   if(vin) h += '<div class="reportline"><span class="lbl">VIN</span><span class="val mono">' + vin + '</span></div>';
   h += '<div class="reportline"><span class="lbl">Осмотр</span><span class="val">' + today() + '</span></div>';
-  if(found.length) h += '<div class="reportline"><span class="lbl">Замечаний</span><span class="val" style="color:var(--bad)">' + found.length + '</span></div>';
+  if(found.length) h += '<div class="reportline"><span class="lbl">' +
+    plural(found.length, "Замечание", "Замечания", "Замечаний") +
+    '</span><span class="val" style="color:var(--bad)">' + found.length + '</span></div>';
   h += '</div>';
 
   if(crit.length){
