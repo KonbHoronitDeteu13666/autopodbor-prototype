@@ -663,6 +663,9 @@ ol.steps li::before{
             </div>
           </section>
 
+          <!-- 1б МОДЕЛЬ БЕЗ ПАКЕТА -->
+          <section class="screen" id="s-model"></section>
+
           <!-- 2 ВЫБОР -->
           <section class="screen" id="s-pick">
             <div class="card">
@@ -816,9 +819,11 @@ ol.steps li::before{
       </div>
     </div>
 
+<script src="catalog.js"></script>
 <script>
 const SCREENS = [
   {id:"catalog",    eyebrow:"Каталог моделей",          title:"Каталог"},
+  {id:"model",      eyebrow:"Модель",                   title:"Модель"},
   {id:"pick",       eyebrow:"Выбор машины",             title:"Выбор машины"},
   {id:"generation", eyebrow:"Карточка поколения",       title:"Поколение"},
   {id:"issues",     eyebrow:"Неисправности модели",     title:"Неисправности"},
@@ -1157,7 +1162,7 @@ const backBtn = document.getElementById("back");
 
 let currentArg = null;
 
-const TAB_OF = {catalog:"catalog", pick:"pick", generation:"catalog", issues:"catalog", issue:"catalog",
+const TAB_OF = {catalog:"catalog", model:"catalog", pick:"pick", generation:"catalog", issues:"catalog", issue:"catalog",
                 body:"catalog", rust:"catalog", guide:"catalog", codes:"catalog",
                 dtc:"inspection", inspection:"inspection", report:"report"};
 
@@ -1175,8 +1180,9 @@ function go(id, arg, viaBack){
   if(id === "issue") title = renderIssue(arg);
   if(id === "dtc") title = renderDtc(arg);
   if(id === "rust") title = renderRust(arg);
+  if(id === "model") title = renderModel(arg);
   if(id === "pick") title = renderPick();
-  if(id === "generation"){ renderGeneration(); remember(SEL.carId); }
+  if(id === "generation"){ title = renderGeneration(); remember(SEL.carId); }
   if(id === "catalog") renderRecent();
   if(id === "body") title = renderBody();
   if(id === "guide") title = renderGuide();
@@ -2886,16 +2892,48 @@ CARS["camry-xv40"] = {
 /* ---- каталог собирается из CARS ---- */
 function buildCatalog(){
   const byBrand = {};
+  const entry = (brand, model) => {
+    byBrand[brand] = byBrand[brand] || {};
+    byBrand[brand][model] = byBrand[brand][model] || {gens:[], stubs:[]};
+    return byBrand[brand][model];
+  };
+
   Object.keys(CARS).forEach(id => {
     const c = CARS[id];
-    byBrand[c.brand] = byBrand[c.brand] || {};
-    byBrand[c.brand][c.model] = byBrand[c.brand][c.model] || [];
-    byBrand[c.brand][c.model].push({id:id, years:c.years, gen:c.gen});
+    entry(c.brand, c.model).gens.push({id:id, years:c.years, gen:c.gen});
   });
-  return Object.keys(byBrand).map(b => ({
+
+  (typeof STUB_CATALOG === "undefined" ? [] : STUB_CATALOG).forEach(row => {
+    const brand = row[0];
+    row[1].forEach(m => {
+      const e = entry(brand, m[0]);
+      m[2].forEach(g => {
+        if(e.gens.some(x => x.gen === g[0])) return;
+        e.stubs.push({gen:g[0], years:g[1], body:m[1]});
+      });
+    });
+  });
+
+  const byName = (a, b) => a.localeCompare(b, "ru");
+  return Object.keys(byBrand).sort(byName).map(b => ({
     brand:b,
-    models:Object.keys(byBrand[b]).map(m => ({name:m, gens:byBrand[b][m]}))
+    models:Object.keys(byBrand[b]).sort(byName).map(m => ({
+      name:m, gens:byBrand[b][m].gens, stubs:byBrand[b][m].stubs
+    }))
   }));
+}
+
+function yearsRange(model){
+  const all = model.gens.concat(model.stubs).map(g => g.years);
+  const starts = all.map(y => parseInt(y, 10)).filter(y => y);
+  const open = all.some(y => y.indexOf("…") !== -1);
+  const ends = all.map(y => parseInt(y.split(/[–-]/)[1], 10)).filter(y => y);
+  if(!starts.length) return "";
+  return Math.min.apply(null, starts) + "–" + (open ? "…" : Math.max.apply(null, ends));
+}
+
+function genCount(){
+  return CAT.reduce((n, b) => n + b.models.reduce((k, m) => k + m.gens.length + m.stubs.length, 0), 0);
 }
 const CAT = buildCatalog();
 
@@ -2904,11 +2942,15 @@ function CUR(){ return CARS[SEL.carId]; }
 
 function renderBrands(){
   document.getElementById("brand-list").innerHTML = CAT.map((b, bi) => {
-    const models = b.models.map((m, mi) =>
-      '<button class="modelrow" data-brand="' + bi + '" data-model="' + mi + '">' +
+    const models = b.models.map((m, mi) => {
+      const total = m.gens.length + m.stubs.length;
+      return '<button class="modelrow" data-brand="' + bi + '" data-model="' + mi + '">' +
         '<span class="grow"><span>' + m.name + '</span>' +
-        '<span class="sub">' + m.gens.map(g => g.years).join(", ") + '</span></span>' +
-        '<span class="chip ok">' + m.gens.length + '</span></button>').join("");
+        '<span class="sub">' + yearsRange(m) + ' · ' + total + ' ' +
+          plural(total, "поколение", "поколения", "поколений") + '</span></span>' +
+        '<span class="chip ' + (m.gens.length ? "ok" : "neutral") + '">' +
+          (m.gens.length ? "Данные есть" : "Готовится") + '</span></button>';
+    }).join("");
     return '<button class="brandrow" data-brandtoggle="' + bi + '" aria-expanded="false">' +
         '<svg class="caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>' +
         '<span class="grow">' + b.brand + '</span>' +
@@ -2938,6 +2980,37 @@ function renderRecent(){
       '<span class="sub">' + c.gen + " · данные от " + c.updated + '</span></div>' + CHEV + '</button>';
   }).join("");
 }
+
+function renderModel(arg){
+  const [bi, mi] = String(arg || "0:0").split(":").map(Number);
+  const b = CAT[bi], m = b.models[mi];
+  const gens = m.gens.map(g => ({gen:g.gen, years:g.years, ready:true, id:g.id}))
+    .concat(m.stubs.map(g => ({gen:g.gen, years:g.years, ready:false})))
+    .sort((x, y) => parseInt(x.years, 10) - parseInt(y.years, 10));
+
+  let h = '<div class="card"><h4 class="blockttl">' + b.brand + ' ' + m.name + '</h4>' +
+    '<p class="body-text">Модель есть в каталоге, но пакета данных по ней ещё нет. ' +
+    'Неисправности, нормы ЛКП, очаги коррозии и расшифровку кодов собирают и проверяют ' +
+    'по каждому поколению отдельно, поэтому модели открываются постепенно.</p></div>';
+
+  h += '<p class="sectionhead">Поколения · ' + gens.length + '</p><div class="card flush rows">' +
+    gens.map(g => '<button class="row"' + (g.ready ? ' data-open="' + g.id + '"' : '') + '>' +
+      '<div class="grow"><span class="ttl">' + g.gen + '</span>' +
+        '<span class="sub">' + g.years + ' · ' + (m.stubs[0] ? m.stubs[0].body : "") + '</span></div>' +
+      '<span class="chip ' + (g.ready ? "ok" : "neutral") + '">' +
+        (g.ready ? "Данные есть" : "Готовится") + '</span></button>').join("") + '</div>';
+
+  h += '<button class="btn quiet" id="want-model">Сообщить, что нужна эта машина</button>';
+  document.getElementById("s-model").innerHTML = h;
+  return b.brand + ' ' + m.name;
+}
+
+document.addEventListener("click", e => {
+  const w = e.target.closest("#want-model");
+  if(w){ w.textContent = "Запрос отправлен"; w.disabled = true; return; }
+  const op = e.target.closest("[data-open]");
+  if(op){ setCar(op.dataset.open); go("generation"); }
+});
 
 /* ---- выбор машины ---- */
 function setCar(id){
@@ -3229,6 +3302,7 @@ function renderGeneration(){
   document.getElementById("gen-alert").innerHTML = top
     ? '<div class="note ' + (top.sev === "crit" ? "crit" : "warn") + '"><span><b>Проверить первым.</b> ' +
       top.title + ' — ' + top.node.toLowerCase() + ', ' + whenOf(top) + '.</span></div>' : "";
+  return carShort();
 }
 
 /* ---- чеклист и отчёт ---- */
@@ -3320,7 +3394,9 @@ function renderFindings(){
 /* ---- подписи экранов ---- */
 function eyebrowFor(id){
   switch(id){
-    case "catalog":    return CAT.length + " марок · " + Object.keys(CARS).length + " поколений";
+    case "catalog":    return CAT.length + " " + plural(CAT.length, "марка", "марки", "марок") +
+                              " · " + genCount() + " " + plural(genCount(), "поколение", "поколения", "поколений");
+    case "model":      return "Каталог";
     case "pick":       return SEL.brand + " " + SEL.model;
     case "generation": return SEL.years + " · " + engShort();
     case "issues":     return activeIssues().length + " позиций · " + engShort() + " · " + gbKey();
@@ -3349,8 +3425,9 @@ document.addEventListener("click", e => {
   const mr = e.target.closest("[data-model]");
   if(!mr) return;
   const b = CAT[+mr.dataset.brand], m = b.models[+mr.dataset.model];
+  if(!m.gens.length){ go("model", mr.dataset.brand + ":" + mr.dataset.model); return; }
   setCar(m.gens[0].id);
-  go("pick");
+  go(m.stubs.length ? "model" : "pick", mr.dataset.brand + ":" + mr.dataset.model);
 });
 
 document.addEventListener("change", e => {
