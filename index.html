@@ -647,14 +647,14 @@ ol.steps li::before{
               Марка или модель
             </div>
 
-            <p class="sectionhead">Недавние</p>
-            <div class="card flush rows" id="recent-list"></div>
+            <p class="sectionhead" id="recent-head" hidden>Недавние</p>
+            <div class="card flush rows" id="recent-list" hidden></div>
 
             <p class="sectionhead">Марки</p>
             <div class="card flush" id="brand-list"></div>
 
             <div class="note info">
-              <span>Все данные лежат на телефоне и работают без сети. Обновлены 18.09.2026.</span>
+              <span>Все данные лежат на телефоне и работают без сети.</span>
             </div>
           </section>
 
@@ -662,7 +662,7 @@ ol.steps li::before{
           <section class="screen" id="s-pick">
             <div class="card">
               <h4 class="blockttl" id="pick-car">Toyota Camry</h4>
-              <p class="body-text">Год определяет поколение, мотор и коробка — какие неисправности к вам относятся. У Camry наборы проблем 2.4 и 3.5 пересекаются меньше чем наполовину.</p>
+              <p class="body-text">Год определяет поколение, мотор и коробка — какие неисправности к вам относятся. У одной и той же модели наборы проблем под разные моторы пересекаются меньше чем наполовину.</p>
             </div>
 
             <div class="field">
@@ -750,12 +750,12 @@ ol.steps li::before{
           <!-- 10 ОСМОТР -->
           <section class="screen" id="s-inspection">
             <div class="card">
-              <dl class="kv">
-                <dt>Машина</dt><dd>Camry XV40 · 3.5</dd>
-                <dt>Пробег</dt><dd class="mono">187 400 км</dd>
-                <dt>VIN</dt><dd class="mono" style="font-size:12.5px">JTNBE46K***12345</dd>
-                <dt>Дата</dt><dd>18.09.2026</dd>
-              </dl>
+              <h4 class="blockttl" id="insp-car">Машина не выбрана</h4>
+              <p class="body-text" id="insp-date" style="margin:0 0 9px;font-size:13px"></p>
+              <div style="display:flex;gap:8px">
+                <input id="insp-odo" class="notefield mono" placeholder="Пробег, км" inputmode="numeric">
+                <input id="insp-vin" class="notefield mono" placeholder="VIN" maxlength="17" style="text-transform:uppercase">
+              </div>
             </div>
 
             <div class="card">
@@ -775,7 +775,7 @@ ol.steps li::before{
 
             <p class="sectionhead">Замеры толщиномера</p>
             <div class="card">
-              <input id="body-note" class="notefield" value="по кузову 112–124, заднее левое крыло 247" placeholder="Например: по кузову 110–125, всё ровно">
+              <input id="body-note" class="notefield" placeholder="Например: по кузову 110–125, всё ровно">
               <p class="body-text" style="margin-top:7px;font-size:12.5px">Пустое поле в отчёт не попадёт.</p>
             </div>
 
@@ -1079,7 +1079,7 @@ const SEL = {brand:"Toyota", model:"Camry", genIdx:0, engIdx:1, gbIdx:0,
              years:"2006–2011", gen:"XV40"};
 
 /* ---------- коды ошибок ---------- */
-const ADDED_CODES = ["p0171"];
+const ADDED_CODES = [];
 
 document.addEventListener("click", e => {
   if(!e.target.closest("#code-add")) return;
@@ -1097,14 +1097,7 @@ document.addEventListener("click", e => {
 });
 
 /* ---------- чеклист осмотра ---------- */
-const CHECK_STATE = {
-  "i:oil-tube":{v:"found", c:"Металлопластиковая, следов замены нет"},
-  "i:u660e":{v:"found", c:"Толчок при переходе на вторую, жидкость тёмная"},
-  "i:chain":{v:"ok", c:""},
-  "i:valves":{v:"ok", c:""},
-  "r:windshield":{v:"ok", c:""},
-  "r:liners":{v:"found", c:"Слева грязь и рыжие потёки по верху арки"}
-};
+const CHECK_STATE = {};
 const MARK_OK = '<svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg>';
 const MARK_FOUND = '<svg viewBox="0 0 24 24"><path d="M12 5v9"/><circle cx="12" cy="18.5" r="1.2" fill="currentColor" stroke="none"/></svg>';
 
@@ -1171,7 +1164,8 @@ function go(id, arg, viaBack){
   if(id === "dtc") title = renderDtc(arg);
   if(id === "rust") title = renderRust(arg);
   if(id === "pick") title = renderPick();
-  if(id === "generation") renderGeneration();
+  if(id === "generation"){ renderGeneration(); remember(SEL.carId); }
+  if(id === "catalog") renderRecent();
   if(id === "body") title = renderBody();
   if(id === "guide") title = renderGuide();
   if(id === "issues") renderIssues();
@@ -2910,13 +2904,27 @@ function renderBrands(){
       '<div class="models" data-models="' + bi + '" hidden>' + models + '</div>';
   }).join("");
 
-  const r = document.getElementById("recent-list");
-  if(r){
-    const c = CUR();
-    r.innerHTML = '<button class="row" data-go="generation">' +
+}
+
+/* ---- недавние ---- */
+const VISITED = [];
+
+function remember(id){
+  const i = VISITED.indexOf(id);
+  if(i !== -1) VISITED.splice(i, 1);
+  VISITED.unshift(id);
+  VISITED.length = Math.min(VISITED.length, 3);
+}
+
+function renderRecent(){
+  const head = document.getElementById("recent-head"), list = document.getElementById("recent-list");
+  head.hidden = list.hidden = !VISITED.length;
+  list.innerHTML = VISITED.map(id => {
+    const c = CARS[id];
+    return '<button class="row" data-recent="' + id + '">' +
       '<div class="grow"><span class="ttl">' + c.brand + " " + c.model + ", " + c.years + '</span>' +
-      '<span class="sub">' + engShort() + " · " + gbKey() + " · данные от " + c.updated + '</span></div>' + CHEV + '</button>';
-  }
+      '<span class="sub">' + c.gen + " · данные от " + c.updated + '</span></div>' + CHEV + '</button>';
+  }).join("");
 }
 
 /* ---- выбор машины ---- */
@@ -2928,7 +2936,7 @@ function setCar(id){
   SEL.engLabel = c.engines[0].label;
   SEL.gbLabel = c.engines[0].gearboxes[0];
   Object.keys(OPTS).forEach(k => delete OPTS[k]);
-  c.options.forEach((o, i) => OPTS[o.id] = i < 2);
+  c.options.forEach(o => OPTS[o.id] = false);
 }
 
 function renderPick(){
@@ -3214,8 +3222,19 @@ function renderGeneration(){
 }
 
 /* ---- чеклист и отчёт ---- */
+function today(){
+  return new Date().toLocaleDateString("ru-RU", {day:"numeric", month:"long", year:"numeric"}).replace(" г.", "");
+}
+
+function fieldValue(id){
+  const el = document.getElementById(id);
+  return el ? el.value.trim() : "";
+}
+
 function renderChecklist(){
   const c = CUR(), ids = activeIssues();
+  document.getElementById("insp-car").textContent = carShort() + " · " + engShort();
+  document.getElementById("insp-date").textContent = "Осмотр " + today();
   document.getElementById("check-issues").innerHTML = ids.map(id => {
     const d = c.issues[id];
     return checkRow("i:" + id, d.title, d.node + (d.prio === 1 ? " · проверить первым" : ""));
@@ -3250,9 +3269,13 @@ function renderFindings(){
   const codes = ADDED_CODES.filter(k => c.dtc[k]);
   const crit = found.map(([k]) => k).filter(k => k.startsWith("i:") && c.issues[k.slice(2)] && c.issues[k.slice(2)].sev === "crit");
 
-  let h = '<div class="card"><h4 class="blockttl">' + c.brand + " " + c.model + " " + c.gen + " · " + engShort() + '</h4>' +
-    '<div class="reportline"><span class="lbl">Пробег</span><span class="val mono">187 400 км</span></div>' +
-    '<div class="reportline"><span class="lbl">Осмотр</span><span class="val">19 сентября 2026</span></div>';
+  const odo = fieldValue("insp-odo"), vin = fieldValue("insp-vin");
+
+  let h = '<div class="card"><h4 class="blockttl">' + c.brand + " " + c.model + " " + c.gen + " · " + engShort() + '</h4>';
+  if(odo) h += '<div class="reportline"><span class="lbl">Пробег</span><span class="val mono">' +
+    (/^[\d  ]+$/.test(odo) ? odo + " км" : odo) + '</span></div>';
+  if(vin) h += '<div class="reportline"><span class="lbl">VIN</span><span class="val mono">' + vin + '</span></div>';
+  h += '<div class="reportline"><span class="lbl">Осмотр</span><span class="val">' + today() + '</span></div>';
   if(found.length) h += '<div class="reportline"><span class="lbl">Замечаний</span><span class="val" style="color:var(--bad)">' + found.length + '</span></div>';
   h += '</div>';
 
@@ -3293,6 +3316,7 @@ function eyebrowFor(id){
     case "rust":       return carShort() + " · кузов";
     case "guide":      return carShort();
     case "codes":      return carShort() + " · " + engShort();
+    case "dtc":        return carShort() + " · " + engShort();
     case "inspection": return carShort() + " · " + engShort();
     case "report":     return SEL.brand + " " + SEL.model + " · " + engShort();
     default:           return null;
@@ -3318,6 +3342,13 @@ document.addEventListener("click", e => {
 
 document.addEventListener("change", e => {
   if(e.target.id === "sel-year"){ setCar(e.target.value); renderPick(); }
+});
+
+document.addEventListener("click", e => {
+  const rr = e.target.closest("[data-recent]");
+  if(!rr) return;
+  setCar(rr.dataset.recent);
+  go("generation");
 });
 
 document.addEventListener("click", e => {
