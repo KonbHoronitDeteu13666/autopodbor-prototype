@@ -820,6 +820,7 @@ ol.steps li::before{
     </div>
 
 <script src="catalog.js"></script>
+<script src="packs.js"></script>
 <script>
 const SCREENS = [
   {id:"catalog",    eyebrow:"Каталог моделей",          title:"Каталог"},
@@ -3138,6 +3139,8 @@ CARS["rio-ub"] = {
   dtc:GAMMA_DTC,
   guides:GAMMA_GUIDES
 };
+
+Object.assign(CARS, typeof EXTRA_CARS === "undefined" ? {} : EXTRA_CARS);
 
 function buildCatalog(){
   const byBrand = {};
