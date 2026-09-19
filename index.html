@@ -115,7 +115,6 @@ body{
 button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
 
-
 /* ---------- phone ---------- */
 .stage{
   min-height:100vh;
@@ -1036,30 +1035,7 @@ const ISSUE_SEQ = ["oil-tube","oil-burn","overheat","u660e","chain","u250e","hea
 
 const OPTS = {sunroof:true, leather:true, xenon:false, camera:false};
 
-function engKey(){ return (SEL.engLabel || "").split(" ")[0]; }
-function gbKey(){ return (SEL.gbLabel || "").split(" ")[0]; }
-function engShort(){ return (SEL.engLabel || "").split(" · ").slice(0, 2).join(" "); }
-function carShort(){ return SEL.brand + " " + SEL.model + " " + SEL.gen; }
-
 const SEV_RANK = {crit:0, bad:1, warn:2, ok:3};
-
-function whenOf(d){
-  return (d.whenBy && d.whenBy[engKey()]) || d.when;
-}
-
-function activeIssues(){
-  const e = engKey(), g = gbKey();
-  return ISSUE_SEQ.filter(id => {
-    const d = ISSUES[id];
-    if(d.eng && d.eng !== e) return false;
-    if(d.gb && d.gb !== g) return false;
-    if(d.opt && !OPTS[d.opt]) return false;
-    return true;
-  }).sort((a, b) => {
-    const A = ISSUES[a], B = ISSUES[b];
-    return (A.prio - B.prio) || (SEV_RANK[A.sev] - SEV_RANK[B.sev]);
-  });
-}
 
 const DTCS = {
   "p0171":{
@@ -1099,163 +1075,12 @@ const DTCS = {
 
 const CHEV = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>';
 
-function issueRow(id){
-  const d = ISSUES[id];
-  return '<button class="row" data-go="issue" data-issue="' + id + '">' +
-    '<span class="stripe ' + d.sev + '"></span>' +
-    '<div class="grow"><span class="ttl">' + d.title + '</span>' +
-      '<span class="sub">' + d.node + ' · ' + whenOf(d) + '</span></div>' +
-    '<span class="chip ' + d.cost[0] + '">' + d.cost[1] + '</span></button>';
-}
-
-function renderGeneration(){
-  const ids = activeIssues();
-  const first = ids.filter(id => ISSUES[id].prio === 1);
-  const worst = ids.map(id => ISSUES[id]).sort((a, b) =>
-    ["crit","bad","warn","ok"].indexOf(a.sev) - ["crit","bad","warn","ok"].indexOf(b.sev))[0];
-
-  document.getElementById("gen-title").textContent = SEL.brand + " " + SEL.model + " " + SEL.gen;
-  document.getElementById("gen-years").textContent = SEL.years;
-  document.getElementById("gen-engine").textContent = (SEL.engLabel || "").split(" · ").slice(0,2).join(" ");
-  document.getElementById("gen-gearbox").textContent = SEL.gbLabel || "";
-  document.getElementById("gen-issues-sub").textContent =
-    ids.length + " позиций · " + first.length + " проверить первыми";
-  document.getElementById("gen-issues-stripe").className = "stripe " + (worst ? worst.sev : "warn");
-
-  const top = ids.map(id => ISSUES[id]).find(d => d.prio === 1);
-  document.getElementById("gen-alert").innerHTML = top
-    ? '<div class="note ' + (top.sev === "crit" ? "crit" : "warn") + '"><span><b>Проверить первым.</b> ' +
-      top.title + ' — ' + top.node.toLowerCase() + ', ' + whenOf(top) + '.</span></div>'
-    : "";
-}
-
-function renderIssues(){
-  const ids = activeIssues();
-  const first = ids.filter(id => ISSUES[id].prio === 1);
-  const rest  = ids.filter(id => ISSUES[id].prio !== 1);
-  const hidden = ISSUE_SEQ.length - ids.length;
-
-  let h = '<div class="card"><p class="body-text" style="font-size:13.5px">Список собран под <b style="color:var(--ink)">' +
-       engShort() + '</b> и <b style="color:var(--ink)">' + gbKey() + '</b>' +
-       (hidden ? '. Ещё ' + hidden + ' позиций каталога к этой машине не относятся и скрыты' : '') + '.</p>' +
-       '<p class="body-text" style="font-size:13px;margin-top:8px">' +
-       '<b style="color:var(--ink)">Сверху то, что важнее.</b> Полоса слева — насколько серьёзно, ' +
-       'чип справа — во сколько обойдётся ремонт. Это разные вещи: дешёвый ремонт бывает у серьёзной ' +
-       'неисправности, если поймать её вовремя.</p></div>';
-
-  if(first.length)
-    h += '<p class="sectionhead">Проверить первым делом · ' + first.length + '</p>' +
-         '<div class="card flush rows">' + first.map(issueRow).join("") + '</div>';
-  if(rest.length)
-    h += '<p class="sectionhead">Остальное · ' + rest.length + '</p>' +
-         '<div class="card flush rows">' + rest.map(issueRow).join("") + '</div>';
-
-  document.getElementById("s-issues").innerHTML = h;
-}
-
-function renderIssue(id){
-  const d = ISSUES[id] || ISSUES["oil-tube"];
-  const el = document.getElementById("s-issue");
-  let h = '<div style="display:flex;gap:7px;flex-wrap:wrap">' +
-    d.chips.map(c => '<span class="chip ' + c[0] + '">' + c[1] + '</span>').join("") + '</div>';
-  h += '<div class="card"><h4 class="blockttl">' + d.title + '</h4><p class="body-text">' + d.desc + '</p></div>';
-  if(d.alert) h += '<div class="note ' + d.alert[0] + '"><span>' + d.alert[1] + '</span></div>';
-  h += '<div class="card"><p class="sectionhead" style="margin:0 0 9px">Как проверить</p><ol class="steps">' +
-       d.steps.map(s => '<li>' + s + '</li>').join("") + '</ol></div>';
-  h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Стоимость ремонта</p><dl class="kv">' +
-       d.costs.map(c => '<dt>' + c[0] + '</dt><dd style="color:var(--' + c[2] + ')">' + c[1] + '</dd>').join("") +
-       '</dl></div>';
-  if(d.codes.length){
-    h += '<p class="sectionhead">Связанные коды</p><div class="card flush rows">' +
-      d.codes.map(c => '<button class="row" data-go="dtc" data-dtc="' + c[0] + '">' +
-        '<div class="grow"><span class="ttl mono">' + c[1] + '</span><span class="sub">' + c[2] + '</span></div>' +
-        CHEV + '</button>').join("") + '</div>';
-  }
-  h += '<button class="btn ghost" data-go="inspection">Отметить в осмотре</button>';
-  el.innerHTML = h;
-  return d.short;
-}
-
-function renderDtc(id){
-  const d = DTCS[id] || DTCS["p0171"];
-  const el = document.getElementById("s-dtc");
-  let h = '<div class="card"><div style="display:flex;align-items:center;justify-content:space-between;gap:10px">' +
-    '<span class="mono" style="font-size:26px;font-weight:600">' + d.code + '</span>' +
-    '<span class="chip ' + d.urgency[0] + '">' + d.urgency[1] + '</span></div>' +
-    '<p class="body-text" style="margin-top:6px">' + d.summary + '</p></div>';
-  h += '<div class="card"><p class="sectionhead" style="margin:0 0 7px">Причины на этой машине</p><p class="body-text">' + d.causes + '</p></div>';
-  h += '<div class="note ' + d.consequence[0] + '" style="background:var(--' + d.consequence[0] + '-soft);color:var(--' + d.consequence[0] + ');border-color:color-mix(in srgb,var(--' + d.consequence[0] + ') 25%,transparent)"><span>' + d.consequence[1] + '</span></div>';
-  if(d.order) h += '<div class="card"><p class="sectionhead" style="margin:0 0 7px">Порядок разбора</p><p class="body-text">' + d.order + '</p></div>';
-  if(d.issues.length){
-    h += '<p class="sectionhead">Связанные неисправности</p><div class="card flush rows">' +
-      d.issues.map(i => '<button class="row" data-go="issue" data-issue="' + i[0] + '">' +
-        '<span class="stripe ' + i[3] + '"></span>' +
-        '<div class="grow"><span class="ttl">' + i[1] + '</span><span class="sub">' + i[2] + '</span></div>' +
-        CHEV + '</button>').join("") + '</div>';
-  }
-  el.innerHTML = h;
-  return d.code;
-}
-
 const SEL = {brand:"Toyota", model:"Camry", genIdx:0, engIdx:1, gbIdx:0,
              engLabel:"2GR-FE · 3.5 V6 · 277 л.с.", gbLabel:"U660E · автомат, 6 ступеней",
              years:"2006–2011", gen:"XV40"};
 
-
 /* ---------- коды ошибок ---------- */
 const ADDED_CODES = ["p0171"];
-
-function renderCodes(){
-  const known = Object.keys(DTCS);
-  let h = '<div class="card">' +
-    '<p class="sectionhead" style="margin:0 0 8px">Код с вашего сканера</p>' +
-    '<div style="display:flex;gap:8px">' +
-      '<input id="code-input" class="notefield mono" placeholder="P0171" maxlength="5" style="text-transform:uppercase">' +
-      '<button class="btn" id="code-add" style="width:auto;padding:9px 16px">Найти</button>' +
-    '</div>' +
-    '<p class="body-text" style="margin-top:8px;font-size:13px">Подойдёт любой сканер или приложение, которым вы уже пользуетесь. ' +
-    'Здесь код разбирается применительно к вашей машине: причины именно у этого мотора, к чему приведёт и что с этим делать.</p></div>';
-
-  if(ADDED_CODES.length){
-    h += '<p class="sectionhead">В осмотре · ' + ADDED_CODES.length + '</p><div class="card flush rows">' +
-      ADDED_CODES.map(k => {
-        const d = DTCS[k];
-        return '<button class="row" data-go="dtc" data-dtc="' + k + '">' +
-          '<span class="stripe ' + d.urgency[0] + '"></span>' +
-          '<div class="grow"><span class="ttl mono">' + d.code + '</span>' +
-            '<span class="sub">' + d.summary.split('.')[0] + '</span></div>' + CHEV + '</button>';
-      }).join("") + '</div>';
-  }
-
-  h += '<p class="sectionhead">Частые у этой машины</p><div class="card flush rows">' +
-    known.filter(k => !ADDED_CODES.includes(k)).map(k => {
-      const d = DTCS[k];
-      return '<button class="row" data-go="dtc" data-dtc="' + k + '">' +
-        '<span class="stripe ' + d.urgency[0] + '"></span>' +
-        '<div class="grow"><span class="ttl mono">' + d.code + '</span>' +
-          '<span class="sub">' + d.summary.split('.')[0] + '</span></div>' + CHEV + '</button>';
-    }).join("") + '</div>';
-
-  h += '<div class="note info"><span><b>Подключение к адаптеру — следующий этап.</b> Сейчас код вводится руками. ' +
-    'Расшифровка от этого не меняется: она привязана к модели и мотору, а не к тому, чем вы код считали.</span></div>';
-
-  document.getElementById("s-codes").innerHTML = h;
-  return "Коды ошибок";
-}
-
-function renderInspCodes(){
-  const el = document.getElementById("insp-codes");
-  if(!el) return;
-  el.innerHTML = ADDED_CODES.length
-    ? ADDED_CODES.map(k => {
-        const d = DTCS[k];
-        return '<button class="row" data-go="dtc" data-dtc="' + k + '">' +
-          '<span class="stripe ' + d.urgency[0] + '"></span>' +
-          '<div class="grow"><span class="ttl mono">' + d.code + '</span>' +
-            '<span class="sub">' + d.summary.split('.')[0] + '</span></div>' + CHEV + '</button>';
-      }).join("")
-    : '<div class="row"><div class="grow"><span class="sub">Кодов пока нет. Считайте их своим сканером и добавьте сюда.</span></div></div>';
-}
 
 document.addEventListener("click", e => {
   if(!e.target.closest("#code-add")) return;
@@ -1299,28 +1124,6 @@ function checkRow(key, title, sub){
   return h;
 }
 
-function renderChecklist(){
-  const ids = activeIssues();
-  document.getElementById("check-issues").innerHTML =
-    ids.map(id => {
-      const d = ISSUES[id];
-      return checkRow("i:" + id, d.title, d.node + (d.prio === 1 ? " · проверить первым" : ""));
-    }).join("");
-  document.getElementById("check-rust").innerHTML =
-    RUST.map(r => checkRow("r:" + r.id, r.place, r.prev + " · " + r.where)).join("");
-
-  const di = Object.keys(CHECK_STATE)
-    .filter(x => x.startsWith("i:") && CHECK_STATE[x].v !== "none" && ids.includes(x.slice(2))).length;
-  const dr = Object.keys(CHECK_STATE)
-    .filter(x => x.startsWith("r:") && CHECK_STATE[x].v !== "none").length;
-  const total = ids.length + RUST.length;
-
-  document.getElementById("c-issues").textContent = di + "/" + ids.length;
-  document.getElementById("c-rust").textContent = dr + "/" + RUST.length;
-  document.getElementById("check-count").textContent = (di + dr) + " из " + total;
-  document.getElementById("check-bar").style.width = Math.round((di + dr) / total * 100) + "%";
-}
-
 function harvestComments(){
   document.querySelectorAll(".comment input").forEach(inp => {
     const key = inp.id.slice(3).replace("-", ":");
@@ -1343,94 +1146,12 @@ const SCAN = {
   get codes(){ return ADDED_CODES.map(k => [DTCS[k].code, DTCS[k].summary.split(",")[0]]); }
 };
 
-function nameOf(k){
-  return k.startsWith("i:")
-    ? ISSUES[k.slice(2)].title
-    : (RUST.find(r => r.id === k.slice(2)) || {}).place;
-}
-
-function renderFindings(){
-  harvestComments();
-  const noteInput = document.getElementById("body-note");
-  const bodyNote = noteInput ? noteInput.value.trim() : "";
-
-  const ids = activeIssues();
-  const relevant = k => k.startsWith("r:") || ids.includes(k.slice(2));
-  const entries = Object.entries(CHECK_STATE).filter(([k]) => relevant(k));
-  const found = entries.filter(([, s]) => s.v === "found");
-  const ok = entries.filter(([, s]) => s.v === "ok");
-  const critFound = found.some(([k]) => k === "i:oil-tube");
-
-  let h = '<div class="card"><h4 class="blockttl">Toyota Camry XV40 · 3.5</h4>' +
-    '<div class="reportline"><span class="lbl">Пробег</span><span class="val mono">187 400 км</span></div>' +
-    '<div class="reportline"><span class="lbl">Осмотр</span><span class="val">18 сентября 2026</span></div>';
-  if(found.length)
-    h += '<div class="reportline"><span class="lbl">Замечаний</span>' +
-         '<span class="val" style="color:var(--bad)">' + found.length + '</span></div>';
-  h += '</div>';
-
-  if(critFound){
-    h += '<div class="note crit"><span><b>Критично.</b> Масляная трубка VVT-i не менялась. ' +
-         'При разрыве мотор клинит за четверть часа. До покупки — либо замена за счёт продавца, либо в торг.</span></div>';
-  }
-
-  if(found.length){
-    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Замечания</p>' +
-      found.map(([k, s]) =>
-        '<div class="reportline"><span class="lbl">' + nameOf(k) + '</span>' +
-        '<span class="val" style="color:var(--bad)">' + (s.c || "найдено") + '</span></div>').join("") +
-      '</div>';
-  }
-
-  if(ok.length){
-    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Проверено, в порядке</p>' +
-      ok.map(([k]) =>
-        '<div class="reportline"><span class="lbl">' + nameOf(k) + '</span>' +
-        '<span class="val" style="color:var(--ok)">в порядке</span></div>').join("") +
-      '</div>';
-  }
-
-  if(bodyNote){
-    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Толщина краски</p>' +
-         '<p class="body-text">' + bodyNote + '</p></div>';
-  }
-
-  if(SCAN.done && SCAN.codes.length){
-    h += '<div class="card"><p class="sectionhead" style="margin:0 0 8px">Ошибки</p>' +
-      SCAN.codes.map(c =>
-        '<div class="reportline"><span class="lbl mono">' + c[0] + '</span>' +
-        '<span class="val">' + c[1] + '</span></div>').join("");
-    h += '</div>';
-  }
-
-  if(!found.length && !ok.length && !bodyNote && !SCAN.done){
-    h += '<div class="card"><p class="body-text">Отчёт пустой. Отметьте что-нибудь в осмотре — сюда попадёт только заполненное.</p></div>';
-  }
-
-  document.getElementById("report-body").innerHTML = h;
-}
-
 const barTitle = document.getElementById("bar-title");
 const barEyebrow = document.getElementById("bar-eyebrow");
 const viewport = document.getElementById("viewport");
 const backBtn = document.getElementById("back");
 
 let currentArg = null;
-
-function eyebrowFor(id){
-  switch(id){
-    case "pick":       return SEL.brand + " " + SEL.model;
-    case "generation": return SEL.years + " · " + engShort();
-    case "issues":     return activeIssues().length + " позиций · " + engShort() + " · " + gbKey();
-    case "codes":      return carShort() + " · " + engShort();
-    case "issue":      return carShort() + " · " + engShort();
-    case "body":       return carShort() + " · кузов";
-    case "rust":       return carShort() + " · кузов";
-    case "inspection": return carShort() + " · " + engShort();
-    case "report":     return SEL.brand + " " + SEL.model + " · " + engShort();
-    default:           return null;
-  }
-}
 
 const TAB_OF = {catalog:"catalog", pick:"pick", generation:"catalog", issues:"catalog", issue:"catalog",
                 body:"catalog", rust:"catalog", guide:"catalog", codes:"catalog",
@@ -1528,24 +1249,6 @@ const RUST = [
         "А вот блестящие новые болты на такой машине означают, что крылья или петли снимали."]}
 ];
 const SEV_CHIP = {bad:["bad","Серьёзно"], warn:["warn","Заметно"], ok:["ok","Безобидно"]};
-
-
-function renderRust(id){
-  const r = RUST.find(x => x.id === id) || RUST[0];
-  let h = '<div style="display:flex;gap:7px;flex-wrap:wrap">' +
-    '<span class="chip ' + SEV_CHIP[r.sev][0] + '">' + SEV_CHIP[r.sev][1] + '</span>' +
-    '<span class="chip ' + r.cost[0] + '">' + r.cost[1] + ' ремонт</span>' +
-    '<span class="chip neutral">' + r.prev[0].toUpperCase() + r.prev.slice(1) + '</span></div>';
-  h += '<div class="card"><h4 class="blockttl">' + r.place + '</h4>' +
-       '<p class="body-text" style="color:var(--muted);margin-bottom:8px">' + r.where + '</p>' +
-       '<p class="body-text">' + r.why + '</p></div>';
-  h += '<div class="card"><p class="sectionhead" style="margin:0 0 9px">Как проверить</p><ol class="steps">' +
-       r.how.map(s => '<li>' + s + '</li>').join("") + '</ol></div>';
-  h += '<button class="btn ghost" data-go="inspection">Отметить в осмотре</button>';
-  document.getElementById("s-rust").innerHTML = h;
-  return r.place;
-}
-
 
 const CARS = {};
 /* ---------- Toyota ---------- */
