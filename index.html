@@ -3600,6 +3600,14 @@ function eyebrowFor(id){
 
 /* ---- навигация ---- */
 document.addEventListener("click", e => {
+  const bt = e.target.closest("[data-brandtoggle]");
+  if(bt){
+    const list = document.querySelector('[data-models="' + bt.dataset.brandtoggle + '"]');
+    const open = bt.getAttribute("aria-expanded") === "true";
+    bt.setAttribute("aria-expanded", String(!open));
+    list.hidden = open;
+    return;
+  }
   const mr = e.target.closest("[data-model]");
   if(!mr) return;
   const b = CAT[+mr.dataset.brand], m = b.models[+mr.dataset.model];
