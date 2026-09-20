@@ -1,0 +1,251 @@
+{
+ "slug": "land_rover",
+ "name": "Land Rover",
+ "models": [
+  {
+   "slug": "defender",
+   "name": "Defender",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "II"
+    },
+    {
+     "years": "2007 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1983 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "discovery",
+   "name": "Discovery",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2016 – 2021",
+     "name": "V"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "IV"
+    },
+    {
+     "years": "2004 – 2009",
+     "name": "III"
+    },
+    {
+     "years": "1998 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "discovery_sport",
+   "name": "Discovery Sport",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "freelander",
+   "name": "Freelander",
+   "generations": [
+    {
+     "years": "2012 – 2014",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2010 – 2012",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1997 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "range_rover",
+   "name": "Range Rover",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "V"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "IV"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "III Рестайлинг 2"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "III"
+    },
+    {
+     "years": "1994 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1970 – 1996",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "evoque",
+   "name": "Range Rover Evoque",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "range_rover_sport",
+   "name": "Range Rover Sport",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "III"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "II"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "range_rover_velar",
+   "name": "Range Rover Velar",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "series_i",
+   "name": "Series I",
+   "generations": [
+    {
+     "years": "1948 – 1956",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "series_ii",
+   "name": "Series II",
+   "generations": [
+    {
+     "years": "1958 – 1971",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "series_iii",
+   "name": "Series III",
+   "generations": [
+    {
+     "years": "1971 – 1985",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Land Rover",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Land Rover",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "slug": "lynk_co",
+ "name": "Lynk &amp; Co",
+ "models": [
+  {
+   "slug": "z10",
+   "name": "Z10",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "z20",
+   "name": "Z20",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Lynk & Co",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Lynk & Co",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "01",
+   "name": "01",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "02",
+   "name": "02",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I (EU Market)"
+    },
+    {
+     "years": "2018 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "03",
+   "name": "03",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "05",
+   "name": "05",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "06",
+   "name": "06",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "07",
+   "name": "07",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2024 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "08",
+   "name": "08",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "09",
+   "name": "09",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "10",
+   "name": "10",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "20",
+   "name": "20",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "900",
+   "name": "900",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

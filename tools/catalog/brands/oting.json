@@ -1,0 +1,62 @@
+{
+ "slug": "oting",
+ "name": "Oting",
+ "models": [
+  {
+   "slug": "paladin",
+   "name": "Paladin",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "palasso",
+   "name": "Palasso",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rich_7",
+   "name": "Rich 7",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "z9",
+   "name": "Z9",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Oting",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Oting",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

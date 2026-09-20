@@ -1,0 +1,29 @@
+{
+ "slug": "matra",
+ "name": "Matra",
+ "models": [
+  {
+   "slug": "murena",
+   "name": "Murena",
+   "generations": [
+    {
+     "years": "1980 – 1983",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Matra",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Matra",
+   "generations": [],
+   "body": ""
+  }
+ ]
+}

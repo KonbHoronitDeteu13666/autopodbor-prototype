@@ -1,0 +1,51 @@
+{
+ "slug": "isdera",
+ "name": "Isdera",
+ "models": [
+  {
+   "slug": "commendatore_112i",
+   "name": "Commendatore 112i",
+   "generations": [
+    {
+     "years": "1993 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "imperator_108i",
+   "name": "Imperator 108i",
+   "generations": [
+    {
+     "years": "1984 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "spyder",
+   "name": "Spyder",
+   "generations": [
+    {
+     "years": "1983 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Isdera",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Isdera",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

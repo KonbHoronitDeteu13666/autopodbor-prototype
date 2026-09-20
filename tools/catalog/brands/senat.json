@@ -1,0 +1,40 @@
+{
+ "slug": "senat",
+ "name": "Senat",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Senat",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Senat",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "1000",
+   "name": "1000",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "900",
+   "name": "900",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

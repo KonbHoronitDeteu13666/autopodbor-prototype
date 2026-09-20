@@ -1,0 +1,29 @@
+{
+ "slug": "qingling",
+ "name": "Qingling",
+ "models": [
+  {
+   "slug": "taga_h",
+   "name": "Taga H",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Qingling",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Qingling",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

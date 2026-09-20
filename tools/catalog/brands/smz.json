@@ -1,0 +1,62 @@
+{
+ "slug": "smz",
+ "name": "СМЗ",
+ "models": [
+  {
+   "slug": "s1l",
+   "name": "С-1Л",
+   "generations": [
+    {
+     "years": "1952 – 1956",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "s3a",
+   "name": "С-3А",
+   "generations": [
+    {
+     "years": "1958 – 1970",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "s3d",
+   "name": "С-3Д",
+   "generations": [
+    {
+     "years": "1970 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "s3l",
+   "name": "С-3Л",
+   "generations": [
+    {
+     "years": "1956 – 1958",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей СМЗ",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели СМЗ",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "slug": "swm",
+ "name": "SWM",
+ "models": [
+  {
+   "slug": "g01",
+   "name": "G01",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "g01f",
+   "name": "G01F",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "g03f",
+   "name": "G03F",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "g05",
+   "name": "G05",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "g05pro",
+   "name": "G05 Pro",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x30",
+   "name": "Shineray X30",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "tiger",
+   "name": "Tiger",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x3",
+   "name": "X3",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x7",
+   "name": "X7",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей SWM",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели SWM",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

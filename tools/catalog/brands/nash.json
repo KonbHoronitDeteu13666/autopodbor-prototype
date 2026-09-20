@@ -1,0 +1,29 @@
+{
+ "slug": "nash",
+ "name": "Nash",
+ "models": [
+  {
+   "slug": "ambassador",
+   "name": "Ambassador",
+   "generations": [
+    {
+     "years": "1932 – 1942",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Nash",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Nash",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

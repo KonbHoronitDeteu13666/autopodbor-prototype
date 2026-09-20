@@ -1,0 +1,59 @@
+{
+ "slug": "bristol",
+ "name": "Bristol",
+ "models": [
+  {
+   "slug": "blenheim",
+   "name": "Blenheim",
+   "generations": [
+    {
+     "years": "2000 – 2011",
+     "name": "Series 3"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "Series 2"
+    },
+    {
+     "years": "1993 – 1997",
+     "name": "Series 1"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "blenheim_speedster",
+   "name": "Blenheim Speedster",
+   "generations": [
+    {
+     "years": "2003 – 2011",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "fighter",
+   "name": "Fighter",
+   "generations": [
+    {
+     "years": "2004 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bristol",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bristol",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

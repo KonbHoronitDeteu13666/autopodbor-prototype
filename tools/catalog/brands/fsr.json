@@ -1,0 +1,29 @@
+{
+ "slug": "fsr",
+ "name": "FSR",
+ "models": [
+  {
+   "slug": "tarpan",
+   "name": "Tarpan",
+   "generations": [
+    {
+     "years": "1973 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей FSR",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели FSR",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

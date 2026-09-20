@@ -1,0 +1,423 @@
+{
+ "slug": "haval",
+ "name": "Haval",
+ "models": [
+  {
+   "slug": "chitu",
+   "name": "Chitu",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dagou",
+   "name": "DaGou (Big Dog)",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "II"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dargo",
+   "name": "Dargo",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "f5",
+   "name": "F5",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "f7",
+   "name": "F7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "f7x",
+   "name": "F7x",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h1",
+   "name": "H1",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h10",
+   "name": "H10",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h2",
+   "name": "H2",
+   "generations": [
+    {
+     "years": "2014 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h2s",
+   "name": "H2s",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h3",
+   "name": "H3",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h4",
+   "name": "H4",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h5",
+   "name": "H5",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "2020 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h6",
+   "name": "H6",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "III"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2014 – 2022",
+     "name": "I"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "II"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h6_coupe",
+   "name": "H6 Coupe",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h6l",
+   "name": "H6L",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h6s",
+   "name": "H6S",
+   "generations": [
+    {
+     "years": "2021 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h7",
+   "name": "H7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "I Рестайлинг 2 (China Market)"
+    },
+    {
+     "years": "2016 – 2018",
+     "name": "I Рестайлинг (China Market)"
+    },
+    {
+     "years": "2016 – 2017",
+     "name": "I (China Market)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h8",
+   "name": "H8",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h9",
+   "name": "H9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "jolion",
+   "name": "Jolion",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kugou",
+   "name": "KuGou",
+   "generations": [
+    {
+     "years": "2022 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "m6",
+   "name": "M6",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "menglong",
+   "name": "Menglong (Raptor)",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "shenshou",
+   "name": "Shenshou",
+   "generations": [
+    {
+     "years": "2021 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xiaolong",
+   "name": "Xiaolong",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xiaolong_max",
+   "name": "Xiaolong Max",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Haval",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Haval",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

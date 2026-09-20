@@ -1,0 +1,180 @@
+{
+ "slug": "soueast",
+ "name": "Soueast",
+ "models": [
+  {
+   "slug": "a5",
+   "name": "A5",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "dx3",
+   "name": "DX3",
+   "generations": [
+    {
+     "years": "2016 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dx5",
+   "name": "DX5",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dx7",
+   "name": "DX7",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": "I Рестайлинг 2 (Xingyue)"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I Рестайлинг (Prime)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I (Bolang)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dx8",
+   "name": "DX8",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dx8s",
+   "name": "DX8S",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lioncel",
+   "name": "Lioncel",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s06",
+   "name": "S06",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s07",
+   "name": "S07",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s09",
+   "name": "S09",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "soveran",
+   "name": "Soveran",
+   "generations": [
+    {
+     "years": "2004 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "v3",
+   "name": "V3",
+   "generations": [
+    {
+     "years": "2008 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "v5",
+   "name": "V5",
+   "generations": [
+    {
+     "years": "2012 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "v6_cross",
+   "name": "V6 Cross",
+   "generations": [
+    {
+     "years": "2013 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Soueast",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Soueast",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "tramontana",
+ "name": "Tramontana",
+ "models": [
+  {
+   "slug": "tramontana",
+   "name": "Tramontana",
+   "generations": [
+    {
+     "years": "c 2007 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Tramontana",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Tramontana",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

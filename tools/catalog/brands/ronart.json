@@ -1,0 +1,29 @@
+{
+ "slug": "ronart",
+ "name": "Ronart",
+ "models": [
+  {
+   "slug": "lighting",
+   "name": "Lightning",
+   "generations": [
+    {
+     "years": "2000 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ronart",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ronart",
+   "generations": [],
+   "body": "кабриолет"
+  }
+ ]
+}

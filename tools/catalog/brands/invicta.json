@@ -1,0 +1,29 @@
+{
+ "slug": "invicta",
+ "name": "Invicta",
+ "models": [
+  {
+   "slug": "s1",
+   "name": "S1",
+   "generations": [
+    {
+     "years": "2004 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Invicta",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Invicta",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

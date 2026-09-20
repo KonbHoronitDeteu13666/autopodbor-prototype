@@ -1,0 +1,40 @@
+{
+ "slug": "letin",
+ "name": "Letin",
+ "models": [
+  {
+   "slug": "mengo",
+   "name": "Mengo",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mengo_pro",
+   "name": "Mengo Pro",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Letin",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Letin",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

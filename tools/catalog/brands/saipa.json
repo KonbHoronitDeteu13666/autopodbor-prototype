@@ -1,0 +1,66 @@
+{
+ "slug": "saipa",
+ "name": "Saipa",
+ "models": [
+  {
+   "slug": "quick",
+   "name": "Quick",
+   "generations": [
+    {
+     "years": "2018 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "saina",
+   "name": "Saina",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2016 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "shahin",
+   "name": "Shahin",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tiba",
+   "name": "Tiba",
+   "generations": [
+    {
+     "years": "2009 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Saipa",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Saipa",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

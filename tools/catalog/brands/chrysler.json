@@ -1,0 +1,668 @@
+{
+ "slug": "chrysler",
+ "name": "Chrysler",
+ "models": [
+  {
+   "slug": "300_letter_series",
+   "name": "300 Letter Series",
+   "generations": [
+    {
+     "years": "1964 – 1965",
+     "name": "V (300L)"
+    },
+    {
+     "years": "1964 – 1964",
+     "name": "IV (300K) Рестайлинг"
+    },
+    {
+     "years": "1963 – 1963",
+     "name": "IV (300J)"
+    },
+    {
+     "years": "1961 – 1962",
+     "name": "III (300H) Рестайлинг 2"
+    },
+    {
+     "years": "1960 – 1961",
+     "name": "III (300G) Рестайлинг"
+    },
+    {
+     "years": "1959 – 1960",
+     "name": "III (300F)"
+    },
+    {
+     "years": "1958 – 1959",
+     "name": "II (300E) Рестайлинг"
+    },
+    {
+     "years": "1957 – 1958",
+     "name": "II (300D) Рестайлинг"
+    },
+    {
+     "years": "1956 – 1957",
+     "name": "II (300C)"
+    },
+    {
+     "years": "1955 – 1956",
+     "name": "I (300B) Рестайлинг"
+    },
+    {
+     "years": "1955 – 1955",
+     "name": "I (C-300)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "300c",
+   "name": "300C",
+   "generations": [
+    {
+     "years": "2015 – 2023",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "300m",
+   "name": "300M",
+   "generations": [
+    {
+     "years": "1998 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "aspen",
+   "name": "Aspen",
+   "generations": [
+    {
+     "years": "2006 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cirrus",
+   "name": "Cirrus",
+   "generations": [
+    {
+     "years": "1994 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "concorde",
+   "name": "Concorde",
+   "generations": [
+    {
+     "years": "1997 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1992 – 1997",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cordoba",
+   "name": "Cordoba",
+   "generations": [
+    {
+     "years": "1981 – 1983",
+     "name": "II"
+    },
+    {
+     "years": "1975 – 1979",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "crossfire",
+   "name": "Crossfire",
+   "generations": [
+    {
+     "years": "2003 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "daytona",
+   "name": "Daytona",
+   "generations": [
+    {
+     "years": "1986 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "dynasty",
+   "name": "Dynasty",
+   "generations": [
+    {
+     "years": "1988 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "es",
+   "name": "ES",
+   "generations": [
+    {
+     "years": "1988 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "fifth_avenue",
+   "name": "Fifth Avenue",
+   "generations": [
+    {
+     "years": "1990 – 1993",
+     "name": "II"
+    },
+    {
+     "years": "1982 – 1989",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "imperial",
+   "name": "Imperial",
+   "generations": [
+    {
+     "years": "1990 – 1993",
+     "name": "VII"
+    },
+    {
+     "years": "1957 – 1975",
+     "name": "LeBaron"
+    },
+    {
+     "years": "1949 – 1954",
+     "name": "VI"
+    },
+    {
+     "years": "1940 – 1948",
+     "name": "V"
+    },
+    {
+     "years": "1937 – 1939",
+     "name": "IV"
+    },
+    {
+     "years": "1934 – 1936",
+     "name": "III"
+    },
+    {
+     "years": "1931 – 1933",
+     "name": "II"
+    },
+    {
+     "years": "1926 – 1930",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "imperial_crown",
+   "name": "Imperial Crown",
+   "generations": [
+    {
+     "years": "1974 – 1975",
+     "name": "V"
+    },
+    {
+     "years": "1963 – 1965",
+     "name": "ii"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "intrepid",
+   "name": "Intrepid",
+   "generations": [
+    {
+     "years": "1998 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1993 – 1997",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "le_baron",
+   "name": "LeBaron",
+   "generations": [
+    {
+     "years": "1992 – 1995",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "1986 – 1995",
+     "name": "III"
+    },
+    {
+     "years": "1981 – 1989",
+     "name": "II"
+    },
+    {
+     "years": "1977 – 1981",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lhs",
+   "name": "LHS",
+   "generations": [
+    {
+     "years": "1998 – 2001",
+     "name": "II"
+    },
+    {
+     "years": "1993 – 1997",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "nassau",
+   "name": "Nassau",
+   "generations": [
+    {
+     "years": "2007 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "neon",
+   "name": "Neon",
+   "generations": [
+    {
+     "years": "1999 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "new_yorker",
+   "name": "New Yorker",
+   "generations": [
+    {
+     "years": "1994 – 1996",
+     "name": "XIV"
+    },
+    {
+     "years": "1988 – 1993",
+     "name": "XIII"
+    },
+    {
+     "years": "1983 – 1988",
+     "name": "XII"
+    },
+    {
+     "years": "1974 – 1978",
+     "name": "IX"
+    },
+    {
+     "years": "1965 – 1968",
+     "name": "VII"
+    },
+    {
+     "years": "1960 – 1964",
+     "name": "VI"
+    },
+    {
+     "years": "1957 – 1959",
+     "name": "V"
+    },
+    {
+     "years": "1955 – 1956",
+     "name": "IV"
+    },
+    {
+     "years": "1949 – 1954",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "newport",
+   "name": "Newport",
+   "generations": [
+    {
+     "years": "1973 – 1978",
+     "name": "VI"
+    },
+    {
+     "years": "1968 – 1973",
+     "name": "V"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "pacifica",
+   "name": "Pacifica",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "RU Рестайлинг 2"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "RU Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "RU"
+    },
+    {
+     "years": "2003 – 2008",
+     "name": "CS"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "prowler",
+   "name": "Prowler",
+   "generations": [
+    {
+     "years": "2001 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "pt_cruiser",
+   "name": "PT Cruiser",
+   "generations": [
+    {
+     "years": "2000 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "saratoga",
+   "name": "Saratoga",
+   "generations": [
+    {
+     "years": "1989 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sebring",
+   "name": "Sebring",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": "III"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2000 – 2003",
+     "name": "II"
+    },
+    {
+     "years": "1994 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "six",
+   "name": "Six",
+   "generations": [
+    {
+     "years": "1924 – 1935",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "stratus",
+   "name": "Stratus",
+   "generations": [
+    {
+     "years": "1994 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tc_by_maserati",
+   "name": "TC by Maserati",
+   "generations": [
+    {
+     "years": "1989 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "town_and_country",
+   "name": "Town & Country",
+   "generations": [
+    {
+     "years": "2010 – 2016",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "V"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2000 – 2005",
+     "name": "IV"
+    },
+    {
+     "years": "1995 – 2000",
+     "name": "III"
+    },
+    {
+     "years": "1990 – 1995",
+     "name": "II"
+    },
+    {
+     "years": "1941 – 1988",
+     "name": "(1941–1988)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "viper",
+   "name": "Viper",
+   "generations": [
+    {
+     "years": "1992 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "vision",
+   "name": "Vision",
+   "generations": [
+    {
+     "years": "1992 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "voyager",
+   "name": "Voyager",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "VI"
+    },
+    {
+     "years": "2011 – 2016",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "V"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "IV"
+    },
+    {
+     "years": "1995 – 2001",
+     "name": "III"
+    },
+    {
+     "years": "1991 – 1995",
+     "name": "II"
+    },
+    {
+     "years": "1984 – 1990",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "windsor",
+   "name": "Windsor",
+   "generations": [
+    {
+     "years": "1953 – 1954",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ypsilon",
+   "name": "Ypsilon",
+   "generations": [
+    {
+     "years": "2011 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Chrysler",
+   "generations": [],
+   "body": "минивэн"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Chrysler",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "180",
+   "name": "180",
+   "generations": [
+    {
+     "years": "1970 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "200",
+   "name": "200",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "300",
+   "name": "300",
+   "generations": [
+    {
+     "years": "1969 – 1971",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  }
+ ]
+}

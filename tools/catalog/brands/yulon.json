@@ -1,0 +1,29 @@
+{
+ "slug": "yulon",
+ "name": "Yulon",
+ "models": [
+  {
+   "slug": "feeling",
+   "name": "Feeling",
+   "generations": [
+    {
+     "years": "1986 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Yulon",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Yulon",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

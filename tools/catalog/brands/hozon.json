@@ -1,0 +1,106 @@
+{
+ "slug": "hozon",
+ "name": "Hozon",
+ "models": [
+  {
+   "slug": "neta_aya",
+   "name": "Neta Aya",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "neta_gt",
+   "name": "Neta GT",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "neta_l",
+   "name": "Neta L",
+   "generations": [
+    {
+     "years": "2024 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "neta_s",
+   "name": "Neta S",
+   "generations": [
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "neta_u",
+   "name": "Neta U",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "neta_u_ii",
+   "name": "Neta U-II",
+   "generations": [
+    {
+     "years": "2022 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "neta_v",
+   "name": "Neta V",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "neta_x",
+   "name": "Neta X",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hozon",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hozon",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "qiantu",
+ "name": "Qiantu",
+ "models": [
+  {
+   "slug": "k50",
+   "name": "K50",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Qiantu",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Qiantu",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

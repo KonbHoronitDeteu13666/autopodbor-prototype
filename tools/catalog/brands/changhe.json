@@ -1,0 +1,40 @@
+{
+ "slug": "changhe",
+ "name": "Changhe",
+ "models": [
+  {
+   "slug": "freedom",
+   "name": "Freedom",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "ideal",
+   "name": "Ideal",
+   "generations": [
+    {
+     "years": "2003 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Changhe",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Changhe",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

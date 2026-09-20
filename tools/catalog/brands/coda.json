@@ -1,0 +1,29 @@
+{
+ "slug": "coda",
+ "name": "Coda",
+ "models": [
+  {
+   "slug": "ev",
+   "name": "EV",
+   "generations": [
+    {
+     "years": "2012 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Coda",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Coda",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "russo_baltique",
+ "name": "Руссо-Балт",
+ "models": [
+  {
+   "slug": "c24",
+   "name": "С24",
+   "generations": [
+    {
+     "years": "1909 – 1918",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Руссо-Балт",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Руссо-Балт",
+   "generations": [],
+   "body": "кабриолет"
+  }
+ ]
+}

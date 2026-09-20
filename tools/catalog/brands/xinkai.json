@@ -1,0 +1,51 @@
+{
+ "slug": "xinkai",
+ "name": "Xin Kai",
+ "models": [
+  {
+   "slug": "pickup_x3",
+   "name": "Pickup X3",
+   "generations": [
+    {
+     "years": "2003 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "sr_v_x3",
+   "name": "SR-V X3",
+   "generations": [
+    {
+     "years": "2003 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "suv_x3",
+   "name": "SUV X3",
+   "generations": [
+    {
+     "years": "2003 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Xin Kai",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Xin Kai",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

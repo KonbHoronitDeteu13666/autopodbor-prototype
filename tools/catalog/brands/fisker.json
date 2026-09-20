@@ -1,0 +1,40 @@
+{
+ "slug": "fisker",
+ "name": "Fisker",
+ "models": [
+  {
+   "slug": "karma",
+   "name": "Karma",
+   "generations": [
+    {
+     "years": "2009 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ocean",
+   "name": "Ocean",
+   "generations": [
+    {
+     "years": "2023 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Fisker",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Fisker",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

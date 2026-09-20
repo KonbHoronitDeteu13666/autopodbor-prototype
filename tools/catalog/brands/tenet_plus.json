@@ -1,0 +1,34 @@
+{
+ "slug": "tenet_plus",
+ "name": "Tenet Plus",
+ "models": [
+  {
+   "slug": "l4",
+   "name": "L4",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "l6",
+   "name": "L6",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Tenet Plus",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "kaiyi",
+ "name": "Kaiyi",
+ "models": [
+  {
+   "slug": "e5",
+   "name": "E5",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "shiyue",
+   "name": "Shiyue",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "x3",
+   "name": "X3",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x3_pro",
+   "name": "X3 Pro",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x7",
+   "name": "X7 Kunlun",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Kaiyi",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Kaiyi",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

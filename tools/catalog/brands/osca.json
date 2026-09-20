@@ -1,0 +1,29 @@
+{
+ "slug": "osca",
+ "name": "Osca",
+ "models": [
+  {
+   "slug": "2500_gt",
+   "name": "2500 GT",
+   "generations": [
+    {
+     "years": "1999 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Osca",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Osca",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

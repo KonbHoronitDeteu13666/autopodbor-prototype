@@ -1,0 +1,29 @@
+{
+ "slug": "mia",
+ "name": "Mia",
+ "models": [
+  {
+   "slug": "electric",
+   "name": "Electric",
+   "generations": [
+    {
+     "years": "2011 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Mia",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Mia",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

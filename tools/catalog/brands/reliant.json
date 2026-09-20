@@ -1,0 +1,29 @@
+{
+ "slug": "reliant",
+ "name": "Reliant",
+ "models": [
+  {
+   "slug": "scimitar",
+   "name": "Scimitar Sabre",
+   "generations": [
+    {
+     "years": "1984 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Reliant",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Reliant",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

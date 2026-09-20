@@ -1,0 +1,40 @@
+{
+ "slug": "aistaland",
+ "name": "Aistaland",
+ "models": [
+  {
+   "slug": "gt7",
+   "name": "GT7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "gx7",
+   "name": "GX7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Aistaland",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Aistaland",
+   "generations": [],
+   "body": "универсал"
+  }
+ ]
+}

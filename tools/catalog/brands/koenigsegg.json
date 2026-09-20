@@ -1,0 +1,117 @@
+{
+ "slug": "koenigsegg",
+ "name": "Koenigsegg",
+ "models": [
+  {
+   "slug": "agera",
+   "name": "Agera",
+   "generations": [
+    {
+     "years": "2011 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "cc850",
+   "name": "CC850",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "cc8s",
+   "name": "CC8S",
+   "generations": [
+    {
+     "years": "2002 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "ccr",
+   "name": "CCR",
+   "generations": [
+    {
+     "years": "2004 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "ccx",
+   "name": "CCX",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "gemera",
+   "name": "Gemera",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "jesko",
+   "name": "Jesko",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "one_1",
+   "name": "One:1",
+   "generations": [
+    {
+     "years": "2014 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "regera",
+   "name": "Regera",
+   "generations": [
+    {
+     "years": "2015 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Koenigsegg",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Koenigsegg",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "slug": "wey",
+ "name": "Wey",
+ "models": [
+  {
+   "slug": "coffee_01",
+   "name": "Coffee 01",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gaoshan",
+   "name": "Gaoshan (High Mountain)",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "lanshan",
+   "name": "Lanshan (Blue Mountain)",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "latte",
+   "name": "Latte",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "macchiato",
+   "name": "Macchiato",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mocca",
+   "name": "Mocca",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "v8x",
+   "name": "V8X",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "v9x",
+   "name": "V9X",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vv5",
+   "name": "VV5",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vv6",
+   "name": "VV6",
+   "generations": [
+    {
+     "years": "2020 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vv7",
+   "name": "VV7",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Wey",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Wey",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "05",
+   "name": "05",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "07",
+   "name": "07",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "80",
+   "name": "80",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  }
+ ]
+}

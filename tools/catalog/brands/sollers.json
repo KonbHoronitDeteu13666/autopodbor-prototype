@@ -1,0 +1,73 @@
+{
+ "slug": "sollers",
+ "name": "Sollers",
+ "models": [
+  {
+   "slug": "sf1",
+   "name": "SF1",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "sp7",
+   "name": "SP7",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "st6",
+   "name": "ST6",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "st8",
+   "name": "ST8",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "st9",
+   "name": "ST9",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Sollers",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Sollers",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

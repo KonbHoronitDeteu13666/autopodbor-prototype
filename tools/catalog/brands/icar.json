@@ -1,0 +1,51 @@
+{
+ "slug": "icar",
+ "name": "iCar",
+ "models": [
+  {
+   "slug": "v23",
+   "name": "V23",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "v27",
+   "name": "V27",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей iCar",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели iCar",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "03",
+   "name": "03",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "auburn",
+ "name": "Auburn",
+ "models": [
+  {
+   "slug": "speedster",
+   "name": "Speedster",
+   "generations": [
+    {
+     "years": "1935 – 1937",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Auburn",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Auburn",
+   "generations": [],
+   "body": ""
+  }
+ ]
+}

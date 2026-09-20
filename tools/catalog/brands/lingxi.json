@@ -1,0 +1,29 @@
+{
+ "slug": "lingxi",
+ "name": "Lingxi",
+ "models": [
+  {
+   "slug": "l",
+   "name": "L",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Lingxi",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Lingxi",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

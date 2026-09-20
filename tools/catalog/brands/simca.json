@@ -1,0 +1,44 @@
+{
+ "slug": "simca",
+ "name": "Simca",
+ "models": [
+  {
+   "slug": "1300_1500",
+   "name": "1300/1500",
+   "generations": [
+    {
+     "years": "1966 – 1976",
+     "name": "1301/1501"
+    },
+    {
+     "years": "1963 – 1966",
+     "name": "1300/1500"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Simca",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Simca",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "1307",
+   "name": "1307",
+   "generations": [
+    {
+     "years": "1975 – 1979",
+     "name": "1307"
+    }
+   ],
+   "body": "хэтчбек"
+  }
+ ]
+}

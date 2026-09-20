@@ -1,0 +1,204 @@
+{
+ "slug": "nio",
+ "name": "Nio",
+ "models": [
+  {
+   "slug": "ec6",
+   "name": "EC6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "II"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ec7",
+   "name": "EC7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "el6",
+   "name": "EL6",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "es6",
+   "name": "ES6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "es7",
+   "name": "ES7",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "es8",
+   "name": "ES8",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "es9",
+   "name": "ES9",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "et5",
+   "name": "ET5",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "et7",
+   "name": "ET7",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "et9",
+   "name": "ET9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "firefly",
+   "name": "Firefly",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "onvo_l60",
+   "name": "Onvo L60",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "onvo_l80",
+   "name": "Onvo L80",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "onvo_l90",
+   "name": "Onvo L90",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Nio",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Nio",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

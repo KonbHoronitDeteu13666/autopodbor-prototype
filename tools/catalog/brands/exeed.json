@@ -1,0 +1,174 @@
+{
+ "slug": "exeed",
+ "name": "Exeed",
+ "models": [
+  {
+   "slug": "et5",
+   "name": "ET5",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ex7",
+   "name": "EX7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "exlantix_es",
+   "name": "Exlantix ES",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "exlantix_et",
+   "name": "Exlantix ET",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lx",
+   "name": "LX",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rx",
+   "name": "RX",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "es",
+   "name": "Sterra ES",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sterra_et",
+   "name": "Sterra ET",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tx",
+   "name": "TX",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": "I Рестайлинг"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "txl",
+   "name": "TXL",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vx",
+   "name": "VX",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "yaoguang",
+   "name": "Yaoguang",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Exeed",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Exeed",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

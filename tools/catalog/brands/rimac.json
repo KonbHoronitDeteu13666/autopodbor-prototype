@@ -1,0 +1,51 @@
+{
+ "slug": "rimac",
+ "name": "Rimac",
+ "models": [
+  {
+   "slug": "c_two",
+   "name": "C Two",
+   "generations": [
+    {
+     "years": "2018 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "concept_one",
+   "name": "Concept_One",
+   "generations": [
+    {
+     "years": "2013 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "nevera",
+   "name": "Nevera",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Rimac",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Rimac",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

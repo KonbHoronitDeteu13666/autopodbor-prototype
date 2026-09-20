@@ -1,0 +1,169 @@
+{
+ "slug": "mahindra",
+ "name": "Mahindra",
+ "models": [
+  {
+   "slug": "armada",
+   "name": "Armada",
+   "generations": [
+    {
+     "years": "1990 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bolero",
+   "name": "Bolero",
+   "generations": [
+    {
+     "years": "2001 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cj_3",
+   "name": "CJ-3",
+   "generations": [
+    {
+     "years": "1988 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cl",
+   "name": "CL",
+   "generations": [
+    {
+     "years": "1993 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "commander",
+   "name": "Commander",
+   "generations": [
+    {
+     "years": "1990 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "marshal",
+   "name": "Marshal",
+   "generations": [
+    {
+     "years": "2002 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mm",
+   "name": "MM",
+   "generations": [
+    {
+     "years": "1990 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "nc_640_dp",
+   "name": "NC 640 DP",
+   "generations": [
+    {
+     "years": "1985 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "scorpio",
+   "name": "Scorpio",
+   "generations": [
+    {
+     "years": "2002 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "thar",
+   "name": "Thar",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "verito",
+   "name": "Verito",
+   "generations": [
+    {
+     "years": "2012 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "voyager",
+   "name": "Voyager",
+   "generations": [
+    {
+     "years": "1997 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "xylo",
+   "name": "Xylo",
+   "generations": [
+    {
+     "years": "2009 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Mahindra",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Mahindra",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

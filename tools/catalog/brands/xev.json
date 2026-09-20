@@ -1,0 +1,29 @@
+{
+ "slug": "xev",
+ "name": "XEV",
+ "models": [
+  {
+   "slug": "yoyo",
+   "name": "Yoyo",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей XEV",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели XEV",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

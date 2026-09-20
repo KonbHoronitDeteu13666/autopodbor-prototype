@@ -1,0 +1,775 @@
+{
+ "slug": "citroen",
+ "name": "Citroen",
+ "models": [
+  {
+   "slug": "2cv",
+   "name": "2 CV",
+   "generations": [
+    {
+     "years": "1963 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "ami",
+   "name": "Ami",
+   "generations": [
+    {
+     "years": "1961 – 1978",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ami_ev",
+   "name": "Ami EV",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "ax",
+   "name": "AX",
+   "generations": [
+    {
+     "years": "1986 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "basalt",
+   "name": "Basalt",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "berlingo",
+   "name": "Berlingo",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "III"
+    },
+    {
+     "years": "2015 – 2022",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "II"
+    },
+    {
+     "years": "2002 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1996 – 2002",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "bx",
+   "name": "BX",
+   "generations": [
+    {
+     "years": "1982 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "c_crosser",
+   "name": "C-Crosser",
+   "generations": [
+    {
+     "years": "2007 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c_elysee",
+   "name": "C-Elysee",
+   "generations": [
+    {
+     "years": "2016 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c_quatre",
+   "name": "C-Quatre",
+   "generations": [
+    {
+     "years": "2013 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c_triomphe",
+   "name": "C-Triomphe",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c_zero",
+   "name": "C-ZERO",
+   "generations": [
+    {
+     "years": "2010 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c1",
+   "name": "C1",
+   "generations": [
+    {
+     "years": "2014 – 2022",
+     "name": "II"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c2",
+   "name": "C2",
+   "generations": [
+    {
+     "years": "2003 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c3",
+   "name": "C3",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "IV"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "III"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "II"
+    },
+    {
+     "years": "2005 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c3_aircross",
+   "name": "C3 Aircross",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (India Market)"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c3_picasso",
+   "name": "C3 Picasso",
+   "generations": [
+    {
+     "years": "2012 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "c3_xr",
+   "name": "C3-XR",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c3l",
+   "name": "C3L",
+   "generations": [
+    {
+     "years": "2020 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c4",
+   "name": "C4",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "III"
+    },
+    {
+     "years": "2015 – 2022",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2010 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2014",
+     "name": "I"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "I Рестайлинг"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c4_aircross",
+   "name": "C4 Aircross",
+   "generations": [
+    {
+     "years": "2012 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c4_cactus",
+   "name": "C4 Cactus",
+   "generations": [
+    {
+     "years": "2018 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c4_picasso",
+   "name": "C4 Picasso",
+   "generations": [
+    {
+     "years": "2016 – 2018",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "2006 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "c4_spacetourer",
+   "name": "C4 SpaceTourer",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "c5",
+   "name": "C5",
+   "generations": [
+    {
+     "years": "2007 – 2017",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "c5_aircross",
+   "name": "C5 Aircross",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c5_x",
+   "name": "C5 X",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c6",
+   "name": "C6",
+   "generations": [
+    {
+     "years": "2016 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c8",
+   "name": "C8",
+   "generations": [
+    {
+     "years": "2008 – 2014",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "cx",
+   "name": "CX",
+   "generations": [
+    {
+     "years": "1985 – 1991",
+     "name": "II"
+    },
+    {
+     "years": "1974 – 1985",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "ds",
+   "name": "DS",
+   "generations": [
+    {
+     "years": "1967 – 1976",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "1962 – 1967",
+     "name": "I Рестайлинг 1"
+    },
+    {
+     "years": "1955 – 1962",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ds3",
+   "name": "DS3",
+   "generations": [
+    {
+     "years": "2014 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "ds4",
+   "name": "DS4",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "ds5",
+   "name": "DS5",
+   "generations": [
+    {
+     "years": "2012 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "dyane",
+   "name": "Dyane",
+   "generations": [
+    {
+     "years": "1967 – 1984",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "e_mehari",
+   "name": "E-Mehari",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "evasion",
+   "name": "Evasion",
+   "generations": [
+    {
+     "years": "1994 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "gs",
+   "name": "GS",
+   "generations": [
+    {
+     "years": "1971 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "jumpy",
+   "name": "Jumpy",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2016 – 2024",
+     "name": "III"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2006 – 2012",
+     "name": "II"
+    },
+    {
+     "years": "1994 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "ln",
+   "name": "LN",
+   "generations": [
+    {
+     "years": "1976 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "nemo",
+   "name": "Nemo",
+   "generations": [
+    {
+     "years": "2007 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "saxo",
+   "name": "Saxo",
+   "generations": [
+    {
+     "years": "1996 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sm",
+   "name": "SM",
+   "generations": [
+    {
+     "years": "1970 – 1975",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "spacetourer",
+   "name": "SpaceTourer",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "traction_avant",
+   "name": "Traction Avant",
+   "generations": [
+    {
+     "years": "1934 – 1957",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "visa",
+   "name": "Visa",
+   "generations": [
+    {
+     "years": "1978 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "xantia",
+   "name": "Xantia",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1992 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "xm",
+   "name": "XM",
+   "generations": [
+    {
+     "years": "1994 – 2000",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "xsara",
+   "name": "Xsara",
+   "generations": [
+    {
+     "years": "1997 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "xsara_picasso",
+   "name": "Xsara Picasso",
+   "generations": [
+    {
+     "years": "1999 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "zx",
+   "name": "ZX",
+   "generations": [
+    {
+     "years": "1991 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Citroen",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Citroen",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

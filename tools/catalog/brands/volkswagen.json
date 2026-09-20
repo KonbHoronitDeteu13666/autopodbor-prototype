@@ -1,0 +1,1977 @@
+{
+ "slug": "volkswagen",
+ "name": "Volkswagen",
+ "models": [
+  {
+   "slug": "amarok",
+   "name": "Amarok",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2010 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "arteon",
+   "name": "Arteon",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "arteon_r",
+   "name": "Arteon R",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "atlas",
+   "name": "Atlas",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "atlas_cross_sport",
+   "name": "Atlas Cross Sport",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "beetle",
+   "name": "Beetle",
+   "generations": [
+    {
+     "years": "2011 – 2019",
+     "name": "II (A5)"
+    },
+    {
+     "years": "2005 – 2010",
+     "name": "I (A4) Рестайлинг"
+    },
+    {
+     "years": "1997 – 2005",
+     "name": "I (A4)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "bora",
+   "name": "Bora",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "IV (China Market) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "IV"
+    },
+    {
+     "years": "2016 – 2022",
+     "name": "III"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "II (China Market) Рестайлинг"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "II (China Market)"
+    },
+    {
+     "years": "1998 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c_trek",
+   "name": "C-Trek",
+   "generations": [
+    {
+     "years": "2016 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "caddy",
+   "name": "Caddy",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "V"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "IV"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2004 – 2010",
+     "name": "III"
+    },
+    {
+     "years": "1995 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1979 – 1995",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "california",
+   "name": "California",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "T7"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "T6 Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "T6"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "T5 Рестайлинг"
+    },
+    {
+     "years": "2003 – 2015",
+     "name": "T5"
+    },
+    {
+     "years": "1991 – 2003",
+     "name": "T4"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "caravelle",
+   "name": "Caravelle",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "T7"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "T6 Рестайлинг"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "T6"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "T5 Рестайлинг"
+    },
+    {
+     "years": "2003 – 2009",
+     "name": "T5"
+    },
+    {
+     "years": "1991 – 2003",
+     "name": "T4"
+    },
+    {
+     "years": "1980 – 1991",
+     "name": "T3"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "corrado",
+   "name": "Corrado",
+   "generations": [
+    {
+     "years": "1988 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "derby",
+   "name": "Derby",
+   "generations": [
+    {
+     "years": "1981 – 1984",
+     "name": "II"
+    },
+    {
+     "years": "1977 – 1981",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "eos",
+   "name": "Eos",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2006 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "eurovan",
+   "name": "EuroVan",
+   "generations": [
+    {
+     "years": "1997 – 2003",
+     "name": "T4 Рестайлинг"
+    },
+    {
+     "years": "1992 – 1997",
+     "name": "T4"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "fox",
+   "name": "Fox",
+   "generations": [
+    {
+     "years": "2009 – 2011",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2003 – 2009",
+     "name": "II"
+    },
+    {
+     "years": "1991 – 1994",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1987 – 1991",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "gol",
+   "name": "Gol",
+   "generations": [
+    {
+     "years": "1999 – 2013",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "III"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "II"
+    },
+    {
+     "years": "1980 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "golf",
+   "name": "Golf",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "VIII Рестайлинг"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "VIII"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "VII Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "VII"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "VI"
+    },
+    {
+     "years": "2003 – 2009",
+     "name": "V"
+    },
+    {
+     "years": "1997 – 2006",
+     "name": "IV"
+    },
+    {
+     "years": "1991 – 2000",
+     "name": "III"
+    },
+    {
+     "years": "1974 – 1993",
+     "name": "I"
+    },
+    {
+     "years": "1983 – 1992",
+     "name": "II"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "golf_country",
+   "name": "Golf Country",
+   "generations": [
+    {
+     "years": "1990 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "golf_gti",
+   "name": "Golf GTI",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "VIII Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "VIII"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "VII Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "VII"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "VI"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "V"
+    },
+    {
+     "years": "1998 – 2005",
+     "name": "IV"
+    },
+    {
+     "years": "1992 – 1997",
+     "name": "III"
+    },
+    {
+     "years": "1983 – 1991",
+     "name": "II"
+    },
+    {
+     "years": "1976 – 1983",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "golf_plus",
+   "name": "Golf Plus",
+   "generations": [
+    {
+     "years": "2009 – 2014",
+     "name": "II"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "golf_r",
+   "name": "Golf R",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "VIII Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "VIII"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "VII Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "VII"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "VI"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "golf_r32",
+   "name": "Golf R32",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": "V"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "IV"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "golf_sportsvan",
+   "name": "Golf Sportsvan",
+   "generations": [
+    {
+     "years": "2017 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "id3",
+   "name": "ID.3",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "id4",
+   "name": "ID.4",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "id5",
+   "name": "ID.5",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "id6",
+   "name": "ID.6",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "id7",
+   "name": "ID.7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "idaura_t6",
+   "name": "ID.Aura T6",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "idbuzz",
+   "name": "ID.Buzz",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "idcross",
+   "name": "ID.Cross",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "idera_5s",
+   "name": "ID.Era 5S",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "idera_5x",
+   "name": "ID.Era 5X",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "idera_8x",
+   "name": "ID.Era 8X",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "idera_9x",
+   "name": "ID.Era 9X",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "id_polo",
+   "name": "ID.Polo",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "idunyx",
+   "name": "ID.Unyx",
+   "generations": [
+    {
+     "years": "2024 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "idunyx_06",
+   "name": "ID.Unyx 06",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2025 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "idunyx_07",
+   "name": "ID.Unyx 07",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "idunyx_08",
+   "name": "ID.Unyx 08",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "idunyx_09",
+   "name": "ID.Unyx 09",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "iltis",
+   "name": "Iltis",
+   "generations": [
+    {
+     "years": "1978 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "jetta",
+   "name": "Jetta",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "VII Рестайлинг 2"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "VII Рестайлинг"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "VII"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "II Рестайлинг (China Market)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "VI Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "II (China Market)"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "SportWagen"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "VI"
+    },
+    {
+     "years": "2005 – 2011",
+     "name": "V"
+    },
+    {
+     "years": "1998 – 2005",
+     "name": "IV"
+    },
+    {
+     "years": "1992 – 1998",
+     "name": "III"
+    },
+    {
+     "years": "1984 – 1992",
+     "name": "II"
+    },
+    {
+     "years": "1978 – 1984",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "k70",
+   "name": "K70",
+   "generations": [
+    {
+     "years": "1970 – 1974",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "karmann_ghia",
+   "name": "Karmann-Ghia",
+   "generations": [
+    {
+     "years": "1955 – 1974",
+     "name": "I (Type 14)"
+    },
+    {
+     "years": "1961 – 1969",
+     "name": "II (Type 34)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "lamando",
+   "name": "Lamando",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "II"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lavida",
+   "name": "Lavida",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "IV"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "III"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2008 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lavida_xr",
+   "name": "Lavida XR",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lupo",
+   "name": "Lupo",
+   "generations": [
+    {
+     "years": "1998 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "lupo_gti",
+   "name": "Lupo GTI",
+   "generations": [
+    {
+     "years": "2000 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "magotan",
+   "name": "Magotan",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "B9"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "B8 Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "B8"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "multivan",
+   "name": "Multivan",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "T7 Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "T7"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "T6 Рестайлинг"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "T6"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "T5 Рестайлинг"
+    },
+    {
+     "years": "2003 – 2009",
+     "name": "T5"
+    },
+    {
+     "years": "1992 – 2003",
+     "name": "T4"
+    },
+    {
+     "years": "1984 – 1992",
+     "name": "T3"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "parati",
+   "name": "Parati",
+   "generations": [
+    {
+     "years": "2005 – 2012",
+     "name": "III"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "passat",
+   "name": "Passat",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "B9"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "B8 Рестайлинг"
+    },
+    {
+     "years": "2014 – 2020",
+     "name": "B8"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "B7"
+    },
+    {
+     "years": "2005 – 2010",
+     "name": "B6"
+    },
+    {
+     "years": "2000 – 2005",
+     "name": "B5 Рестайлинг"
+    },
+    {
+     "years": "1996 – 2001",
+     "name": "B5"
+    },
+    {
+     "years": "1993 – 1997",
+     "name": "B4"
+    },
+    {
+     "years": "1988 – 1993",
+     "name": "B3"
+    },
+    {
+     "years": "1980 – 1988",
+     "name": "B2"
+    },
+    {
+     "years": "1973 – 1981",
+     "name": "B1"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "passat_na",
+   "name": "Passat (North America and China)",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "Pro I"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "II (China Market) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "II (NA Market)"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "II (China Market)"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "I"
+    },
+    {
+     "years": "2009 – 2011",
+     "name": "Lingyu Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "Lingyu"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "passat_cc",
+   "name": "Passat CC",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2011 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "phaeton",
+   "name": "Phaeton",
+   "generations": [
+    {
+     "years": "2010 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "phideon",
+   "name": "Phideon",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "pointer",
+   "name": "Pointer",
+   "generations": [
+    {
+     "years": "2003 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "polo",
+   "name": "Polo",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "VI Рестайлинг (EU Market)"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "Plus (China Market)"
+    },
+    {
+     "years": "2020 – 2022",
+     "name": "VI"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "VI (EU Market)"
+    },
+    {
+     "years": "2014 – 2020",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "V"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "IV"
+    },
+    {
+     "years": "1994 – 2002",
+     "name": "III"
+    },
+    {
+     "years": "1999 – 2001",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "1990 – 1994",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1981 – 1994",
+     "name": "II"
+    },
+    {
+     "years": "1975 – 1988",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "polo_gti",
+   "name": "Polo GTI",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "VI Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "VI"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2009 – 2014",
+     "name": "V"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "IV"
+    },
+    {
+     "years": "1999 – 2001",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "1998 – 1999",
+     "name": "III"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "polo_r_wrc",
+   "name": "Polo R WRC",
+   "generations": [
+    {
+     "years": "2013 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "quantum",
+   "name": "Quantum",
+   "generations": [
+    {
+     "years": "1998 – 2003",
+     "name": "II"
+    },
+    {
+     "years": "1985 – 1988",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "rabbit",
+   "name": "Rabbit",
+   "generations": [
+    {
+     "years": "2006 – 2009",
+     "name": "II"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "routan",
+   "name": "Routan",
+   "generations": [
+    {
+     "years": "2008 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "sagitar",
+   "name": "Sagitar",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "IV"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "santana",
+   "name": "Santana",
+   "generations": [
+    {
+     "years": "2012 – 2022",
+     "name": "III"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1995 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1981 – 1988",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "scirocco",
+   "name": "Scirocco",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2008 – 2014",
+     "name": "III"
+    },
+    {
+     "years": "1981 – 1992",
+     "name": "II"
+    },
+    {
+     "years": "1974 – 1981",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "scirocco_r",
+   "name": "Scirocco R",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sharan",
+   "name": "Sharan",
+   "generations": [
+    {
+     "years": "2015 – 2022",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2010",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1995 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "sp_2",
+   "name": "SP-2",
+   "generations": [
+    {
+     "years": "1972 – 1976",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "spacefox",
+   "name": "SpaceFox",
+   "generations": [
+    {
+     "years": "2006 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "t_cross",
+   "name": "T-Cross",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2018 года",
+     "name": "I (China Market)"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t_roc",
+   "name": "T-Roc",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I (China Market) Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "I (China Market)"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t_roc_r",
+   "name": "T-Roc R",
+   "generations": [
+    {
+     "years": "2021 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tacqua",
+   "name": "Tacqua",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "taigo",
+   "name": "Taigo",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "taigun",
+   "name": "Taigun",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "talagon",
+   "name": "Talagon",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "taos",
+   "name": "Taos",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "taro",
+   "name": "Taro",
+   "generations": [
+    {
+     "years": "1989 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "tavendor",
+   "name": "Tavendor",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tayron",
+   "name": "Tayron",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II (EU Market)"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (China Market)"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "teramont",
+   "name": "Teramont",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II (China Market)"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг (China Market)"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tharu",
+   "name": "Tharu",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tharu_xr",
+   "name": "Tharu XR",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiguan",
+   "name": "Tiguan",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III (NA Market)"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "III (China Market)"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "III"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "II Рестайлинг (China Market)"
+    },
+    {
+     "years": "2020 – 2025",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "II (China Market)"
+    },
+    {
+     "years": "2016 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2011 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiguan_r",
+   "name": "Tiguan R",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "touareg",
+   "name": "Touareg",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "III"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "II"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "touareg_r",
+   "name": "Touareg R",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "III"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "touran",
+   "name": "Touran",
+   "generations": [
+    {
+     "years": "c 2015 года",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "transporter",
+   "name": "Transporter",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "T7"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "T6 Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "T6"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "T5 Рестайлинг"
+    },
+    {
+     "years": "2003 – 2009",
+     "name": "T5"
+    },
+    {
+     "years": "1990 – 2003",
+     "name": "T4"
+    },
+    {
+     "years": "1979 – 1992",
+     "name": "T3"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "type_1",
+   "name": "Type 1",
+   "generations": [
+    {
+     "years": "1938 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "type_166",
+   "name": "Type 166",
+   "generations": [
+    {
+     "years": "1942 – 1944",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "type_2",
+   "name": "Type 2",
+   "generations": [
+    {
+     "years": "1967 – 1979",
+     "name": "T2"
+    },
+    {
+     "years": "1950 – 1967",
+     "name": "T1"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "type_3",
+   "name": "Type 3",
+   "generations": [
+    {
+     "years": "1961 – 1973",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "type_4",
+   "name": "Type 4",
+   "generations": [
+    {
+     "years": "1972 – 1975",
+     "name": "II (412)"
+    },
+    {
+     "years": "1968 – 1973",
+     "name": "I (411)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "type_82",
+   "name": "Type 82",
+   "generations": [
+    {
+     "years": "1940 – 1945",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "up",
+   "name": "up!",
+   "generations": [
+    {
+     "years": "2016 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "vento",
+   "name": "Vento",
+   "generations": [
+    {
+     "years": "1991 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "viloran",
+   "name": "Viloran",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "voyage",
+   "name": "Voyage",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": "II"
+    },
+    {
+     "years": "2008 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xl1",
+   "name": "XL1",
+   "generations": [
+    {
+     "years": "2013 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Volkswagen",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Volkswagen",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "181",
+   "name": "181",
+   "generations": [
+    {
+     "years": "1969 – 1979",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  }
+ ]
+}

@@ -1,0 +1,271 @@
+{
+ "slug": "dacia",
+ "name": "Dacia",
+ "models": [
+  {
+   "slug": "bigster",
+   "name": "Bigster",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dokker",
+   "name": "Dokker",
+   "generations": [
+    {
+     "years": "2017 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "duster",
+   "name": "Duster",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2021 – 2022",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "jogger",
+   "name": "Jogger",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I Рестайлинг 1"
+    },
+    {
+     "years": "2021 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "lodgy",
+   "name": "Lodgy",
+   "generations": [
+    {
+     "years": "2017 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "logan",
+   "name": "Logan",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III Рестайлинг 2"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2020 – 2022",
+     "name": "III"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "nova",
+   "name": "Nova",
+   "generations": [
+    {
+     "years": "1995 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "pick_up",
+   "name": "Pick-Up",
+   "generations": [
+    {
+     "years": "1975 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "sandero",
+   "name": "Sandero",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III Рестайлинг 2"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2020 – 2022",
+     "name": "III"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "2007 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "solenza",
+   "name": "Solenza",
+   "generations": [
+    {
+     "years": "2003 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "spring",
+   "name": "Spring",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "supernova",
+   "name": "SuperNova",
+   "generations": [
+    {
+     "years": "2000 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Dacia",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Dacia",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "1300",
+   "name": "1300",
+   "generations": [
+    {
+     "years": "1969 – 1978",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "1310",
+   "name": "1310",
+   "generations": [
+    {
+     "years": "1979 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "1410",
+   "name": "1410",
+   "generations": [
+    {
+     "years": "1984 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  }
+ ]
+}

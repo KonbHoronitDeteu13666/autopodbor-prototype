@@ -1,0 +1,207 @@
+{
+ "slug": "holden",
+ "name": "Holden",
+ "models": [
+  {
+   "slug": "apollo",
+   "name": "Apollo",
+   "generations": [
+    {
+     "years": "1991 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "astra",
+   "name": "Astra",
+   "generations": [
+    {
+     "years": "1999 – 2004",
+     "name": "IV (TS)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "barina",
+   "name": "Barina",
+   "generations": [
+    {
+     "years": "2001 – 2005",
+     "name": "IV (XC)"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "III (SB)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "calais",
+   "name": "Calais",
+   "generations": [
+    {
+     "years": "1997 – 2006",
+     "name": "III"
+    },
+    {
+     "years": "1988 – 1997",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "caprice",
+   "name": "Caprice",
+   "generations": [
+    {
+     "years": "1998 – 2006",
+     "name": "II"
+    },
+    {
+     "years": "1990 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "commodore",
+   "name": "Commodore",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": "III"
+    },
+    {
+     "years": "1990 – 1997",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cruze",
+   "name": "Cruze",
+   "generations": [
+    {
+     "years": "2002 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "frontera",
+   "name": "Frontera",
+   "generations": [
+    {
+     "years": "1998 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "jackaroo",
+   "name": "Jackaroo",
+   "generations": [
+    {
+     "years": "1998 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "monaro",
+   "name": "Monaro",
+   "generations": [
+    {
+     "years": "2001 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "rodeo",
+   "name": "Rodeo",
+   "generations": [
+    {
+     "years": "1998 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "statesman",
+   "name": "Statesman",
+   "generations": [
+    {
+     "years": "1999 – 2006",
+     "name": "II"
+    },
+    {
+     "years": "1990 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ute",
+   "name": "UTE",
+   "generations": [
+    {
+     "years": "2006 – 2013",
+     "name": "IV"
+    },
+    {
+     "years": "2000 – 2006",
+     "name": "III"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "vectra",
+   "name": "Vectra",
+   "generations": [
+    {
+     "years": "1998 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "zafira",
+   "name": "Zafira",
+   "generations": [
+    {
+     "years": "2001 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Holden",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Holden",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

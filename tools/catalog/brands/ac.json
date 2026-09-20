@@ -1,0 +1,85 @@
+{
+ "slug": "ac",
+ "name": "AC",
+ "models": [
+  {
+   "slug": "378_gt",
+   "name": "378 GT Zagato",
+   "generations": [
+    {
+     "years": "2012 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "ace",
+   "name": "Ace",
+   "generations": [
+    {
+     "years": "1992 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "aceca",
+   "name": "Aceca",
+   "generations": [
+    {
+     "years": "1998 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "cobra",
+   "name": "Cobra",
+   "generations": [
+    {
+     "years": "2013 – 2015",
+     "name": "Mk VI"
+    },
+    {
+     "years": "1999 – 2007",
+     "name": "Mk V"
+    },
+    {
+     "years": "1990 – 2001",
+     "name": "Mk IV"
+    },
+    {
+     "years": "1965 – 1967",
+     "name": "Mk III"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "cobra_gt",
+   "name": "Cobra GT",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей AC",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели AC",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

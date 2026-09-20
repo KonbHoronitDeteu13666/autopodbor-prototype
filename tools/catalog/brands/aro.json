@@ -1,0 +1,40 @@
+{
+ "slug": "aro",
+ "name": "Aro",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Aro",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Aro",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "10",
+   "name": "10",
+   "generations": [
+    {
+     "years": "1984 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "24",
+   "name": "24",
+   "generations": [
+    {
+     "years": "1972 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

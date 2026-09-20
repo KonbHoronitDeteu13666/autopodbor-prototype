@@ -1,0 +1,29 @@
+{
+ "slug": "deco_rides",
+ "name": "Deco Rides",
+ "models": [
+  {
+   "slug": "zephyr",
+   "name": "Zephyr",
+   "generations": [
+    {
+     "years": "c 1999 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Deco Rides",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Deco Rides",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

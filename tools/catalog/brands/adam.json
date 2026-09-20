@@ -1,0 +1,29 @@
+{
+ "slug": "adam",
+ "name": "Adam",
+ "models": [
+  {
+   "slug": "revo",
+   "name": "Revo",
+   "generations": [
+    {
+     "years": "2005 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Adam",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Adam",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

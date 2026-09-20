@@ -1,0 +1,40 @@
+{
+ "slug": "panoz",
+ "name": "Panoz",
+ "models": [
+  {
+   "slug": "esperante",
+   "name": "Esperante",
+   "generations": [
+    {
+     "years": "2000 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "roadster",
+   "name": "Roadster",
+   "generations": [
+    {
+     "years": "1992 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Panoz",
+   "generations": [],
+   "body": "родстер"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Panoz",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

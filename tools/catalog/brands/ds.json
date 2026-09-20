@@ -1,0 +1,133 @@
+{
+ "slug": "ds",
+ "name": "DS",
+ "models": [
+  {
+   "slug": "3_crossback",
+   "name": "3 Crossback",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "7_crossback",
+   "name": "7 Crossback",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "no4",
+   "name": "No4",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "no7",
+   "name": "No7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "no8",
+   "name": "No8",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей DS",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели DS",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "3",
+   "name": "3",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2015 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "4",
+   "name": "4",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2015 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "5",
+   "name": "5",
+   "generations": [
+    {
+     "years": "2015 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "9",
+   "name": "9",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

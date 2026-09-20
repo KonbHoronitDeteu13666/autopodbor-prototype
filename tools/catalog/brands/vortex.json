@@ -1,0 +1,59 @@
+{
+ "slug": "vortex",
+ "name": "Vortex",
+ "models": [
+  {
+   "slug": "corda",
+   "name": "Corda",
+   "generations": [
+    {
+     "years": "2010 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "estina",
+   "name": "Estina",
+   "generations": [
+    {
+     "years": "2012 – 2013",
+     "name": "II (FL-C)"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tingo",
+   "name": "Tingo",
+   "generations": [
+    {
+     "years": "2012 – 2014",
+     "name": "I (FL)"
+    },
+    {
+     "years": "2010 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Vortex",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Vortex",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

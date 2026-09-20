@@ -1,0 +1,29 @@
+{
+ "slug": "coggiola",
+ "name": "Coggiola",
+ "models": [
+  {
+   "slug": "t_rex",
+   "name": "T Rex",
+   "generations": [
+    {
+     "years": "2000 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Coggiola",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Coggiola",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

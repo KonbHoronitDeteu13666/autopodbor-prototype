@@ -1,0 +1,148 @@
+{
+ "slug": "uaz",
+ "name": "УАЗ",
+ "models": [
+  {
+   "slug": "astero",
+   "name": "Астеро",
+   "generations": [
+    {
+     "years": "1997 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "patriot",
+   "name": "Патриот",
+   "generations": [
+    {
+     "years": "c 2016 года",
+     "name": "I Рестайлинг 3"
+    },
+    {
+     "years": "2014 – 2016",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2005 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "pickup",
+   "name": "Пикап",
+   "generations": [
+    {
+     "years": "c 2016 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2014 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "hunter",
+   "name": "Хантер",
+   "generations": [
+    {
+     "years": "c 2003 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей УАЗ",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели УАЗ",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "3151",
+   "name": "3151",
+   "generations": [
+    {
+     "years": "1985 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "3153",
+   "name": "3153",
+   "generations": [
+    {
+     "years": "1996 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "3159",
+   "name": "3159",
+   "generations": [
+    {
+     "years": "1999 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "3160",
+   "name": "3160",
+   "generations": [
+    {
+     "years": "1997 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "3162",
+   "name": "3162 Симбир",
+   "generations": [
+    {
+     "years": "1999 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "469",
+   "name": "469",
+   "generations": [
+    {
+     "years": "1972 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

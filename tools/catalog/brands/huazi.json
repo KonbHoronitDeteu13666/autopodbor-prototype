@@ -1,0 +1,29 @@
+{
+ "slug": "huazi",
+ "name": "Huazi",
+ "models": [
+  {
+   "slug": "omega",
+   "name": "Omega",
+   "generations": [
+    {
+     "years": "2023 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Huazi",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Huazi",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

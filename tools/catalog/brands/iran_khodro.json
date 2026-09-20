@@ -1,0 +1,121 @@
+{
+ "slug": "iran_khodro",
+ "name": "Iran Khodro",
+ "models": [
+  {
+   "slug": "arisun",
+   "name": "Arisun",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "dena",
+   "name": "Dena",
+   "generations": [
+    {
+     "years": "c 2011 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "paykan",
+   "name": "Paykan",
+   "generations": [
+    {
+     "years": "1985 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "runna",
+   "name": "Runna",
+   "generations": [
+    {
+     "years": "c 2012 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sahra",
+   "name": "Sahra",
+   "generations": [
+    {
+     "years": "1989 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "samand",
+   "name": "Samand",
+   "generations": [
+    {
+     "years": "2001 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sarir",
+   "name": "Sarir",
+   "generations": [
+    {
+     "years": "2006 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "soren",
+   "name": "Soren",
+   "generations": [
+    {
+     "years": "2007 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tara",
+   "name": "Tara",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Iran Khodro",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Iran Khodro",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

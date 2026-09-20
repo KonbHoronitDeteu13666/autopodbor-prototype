@@ -1,0 +1,40 @@
+{
+ "slug": "saleen",
+ "name": "Saleen",
+ "models": [
+  {
+   "slug": "s_281",
+   "name": "S281",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "s7",
+   "name": "S7",
+   "generations": [
+    {
+     "years": "2000 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Saleen",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Saleen",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

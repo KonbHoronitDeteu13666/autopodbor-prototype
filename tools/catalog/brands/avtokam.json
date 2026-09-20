@@ -1,0 +1,51 @@
+{
+ "slug": "avtokam",
+ "name": "Автокам",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Автокам",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Автокам",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "2160",
+   "name": "2160",
+   "generations": [
+    {
+     "years": "1990 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "2163",
+   "name": "2163",
+   "generations": [
+    {
+     "years": "1990 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "3101",
+   "name": "3101",
+   "generations": [
+    {
+     "years": "1990 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

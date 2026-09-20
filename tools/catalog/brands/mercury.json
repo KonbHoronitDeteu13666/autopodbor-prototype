@@ -1,0 +1,305 @@
+{
+ "slug": "mercury",
+ "name": "Mercury",
+ "models": [
+  {
+   "slug": "capri",
+   "name": "Capri",
+   "generations": [
+    {
+     "years": "1990 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "colony_park",
+   "name": "Colony Park",
+   "generations": [
+    {
+     "years": "1969 – 1978",
+     "name": "V"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "cougar",
+   "name": "Cougar",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": "VIII"
+    },
+    {
+     "years": "1989 – 1997",
+     "name": "VII"
+    },
+    {
+     "years": "1983 – 1988",
+     "name": "VI"
+    },
+    {
+     "years": "1980 – 1982",
+     "name": "V"
+    },
+    {
+     "years": "1977 – 1979",
+     "name": "IV"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "eight",
+   "name": "Eight",
+   "generations": [
+    {
+     "years": "1949 – 1951",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "grand_marquis",
+   "name": "Grand Marquis",
+   "generations": [
+    {
+     "years": "2005 – 2011",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "IV"
+    },
+    {
+     "years": "1997 – 2002",
+     "name": "III"
+    },
+    {
+     "years": "1991 – 1997",
+     "name": "II"
+    },
+    {
+     "years": "1983 – 1991",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "marauder",
+   "name": "Marauder",
+   "generations": [
+    {
+     "years": "2002 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "mariner",
+   "name": "Mariner",
+   "generations": [
+    {
+     "years": "2007 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "marquies",
+   "name": "Marquis",
+   "generations": [
+    {
+     "years": "1983 – 1986",
+     "name": "V"
+    },
+    {
+     "years": "1979 – 1982",
+     "name": "IV"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "milan",
+   "name": "Milan",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "montego",
+   "name": "Montego",
+   "generations": [
+    {
+     "years": "2004 – 2007",
+     "name": "III"
+    },
+    {
+     "years": "1973 – 1976",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1971 – 1973",
+     "name": "II"
+    },
+    {
+     "years": "1969 – 1971",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1967 – 1969",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "monterey",
+   "name": "Monterey",
+   "generations": [
+    {
+     "years": "2003 – 2007",
+     "name": "VIII"
+    },
+    {
+     "years": "1960 – 1964",
+     "name": "V"
+    },
+    {
+     "years": "1952 – 1954",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "mountaineer",
+   "name": "Mountaineer",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": "III"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "II"
+    },
+    {
+     "years": "1997 – 2001",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1996 – 1997",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mystique",
+   "name": "Mystique",
+   "generations": [
+    {
+     "years": "1994 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sable",
+   "name": "Sable",
+   "generations": [
+    {
+     "years": "2007 – 2009",
+     "name": "V"
+    },
+    {
+     "years": "1999 – 2005",
+     "name": "IV"
+    },
+    {
+     "years": "1995 – 1999",
+     "name": "III"
+    },
+    {
+     "years": "1991 – 1995",
+     "name": "II"
+    },
+    {
+     "years": "1986 – 1991",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "topaz",
+   "name": "Topaz",
+   "generations": [
+    {
+     "years": "1987 – 1994",
+     "name": "II"
+    },
+    {
+     "years": "1983 – 1987",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tracer",
+   "name": "Tracer",
+   "generations": [
+    {
+     "years": "1991 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "villager",
+   "name": "Villager",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1992 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Mercury",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Mercury",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "jiangnan",
+ "name": "Jiangnan",
+ "models": [
+  {
+   "slug": "chuanqi",
+   "name": "Chuanqi",
+   "generations": [
+    {
+     "years": "2005 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Jiangnan",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Jiangnan",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

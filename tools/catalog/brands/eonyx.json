@@ -1,0 +1,29 @@
+{
+ "slug": "eonyx",
+ "name": "Eonyx",
+ "models": [
+  {
+   "slug": "m2",
+   "name": "City (M2)",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Eonyx",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Eonyx",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

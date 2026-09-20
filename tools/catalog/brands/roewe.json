@@ -1,0 +1,244 @@
+{
+ "slug": "roewe",
+ "name": "Roewe",
+ "models": [
+  {
+   "slug": "clever",
+   "name": "Clever",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "d6",
+   "name": "D6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "d7",
+   "name": "D7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "e50",
+   "name": "E50",
+   "generations": [
+    {
+     "years": "2012 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "i5",
+   "name": "i5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "i6",
+   "name": "i6",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "i6_max",
+   "name": "i6 Max",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "imax8",
+   "name": "iMAX8",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "m7",
+   "name": "M7",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "marvel_x",
+   "name": "Marvel X",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rx3",
+   "name": "RX3",
+   "generations": [
+    {
+     "years": "2017 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rx3_pro",
+   "name": "RX3 Pro",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rx5",
+   "name": "RX5",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "II"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rx5_max",
+   "name": "RX5 Max",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rx8",
+   "name": "RX8",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rx9",
+   "name": "RX9",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "whale",
+   "name": "Whale",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Roewe",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Roewe",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "750",
+   "name": "750",
+   "generations": [
+    {
+     "years": "2006 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

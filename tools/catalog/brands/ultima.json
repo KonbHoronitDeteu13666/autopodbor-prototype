@@ -1,0 +1,51 @@
+{
+ "slug": "ultima",
+ "name": "Ultima",
+ "models": [
+  {
+   "slug": "can_am",
+   "name": "Can-Am",
+   "generations": [
+    {
+     "years": "2001 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "gtr",
+   "name": "GTR",
+   "generations": [
+    {
+     "years": "1999 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "rs",
+   "name": "RS",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ultima",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ultima",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "slug": "lotus",
+ "name": "Lotus",
+ "models": [
+  {
+   "slug": "2_eleven",
+   "name": "2-Eleven",
+   "generations": [
+    {
+     "years": "2007 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "3_eleven",
+   "name": "3-Eleven",
+   "generations": [
+    {
+     "years": "2015 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "340r",
+   "name": "340R",
+   "generations": [
+    {
+     "years": "2000 – 2000",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "eclat",
+   "name": "Eclat",
+   "generations": [
+    {
+     "years": "1975 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "elan",
+   "name": "Elan",
+   "generations": [
+    {
+     "years": "1989 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "eletre",
+   "name": "Eletre",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "elise",
+   "name": "Elise",
+   "generations": [
+    {
+     "years": "2010 – 2021",
+     "name": "III"
+    },
+    {
+     "years": "2000 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "1995 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "elite",
+   "name": "Elite",
+   "generations": [
+    {
+     "years": "1974 – 1982",
+     "name": "II"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "emeya",
+   "name": "Emeya",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "emira",
+   "name": "Emira",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "esprit",
+   "name": "Esprit",
+   "generations": [
+    {
+     "years": "1993 – 2004",
+     "name": "V"
+    },
+    {
+     "years": "1987 – 1993",
+     "name": "IV"
+    },
+    {
+     "years": "1981 – 1987",
+     "name": "III"
+    },
+    {
+     "years": "1978 – 1981",
+     "name": "II"
+    },
+    {
+     "years": "1976 – 1979",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "europa",
+   "name": "Europa",
+   "generations": [
+    {
+     "years": "1970 – 1976",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "europa_s",
+   "name": "Europa S",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "evija",
+   "name": "Evija",
+   "generations": [
+    {
+     "years": "2022 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "evora",
+   "name": "Evora",
+   "generations": [
+    {
+     "years": "2009 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "excel",
+   "name": "Excel",
+   "generations": [
+    {
+     "years": "1982 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "exige",
+   "name": "Exige",
+   "generations": [
+    {
+     "years": "2011 – 2021",
+     "name": "III"
+    },
+    {
+     "years": "2004 – 2011",
+     "name": "II"
+    },
+    {
+     "years": "2001 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "for_me",
+   "name": "For Me",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Lotus",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Lotus",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

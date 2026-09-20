@@ -1,0 +1,29 @@
+{
+ "slug": "am_general",
+ "name": "AM General",
+ "models": [
+  {
+   "slug": "humvee",
+   "name": "HMMWV (Humvee)",
+   "generations": [
+    {
+     "years": "1984 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей AM General",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели AM General",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

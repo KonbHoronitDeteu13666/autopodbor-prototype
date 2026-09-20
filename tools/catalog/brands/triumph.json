@@ -1,0 +1,141 @@
+{
+ "slug": "triumph",
+ "name": "Triumph",
+ "models": [
+  {
+   "slug": "acclaim",
+   "name": "Acclaim",
+   "generations": [
+    {
+     "years": "1981 – 1984",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gt6",
+   "name": "GT6",
+   "generations": [
+    {
+     "years": "1970 – 1973",
+     "name": "III"
+    },
+    {
+     "years": "1968 – 1970",
+     "name": "II"
+    },
+    {
+     "years": "1966 – 1968",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "spitfire",
+   "name": "Spitfire",
+   "generations": [
+    {
+     "years": "1974 – 1980",
+     "name": "1500"
+    },
+    {
+     "years": "1970 – 1974",
+     "name": "IV"
+    },
+    {
+     "years": "1967 – 1970",
+     "name": "III"
+    },
+    {
+     "years": "1965 – 1967",
+     "name": "II"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "stag",
+   "name": "Stag",
+   "generations": [
+    {
+     "years": "1970 – 1977",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "tr3",
+   "name": "TR3",
+   "generations": [
+    {
+     "years": "1957 – 1963",
+     "name": "I(A)"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "tr4",
+   "name": "TR4",
+   "generations": [
+    {
+     "years": "1965 – 1967",
+     "name": "I (A)"
+    },
+    {
+     "years": "1961 – 1965",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "tr6",
+   "name": "TR6",
+   "generations": [
+    {
+     "years": "1968 – 1976",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "tr7",
+   "name": "TR7",
+   "generations": [
+    {
+     "years": "1975 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "tr8",
+   "name": "TR8",
+   "generations": [
+    {
+     "years": "1980 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Triumph",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Triumph",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

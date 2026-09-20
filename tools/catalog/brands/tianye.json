@@ -1,0 +1,29 @@
+{
+ "slug": "tianye",
+ "name": "Tianye",
+ "models": [
+  {
+   "slug": "admiral",
+   "name": "Admiral",
+   "generations": [
+    {
+     "years": "2001 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Tianye",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Tianye",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

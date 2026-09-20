@@ -1,0 +1,29 @@
+{
+ "slug": "heinkel",
+ "name": "Heinkel",
+ "models": [
+  {
+   "slug": "typ_154",
+   "name": "Typ 154",
+   "generations": [
+    {
+     "years": "1956 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Heinkel",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Heinkel",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

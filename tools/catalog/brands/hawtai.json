@@ -1,0 +1,51 @@
+{
+ "slug": "hawtai",
+ "name": "Hawtai",
+ "models": [
+  {
+   "slug": "b_21",
+   "name": "B21",
+   "generations": [
+    {
+     "years": "2013 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "boliger",
+   "name": "Boliger",
+   "generations": [
+    {
+     "years": "2011 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "laville",
+   "name": "Laville",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hawtai",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hawtai",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

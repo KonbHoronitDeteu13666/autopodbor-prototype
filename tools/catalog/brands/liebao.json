@@ -1,0 +1,29 @@
+{
+ "slug": "liebao",
+ "name": "Liebao Motor",
+ "models": [
+  {
+   "slug": "leopard",
+   "name": "Leopard",
+   "generations": [
+    {
+     "years": "1999 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Liebao Motor",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Liebao Motor",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

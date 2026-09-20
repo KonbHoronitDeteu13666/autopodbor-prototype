@@ -1,0 +1,126 @@
+{
+ "slug": "scion",
+ "name": "Scion",
+ "models": [
+  {
+   "slug": "fr_s",
+   "name": "FR-S",
+   "generations": [
+    {
+     "years": "2012 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "ia",
+   "name": "iA",
+   "generations": [
+    {
+     "years": "2015 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "im",
+   "name": "iM",
+   "generations": [
+    {
+     "years": "2015 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "iqq",
+   "name": "iQ",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "tc",
+   "name": "tC",
+   "generations": [
+    {
+     "years": "2013 – 2016",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "II"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "xa",
+   "name": "xA",
+   "generations": [
+    {
+     "years": "2003 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "xb",
+   "name": "xB",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "xd",
+   "name": "xD",
+   "generations": [
+    {
+     "years": "2008 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Scion",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Scion",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "premier",
+ "name": "Premier",
+ "models": [
+  {
+   "slug": "118ne",
+   "name": "118NE",
+   "generations": [
+    {
+     "years": "1985 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "padmini",
+   "name": "Padmini",
+   "generations": [
+    {
+     "years": "1964 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Premier",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Premier",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

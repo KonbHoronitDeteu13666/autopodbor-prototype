@@ -1,0 +1,330 @@
+{
+ "slug": "gaz",
+ "name": "ГАЗ",
+ "models": [
+  {
+   "slug": "2308_ataman",
+   "name": "2308 «Атаман»",
+   "generations": [
+    {
+     "years": "1999 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "2330_tigr",
+   "name": "2330 «Тигр»",
+   "generations": [
+    {
+     "years": "c 2003 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "3103_volga",
+   "name": "3103 «Волга»",
+   "generations": [
+    {
+     "years": "1997 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "volga_siber",
+   "name": "Volga Siber",
+   "generations": [
+    {
+     "years": "2008 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "a",
+   "name": "А",
+   "generations": [
+    {
+     "years": "1932 – 1936",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "m_20",
+   "name": "М-20 «Победа»",
+   "generations": [
+    {
+     "years": "1946 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "m_72",
+   "name": "М-72",
+   "generations": [
+    {
+     "years": "1955 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "m1",
+   "name": "М1",
+   "generations": [
+    {
+     "years": "1934 – 1948",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей ГАЗ",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели ГАЗ",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "12",
+   "name": "12 ЗИМ",
+   "generations": [
+    {
+     "years": "1948 – 1960",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "13",
+   "name": "13 «Чайка»",
+   "generations": [
+    {
+     "years": "1959 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "14",
+   "name": "14 «Чайка»",
+   "generations": [
+    {
+     "years": "1977 – 1989",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "18",
+   "name": "18",
+   "generations": [
+    {
+     "years": "1955 – 1958",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "21",
+   "name": "21 «Волга»",
+   "generations": [
+    {
+     "years": "1956 – 1970",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "22",
+   "name": "22 «Волга»",
+   "generations": [
+    {
+     "years": "1962 – 1970",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "24",
+   "name": "24 «Волга»",
+   "generations": [
+    {
+     "years": "1985 – 1992",
+     "name": "II (2410)"
+    },
+    {
+     "years": "1968 – 1987",
+     "name": "I (24)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "25",
+   "name": "25",
+   "generations": [
+    {
+     "years": "1939 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "3102",
+   "name": "3102 «Волга»",
+   "generations": [
+    {
+     "years": "1982 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "31022",
+   "name": "31022 «Волга»",
+   "generations": [
+    {
+     "years": "1992 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "31029",
+   "name": "31029 «Волга»",
+   "generations": [
+    {
+     "years": "1992 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "3105",
+   "name": "3105 «Волга»",
+   "generations": [
+    {
+     "years": "1992 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "3110",
+   "name": "3110 «Волга»",
+   "generations": [
+    {
+     "years": "1997 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "31105",
+   "name": "31105 «Волга»",
+   "generations": [
+    {
+     "years": "2003 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "3111",
+   "name": "3111 «Волга»",
+   "generations": [
+    {
+     "years": "2000 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "46",
+   "name": "46",
+   "generations": [
+    {
+     "years": "1953 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "61",
+   "name": "61",
+   "generations": [
+    {
+     "years": "1941 – 1948",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "64",
+   "name": "64",
+   "generations": [
+    {
+     "years": "1941 – 1943",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "69",
+   "name": "69",
+   "generations": [
+    {
+     "years": "1953 – 1972",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "67",
+   "name": "ГАЗ 67",
+   "generations": [
+    {
+     "years": "1943 – 1953",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

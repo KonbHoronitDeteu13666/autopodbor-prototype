@@ -1,0 +1,29 @@
+{
+ "slug": "apal",
+ "name": "Apal",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Apal",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Apal",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "21541",
+   "name": "21541 Stalker",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

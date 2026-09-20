@@ -1,0 +1,463 @@
+{
+ "slug": "vauxhall",
+ "name": "Vauxhall",
+ "models": [
+  {
+   "slug": "adam",
+   "name": "Adam",
+   "generations": [
+    {
+     "years": "2013 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "ampera",
+   "name": "Ampera",
+   "generations": [
+    {
+     "years": "2011 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "astra",
+   "name": "Astra",
+   "generations": [
+    {
+     "years": "2009 – 2015",
+     "name": "J"
+    },
+    {
+     "years": "2004 – 2010",
+     "name": "H"
+    },
+    {
+     "years": "1998 – 2005",
+     "name": "G"
+    },
+    {
+     "years": "1991 – 2001",
+     "name": "F"
+    },
+    {
+     "years": "1984 – 1993",
+     "name": "E"
+    },
+    {
+     "years": "1979 – 1984",
+     "name": "D"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "carlton",
+   "name": "Carlton",
+   "generations": [
+    {
+     "years": "1984 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cavalier",
+   "name": "Cavalier",
+   "generations": [
+    {
+     "years": "1975 – 1981",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "chevette",
+   "name": "Chevette",
+   "generations": [
+    {
+     "years": "1975 – 1984",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "combo",
+   "name": "Combo",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "E Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "E"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "corsa",
+   "name": "Corsa",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "F Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "F"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "E"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "D Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "D"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "C Рестайлинг"
+    },
+    {
+     "years": "2000 – 2003",
+     "name": "C"
+    },
+    {
+     "years": "1993 – 2000",
+     "name": "B"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "firenza",
+   "name": "Firenza",
+   "generations": [
+    {
+     "years": "1970 – 1975",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "frontera",
+   "name": "Frontera",
+   "generations": [
+    {
+     "years": "2001 – 2004",
+     "name": "B Рестайлинг"
+    },
+    {
+     "years": "1998 – 2001",
+     "name": "B"
+    },
+    {
+     "years": "1991 – 1998",
+     "name": "A"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "insignia",
+   "name": "Insignia",
+   "generations": [
+    {
+     "years": "2017 – 2022",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "lotus_carlton",
+   "name": "Lotus Carlton",
+   "generations": [
+    {
+     "years": "1990 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "meriva",
+   "name": "Meriva",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "B Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "B"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "A Рестайлинг"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "A"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "mokka",
+   "name": "Mokka",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "monaro",
+   "name": "Monaro",
+   "generations": [
+    {
+     "years": "2001 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "omega",
+   "name": "Omega",
+   "generations": [
+    {
+     "years": "1999 – 2003",
+     "name": "B Рестайлинг"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "B"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "royale",
+   "name": "Royale",
+   "generations": [
+    {
+     "years": "1978 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tigra",
+   "name": "Tigra",
+   "generations": [
+    {
+     "years": "2004 – 2009",
+     "name": "B"
+    },
+    {
+     "years": "1994 – 2001",
+     "name": "A"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "vectra",
+   "name": "Vectra",
+   "generations": [
+    {
+     "years": "2003 – 2008",
+     "name": "C"
+    },
+    {
+     "years": "1995 – 2001",
+     "name": "B"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "velox",
+   "name": "Velox",
+   "generations": [
+    {
+     "years": "1962 – 1965",
+     "name": "IV (PB)"
+    },
+    {
+     "years": "1957 – 1962",
+     "name": "III (PA)"
+    },
+    {
+     "years": "1951 – 1957",
+     "name": "II (EIP)"
+    },
+    {
+     "years": "1948 – 1951",
+     "name": "I (LIP)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ventora",
+   "name": "Ventora",
+   "generations": [
+    {
+     "years": "1969 – 1976",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "viceroy",
+   "name": "Viceroy",
+   "generations": [
+    {
+     "years": "1978 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "victor",
+   "name": "Victor",
+   "generations": [
+    {
+     "years": "1972 – 1978",
+     "name": "FE"
+    },
+    {
+     "years": "1967 – 1972",
+     "name": "FD"
+    },
+    {
+     "years": "1963 – 1967",
+     "name": "FC"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "viva",
+   "name": "Viva",
+   "generations": [
+    {
+     "years": "1970 – 1979",
+     "name": "HC"
+    },
+    {
+     "years": "1965 – 1971",
+     "name": "HB"
+    },
+    {
+     "years": "1963 – 1966",
+     "name": "HA"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "vivaro",
+   "name": "Vivaro",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "C Рестайлинг"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "C"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "vxr8",
+   "name": "VXR8",
+   "generations": [
+    {
+     "years": "2007 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "zafira",
+   "name": "Zafira",
+   "generations": [
+    {
+     "years": "2016 – 2018",
+     "name": "C Рестайлинг"
+    },
+    {
+     "years": "2011 – 2016",
+     "name": "C"
+    },
+    {
+     "years": "2008 – 2014",
+     "name": "B Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "B"
+    },
+    {
+     "years": "2003 – 2005",
+     "name": "A Рестайлинг"
+    },
+    {
+     "years": "1999 – 2003",
+     "name": "A"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Vauxhall",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Vauxhall",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

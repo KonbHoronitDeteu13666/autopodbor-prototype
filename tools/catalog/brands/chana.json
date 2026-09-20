@@ -1,0 +1,51 @@
+{
+ "slug": "chana",
+ "name": "Chana",
+ "models": [
+  {
+   "slug": "benni",
+   "name": "Benni",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sc_6390",
+   "name": "SC6390",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "taurustar",
+   "name": "Taurustar",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Chana",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Chana",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

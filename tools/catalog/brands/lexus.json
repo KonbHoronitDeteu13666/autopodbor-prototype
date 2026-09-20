@@ -1,0 +1,519 @@
+{
+ "slug": "lexus",
+ "name": "Lexus",
+ "models": [
+  {
+   "slug": "ct",
+   "name": "CT",
+   "generations": [
+    {
+     "years": "2017 – 2022",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "es",
+   "name": "ES",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "VIII"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "VII Рестайлинг 2"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "VII Рестайлинг"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "VII"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "VI Рестайлинг"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "VI"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "V"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2001 – 2003",
+     "name": "IV"
+    },
+    {
+     "years": "1996 – 2001",
+     "name": "III"
+    },
+    {
+     "years": "1994 – 1996",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1991 – 1994",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1991",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gs",
+   "name": "GS",
+   "generations": [
+    {
+     "years": "2015 – 2020",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "IV"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "III"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "II"
+    },
+    {
+     "years": "1993 – 1997",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gs_f",
+   "name": "GS F",
+   "generations": [
+    {
+     "years": "2015 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gx",
+   "name": "GX",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2013 – 2019",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "II"
+    },
+    {
+     "years": "2002 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hs",
+   "name": "HS",
+   "generations": [
+    {
+     "years": "2013 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "is",
+   "name": "IS",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III Рестайлинг 3"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "III Рестайлинг 2"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "III"
+    },
+    {
+     "years": "2010 – 2016",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2008 – 2010",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "II"
+    },
+    {
+     "years": "1999 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "is_f",
+   "name": "IS F",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lbx",
+   "name": "LBX",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lc",
+   "name": "LC",
+   "generations": [
+    {
+     "years": "c 2017 года",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "lfa",
+   "name": "LFA",
+   "generations": [
+    {
+     "years": "2010 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "lm",
+   "name": "LM",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "ls",
+   "name": "LS",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "V"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "IV Рестайлинг 2"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "IV"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2000 – 2003",
+     "name": "III"
+    },
+    {
+     "years": "1994 – 2000",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lx",
+   "name": "LX",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "IV"
+    },
+    {
+     "years": "2015 – 2022",
+     "name": "III Рестайлинг 2"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2007 – 2012",
+     "name": "III"
+    },
+    {
+     "years": "2002 – 2007",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1998 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1995 – 1997",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "nx",
+   "name": "NX",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rc",
+   "name": "RC",
+   "generations": [
+    {
+     "years": "2018 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "rc_f",
+   "name": "RC F",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "rx",
+   "name": "RX",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "V"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "IV"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "III"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "II"
+    },
+    {
+     "years": "1997 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rz",
+   "name": "RZ",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sc",
+   "name": "SC",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "II"
+    },
+    {
+     "years": "1991 – 2001",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "tx",
+   "name": "TX",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tz",
+   "name": "TZ",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ux",
+   "name": "UX",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Lexus",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Lexus",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

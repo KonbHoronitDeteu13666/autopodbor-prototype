@@ -1,0 +1,40 @@
+{
+ "slug": "enovate",
+ "name": "Enovate (Enoreve)",
+ "models": [
+  {
+   "slug": "me5",
+   "name": "ME5",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "me7",
+   "name": "ME7",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Enovate (Enoreve)",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Enovate (Enoreve)",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

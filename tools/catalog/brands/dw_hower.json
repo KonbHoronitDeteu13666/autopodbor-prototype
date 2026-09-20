@@ -1,0 +1,40 @@
+{
+ "slug": "dw_hower",
+ "name": "DW Hower",
+ "models": [
+  {
+   "slug": "h3",
+   "name": "H3",
+   "generations": [
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h5",
+   "name": "H5",
+   "generations": [
+    {
+     "years": "2017 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей DW Hower",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели DW Hower",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

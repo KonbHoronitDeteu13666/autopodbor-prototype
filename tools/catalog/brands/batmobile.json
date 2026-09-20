@@ -1,0 +1,40 @@
+{
+ "slug": "batmobile",
+ "name": "Batmobile",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Batmobile",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Batmobile",
+   "generations": [],
+   "body": "купе"
+  },
+  {
+   "slug": "1989",
+   "name": "1989",
+   "generations": [
+    {
+     "years": "1989 – 1992",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "2018",
+   "name": "2018",
+   "generations": [
+    {
+     "years": "2018 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  }
+ ]
+}

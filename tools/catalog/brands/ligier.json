@@ -1,0 +1,29 @@
+{
+ "slug": "ligier",
+ "name": "Ligier",
+ "models": [
+  {
+   "slug": "js_51",
+   "name": "JS 51",
+   "generations": [
+    {
+     "years": "2009 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ligier",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ligier",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

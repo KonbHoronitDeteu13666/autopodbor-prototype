@@ -1,0 +1,40 @@
+{
+ "slug": "shuanghuan",
+ "name": "ShuangHuan",
+ "models": [
+  {
+   "slug": "noble",
+   "name": "Noble",
+   "generations": [
+    {
+     "years": "2006 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sceo",
+   "name": "Sceo",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей ShuangHuan",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели ShuangHuan",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

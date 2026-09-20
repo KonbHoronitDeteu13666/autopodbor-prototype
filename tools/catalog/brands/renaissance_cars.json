@@ -1,0 +1,29 @@
+{
+ "slug": "renaissance_cars",
+ "name": "Renaissance",
+ "models": [
+  {
+   "slug": "tropica_roadster",
+   "name": "Tropica Roadster",
+   "generations": [
+    {
+     "years": "1995 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Renaissance",
+   "generations": [],
+   "body": "родстер"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Renaissance",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

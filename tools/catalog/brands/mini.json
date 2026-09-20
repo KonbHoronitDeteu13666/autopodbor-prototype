@@ -1,0 +1,178 @@
+{
+ "slug": "mini",
+ "name": "Mini",
+ "models": [
+  {
+   "slug": "aceman",
+   "name": "Aceman",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cabrio",
+   "name": "Cabrio",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "IV"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "III Рестайлинг 2"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "III"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2008 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "clubman",
+   "name": "Clubman",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "countryman",
+   "name": "Countryman",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "coupe",
+   "name": "Coupe",
+   "generations": [
+    {
+     "years": "2011 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "hatch",
+   "name": "Hatch",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "IV (F65/F66/J01)"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "III (F55/F56) Рестайлинг 2"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "III (F55/F56) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2018",
+     "name": "III (F55/F56)"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "II (R56) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "II (R56)"
+    },
+    {
+     "years": "2000 – 2006",
+     "name": "I (R50)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "paceman",
+   "name": "Paceman",
+   "generations": [
+    {
+     "years": "2012 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "roadster",
+   "name": "Roadster",
+   "generations": [
+    {
+     "years": "2012 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Mini",
+   "generations": [],
+   "body": "купе"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Mini",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

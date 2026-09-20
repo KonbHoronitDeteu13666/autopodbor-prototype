@@ -1,0 +1,29 @@
+{
+ "slug": "logem",
+ "name": "Logem",
+ "models": [
+  {
+   "slug": "ec30",
+   "name": "EC30",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Logem",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Logem",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

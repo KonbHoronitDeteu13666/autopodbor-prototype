@@ -1,0 +1,40 @@
+{
+ "slug": "hennessey",
+ "name": "Hennessey",
+ "models": [
+  {
+   "slug": "venom_f5",
+   "name": "Venom F5",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "venom_gt",
+   "name": "Venom GT",
+   "generations": [
+    {
+     "years": "2011 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hennessey",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hennessey",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

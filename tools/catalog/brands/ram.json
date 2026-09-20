@@ -1,0 +1,85 @@
+{
+ "slug": "ram",
+ "name": "Ram",
+ "models": [
+  {
+   "slug": "dakota",
+   "name": "Dakota",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "promaster_city",
+   "name": "ProMaster City",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "2014 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "rampage",
+   "name": "Rampage",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "v_1000",
+   "name": "V1000",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ram",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ram",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "1500",
+   "name": "1500",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "V"
+    },
+    {
+     "years": "2011 – 2024",
+     "name": "IV (DS/DJ)"
+    }
+   ],
+   "body": "пикап"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "slug": "edsel",
+ "name": "Edsel",
+ "models": [
+  {
+   "slug": "ranger",
+   "name": "Ranger",
+   "generations": [
+    {
+     "years": "1960 – 1960",
+     "name": "II"
+    },
+    {
+     "years": "1959 – 1959",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1958 – 1958",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Edsel",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Edsel",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

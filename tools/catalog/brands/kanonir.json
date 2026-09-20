@@ -1,0 +1,29 @@
+{
+ "slug": "kanonir",
+ "name": "Канонир",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Канонир",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Канонир",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "2317",
+   "name": "2317",
+   "generations": [
+    {
+     "years": "1999 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  }
+ ]
+}

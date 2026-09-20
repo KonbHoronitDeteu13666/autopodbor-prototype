@@ -1,0 +1,29 @@
+{
+ "slug": "hyperion",
+ "name": "Hyperion",
+ "models": [
+  {
+   "slug": "xp_1",
+   "name": "XP-1",
+   "generations": [
+    {
+     "years": "2022 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hyperion",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hyperion",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

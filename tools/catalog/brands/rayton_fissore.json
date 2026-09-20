@@ -1,0 +1,29 @@
+{
+ "slug": "rayton_fissore",
+ "name": "Rayton Fissore",
+ "models": [
+  {
+   "slug": "magnum",
+   "name": "Magnum",
+   "generations": [
+    {
+     "years": "1985 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Rayton Fissore",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Rayton Fissore",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

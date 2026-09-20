@@ -1,0 +1,979 @@
+{
+ "slug": "opel",
+ "name": "Opel",
+ "models": [
+  {
+   "slug": "4_8_ps",
+   "name": "4/8 PS",
+   "generations": [
+    {
+     "years": "1909 – 1910",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "adam",
+   "name": "Adam",
+   "generations": [
+    {
+     "years": "2013 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "admiral",
+   "name": "Admiral",
+   "generations": [
+    {
+     "years": "1969 – 1978",
+     "name": "B"
+    },
+    {
+     "years": "1964 – 1968",
+     "name": "A"
+    },
+    {
+     "years": "1937 – 1939",
+     "name": "'37"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "agila",
+   "name": "Agila",
+   "generations": [
+    {
+     "years": "2008 – 2014",
+     "name": "B"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "A Рестайлинг"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "A"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "ampera",
+   "name": "Ampera",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "antara",
+   "name": "Antara",
+   "generations": [
+    {
+     "years": "2010 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2006 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ascona",
+   "name": "Ascona",
+   "generations": [
+    {
+     "years": "1981 – 1988",
+     "name": "C"
+    },
+    {
+     "years": "1975 – 1981",
+     "name": "B"
+    },
+    {
+     "years": "1970 – 1975",
+     "name": "A"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "astra",
+   "name": "Astra",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "L Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "L"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "K Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "K"
+    },
+    {
+     "years": "2011 – 2018",
+     "name": "J Рестайлинг"
+    },
+    {
+     "years": "2006 – 2014",
+     "name": "H Рестайлинг"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "J"
+    },
+    {
+     "years": "1998 – 2009",
+     "name": "G"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "H"
+    },
+    {
+     "years": "1991 – 2002",
+     "name": "F"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "astra_opc",
+   "name": "Astra OPC",
+   "generations": [
+    {
+     "years": "2012 – 2016",
+     "name": "J"
+    },
+    {
+     "years": "2005 – 2010",
+     "name": "H"
+    },
+    {
+     "years": "2002 – 2004",
+     "name": "G Рестайлинг"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "G"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "calibra",
+   "name": "Calibra",
+   "generations": [
+    {
+     "years": "1990 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "campo",
+   "name": "Campo",
+   "generations": [
+    {
+     "years": "1991 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "cascada",
+   "name": "Cascada",
+   "generations": [
+    {
+     "years": "2013 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "combo",
+   "name": "Combo",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "E Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "E"
+    },
+    {
+     "years": "2020 – 2022",
+     "name": "PCMA"
+    },
+    {
+     "years": "2011 – 2017",
+     "name": "D"
+    },
+    {
+     "years": "2003 – 2011",
+     "name": "C Рестайлинг"
+    },
+    {
+     "years": "2001 – 2003",
+     "name": "C"
+    },
+    {
+     "years": "1993 – 2001",
+     "name": "B"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "commodore",
+   "name": "Commodore",
+   "generations": [
+    {
+     "years": "1978 – 1982",
+     "name": "C"
+    },
+    {
+     "years": "1972 – 1978",
+     "name": "B"
+    },
+    {
+     "years": "1967 – 1971",
+     "name": "A"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "corsa",
+   "name": "Corsa",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "F Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "F"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "E"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "D Рестайлинг II"
+    },
+    {
+     "years": "2010 – 2011",
+     "name": "D Рестайлинг I"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "D"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "C Рестайлинг"
+    },
+    {
+     "years": "2000 – 2003",
+     "name": "C"
+    },
+    {
+     "years": "1993 – 2000",
+     "name": "B"
+    },
+    {
+     "years": "1982 – 1993",
+     "name": "A"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "corsa_opc",
+   "name": "Corsa OPC",
+   "generations": [
+    {
+     "years": "2015 – 2018",
+     "name": "E"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "D Рестайлинг II"
+    },
+    {
+     "years": "2010 – 2011",
+     "name": "D Рестайлинг I"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "D"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "crossland_x",
+   "name": "Crossland X",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "diplomat",
+   "name": "Diplomat",
+   "generations": [
+    {
+     "years": "1969 – 1978",
+     "name": "B"
+    },
+    {
+     "years": "1964 – 1968",
+     "name": "A"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "frontera",
+   "name": "Frontera",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III"
+    },
+    {
+     "years": "2001 – 2004",
+     "name": "B Рестайлинг"
+    },
+    {
+     "years": "1998 – 2001",
+     "name": "B"
+    },
+    {
+     "years": "1991 – 1998",
+     "name": "A"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "grandland_x",
+   "name": "Grandland",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "I (X)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gt",
+   "name": "GT",
+   "generations": [
+    {
+     "years": "2006 – 2009",
+     "name": "II"
+    },
+    {
+     "years": "1968 – 1973",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "insignia",
+   "name": "Insignia",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "insignia_opc",
+   "name": "Insignia OPC",
+   "generations": [
+    {
+     "years": "2013 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "kadett",
+   "name": "Kadett",
+   "generations": [
+    {
+     "years": "1989 – 1993",
+     "name": "E Рестайлинг"
+    },
+    {
+     "years": "1984 – 1989",
+     "name": "E"
+    },
+    {
+     "years": "1979 – 1984",
+     "name": "D"
+    },
+    {
+     "years": "1973 – 1979",
+     "name": "C"
+    },
+    {
+     "years": "1965 – 1973",
+     "name": "B"
+    },
+    {
+     "years": "1962 – 1965",
+     "name": "A"
+    },
+    {
+     "years": "1937 – 1940",
+     "name": "'37"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "kapitan",
+   "name": "Kapitan",
+   "generations": [
+    {
+     "years": "1969 – 1970",
+     "name": "B"
+    },
+    {
+     "years": "1964 – 1968",
+     "name": "A"
+    },
+    {
+     "years": "1959 – 1963",
+     "name": "P2"
+    },
+    {
+     "years": "1958 – 1959",
+     "name": "P1"
+    },
+    {
+     "years": "1953 – 1958",
+     "name": "II"
+    },
+    {
+     "years": "1951 – 1953",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1938 – 1950",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "karl",
+   "name": "Karl",
+   "generations": [
+    {
+     "years": "2015 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "lotus_omega",
+   "name": "Lotus Omega",
+   "generations": [
+    {
+     "years": "1990 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "manta",
+   "name": "Manta",
+   "generations": [
+    {
+     "years": "1975 – 1988",
+     "name": "B"
+    },
+    {
+     "years": "1970 – 1975",
+     "name": "A"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "meriva",
+   "name": "Meriva",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "B Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "B"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "A Рестайлинг"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "A"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "meriva_opc",
+   "name": "Meriva OPC",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": "B Рестайлинг"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "mokka",
+   "name": "Mokka",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "monterey",
+   "name": "Monterey",
+   "generations": [
+    {
+     "years": "1998 – 1999",
+     "name": "A рестайлинг"
+    },
+    {
+     "years": "1992 – 1998",
+     "name": "A"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "monza",
+   "name": "Monza",
+   "generations": [
+    {
+     "years": "1978 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "olympia",
+   "name": "Olympia",
+   "generations": [
+    {
+     "years": "1967 – 1970",
+     "name": "A"
+    },
+    {
+     "years": "1950 – 1953",
+     "name": "II"
+    },
+    {
+     "years": "1935 – 1949",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "omega",
+   "name": "Omega",
+   "generations": [
+    {
+     "years": "1999 – 2004",
+     "name": "B Рестайлинг"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "B"
+    },
+    {
+     "years": "1984 – 1994",
+     "name": "A"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "p4",
+   "name": "P4",
+   "generations": [
+    {
+     "years": "1935 – 1937",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "rekord",
+   "name": "Rekord",
+   "generations": [
+    {
+     "years": "1977 – 1986",
+     "name": "E"
+    },
+    {
+     "years": "1972 – 1977",
+     "name": "D"
+    },
+    {
+     "years": "1967 – 1971",
+     "name": "C"
+    },
+    {
+     "years": "1965 – 1966",
+     "name": "B"
+    },
+    {
+     "years": "1963 – 1965",
+     "name": "A"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "rocks_electric",
+   "name": "Rocks Electric",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "senator",
+   "name": "Senator",
+   "generations": [
+    {
+     "years": "1987 – 1993",
+     "name": "B"
+    },
+    {
+     "years": "1978 – 1987",
+     "name": "A"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "signum",
+   "name": "Signum",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2003 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sintra",
+   "name": "Sintra",
+   "generations": [
+    {
+     "years": "1996 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "speedster",
+   "name": "Speedster",
+   "generations": [
+    {
+     "years": "2000 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "super_six",
+   "name": "Super Six",
+   "generations": [
+    {
+     "years": "1936 – 1938",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tigra",
+   "name": "Tigra",
+   "generations": [
+    {
+     "years": "2004 – 2009",
+     "name": "B"
+    },
+    {
+     "years": "1994 – 2001",
+     "name": "A"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "vectra",
+   "name": "Vectra",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": "C Рестайлинг"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "C"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "B Рестайлинг"
+    },
+    {
+     "years": "1995 – 2000",
+     "name": "B"
+    },
+    {
+     "years": "1988 – 1995",
+     "name": "A"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "vectra_opc",
+   "name": "Vectra OPC",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": "C Рестайлинг"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "vita",
+   "name": "Vita",
+   "generations": [
+    {
+     "years": "2000 – 2004",
+     "name": "C"
+    },
+    {
+     "years": "1995 – 2000",
+     "name": "B"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "vivaro",
+   "name": "Vivaro",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "C Рестайлинг"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "C"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "B"
+    },
+    {
+     "years": "2006 – 2014",
+     "name": "A Рестайлинг"
+    },
+    {
+     "years": "2001 – 2006",
+     "name": "A"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "zafira",
+   "name": "Zafira",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": "C Рестайлинг"
+    },
+    {
+     "years": "2011 – 2016",
+     "name": "C"
+    },
+    {
+     "years": "2008 – 2014",
+     "name": "B Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "B"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "A Рестайлинг"
+    },
+    {
+     "years": "1999 – 2003",
+     "name": "A"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "zafira_life",
+   "name": "Zafira Life",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "zafira_opc",
+   "name": "Zafira OPC",
+   "generations": [
+    {
+     "years": "2005 – 2011",
+     "name": "B"
+    },
+    {
+     "years": "2003 – 2005",
+     "name": "A Рестайлинг"
+    },
+    {
+     "years": "2001 – 2003",
+     "name": "A"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Opel",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Opel",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

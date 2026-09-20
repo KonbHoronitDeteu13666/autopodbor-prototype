@@ -1,0 +1,56 @@
+{
+ "slug": "wiesmann",
+ "name": "Wiesmann",
+ "models": [
+  {
+   "slug": "gt",
+   "name": "GT",
+   "generations": [
+    {
+     "years": "2009 – 2014",
+     "name": "II (MF5)"
+    },
+    {
+     "years": "2003 – 2014",
+     "name": "I (MF4)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "roadster",
+   "name": "Roadster",
+   "generations": [
+    {
+     "years": "2009 – 2014",
+     "name": "IV (MF5)"
+    },
+    {
+     "years": "2009 – 2014",
+     "name": "III (MF4)"
+    },
+    {
+     "years": "1993 – 2011",
+     "name": "II (MF3)"
+    },
+    {
+     "years": "1993 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Wiesmann",
+   "generations": [],
+   "body": "родстер"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Wiesmann",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

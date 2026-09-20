@@ -1,0 +1,335 @@
+{
+ "slug": "lamborghini",
+ "name": "Lamborghini",
+ "models": [
+  {
+   "slug": "350_400_gt",
+   "name": "350/400 GT",
+   "generations": [
+    {
+     "years": "1964 – 1968",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "aventador",
+   "name": "Aventador",
+   "generations": [
+    {
+     "years": "2016 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "centanario",
+   "name": "Centenario",
+   "generations": [
+    {
+     "years": "2016 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "countach",
+   "name": "Countach",
+   "generations": [
+    {
+     "years": "1974 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "countach_lpi_800_4",
+   "name": "Countach LPI 800-4",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "diablo",
+   "name": "Diablo",
+   "generations": [
+    {
+     "years": "1990 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "egoista",
+   "name": "Egoista",
+   "generations": [
+    {
+     "years": "2013 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "espada",
+   "name": "Espada",
+   "generations": [
+    {
+     "years": "1968 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "fenomeno",
+   "name": "Fenomeno",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "gallardo",
+   "name": "Gallardo",
+   "generations": [
+    {
+     "years": "2008 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2003 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "huracan",
+   "name": "Huracán",
+   "generations": [
+    {
+     "years": "2019 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "islero",
+   "name": "Islero",
+   "generations": [
+    {
+     "years": "1968 – 1969",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "jalpa",
+   "name": "Jalpa",
+   "generations": [
+    {
+     "years": "1981 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "jarama",
+   "name": "Jarama",
+   "generations": [
+    {
+     "years": "1968 – 1976",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "lm001",
+   "name": "LM001",
+   "generations": [
+    {
+     "years": "1981 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "lm002",
+   "name": "LM002",
+   "generations": [
+    {
+     "years": "1986 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "miura",
+   "name": "Miura",
+   "generations": [
+    {
+     "years": "1966 – 1973",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "murcielago",
+   "name": "Murcielago",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2001 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "reventon",
+   "name": "Reventon",
+   "generations": [
+    {
+     "years": "2007 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "revuelto",
+   "name": "Revuelto",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "sesto_elemento",
+   "name": "Sesto Elemento",
+   "generations": [
+    {
+     "years": "2010 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "silhouette",
+   "name": "Silhouette",
+   "generations": [
+    {
+     "years": "1976 – 1979",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "sian",
+   "name": "Sián",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "temerario",
+   "name": "Temerario",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "urraco",
+   "name": "Urraco",
+   "generations": [
+    {
+     "years": "1972 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "urus",
+   "name": "Urus",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "veneno",
+   "name": "Veneno",
+   "generations": [
+    {
+     "years": "2013 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Lamborghini",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Lamborghini",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

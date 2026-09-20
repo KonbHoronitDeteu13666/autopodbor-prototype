@@ -1,0 +1,62 @@
+{
+ "slug": "doninvest",
+ "name": "Doninvest",
+ "models": [
+  {
+   "slug": "assol",
+   "name": "Assol",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "kondor",
+   "name": "Kondor",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "orion",
+   "name": "Orion",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "orion_m",
+   "name": "Orion M",
+   "generations": [
+    {
+     "years": "1999 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Doninvest",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Doninvest",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "slug": "saab",
+ "name": "Saab",
+ "models": [
+  {
+   "slug": "9_2x",
+   "name": "9-2X",
+   "generations": [
+    {
+     "years": "2004 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "9_3",
+   "name": "9-3",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2002 – 2008",
+     "name": "II"
+    },
+    {
+     "years": "1998 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "9_4x",
+   "name": "9-4X",
+   "generations": [
+    {
+     "years": "2011 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "9_5",
+   "name": "9-5",
+   "generations": [
+    {
+     "years": "2010 – 2012",
+     "name": "II"
+    },
+    {
+     "years": "2005 – 2010",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1997 – 2001",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "9_7x",
+   "name": "9-7X",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sonett",
+   "name": "Sonett",
+   "generations": [
+    {
+     "years": "1970 – 1974",
+     "name": "III"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Saab",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Saab",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "600",
+   "name": "600",
+   "generations": [
+    {
+     "years": "1980 – 1982",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "90",
+   "name": "90",
+   "generations": [
+    {
+     "years": "1984 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "900",
+   "name": "900",
+   "generations": [
+    {
+     "years": "1993 – 1998",
+     "name": "II"
+    },
+    {
+     "years": "1978 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "9000",
+   "name": "9000",
+   "generations": [
+    {
+     "years": "1991 – 1998",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1984 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "93",
+   "name": "93",
+   "generations": [
+    {
+     "years": "1956 – 1960",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "95",
+   "name": "95",
+   "generations": [
+    {
+     "years": "1959 – 1978",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "96",
+   "name": "96",
+   "generations": [
+    {
+     "years": "1960 – 1980",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "99",
+   "name": "99",
+   "generations": [
+    {
+     "years": "1967 – 1984",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

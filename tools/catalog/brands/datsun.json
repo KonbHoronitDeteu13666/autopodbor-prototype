@@ -1,0 +1,225 @@
+{
+ "slug": "datsun",
+ "name": "Datsun",
+ "models": [
+  {
+   "slug": "200_220_260_280c",
+   "name": "200/220/260/280C",
+   "generations": [
+    {
+     "years": "1975 – 1979",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "240z",
+   "name": "240Z",
+   "generations": [
+    {
+     "years": "1970 – 1973",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "280z",
+   "name": "280Z",
+   "generations": [
+    {
+     "years": "1975 – 1979",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "280zx",
+   "name": "280ZX",
+   "generations": [
+    {
+     "years": "1978 – 1983",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "bluebird",
+   "name": "Bluebird",
+   "generations": [
+    {
+     "years": "1976 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cherry",
+   "name": "Cherry",
+   "generations": [
+    {
+     "years": "1978 – 1982",
+     "name": "III"
+    },
+    {
+     "years": "1974 – 1978",
+     "name": "II"
+    },
+    {
+     "years": "1970 – 1974",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "go",
+   "name": "GO",
+   "generations": [
+    {
+     "years": "2014 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "go_plus",
+   "name": "GO+",
+   "generations": [
+    {
+     "years": "2014 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "laurel",
+   "name": "Laurel",
+   "generations": [
+    {
+     "years": "1980 – 1984",
+     "name": "IV (C21)"
+    },
+    {
+     "years": "1977 – 1981",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "mi_do",
+   "name": "mi-DO",
+   "generations": [
+    {
+     "years": "2015 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "on_do",
+   "name": "on-DO",
+   "generations": [
+    {
+     "years": "2019 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "stanza",
+   "name": "Stanza",
+   "generations": [
+    {
+     "years": "1982 – 1986",
+     "name": "II (T11)"
+    },
+    {
+     "years": "1977 – 1981",
+     "name": "I (A10)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sunny",
+   "name": "Sunny",
+   "generations": [
+    {
+     "years": "1973 – 1983",
+     "name": "B210"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "urvan",
+   "name": "Urvan",
+   "generations": [
+    {
+     "years": "1982 – 1988",
+     "name": "E23"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "violet",
+   "name": "Violet",
+   "generations": [
+    {
+     "years": "1973 – 1979",
+     "name": "710"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Datsun",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Datsun",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "620",
+   "name": "620",
+   "generations": [
+    {
+     "years": "1972 – 1979",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "720",
+   "name": "720",
+   "generations": [
+    {
+     "years": "1980 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  }
+ ]
+}

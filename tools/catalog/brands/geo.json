@@ -1,0 +1,77 @@
+{
+ "slug": "geo",
+ "name": "Geo",
+ "models": [
+  {
+   "slug": "metro",
+   "name": "Metro",
+   "generations": [
+    {
+     "years": "1989 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "prizm",
+   "name": "Prizm",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": "III"
+    },
+    {
+     "years": "1992 – 1997",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "spectrum",
+   "name": "Spectrum",
+   "generations": [
+    {
+     "years": "1988 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "storm",
+   "name": "Storm",
+   "generations": [
+    {
+     "years": "1990 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "tracker",
+   "name": "Tracker",
+   "generations": [
+    {
+     "years": "1989 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Geo",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Geo",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

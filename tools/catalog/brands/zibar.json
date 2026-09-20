@@ -1,0 +1,29 @@
+{
+ "slug": "zibar",
+ "name": "Zibar",
+ "models": [
+  {
+   "slug": "mk2",
+   "name": "MK2",
+   "generations": [
+    {
+     "years": "c 2010 года",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Zibar",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Zibar",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "lti",
+ "name": "LTI",
+ "models": [
+  {
+   "slug": "fx4",
+   "name": "FX4",
+   "generations": [
+    {
+     "years": "1984 – 1989",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tx",
+   "name": "TX",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": "TX4 III"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "II"
+    },
+    {
+     "years": "1998 – 2002",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей LTI",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели LTI",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

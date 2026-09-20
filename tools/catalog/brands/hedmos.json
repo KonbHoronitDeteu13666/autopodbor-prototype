@@ -1,0 +1,29 @@
+{
+ "slug": "hedmos",
+ "name": "Hedmos",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hedmos",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hedmos",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "06",
+   "name": "06",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "slug": "smart",
+ "name": "Smart",
+ "models": [
+  {
+   "slug": "number_1",
+   "name": "#1",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "number_3",
+   "name": "#3",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "number_5",
+   "name": "#5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "number_6",
+   "name": "#6",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "forfour",
+   "name": "Forfour",
+   "generations": [
+    {
+     "years": "2014 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "fortwo",
+   "name": "Fortwo",
+   "generations": [
+    {
+     "years": "2014 – 2024",
+     "name": "III"
+    },
+    {
+     "years": "2007 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2007",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "roadster",
+   "name": "Roadster",
+   "generations": [
+    {
+     "years": "2002 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Smart",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Smart",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

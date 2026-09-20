@@ -1,0 +1,77 @@
+{
+ "slug": "polestar",
+ "name": "Polestar",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Polestar",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Polestar",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "1",
+   "name": "1",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "2",
+   "name": "2",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "3",
+   "name": "3",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "4",
+   "name": "4",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "5",
+   "name": "5",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

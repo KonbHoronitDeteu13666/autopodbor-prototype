@@ -1,0 +1,29 @@
+{
+ "slug": "baltijas_dzips",
+ "name": "Baltijas Dzips",
+ "models": [
+  {
+   "slug": "bd_1322",
+   "name": "BD-1322",
+   "generations": [
+    {
+     "years": "1998 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Baltijas Dzips",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Baltijas Dzips",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

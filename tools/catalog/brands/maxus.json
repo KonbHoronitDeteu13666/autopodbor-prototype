@@ -1,0 +1,255 @@
+{
+ "slug": "maxus",
+ "name": "Maxus",
+ "models": [
+  {
+   "slug": "d60",
+   "name": "D60",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "d90_pro",
+   "name": "D90",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": "Pro (I Рестайлинг)"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dana_v1",
+   "name": "Dana V1",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "euniq_5",
+   "name": "EUNIQ 5",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "euniq_6",
+   "name": "EUNIQ 6",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "g10",
+   "name": "G10",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 3"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "g20",
+   "name": "G20",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "g50",
+   "name": "G50",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "g50_plus",
+   "name": "G50 Plus",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "g70",
+   "name": "G70",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "g90",
+   "name": "G90",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "interstellar",
+   "name": "Interstellar",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "mifa_5",
+   "name": "MIFA 5",
+   "generations": [
+    {
+     "years": "2023 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "mifa_7",
+   "name": "MIFA 7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "mifa_9",
+   "name": "MIFA 9",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "t70",
+   "name": "T70",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "t90",
+   "name": "T90",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "territory",
+   "name": "Territory",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "v70",
+   "name": "V70",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Maxus",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Maxus",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "venturi",
+ "name": "Venturi",
+ "models": [
+  {
+   "slug": "260_lm",
+   "name": "260 LM",
+   "generations": [
+    {
+     "years": "1989 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "300_atlantique",
+   "name": "300 Atlantique",
+   "generations": [
+    {
+     "years": "1994 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "400_gt",
+   "name": "400 GT",
+   "generations": [
+    {
+     "years": "1994 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Venturi",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Venturi",
+   "generations": [],
+   "body": "купе"
+  },
+  {
+   "slug": "210",
+   "name": "210",
+   "generations": [
+    {
+     "years": "1984 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "willis",
+ "name": "Willys",
+ "models": [
+  {
+   "slug": "cj",
+   "name": "CJ",
+   "generations": [
+    {
+     "years": "1944 – 1968",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "jeepster",
+   "name": "Jeepster",
+   "generations": [
+    {
+     "years": "1948 – 1951",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "model_20",
+   "name": "Knight Model 20",
+   "generations": [
+    {
+     "years": "1920 – 1923",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "mb",
+   "name": "MB",
+   "generations": [
+    {
+     "years": "1941 – 1945",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Willys",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Willys",
+   "generations": [],
+   "body": "кабриолет"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "slug": "de_tomaso",
+ "name": "De Tomaso",
+ "models": [
+  {
+   "slug": "bigua",
+   "name": "Bigua",
+   "generations": [
+    {
+     "years": "2000 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "guara",
+   "name": "Guara",
+   "generations": [
+    {
+     "years": "1993 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "longchamp",
+   "name": "Longchamp",
+   "generations": [
+    {
+     "years": "1972 – 1989",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "mangusta",
+   "name": "Mangusta",
+   "generations": [
+    {
+     "years": "1996 – 2001",
+     "name": "II"
+    },
+    {
+     "years": "1967 – 1971",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "pantera",
+   "name": "Pantera",
+   "generations": [
+    {
+     "years": "1970 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "vallelunga",
+   "name": "Vallelunga",
+   "generations": [
+    {
+     "years": "1964 – 1968",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей De Tomaso",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели De Tomaso",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "gma",
+ "name": "GMA",
+ "models": [
+  {
+   "slug": "t33",
+   "name": "T.33",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "t50",
+   "name": "T.50",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей GMA",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели GMA",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

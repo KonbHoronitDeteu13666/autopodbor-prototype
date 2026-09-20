@@ -1,0 +1,95 @@
+{
+ "slug": "talbot",
+ "name": "Talbot",
+ "models": [
+  {
+   "slug": "avenger",
+   "name": "Avenger",
+   "generations": [
+    {
+     "years": "1970 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "horizon",
+   "name": "Horizon",
+   "generations": [
+    {
+     "years": "1978 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "rancho",
+   "name": "Rancho",
+   "generations": [
+    {
+     "years": "1977 – 1984",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "samba",
+   "name": "Samba",
+   "generations": [
+    {
+     "years": "1981 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "solara",
+   "name": "Solara",
+   "generations": [
+    {
+     "years": "1980 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tagora",
+   "name": "Tagora",
+   "generations": [
+    {
+     "years": "1980 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Talbot",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Talbot",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "1510",
+   "name": "1510",
+   "generations": [
+    {
+     "years": "1980 – 1984",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "slug": "donkervoort",
+ "name": "Donkervoort",
+ "models": [
+  {
+   "slug": "d8",
+   "name": "D8",
+   "generations": [
+    {
+     "years": "2001 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "d8_cosworth",
+   "name": "D8 Cosworth",
+   "generations": [
+    {
+     "years": "1994 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "d8_gt",
+   "name": "D8 GT",
+   "generations": [
+    {
+     "years": "2007 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "d8_gto",
+   "name": "D8 GTO",
+   "generations": [
+    {
+     "years": "2013 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "d8_zetec",
+   "name": "D8 Zetec",
+   "generations": [
+    {
+     "years": "1993 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "f22",
+   "name": "F22",
+   "generations": [
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "p24_rs",
+   "name": "P24 RS",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Donkervoort",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Donkervoort",
+   "generations": [],
+   "body": "тарга"
+  }
+ ]
+}

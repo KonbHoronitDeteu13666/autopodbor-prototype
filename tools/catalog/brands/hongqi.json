@@ -1,0 +1,285 @@
+{
+ "slug": "hongqi",
+ "name": "Hongqi",
+ "models": [
+  {
+   "slug": "e_hs3",
+   "name": "E-HS3",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e_hs7",
+   "name": "E-HS7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e_hs9",
+   "name": "E-HS9",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e_qm5",
+   "name": "E-QM5",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eh7",
+   "name": "EH7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "guoya",
+   "name": "Guoya",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "h5",
+   "name": "H5",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "h6",
+   "name": "H6",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "h7",
+   "name": "H7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II Ресталйинг"
+    },
+    {
+     "years": "2016 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "h9",
+   "name": "H9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "hq9",
+   "name": "HQ9",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "hs3",
+   "name": "HS3",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hs5",
+   "name": "HS5",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hs6",
+   "name": "HS6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hs7",
+   "name": "HS7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "l5",
+   "name": "L5",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "2014 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "лимузин"
+  },
+  {
+   "slug": "ls7",
+   "name": "LS7",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiangong_05",
+   "name": "Tiangong 05",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tiangong_06",
+   "name": "Tiangong 06",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiangong_07",
+   "name": "Tiangong 07",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tiangong_08",
+   "name": "Tiangong 08",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hongqi",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hongqi",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

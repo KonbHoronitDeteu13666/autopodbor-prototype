@@ -1,0 +1,51 @@
+{
+ "slug": "delage",
+ "name": "Delage",
+ "models": [
+  {
+   "slug": "d12",
+   "name": "D12",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "d6",
+   "name": "D6",
+   "generations": [
+    {
+     "years": "1930 – 1940",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "di",
+   "name": "DI",
+   "generations": [
+    {
+     "years": "1923 – 1927",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Delage",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Delage",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

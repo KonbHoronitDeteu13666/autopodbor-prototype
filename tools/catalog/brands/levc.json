@@ -1,0 +1,40 @@
+{
+ "slug": "levc",
+ "name": "LEVC",
+ "models": [
+  {
+   "slug": "l380",
+   "name": "L380",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "tx",
+   "name": "TX",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей LEVC",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели LEVC",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

@@ -1,0 +1,376 @@
+{
+ "slug": "jaguar",
+ "name": "Jaguar",
+ "models": [
+  {
+   "slug": "e_pace",
+   "name": "E-Pace",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e_type",
+   "name": "E-type",
+   "generations": [
+    {
+     "years": "1971 – 1975",
+     "name": "Series 3"
+    },
+    {
+     "years": "1968 – 1971",
+     "name": "Series 2"
+    },
+    {
+     "years": "1961 – 1968",
+     "name": "Series 1"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "f_pace",
+   "name": "F-Pace",
+   "generations": [
+    {
+     "years": "2020 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "f_type",
+   "name": "F-Type",
+   "generations": [
+    {
+     "years": "2019 – 2024",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "i_pace",
+   "name": "I-Pace",
+   "generations": [
+    {
+     "years": "2018 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mark_2",
+   "name": "Mark 2",
+   "generations": [
+    {
+     "years": "1959 – 1967",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "mark_ix",
+   "name": "Mark IX",
+   "generations": [
+    {
+     "years": "1958 – 1961",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s_type",
+   "name": "S-Type",
+   "generations": [
+    {
+     "years": "2004 – 2008",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2004",
+     "name": "I"
+    },
+    {
+     "years": "1963 – 1968",
+     "name": "(1963)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "x_type",
+   "name": "X-Type",
+   "generations": [
+    {
+     "years": "2008 – 2009",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2001 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xe",
+   "name": "XE",
+   "generations": [
+    {
+     "years": "2019 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xf",
+   "name": "XF",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xfr",
+   "name": "XFR",
+   "generations": [
+    {
+     "years": "2011 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xj",
+   "name": "XJ",
+   "generations": [
+    {
+     "years": "2015 – 2019",
+     "name": "IV (X351) Рестайлинг"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "IV (X351)"
+    },
+    {
+     "years": "2003 – 2009",
+     "name": "III (X350/X358)"
+    },
+    {
+     "years": "1997 – 2003",
+     "name": "II (X308)"
+    },
+    {
+     "years": "1994 – 1997",
+     "name": "II (X300)"
+    },
+    {
+     "years": "1986 – 1994",
+     "name": "II (XJ40)"
+    },
+    {
+     "years": "1979 – 1993",
+     "name": "I (Series 3)"
+    },
+    {
+     "years": "1973 – 1979",
+     "name": "I (Series 2)"
+    },
+    {
+     "years": "1968 – 1973",
+     "name": "I (Series 1)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xj220",
+   "name": "XJ220",
+   "generations": [
+    {
+     "years": "1992 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "xjr",
+   "name": "XJR",
+   "generations": [
+    {
+     "years": "2015 – 2019",
+     "name": "IV (X351) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2015",
+     "name": "IV (X351)"
+    },
+    {
+     "years": "2007 – 2009",
+     "name": "III (X358)"
+    },
+    {
+     "years": "2003 – 2007",
+     "name": "III (X350)"
+    },
+    {
+     "years": "1997 – 2003",
+     "name": "II (X308)"
+    },
+    {
+     "years": "1994 – 1997",
+     "name": "II (X300)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xjs",
+   "name": "XJS",
+   "generations": [
+    {
+     "years": "1991 – 1996",
+     "name": "Series 3"
+    },
+    {
+     "years": "1981 – 1992",
+     "name": "Series 2"
+    },
+    {
+     "years": "1975 – 1981",
+     "name": "Series 1"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "xk",
+   "name": "XK",
+   "generations": [
+    {
+     "years": "2011 – 2014",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2009 – 2011",
+     "name": "II Рестайлинг 1"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2006",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1996 – 2004",
+     "name": "I"
+    },
+    {
+     "years": "1957 – 1961",
+     "name": "XK150"
+    },
+    {
+     "years": "1954 – 1957",
+     "name": "XK140"
+    },
+    {
+     "years": "1948 – 1954",
+     "name": "XK120"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "xkr",
+   "name": "XKR",
+   "generations": [
+    {
+     "years": "2011 – 2014",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2009 – 2011",
+     "name": "II Рестайлинг 1"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2006",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Jaguar",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Jaguar",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

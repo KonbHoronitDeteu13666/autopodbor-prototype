@@ -1,0 +1,40 @@
+{
+ "slug": "maextro",
+ "name": "Maextro",
+ "models": [
+  {
+   "slug": "s800",
+   "name": "S800",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "v",
+   "name": "V",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Maextro",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Maextro",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

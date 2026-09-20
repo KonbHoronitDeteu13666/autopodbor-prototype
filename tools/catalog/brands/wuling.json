@@ -1,0 +1,298 @@
+{
+ "slug": "wuling",
+ "name": "Wuling",
+ "models": [
+  {
+   "slug": "aishang_a100c",
+   "name": "Aishang A100C",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "binguo",
+   "name": "Binguo",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "binguo_pro",
+   "name": "Binguo Pro",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "binguo_s",
+   "name": "Binguo S",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "hongguang",
+   "name": "Hongguang",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "hongguang_plus",
+   "name": "Hongguang Plus",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "hongguang_s",
+   "name": "Hongguang S",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "hongguang_v",
+   "name": "Hongguang V",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "huajing_s",
+   "name": "Huajing S",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "jiachen",
+   "name": "Jiachen",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "journey",
+   "name": "Journey",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "mini_ev",
+   "name": "Mini EV",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "V"
+    },
+    {
+     "years": "c 2025 года",
+     "name": "IV"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "III"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "nano_ev",
+   "name": "Nano EV",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "nebula",
+   "name": "Nebula",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "star_asta",
+   "name": "Star Asta",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "starlight",
+   "name": "Starlight",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "starlight_560",
+   "name": "Starlight 560",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "starlight_730",
+   "name": "Starlight 730",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "starlight_l",
+   "name": "Starlight L",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "starlight_s",
+   "name": "Starlight S",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sunshine",
+   "name": "Sunshine",
+   "generations": [
+    {
+     "years": "2012 – 2022",
+     "name": "II"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "victory",
+   "name": "Victory",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "xingchi",
+   "name": "Xingchi",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "zhiguan_ev",
+   "name": "Zhiguan EV",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Wuling",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Wuling",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

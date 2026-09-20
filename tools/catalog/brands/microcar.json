@@ -1,0 +1,73 @@
+{
+ "slug": "microcar",
+ "name": "Microcar",
+ "models": [
+  {
+   "slug": "f8c",
+   "name": "F8C",
+   "generations": [
+    {
+     "years": "2009 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "mgo",
+   "name": "M.Go",
+   "generations": [
+    {
+     "years": "2009 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "m8",
+   "name": "M8",
+   "generations": [
+    {
+     "years": "2009 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mc",
+   "name": "MC",
+   "generations": [
+    {
+     "years": "2000 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "virgo",
+   "name": "Virgo",
+   "generations": [
+    {
+     "years": "1999 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Microcar",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Microcar",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

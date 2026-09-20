@@ -1,0 +1,603 @@
+{
+ "slug": "skoda",
+ "name": "Skoda",
+ "models": [
+  {
+   "slug": "100_series",
+   "name": "100/110",
+   "generations": [
+    {
+     "years": "1969 – 1980",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "citigo",
+   "name": "Citigo",
+   "generations": [
+    {
+     "years": "2019 – 2020",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "elroq",
+   "name": "Elroq",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "elroq_rs",
+   "name": "Elroq RS",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "enyaq",
+   "name": "Enyaq",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "enyaq_coupe",
+   "name": "Enyaq Coupe",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "enyaq_coupe_rs",
+   "name": "Enyaq Coupe RS",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "enyaq_rs",
+   "name": "Enyaq RS",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "epiq",
+   "name": "Epiq",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fabia",
+   "name": "Fabia",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "IV"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "III"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1999 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "fabia_rs",
+   "name": "Fabia RS",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2003 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "favorit",
+   "name": "Favorit",
+   "generations": [
+    {
+     "years": "1989 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "felicia",
+   "name": "Felicia",
+   "generations": [
+    {
+     "years": "1998 – 2001",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1994 – 2001",
+     "name": "I"
+    },
+    {
+     "years": "1959 – 1964",
+     "name": "Type 994"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "forman",
+   "name": "Forman",
+   "generations": [
+    {
+     "years": "1990 – 1995",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "kamiq",
+   "name": "Kamiq",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    },
+    {
+     "years": "c 2018 года",
+     "name": "I (China Market)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "karoq",
+   "name": "Karoq",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2017 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kodiaq",
+   "name": "Kodiaq",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kodiaq_gt",
+   "name": "Kodiaq GT",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kodiaq_rs",
+   "name": "Kodiaq RS",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kushaq",
+   "name": "Kushaq",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kylaq",
+   "name": "Kylaq",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "octavia",
+   "name": "Octavia",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "IV (A8) Рестайлинг"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "IV (A8)"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "III (A7) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "III (A7)"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "II (A5) Рестайлинг"
+    },
+    {
+     "years": "2000 – 2011",
+     "name": "I (A4) Рестайлинг"
+    },
+    {
+     "years": "2004 – 2009",
+     "name": "II (A5)"
+    },
+    {
+     "years": "1996 – 2000",
+     "name": "I (A4)"
+    },
+    {
+     "years": "1959 – 1971",
+     "name": "Type 985"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "octavia_rs",
+   "name": "Octavia RS",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "IV"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "III"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "II"
+    },
+    {
+     "years": "2001 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "peaq",
+   "name": "Peaq",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "popular",
+   "name": "Popular",
+   "generations": [
+    {
+     "years": "1934 – 1946",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "rapid",
+   "name": "Rapid",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "roomster",
+   "name": "Roomster",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "scala",
+   "name": "Scala",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "slavia",
+   "name": "Slavia",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "superb",
+   "name": "Superb",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "IV"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "III"
+    },
+    {
+     "years": "2013 – 2015",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "II"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2001 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "yeti",
+   "name": "Yeti",
+   "generations": [
+    {
+     "years": "2013 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Skoda",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Skoda",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "120",
+   "name": "105/120/125/130",
+   "generations": [
+    {
+     "years": "1983 – 1990",
+     "name": "1 Рестайлинг"
+    },
+    {
+     "years": "1976 – 1983",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "1200",
+   "name": "1200",
+   "generations": [
+    {
+     "years": "1952 – 1973",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "440",
+   "name": "440",
+   "generations": [
+    {
+     "years": "1955 – 1959",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "445",
+   "name": "445",
+   "generations": [
+    {
+     "years": "1957 – 1959",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

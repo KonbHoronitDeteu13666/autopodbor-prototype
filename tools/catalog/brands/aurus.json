@@ -1,0 +1,55 @@
+{
+ "slug": "aurus",
+ "name": "Aurus",
+ "models": [
+  {
+   "slug": "komendant",
+   "name": "Komendant",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lafet",
+   "name": "Lafet",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "senat",
+   "name": "Senat",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2018 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Aurus",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Aurus",
+   "generations": [],
+   "body": "лимузин"
+  }
+ ]
+}

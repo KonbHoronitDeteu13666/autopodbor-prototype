@@ -1,0 +1,40 @@
+{
+ "slug": "scout",
+ "name": "Scout",
+ "models": [
+  {
+   "slug": "terra",
+   "name": "Terra",
+   "generations": [
+    {
+     "years": "2027 – 2027",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "traveler",
+   "name": "Traveler",
+   "generations": [
+    {
+     "years": "2027 – 2027",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Scout",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Scout",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

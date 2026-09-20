@@ -1,0 +1,29 @@
+{
+ "slug": "punk",
+ "name": "Punk",
+ "models": [
+  {
+   "slug": "duoduo",
+   "name": "Duoduo",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Punk",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Punk",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

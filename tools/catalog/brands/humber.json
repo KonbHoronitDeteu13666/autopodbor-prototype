@@ -1,0 +1,29 @@
+{
+ "slug": "humber",
+ "name": "Humber",
+ "models": [
+  {
+   "slug": "hawk",
+   "name": "Hawk",
+   "generations": [
+    {
+     "years": "1962 – 1964",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Humber",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Humber",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

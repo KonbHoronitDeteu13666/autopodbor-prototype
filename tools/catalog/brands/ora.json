@@ -1,0 +1,132 @@
+{
+ "slug": "ora",
+ "name": "Ora",
+ "models": [
+  {
+   "slug": "ballet_cat",
+   "name": "Ballet Cat",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "black_cat",
+   "name": "Black Cat",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "good_cat",
+   "name": "Good Cat",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "iq",
+   "name": "iQ",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lightning_cat",
+   "name": "Lightning Cat",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "sar_saloon_mecha_dragon",
+   "name": "SAR (Saloon) Mecha Dragon",
+   "generations": [
+    {
+     "years": "2022 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "white_cat",
+   "name": "White Cat",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ora",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ora",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "03",
+   "name": "03",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "5",
+   "name": "5",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "7",
+   "name": "7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  }
+ ]
+}

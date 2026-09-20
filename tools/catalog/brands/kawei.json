@@ -1,0 +1,51 @@
+{
+ "slug": "kawei",
+ "name": "Kawei",
+ "models": [
+  {
+   "slug": "k1",
+   "name": "K1",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "k150",
+   "name": "K150",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "k150gt",
+   "name": "K150GT",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Kawei",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Kawei",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

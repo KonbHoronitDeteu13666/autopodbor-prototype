@@ -1,0 +1,55 @@
+{
+ "slug": "innocenti",
+ "name": "Innocenti",
+ "models": [
+  {
+   "slug": "elba",
+   "name": "Elba",
+   "generations": [
+    {
+     "years": "1991 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "mille",
+   "name": "Mille",
+   "generations": [
+    {
+     "years": "1994 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mini",
+   "name": "Mini",
+   "generations": [
+    {
+     "years": "1982 – 1993",
+     "name": ""
+    },
+    {
+     "years": "1965 – 1975",
+     "name": "CKD"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Innocenti",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Innocenti",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

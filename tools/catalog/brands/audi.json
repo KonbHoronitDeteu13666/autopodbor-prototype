@@ -1,0 +1,1585 @@
+{
+ "slug": "audi",
+ "name": "Audi",
+ "models": [
+  {
+   "slug": "a1",
+   "name": "A1",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": "II (GB)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I (8X) Рестайлинг"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "I (8X)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "a2",
+   "name": "A2",
+   "generations": [
+    {
+     "years": "2000 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "a2_e_tron",
+   "name": "A2 e-tron",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "a3",
+   "name": "A3",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "IV (8Y) Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "IV (8Y)"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "III (8V) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "III (8V)"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "II (8P) Рестайлинг 2"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "II (8P) Рестайлинг 1"
+    },
+    {
+     "years": "2003 – 2005",
+     "name": "II (8P)"
+    },
+    {
+     "years": "2000 – 2003",
+     "name": "I (8L) Рестайлинг"
+    },
+    {
+     "years": "1996 – 2000",
+     "name": "I (8L)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "a4",
+   "name": "A4",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": "V (B9) Рестайлинг"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "V (B9)"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "IV (B8) Рестайлинг"
+    },
+    {
+     "years": "2007 – 2012",
+     "name": "IV (B8)"
+    },
+    {
+     "years": "2004 – 2009",
+     "name": "III (B7)"
+    },
+    {
+     "years": "2000 – 2006",
+     "name": "II (B6)"
+    },
+    {
+     "years": "1999 – 2001",
+     "name": "I (B5) Рестайлинг"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "I (B5)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "a4_allroad",
+   "name": "A4 allroad",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": "V (B9) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "V (B9)"
+    },
+    {
+     "years": "2011 – 2016",
+     "name": "IV (B8) Рестайлинг"
+    },
+    {
+     "years": "2009 – 2011",
+     "name": "IV (B8)"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "a5",
+   "name": "A5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III (B10)"
+    },
+    {
+     "years": "2019 – 2025",
+     "name": "II (F5) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II (F5)"
+    },
+    {
+     "years": "2011 – 2016",
+     "name": "I (8T) Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "I (8T)"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "a6",
+   "name": "A6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "VI (C9)"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "V (C8) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "V (C8)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "IV (C7) Рестайлинг"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "IV (C7)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "III (C6) Рестайлинг"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "III (C6)"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "II (C5) Рестайлинг"
+    },
+    {
+     "years": "1997 – 2001",
+     "name": "II (C5)"
+    },
+    {
+     "years": "1994 – 1997",
+     "name": "I (C4)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "allroad",
+   "name": "A6 allroad",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "V (C9)"
+    },
+    {
+     "years": "2019 – 2025",
+     "name": "IV (C8)"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "III (C7) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "III (C7)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "II (C6) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "II (C6)"
+    },
+    {
+     "years": "2000 – 2006",
+     "name": "I (C5)"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "a6_e_tron",
+   "name": "A6 e-tron",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "a7",
+   "name": "A7",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": "II (4K)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I (4G) Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "I (4G)"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "a8",
+   "name": "A8",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "IV (D5) Рестайлинг"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "IV (D5)"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "III (D4) Рестайлинг"
+    },
+    {
+     "years": "2009 – 2014",
+     "name": "III (D4)"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "II (D3) Рестайлинг 2"
+    },
+    {
+     "years": "2005 – 2007",
+     "name": "II (D3) Рестайлинг"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "II (D3)"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "I (D2) Рестайлинг"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "I (D2)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cabriolet",
+   "name": "Cabriolet",
+   "generations": [
+    {
+     "years": "1991 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "coupe",
+   "name": "Coupe",
+   "generations": [
+    {
+     "years": "1991 – 1996",
+     "name": "II (B3) Рестайлинг"
+    },
+    {
+     "years": "1988 – 1991",
+     "name": "II (B3)"
+    },
+    {
+     "years": "1984 – 1988",
+     "name": "I (B2) Рестайлинг"
+    },
+    {
+     "years": "1980 – 1984",
+     "name": "I (B2)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "e_tron",
+   "name": "e-tron",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e_tron_gt",
+   "name": "e-tron GT",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "e_tron_s",
+   "name": "e-tron S",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e_tron_s_sportback",
+   "name": "e-tron S Sportback",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e_tron_sportback",
+   "name": "e-tron Sportback",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e5",
+   "name": "E5",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "e7x",
+   "name": "E7X",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "front",
+   "name": "Front",
+   "generations": [
+    {
+     "years": "1935 – 1938",
+     "name": "UW 225"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "nsu_ro_80",
+   "name": "NSU RO 80",
+   "generations": [
+    {
+     "years": "1967 – 1977",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "nuvolari",
+   "name": "Nuvolari",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "q2",
+   "name": "Q2",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q3",
+   "name": "Q3",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III (FJ)"
+    },
+    {
+     "years": "c 2018 года",
+     "name": "II (F3)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I (8U) Рестайлинг"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "I (8U)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q3_sportback",
+   "name": "Q3 Sportback",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III (FJ)"
+    },
+    {
+     "years": "2019 – 2025",
+     "name": "II (F3)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q4",
+   "name": "Q4 e-tron",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q4_sportback",
+   "name": "Q4 Sportback e-tron",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q5",
+   "name": "Q5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III (GU)"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "II (FY) Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "II (FY)"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "I (8R) Рестайлинг"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "I (8R)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q5_e_tron",
+   "name": "Q5 e-tron",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q5_sportback",
+   "name": "Q5 Sportback",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II (GU)"
+    },
+    {
+     "years": "2020 – 2025",
+     "name": "I (FY)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q6",
+   "name": "Q6",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q6_e_tron",
+   "name": "Q6 e-tron",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q6_sportback_e_tron",
+   "name": "Q6 Sportback e-tron",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q7",
+   "name": "Q7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "III (G8)"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "II (4M) Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "II (4M) Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "II (4M)"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "I (4L) Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "I (4L)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q8",
+   "name": "Q8",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I (4M) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "I (4M)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q8_e_tron",
+   "name": "Q8 e-tron",
+   "generations": [
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q8_sportback_e_tron",
+   "name": "Q8 Sportback e-tron",
+   "generations": [
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q9",
+   "name": "Q9",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "quattro",
+   "name": "Quattro",
+   "generations": [
+    {
+     "years": "1985 – 1991",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1980 – 1985",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "r8",
+   "name": "R8",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": "II (4S) Рестайлинг"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "II (4S)"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "I (Typ 42) Рестайлинг"
+    },
+    {
+     "years": "2007 – 2012",
+     "name": "I (Typ 42)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "r8_lmp",
+   "name": "R8 LMP",
+   "generations": [
+    {
+     "years": "2000 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "rs2",
+   "name": "RS 2",
+   "generations": [
+    {
+     "years": "1993 – 1995",
+     "name": "I (B4)"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "rs3",
+   "name": "RS 3",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III (8Y) Рестайлинг"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "III (8Y)"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "II (8V) Рестайлинг"
+    },
+    {
+     "years": "2015 – 2016",
+     "name": "II (8V)"
+    },
+    {
+     "years": "2011 – 2012",
+     "name": "I (8P)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "rs4",
+   "name": "RS 4",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": "IV (B9) Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "IV (B9)"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "III (B8)"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "II (B7)"
+    },
+    {
+     "years": "1999 – 2001",
+     "name": "I (B5)"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "rs5",
+   "name": "RS 5",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "III (B10)"
+    },
+    {
+     "years": "2019 – 2025",
+     "name": "II (F5) Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "II (F5)"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "I (8T) Рестайлинг"
+    },
+    {
+     "years": "2010 – 2011",
+     "name": "I (8T)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "rs6",
+   "name": "RS 6",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": "IV (C8)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "III (C7) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "III (C7)"
+    },
+    {
+     "years": "2007 – 2012",
+     "name": "II (C6)"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "I (C5)"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "rs7",
+   "name": "RS 7",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": "II (4K)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I (4G) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2014",
+     "name": "I (4G)"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "rs_e_tron_gt",
+   "name": "RS e-tron GT",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "rsq3",
+   "name": "RS Q3",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": "II (F3)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I (8U) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2015",
+     "name": "I (8U)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rs_q3_sportback",
+   "name": "RS Q3 Sportback",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": "I (F3)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rs_q8",
+   "name": "RS Q8",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s_e_tron_gt",
+   "name": "S e-tron GT",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s1",
+   "name": "S1",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "I (8X)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "s2",
+   "name": "S2",
+   "generations": [
+    {
+     "years": "1990 – 1995",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s3",
+   "name": "S3",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "IV (8Y) Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "IV (8Y)"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "III (8V) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "III (8V)"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "II (8P) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "II (8P)"
+    },
+    {
+     "years": "1999 – 2003",
+     "name": "I (8L)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "s4",
+   "name": "S4",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": "V (B9) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "V (B9)"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "IV (B8) Рестайлинг"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "IV (B8)"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "III (B7)"
+    },
+    {
+     "years": "2002 – 2004",
+     "name": "II (B6)"
+    },
+    {
+     "years": "1997 – 2001",
+     "name": "I (B5)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s5",
+   "name": "S5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III (B10)"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "II (F5) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "II (F5)"
+    },
+    {
+     "years": "2011 – 2016",
+     "name": "I (8T) Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "I (8T)"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "s6",
+   "name": "S6",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": "V (C8)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "IV (C7) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "IV (C7)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "III (C6) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "III (C6)"
+    },
+    {
+     "years": "1999 – 2004",
+     "name": "II (C5)"
+    },
+    {
+     "years": "1994 – 1997",
+     "name": "I (C4)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s6_e_tron",
+   "name": "S6 e-tron",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "s7",
+   "name": "S7",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": "II (4K)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I (4G) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "I (4G)"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "s8",
+   "name": "S8",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "IV (D5) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "IV (D5)"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "III (D4) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2013",
+     "name": "III (D4)"
+    },
+    {
+     "years": "2006 – 2011",
+     "name": "II (D3) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2007",
+     "name": "II (D3)"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "I (D2) Рестайлинг"
+    },
+    {
+     "years": "1996 – 1999",
+     "name": "I (D2)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sq2",
+   "name": "SQ2",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sq5",
+   "name": "SQ5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "II (FY) Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "II (FY)"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I (8R)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sq5_sportback",
+   "name": "SQ5 Sportback",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I (FY)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sq6_e_tron",
+   "name": "SQ6 e-tron",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sq6_sportback_e_tron",
+   "name": "SQ6 Sportback e-tron",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sq7",
+   "name": "SQ7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "III (G8)"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I (4M) Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "I (4M) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I (4M)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sq8",
+   "name": "SQ8",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I (4M) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I (4M)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sq8_e_tron",
+   "name": "SQ8 e-tron",
+   "generations": [
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sq8_sportback_e_tron",
+   "name": "SQ8 Sportback e-tron",
+   "generations": [
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sq9",
+   "name": "SQ9",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tt",
+   "name": "TT",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": "III (8S) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "III (8S)"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "II (8J) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "II (8J)"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "I (8N) Рестайлинг"
+    },
+    {
+     "years": "1998 – 2003",
+     "name": "I (8N)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "tt_rs",
+   "name": "TT RS",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": "III (8S) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2018",
+     "name": "III (8S)"
+    },
+    {
+     "years": "2009 – 2014",
+     "name": "II (8J)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "tts",
+   "name": "TTS",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": "III (8S) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "III (8S)"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "II (8J) Рестайлинг"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "II (8J)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "typ_r",
+   "name": "Typ R",
+   "generations": [
+    {
+     "years": "1927 – 1929",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "v8",
+   "name": "V8",
+   "generations": [
+    {
+     "years": "1988 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Audi",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Audi",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "100",
+   "name": "100",
+   "generations": [
+    {
+     "years": "1990 – 1994",
+     "name": "IV (C4)"
+    },
+    {
+     "years": "1988 – 1991",
+     "name": "III (C3) Рестайлинг"
+    },
+    {
+     "years": "1982 – 1988",
+     "name": "III (C3)"
+    },
+    {
+     "years": "1976 – 1983",
+     "name": "II (C2)"
+    },
+    {
+     "years": "1968 – 1976",
+     "name": "I (C1)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "200",
+   "name": "200",
+   "generations": [
+    {
+     "years": "1988 – 1991",
+     "name": "II (C3) Рестайлинг"
+    },
+    {
+     "years": "1983 – 1988",
+     "name": "II (C3)"
+    },
+    {
+     "years": "1979 – 1982",
+     "name": "I (C2)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "50",
+   "name": "50",
+   "generations": [
+    {
+     "years": "1974 – 1978",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "60",
+   "name": "60",
+   "generations": [
+    {
+     "years": "1969 – 1973",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "80",
+   "name": "80",
+   "generations": [
+    {
+     "years": "1991 – 1996",
+     "name": "V (B4)"
+    },
+    {
+     "years": "1986 – 1992",
+     "name": "IV (B3)"
+    },
+    {
+     "years": "1978 – 1986",
+     "name": "III (B2)"
+    },
+    {
+     "years": "1972 – 1978",
+     "name": "II (B1)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "90",
+   "name": "90",
+   "generations": [
+    {
+     "years": "1992 – 1995",
+     "name": "III (B4)"
+    },
+    {
+     "years": "1987 – 1991",
+     "name": "II (B3)"
+    },
+    {
+     "years": "1984 – 1987",
+     "name": "I (B2)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "920",
+   "name": "920",
+   "generations": [
+    {
+     "years": "1938 – 1940",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

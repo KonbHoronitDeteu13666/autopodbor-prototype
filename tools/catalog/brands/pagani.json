@@ -1,0 +1,51 @@
+{
+ "slug": "pagani",
+ "name": "Pagani",
+ "models": [
+  {
+   "slug": "huayra",
+   "name": "Huayra",
+   "generations": [
+    {
+     "years": "c 2012 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "utopia",
+   "name": "Utopia",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "zonda",
+   "name": "Zonda",
+   "generations": [
+    {
+     "years": "1999 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Pagani",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Pagani",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

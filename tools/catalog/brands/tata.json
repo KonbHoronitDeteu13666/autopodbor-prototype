@@ -1,0 +1,166 @@
+{
+ "slug": "tata",
+ "name": "Tata",
+ "models": [
+  {
+   "slug": "aria",
+   "name": "Aria",
+   "generations": [
+    {
+     "years": "2010 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "curvv",
+   "name": "Curvv",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "estate",
+   "name": "Estate",
+   "generations": [
+    {
+     "years": "1993 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "indica",
+   "name": "Indica",
+   "generations": [
+    {
+     "years": "2008 – 2018",
+     "name": "II Vista"
+    },
+    {
+     "years": "1998 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "indigo",
+   "name": "Indigo",
+   "generations": [
+    {
+     "years": "2009 – 2016",
+     "name": "II Manza"
+    },
+    {
+     "years": "2002 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "nano",
+   "name": "Nano",
+   "generations": [
+    {
+     "years": "2015 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "safari",
+   "name": "Safari",
+   "generations": [
+    {
+     "years": "2012 – 2019",
+     "name": "II Storme"
+    },
+    {
+     "years": "1998 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sierra",
+   "name": "Sierra",
+   "generations": [
+    {
+     "years": "1993 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sumo",
+   "name": "Sumo",
+   "generations": [
+    {
+     "years": "1996 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sumo_grande",
+   "name": "Sumo Grande",
+   "generations": [
+    {
+     "years": "2008 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "telcoline",
+   "name": "Telcoline",
+   "generations": [
+    {
+     "years": "2005 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "xenon",
+   "name": "Xenon",
+   "generations": [
+    {
+     "years": "c 2006 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Tata",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Tata",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

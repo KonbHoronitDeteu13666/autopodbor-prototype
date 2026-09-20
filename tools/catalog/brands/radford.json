@@ -1,0 +1,29 @@
+{
+ "slug": "radford",
+ "name": "Radford",
+ "models": [
+  {
+   "slug": "type_62_2",
+   "name": "Type 62-2",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Radford",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Radford",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

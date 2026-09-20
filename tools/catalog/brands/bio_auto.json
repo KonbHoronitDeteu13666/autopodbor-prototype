@@ -1,0 +1,29 @@
+{
+ "slug": "bio_auto",
+ "name": "Bio Auto",
+ "models": [
+  {
+   "slug": "eva_4",
+   "name": "evA-4",
+   "generations": [
+    {
+     "years": "2009 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bio Auto",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bio Auto",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

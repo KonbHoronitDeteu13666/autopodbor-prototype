@@ -1,0 +1,139 @@
+{
+ "slug": "bugatti",
+ "name": "Bugatti",
+ "models": [
+  {
+   "slug": "bolide",
+   "name": "Bolide",
+   "generations": [
+    {
+     "years": "2024 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "centodieci",
+   "name": "Centodieci",
+   "generations": [
+    {
+     "years": "2022 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "chiron",
+   "name": "Chiron",
+   "generations": [
+    {
+     "years": "2016 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "divo",
+   "name": "Divo",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "eb_110",
+   "name": "EB 110",
+   "generations": [
+    {
+     "years": "1991 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "eb_112",
+   "name": "EB 112",
+   "generations": [
+    {
+     "years": "1993 – 1998",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "eb_veyron",
+   "name": "EB Veyron 16.4",
+   "generations": [
+    {
+     "years": "2003 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "fkp_hommage",
+   "name": "F.K.P. Hommage",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "tourbillon",
+   "name": "Tourbillon",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "type_55",
+   "name": "Type 55",
+   "generations": [
+    {
+     "years": "1932 – 1935",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "w16_mistral",
+   "name": "W16 Mistral",
+   "generations": [
+    {
+     "years": "2024 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bugatti",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bugatti",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

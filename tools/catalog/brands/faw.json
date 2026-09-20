@@ -1,0 +1,328 @@
+{
+ "slug": "faw",
+ "name": "FAW",
+ "models": [
+  {
+   "slug": "bestune_b70",
+   "name": "Bestune B70",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "bestune_b70s",
+   "name": "Bestune B70S",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bestune_e01",
+   "name": "Bestune E01",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bestune_joyee_03",
+   "name": "Bestune Joyee 03",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bestune_joyee_07",
+   "name": "Bestune Joyee 07",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bestune_joyee_08",
+   "name": "Bestune Joyee 08",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "bestune_m9",
+   "name": "Bestune M9",
+   "generations": [
+    {
+     "years": "2023 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "bestune_nat",
+   "name": "Bestune NAT",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "bestune_pony",
+   "name": "Bestune Pony",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "bestune_t33",
+   "name": "Bestune T33",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bestune_t55",
+   "name": "Bestune T55",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bestune_t77",
+   "name": "Bestune T77",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bestune_t90",
+   "name": "Bestune T90",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bestune_t99",
+   "name": "Bestune T99",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "besturn_b30",
+   "name": "Besturn B30",
+   "generations": [
+    {
+     "years": "2015 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "besturn_b50",
+   "name": "Besturn B50",
+   "generations": [
+    {
+     "years": "2013 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "besturn_b70",
+   "name": "Besturn B70",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2006 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "besturn_x40",
+   "name": "Besturn X40",
+   "generations": [
+    {
+     "years": "2016 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x80",
+   "name": "Besturn X80",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ca6420",
+   "name": "CA6420",
+   "generations": [
+    {
+     "years": "2013 – 2025",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "d60",
+   "name": "D60",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "jinn",
+   "name": "Jinn",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "oley",
+   "name": "Oley",
+   "generations": [
+    {
+     "years": "2012 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "v2",
+   "name": "V2",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "v5",
+   "name": "V5",
+   "generations": [
+    {
+     "years": "2012 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "vita",
+   "name": "Vita",
+   "generations": [
+    {
+     "years": "2007 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей FAW",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели FAW",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "ciimo",
+ "name": "Ciimo (Dongfeng-Honda)",
+ "models": [
+  {
+   "slug": "m_nv",
+   "name": "M-NV",
+   "generations": [
+    {
+     "years": "2023 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x_nv",
+   "name": "X-NV",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ciimo (Dongfeng-Honda)",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ciimo (Dongfeng-Honda)",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

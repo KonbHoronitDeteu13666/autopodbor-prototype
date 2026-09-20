@@ -1,0 +1,29 @@
+{
+ "slug": "callaway",
+ "name": "Callaway",
+ "models": [
+  {
+   "slug": "c12",
+   "name": "C12",
+   "generations": [
+    {
+     "years": "1998 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Callaway",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Callaway",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

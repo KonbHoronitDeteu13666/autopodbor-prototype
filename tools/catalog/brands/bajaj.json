@@ -1,0 +1,29 @@
+{
+ "slug": "bajaj",
+ "name": "Bajaj",
+ "models": [
+  {
+   "slug": "qute",
+   "name": "Qute",
+   "generations": [
+    {
+     "years": "c 2016 года",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bajaj",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bajaj",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

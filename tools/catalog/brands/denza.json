@@ -1,0 +1,144 @@
+{
+ "slug": "denza",
+ "name": "Denza",
+ "models": [
+  {
+   "slug": "d9",
+   "name": "D9",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "n7",
+   "name": "N7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2023 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "n8",
+   "name": "N8",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "2023 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "n8l",
+   "name": "N8L",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "n9",
+   "name": "N9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x",
+   "name": "X",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "z",
+   "name": "Z",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "z9",
+   "name": "Z9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "z9s",
+   "name": "Z9S",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Denza",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Denza",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "500",
+   "name": "500",
+   "generations": [
+    {
+     "years": "2018 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

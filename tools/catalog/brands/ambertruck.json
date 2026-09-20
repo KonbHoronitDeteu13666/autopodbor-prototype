@@ -1,0 +1,33 @@
+{
+ "slug": "ambertruck",
+ "name": "Ambertruck",
+ "models": [
+  {
+   "slug": "work",
+   "name": "Work",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2024 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ambertruck",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ambertruck",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

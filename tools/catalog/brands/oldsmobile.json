@@ -1,0 +1,352 @@
+{
+ "slug": "oldsmobile",
+ "name": "Oldsmobile",
+ "models": [
+  {
+   "slug": "achieva",
+   "name": "Achieva",
+   "generations": [
+    {
+     "years": "1991 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "alero",
+   "name": "Alero",
+   "generations": [
+    {
+     "years": "1999 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "aurora",
+   "name": "Aurora",
+   "generations": [
+    {
+     "years": "1999 – 2003",
+     "name": "II"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "bravada",
+   "name": "Bravada",
+   "generations": [
+    {
+     "years": "2001 – 2004",
+     "name": "III"
+    },
+    {
+     "years": "1995 – 2001",
+     "name": "II"
+    },
+    {
+     "years": "1990 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "custom_cruiser",
+   "name": "Custom Cruiser",
+   "generations": [
+    {
+     "years": "1991 – 1992",
+     "name": "III"
+    },
+    {
+     "years": "1977 – 1990",
+     "name": "II"
+    },
+    {
+     "years": "1971 – 1976",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "cutlass",
+   "name": "Cutlass",
+   "generations": [
+    {
+     "years": "1997 – 1999",
+     "name": "VI"
+    },
+    {
+     "years": "1978 – 1988",
+     "name": "V"
+    },
+    {
+     "years": "1968 – 1972",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cutlass_calais",
+   "name": "Cutlass Calais",
+   "generations": [
+    {
+     "years": "1984 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cutlass_ciera",
+   "name": "Cutlass Ciera",
+   "generations": [
+    {
+     "years": "1981 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cutlass_supreme",
+   "name": "Cutlass Supreme",
+   "generations": [
+    {
+     "years": "1988 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "delta_88",
+   "name": "Delta 88",
+   "generations": [
+    {
+     "years": "1971 – 1976",
+     "name": "VII"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "eighty_eight",
+   "name": "Eighty-Eight",
+   "generations": [
+    {
+     "years": "1992 – 1999",
+     "name": "X"
+    },
+    {
+     "years": "1986 – 1991",
+     "name": "IX"
+    },
+    {
+     "years": "1977 – 1985",
+     "name": "VIII"
+    },
+    {
+     "years": "1971 – 1976",
+     "name": "VII"
+    },
+    {
+     "years": "1957 – 1958",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "firenza",
+   "name": "Firenza",
+   "generations": [
+    {
+     "years": "1982 – 1988",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "intrigue",
+   "name": "Intrigue",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ninety_eight",
+   "name": "Ninety-Eight",
+   "generations": [
+    {
+     "years": "1991 – 1996",
+     "name": "XI"
+    },
+    {
+     "years": "1985 – 1990",
+     "name": "X"
+    },
+    {
+     "years": "1977 – 1984",
+     "name": "IX"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "omega",
+   "name": "Omega",
+   "generations": [
+    {
+     "years": "1979 – 1984",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "series_60",
+   "name": "Series 60",
+   "generations": [
+    {
+     "years": "1941 – 1948",
+     "name": "II"
+    },
+    {
+     "years": "1939 – 1940",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "series_70",
+   "name": "Series 70",
+   "generations": [
+    {
+     "years": "1949 – 1950",
+     "name": "III"
+    },
+    {
+     "years": "1941 – 1948",
+     "name": "II"
+    },
+    {
+     "years": "1939 – 1940",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "silhouette",
+   "name": "Silhouette",
+   "generations": [
+    {
+     "years": "1996 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1996",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "starfire",
+   "name": "Starfire",
+   "generations": [
+    {
+     "years": "1975 – 1980",
+     "name": "II"
+    },
+    {
+     "years": "1961 – 1966",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "toronado",
+   "name": "Toronado",
+   "generations": [
+    {
+     "years": "1985 – 1992",
+     "name": "IV"
+    },
+    {
+     "years": "1978 – 1985",
+     "name": "III"
+    },
+    {
+     "years": "1970 – 1978",
+     "name": "II"
+    },
+    {
+     "years": "1966 – 1970",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "vista_cruiser",
+   "name": "Vista Cruiser",
+   "generations": [
+    {
+     "years": "1973 – 1977",
+     "name": "III"
+    },
+    {
+     "years": "1968 – 1972",
+     "name": "II"
+    },
+    {
+     "years": "1964 – 1967",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Oldsmobile",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Oldsmobile",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "442",
+   "name": "442",
+   "generations": [
+    {
+     "years": "1968 – 1972",
+     "name": "II"
+    }
+   ],
+   "body": "купе"
+  }
+ ]
+}

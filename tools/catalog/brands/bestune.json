@@ -1,0 +1,66 @@
+{
+ "slug": "bestune",
+ "name": "Bestune",
+ "models": [
+  {
+   "slug": "b70",
+   "name": "B70",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "t55",
+   "name": "T55",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t77",
+   "name": "T77",
+   "generations": [
+    {
+     "years": "2020 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t90",
+   "name": "T90",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bestune",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bestune",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "delorean",
+ "name": "DeLorean",
+ "models": [
+  {
+   "slug": "dmc_12",
+   "name": "DMC-12",
+   "generations": [
+    {
+     "years": "1981 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей DeLorean",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели DeLorean",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

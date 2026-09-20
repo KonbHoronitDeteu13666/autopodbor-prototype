@@ -1,0 +1,74 @@
+{
+ "slug": "rezvani",
+ "name": "Rezvani",
+ "models": [
+  {
+   "slug": "arsenal",
+   "name": "Arsenal",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "beast",
+   "name": "Beast",
+   "generations": [
+    {
+     "years": "2024 – 2025",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "fortress",
+   "name": "Fortress",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "tank",
+   "name": "Tank",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "III"
+    },
+    {
+     "years": "2019 – 2025",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Rezvani",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Rezvani",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "slug": "cupra",
+ "name": "Cupra",
+ "models": [
+  {
+   "slug": "ateca",
+   "name": "Ateca",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "born",
+   "name": "Born",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "formentor",
+   "name": "Formentor",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "leon",
+   "name": "Leon",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I Поколение"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "raval",
+   "name": "Raval",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "tavascan",
+   "name": "Tavascan",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "terramar",
+   "name": "Terramar",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Cupra",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Cupra",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

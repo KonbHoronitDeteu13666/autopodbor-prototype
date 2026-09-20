@@ -1,0 +1,29 @@
+{
+ "slug": "amberauto",
+ "name": "Амберавто",
+ "models": [
+  {
+   "slug": "a5",
+   "name": "А5",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Амберавто",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Амберавто",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "horch",
+ "name": "Horch",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Horch",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Horch",
+   "generations": [],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "830",
+   "name": "830",
+   "generations": [
+    {
+     "years": "1933 – 1940",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "853",
+   "name": "853",
+   "generations": [
+    {
+     "years": "1935 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "901",
+   "name": "901",
+   "generations": [
+    {
+     "years": "1937 – 1943",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

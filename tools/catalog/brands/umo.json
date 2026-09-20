@@ -1,0 +1,40 @@
+{
+ "slug": "umo",
+ "name": "UMO",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей UMO",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели UMO",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "5",
+   "name": "5",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "8",
+   "name": "8",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

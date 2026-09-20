@@ -1,0 +1,29 @@
+{
+ "slug": "mobilize",
+ "name": "Mobilize",
+ "models": [
+  {
+   "slug": "limo",
+   "name": "Limo",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Mobilize",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Mobilize",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

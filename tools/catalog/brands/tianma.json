@@ -1,0 +1,40 @@
+{
+ "slug": "tianma",
+ "name": "Tianma",
+ "models": [
+  {
+   "slug": "century",
+   "name": "Century",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "dragon",
+   "name": "Dragon",
+   "generations": [
+    {
+     "years": "2005 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Tianma",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Tianma",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

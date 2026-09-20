@@ -1,0 +1,224 @@
+{
+ "slug": "aion",
+ "name": "Aion",
+ "models": [
+  {
+   "slug": "hyptec_a800",
+   "name": "Hyptec A800",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "hyper_gt",
+   "name": "Hyptec GT (Hyper GT)",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "hyptec_hl",
+   "name": "Hyptec HL",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hyper_ht",
+   "name": "Hyptec HT (Hyper HT)",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hyptec_s600",
+   "name": "Hyptec S600",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hyper_ssr",
+   "name": "Hyptec SSR (Hyper SSR)",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "i60",
+   "name": "I60",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lx",
+   "name": "LX",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lx_plus",
+   "name": "LX Plus",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "n60",
+   "name": "N60",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rt",
+   "name": "RT",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s",
+   "name": "S",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s_plus",
+   "name": "S Plus",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ut",
+   "name": "UT",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "v",
+   "name": "V",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "v_plus",
+   "name": "V Plus",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "y",
+   "name": "Y",
+   "generations": [
+    {
+     "years": "2021 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "y_plus",
+   "name": "Y Plus",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Aion",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Aion",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

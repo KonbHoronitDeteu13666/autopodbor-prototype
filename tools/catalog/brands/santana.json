@@ -1,0 +1,29 @@
+{
+ "slug": "santana",
+ "name": "Santana",
+ "models": [
+  {
+   "slug": "ps_10",
+   "name": "PS-10",
+   "generations": [
+    {
+     "years": "2003 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Santana",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Santana",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

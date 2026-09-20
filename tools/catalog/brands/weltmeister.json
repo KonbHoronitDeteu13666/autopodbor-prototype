@@ -1,0 +1,66 @@
+{
+ "slug": "weltmeister",
+ "name": "Weltmeister",
+ "models": [
+  {
+   "slug": "e5",
+   "name": "E5",
+   "generations": [
+    {
+     "years": "2021 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ex5",
+   "name": "EX5",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ex6_plus",
+   "name": "EX6 Plus",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "w6",
+   "name": "W6",
+   "generations": [
+    {
+     "years": "2021 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Weltmeister",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Weltmeister",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

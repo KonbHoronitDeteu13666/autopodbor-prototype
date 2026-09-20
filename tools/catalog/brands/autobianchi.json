@@ -1,0 +1,29 @@
+{
+ "slug": "autobianchi",
+ "name": "Autobianchi",
+ "models": [
+  {
+   "slug": "a_112",
+   "name": "A 112",
+   "generations": [
+    {
+     "years": "1969 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Autobianchi",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Autobianchi",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

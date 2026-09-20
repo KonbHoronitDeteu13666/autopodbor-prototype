@@ -1,0 +1,29 @@
+{
+ "slug": "hanteng",
+ "name": "Hanteng",
+ "models": [
+  {
+   "slug": "x7",
+   "name": "X7",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hanteng",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hanteng",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

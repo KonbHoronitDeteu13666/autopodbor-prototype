@@ -1,0 +1,40 @@
+{
+ "slug": "bufori",
+ "name": "Bufori",
+ "models": [
+  {
+   "slug": "geneva",
+   "name": "Geneva",
+   "generations": [
+    {
+     "years": "c 2010 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "la_joya",
+   "name": "La Joya",
+   "generations": [
+    {
+     "years": "2004 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bufori",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bufori",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

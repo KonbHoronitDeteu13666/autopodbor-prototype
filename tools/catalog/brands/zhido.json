@@ -1,0 +1,29 @@
+{
+ "slug": "zhido",
+ "name": "Zhido",
+ "models": [
+  {
+   "slug": "rainbow",
+   "name": "Rainbow",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Zhido",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Zhido",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

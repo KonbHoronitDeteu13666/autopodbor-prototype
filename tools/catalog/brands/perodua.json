@@ -1,0 +1,121 @@
+{
+ "slug": "perodua",
+ "name": "Perodua",
+ "models": [
+  {
+   "slug": "alza",
+   "name": "Alza",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "II"
+    },
+    {
+     "years": "2009 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "kancil",
+   "name": "Kancil",
+   "generations": [
+    {
+     "years": "1994 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "kelisa",
+   "name": "Kelisa",
+   "generations": [
+    {
+     "years": "2001 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "kembara",
+   "name": "Kembara",
+   "generations": [
+    {
+     "years": "1998 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kenari",
+   "name": "Kenari",
+   "generations": [
+    {
+     "years": "2000 – 2008",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "myvi",
+   "name": "MyVi",
+   "generations": [
+    {
+     "years": "2005 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "nautica",
+   "name": "Nautica",
+   "generations": [
+    {
+     "years": "2008 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "traz",
+   "name": "Traz",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "viva",
+   "name": "Viva",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Perodua",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Perodua",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

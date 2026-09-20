@@ -1,0 +1,84 @@
+{
+ "slug": "huanghai",
+ "name": "HuangHai",
+ "models": [
+  {
+   "slug": "antelope",
+   "name": "Antelope",
+   "generations": [
+    {
+     "years": "2006 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "landscape",
+   "name": "Landscape",
+   "generations": [
+    {
+     "years": "2008 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "n1",
+   "name": "N1",
+   "generations": [
+    {
+     "years": "c 2014 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "n2",
+   "name": "N2",
+   "generations": [
+    {
+     "years": "c 2015 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "n7",
+   "name": "N7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "plutus",
+   "name": "Plutus",
+   "generations": [
+    {
+     "years": "2007 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей HuangHai",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели HuangHai",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

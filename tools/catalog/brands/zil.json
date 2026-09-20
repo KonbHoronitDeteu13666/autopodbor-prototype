@@ -1,0 +1,62 @@
+{
+ "slug": "zil",
+ "name": "ЗИЛ",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей ЗИЛ",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели ЗИЛ",
+   "generations": [],
+   "body": "лимузин"
+  },
+  {
+   "slug": "111",
+   "name": "111",
+   "generations": [
+    {
+     "years": "1959 – 1967",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "114",
+   "name": "114",
+   "generations": [
+    {
+     "years": "1967 – 1978",
+     "name": ""
+    }
+   ],
+   "body": "лимузин"
+  },
+  {
+   "slug": "117",
+   "name": "117",
+   "generations": [
+    {
+     "years": "1971 – 1978",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "4104",
+   "name": "4104",
+   "generations": [
+    {
+     "years": "1978 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "лимузин"
+  }
+ ]
+}

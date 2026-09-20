@@ -1,0 +1,40 @@
+{
+ "slug": "vector",
+ "name": "Vector",
+ "models": [
+  {
+   "slug": "m12",
+   "name": "M12",
+   "generations": [
+    {
+     "years": "1996 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "w8",
+   "name": "W8 Twin Turbo",
+   "generations": [
+    {
+     "years": "1989 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Vector",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Vector",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

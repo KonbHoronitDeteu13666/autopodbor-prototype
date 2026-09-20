@@ -1,0 +1,29 @@
+{
+ "slug": "minelli",
+ "name": "Minelli",
+ "models": [
+  {
+   "slug": "tf_1800",
+   "name": "TF 1800",
+   "generations": [
+    {
+     "years": "1998 – 2001",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Minelli",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Minelli",
+   "generations": [],
+   "body": ""
+  }
+ ]
+}

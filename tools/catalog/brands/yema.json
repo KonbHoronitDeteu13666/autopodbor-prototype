@@ -1,0 +1,51 @@
+{
+ "slug": "yema",
+ "name": "Yema",
+ "models": [
+  {
+   "slug": "ec30",
+   "name": "EC30",
+   "generations": [
+    {
+     "years": "2017 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "spica",
+   "name": "Spica",
+   "generations": [
+    {
+     "years": "2015 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "t70",
+   "name": "T70",
+   "generations": [
+    {
+     "years": "2015 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Yema",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Yema",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

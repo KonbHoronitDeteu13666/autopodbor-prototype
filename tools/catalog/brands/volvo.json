@@ -1,0 +1,752 @@
+{
+ "slug": "volvo",
+ "name": "Volvo",
+ "models": [
+  {
+   "slug": "120_series",
+   "name": "120 Series",
+   "generations": [
+    {
+     "years": "1956 – 1970",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "240_series",
+   "name": "240 Series",
+   "generations": [
+    {
+     "years": "1974 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "300_series",
+   "name": "300 Series",
+   "generations": [
+    {
+     "years": "1975 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c30",
+   "name": "C30",
+   "generations": [
+    {
+     "years": "2010 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c40",
+   "name": "C40",
+   "generations": [
+    {
+     "years": "2021 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c70",
+   "name": "C70",
+   "generations": [
+    {
+     "years": "2009 – 2013",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "II"
+    },
+    {
+     "years": "1997 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "ec40",
+   "name": "EC40",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "em90",
+   "name": "EM90",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "es90",
+   "name": "ES90",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "ex30",
+   "name": "EX30",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ex30_cross_country",
+   "name": "EX30 Cross Country",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ex40",
+   "name": "EX40",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ex60",
+   "name": "EX60",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ex90",
+   "name": "EX90",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "laplander",
+   "name": "Laplander",
+   "generations": [
+    {
+     "years": "1974 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "p1800",
+   "name": "P1800",
+   "generations": [
+    {
+     "years": "1961 – 1973",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "p1900",
+   "name": "P1900",
+   "generations": [
+    {
+     "years": "1956 – 1957",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "pv444",
+   "name": "PV444",
+   "generations": [
+    {
+     "years": "1947 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "pv544",
+   "name": "PV544",
+   "generations": [
+    {
+     "years": "1958 – 1965",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "s40",
+   "name": "S40",
+   "generations": [
+    {
+     "years": "2007 – 2012",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "II"
+    },
+    {
+     "years": "1999 – 2004",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1995 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s60",
+   "name": "S60",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": "III"
+    },
+    {
+     "years": "2013 – 2018",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2009",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s60_cross_country",
+   "name": "S60 Cross Country",
+   "generations": [
+    {
+     "years": "2015 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s70",
+   "name": "S70",
+   "generations": [
+    {
+     "years": "1996 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s80",
+   "name": "S80",
+   "generations": [
+    {
+     "years": "2013 – 2016",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s90",
+   "name": "S90",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2020 – 2025",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "1996 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "v40",
+   "name": "V40",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "1999 – 2004",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1995 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "v40_cc",
+   "name": "V40 Cross Country",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "v50",
+   "name": "V50",
+   "generations": [
+    {
+     "years": "2007 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "v60",
+   "name": "V60",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "v60_cross_country",
+   "name": "V60 Cross Country",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "v70",
+   "name": "V70",
+   "generations": [
+    {
+     "years": "2013 – 2016",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2007 – 2013",
+     "name": "III"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "v90",
+   "name": "V90",
+   "generations": [
+    {
+     "years": "2020 – 2025",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "v90_cross_country",
+   "name": "V90 Cross Country",
+   "generations": [
+    {
+     "years": "2020 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "xc40",
+   "name": "XC40",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xc60",
+   "name": "XC60",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xc70",
+   "name": "XC70",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2007 – 2013",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "xc90",
+   "name": "XC90",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "II Рестайлинг 1"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "II"
+    },
+    {
+     "years": "2006 – 2014",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Volvo",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Volvo",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "140",
+   "name": "140 Series",
+   "generations": [
+    {
+     "years": "1966 – 1975",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "164",
+   "name": "164",
+   "generations": [
+    {
+     "years": "1968 – 1974",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "260",
+   "name": "260 Series",
+   "generations": [
+    {
+     "years": "1974 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "440",
+   "name": "440",
+   "generations": [
+    {
+     "years": "1988 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "460",
+   "name": "460",
+   "generations": [
+    {
+     "years": "1988 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "480",
+   "name": "480",
+   "generations": [
+    {
+     "years": "1986 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "66",
+   "name": "66",
+   "generations": [
+    {
+     "years": "1975 – 1979",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "740",
+   "name": "740",
+   "generations": [
+    {
+     "years": "1983 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "760",
+   "name": "760",
+   "generations": [
+    {
+     "years": "1982 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "780",
+   "name": "780",
+   "generations": [
+    {
+     "years": "1986 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "850",
+   "name": "850",
+   "generations": [
+    {
+     "years": "1991 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "940",
+   "name": "940",
+   "generations": [
+    {
+     "years": "1988 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "960",
+   "name": "960",
+   "generations": [
+    {
+     "years": "1994 – 1997",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1990 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

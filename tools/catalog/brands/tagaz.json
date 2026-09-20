@@ -1,0 +1,95 @@
+{
+ "slug": "tagaz",
+ "name": "ТагАЗ",
+ "models": [
+  {
+   "slug": "aquila",
+   "name": "Aquila",
+   "generations": [
+    {
+     "years": "2012 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c30",
+   "name": "C-30",
+   "generations": [
+    {
+     "years": "2011 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c10",
+   "name": "C10",
+   "generations": [
+    {
+     "years": "2011 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c190",
+   "name": "C190",
+   "generations": [
+    {
+     "years": "2011 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "road_partner",
+   "name": "Road Partner",
+   "generations": [
+    {
+     "years": "2008 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tager",
+   "name": "Tager",
+   "generations": [
+    {
+     "years": "2008 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c_100",
+   "name": "Vega",
+   "generations": [
+    {
+     "years": "2009 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей ТагАЗ",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели ТагАЗ",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "think",
+ "name": "Think",
+ "models": [
+  {
+   "slug": "city",
+   "name": "City",
+   "generations": [
+    {
+     "years": "2008 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Think",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Think",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

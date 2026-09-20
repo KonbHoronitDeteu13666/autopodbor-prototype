@@ -1,0 +1,40 @@
+{
+ "slug": "qoros",
+ "name": "Qoros",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Qoros",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Qoros",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "3",
+   "name": "3",
+   "generations": [
+    {
+     "years": "2014 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "5",
+   "name": "5",
+   "generations": [
+    {
+     "years": "2016 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

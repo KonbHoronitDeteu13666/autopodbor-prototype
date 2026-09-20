@@ -1,0 +1,40 @@
+{
+ "slug": "hindustan",
+ "name": "Hindustan",
+ "models": [
+  {
+   "slug": "ambassador",
+   "name": "Ambassador",
+   "generations": [
+    {
+     "years": "1979 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "contessa",
+   "name": "Contessa",
+   "generations": [
+    {
+     "years": "1984 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hindustan",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hindustan",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

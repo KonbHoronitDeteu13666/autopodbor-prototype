@@ -1,0 +1,29 @@
+{
+ "slug": "vuhl",
+ "name": "VUHL",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей VUHL",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели VUHL",
+   "generations": [],
+   "body": "родстер"
+  },
+  {
+   "slug": "05",
+   "name": "05",
+   "generations": [
+    {
+     "years": "2013 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  }
+ ]
+}

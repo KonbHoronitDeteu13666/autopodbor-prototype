@@ -1,0 +1,84 @@
+{
+ "slug": "vinfast",
+ "name": "VinFast",
+ "models": [
+  {
+   "slug": "lux_a",
+   "name": "LUX A2.0",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lux_sa",
+   "name": "LUX SA2.0",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vf6",
+   "name": "VF6",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vf7",
+   "name": "VF7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vf8",
+   "name": "VF8",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vf9",
+   "name": "VF9",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей VinFast",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели VinFast",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

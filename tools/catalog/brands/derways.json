@@ -1,0 +1,95 @@
+{
+ "slug": "derways",
+ "name": "Derways",
+ "models": [
+  {
+   "slug": "antelope",
+   "name": "Antelope",
+   "generations": [
+    {
+     "years": "2007 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "aurora",
+   "name": "Aurora",
+   "generations": [
+    {
+     "years": "2006 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cowboy",
+   "name": "Cowboy",
+   "generations": [
+    {
+     "years": "2004 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "land_crown",
+   "name": "Land Crown",
+   "generations": [
+    {
+     "years": "2006 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "plutus",
+   "name": "Plutus",
+   "generations": [
+    {
+     "years": "2007 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "saladin",
+   "name": "Saladin",
+   "generations": [
+    {
+     "years": "2006 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "shuttle",
+   "name": "Shuttle",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Derways",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Derways",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

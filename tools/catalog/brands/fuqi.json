@@ -1,0 +1,29 @@
+{
+ "slug": "fuqi",
+ "name": "Fuqi",
+ "models": [
+  {
+   "slug": "land_king",
+   "name": "6500 (Land King)",
+   "generations": [
+    {
+     "years": "2005 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Fuqi",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Fuqi",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

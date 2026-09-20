@@ -1,0 +1,62 @@
+{
+ "slug": "wanderer",
+ "name": "Wanderer",
+ "models": [
+  {
+   "slug": "w22",
+   "name": "W22",
+   "generations": [
+    {
+     "years": "1933 – 1938",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w23",
+   "name": "W23",
+   "generations": [
+    {
+     "years": "1936 – 1941",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "w26",
+   "name": "W26",
+   "generations": [
+    {
+     "years": "1937 – 1940",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w50",
+   "name": "W50",
+   "generations": [
+    {
+     "years": "1936 – 1938",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Wanderer",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Wanderer",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

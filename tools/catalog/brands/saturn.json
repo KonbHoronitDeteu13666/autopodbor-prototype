@@ -1,0 +1,166 @@
+{
+ "slug": "saturn",
+ "name": "Saturn",
+ "models": [
+  {
+   "slug": "astra",
+   "name": "Astra",
+   "generations": [
+    {
+     "years": "2008 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "aura",
+   "name": "Aura",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ion",
+   "name": "ION",
+   "generations": [
+    {
+     "years": "2003 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ls",
+   "name": "LS",
+   "generations": [
+    {
+     "years": "1998 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lw",
+   "name": "LW",
+   "generations": [
+    {
+     "years": "1998 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "outlook",
+   "name": "Outlook",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "relay",
+   "name": "Relay",
+   "generations": [
+    {
+     "years": "2005 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "sc",
+   "name": "SC",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1990 – 1996",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "sky",
+   "name": "Sky",
+   "generations": [
+    {
+     "years": "2006 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "sl",
+   "name": "SL",
+   "generations": [
+    {
+     "years": "1996 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1990 – 1995",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sw",
+   "name": "SW",
+   "generations": [
+    {
+     "years": "1996 – 2001",
+     "name": "II"
+    },
+    {
+     "years": "1993 – 1995",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "vue",
+   "name": "VUE",
+   "generations": [
+    {
+     "years": "2007 – 2009",
+     "name": "II"
+    },
+    {
+     "years": "2001 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Saturn",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Saturn",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

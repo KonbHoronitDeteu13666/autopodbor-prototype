@@ -1,0 +1,169 @@
+{
+ "slug": "forthing",
+ "name": "Forthing",
+ "models": [
+  {
+   "slug": "cm7",
+   "name": "CM7",
+   "generations": [
+    {
+     "years": "2013 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "friday",
+   "name": "Friday",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lingzhi_m5",
+   "name": "Lingzhi M5",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "lingzhi_plus",
+   "name": "Lingzhi Plus",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "m7",
+   "name": "M7",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "t5",
+   "name": "T5",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2018 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t5_evo",
+   "name": "T5 EVO",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t5l",
+   "name": "T5L",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "thunder",
+   "name": "Thunder",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "u_tour_m4",
+   "name": "U-Tour M4",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "v9",
+   "name": "V9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "xinghai_s7",
+   "name": "Xinghai S7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "yacht",
+   "name": "Yacht",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Forthing",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Forthing",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

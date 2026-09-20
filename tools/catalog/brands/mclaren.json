@@ -1,0 +1,238 @@
+{
+ "slug": "mclaren",
+ "name": "McLaren",
+ "models": [
+  {
+   "slug": "540c",
+   "name": "540C",
+   "generations": [
+    {
+     "years": "2015 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "570gt",
+   "name": "570GT",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "570s",
+   "name": "570S",
+   "generations": [
+    {
+     "years": "2015 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "600lt",
+   "name": "600LT",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "650s",
+   "name": "650S",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "675lt",
+   "name": "675LT",
+   "generations": [
+    {
+     "years": "2015 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "720s",
+   "name": "720S",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "750s",
+   "name": "750S",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "765lt",
+   "name": "765LT",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "788hs",
+   "name": "788HS",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "artura",
+   "name": "Artura",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "elva",
+   "name": "Elva",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "f1",
+   "name": "F1",
+   "generations": [
+    {
+     "years": "1992 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "gt",
+   "name": "GT",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "gts",
+   "name": "GTS",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "12c",
+   "name": "MP4-12C",
+   "generations": [
+    {
+     "years": "2011 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "p1",
+   "name": "P1",
+   "generations": [
+    {
+     "years": "2013 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "senna",
+   "name": "Senna",
+   "generations": [
+    {
+     "years": "2018 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "solus_gt",
+   "name": "Solus GT",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "w1",
+   "name": "W1",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей McLaren",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели McLaren",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

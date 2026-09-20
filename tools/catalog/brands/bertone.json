@@ -1,0 +1,33 @@
+{
+ "slug": "bertone",
+ "name": "Bertone",
+ "models": [
+  {
+   "slug": "freeclimber",
+   "name": "Freeclimber",
+   "generations": [
+    {
+     "years": "1992 – 1995",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1992",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bertone",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bertone",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

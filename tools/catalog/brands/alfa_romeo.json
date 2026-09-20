@@ -1,0 +1,536 @@
+{
+ "slug": "alfa_romeo",
+ "name": "Alfa Romeo",
+ "models": [
+  {
+   "slug": "105_115",
+   "name": "105/115",
+   "generations": [
+    {
+     "years": "1965 – 1977",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "33_stradale",
+   "name": "33 Stradale",
+   "generations": [
+    {
+     "years": "2024 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "4c",
+   "name": "4C",
+   "generations": [
+    {
+     "years": "2013 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "6c",
+   "name": "6C",
+   "generations": [
+    {
+     "years": "1927 – 1933",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "8c_competizione",
+   "name": "8C Competizione",
+   "generations": [
+    {
+     "years": "2007 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "alfasud",
+   "name": "Alfasud",
+   "generations": [
+    {
+     "years": "1971 – 1983",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "alfetta",
+   "name": "Alfetta",
+   "generations": [
+    {
+     "years": "1972 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "arna",
+   "name": "Arna",
+   "generations": [
+    {
+     "years": "1983 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "brera",
+   "name": "Brera",
+   "generations": [
+    {
+     "years": "2008 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "disco_volante",
+   "name": "Disco Volante",
+   "generations": [
+    {
+     "years": "2013 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "giulia",
+   "name": "Giulia",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": "II (952) Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II (952) Рестайлинг"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "II (952)"
+    },
+    {
+     "years": "1962 – 1978",
+     "name": "I (105)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "giulietta",
+   "name": "Giulietta",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2010 – 2016",
+     "name": "III"
+    },
+    {
+     "years": "1977 – 1985",
+     "name": "II"
+    },
+    {
+     "years": "1954 – 1963",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "gt",
+   "name": "GT",
+   "generations": [
+    {
+     "years": "2003 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "gta",
+   "name": "GTA Coupe",
+   "generations": [
+    {
+     "years": "1965 – 1975",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "gtv",
+   "name": "GTV",
+   "generations": [
+    {
+     "years": "1995 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "junior",
+   "name": "Junior",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mito",
+   "name": "MiTo",
+   "generations": [
+    {
+     "years": "2016 – 2018",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "montreal",
+   "name": "Montreal",
+   "generations": [
+    {
+     "years": "1970 – 1979",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "rz",
+   "name": "RZ",
+   "generations": [
+    {
+     "years": "1992 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "spider",
+   "name": "Spider",
+   "generations": [
+    {
+     "years": "2008 – 2010",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "III"
+    },
+    {
+     "years": "1995 – 2005",
+     "name": "II"
+    },
+    {
+     "years": "1966 – 1993",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "sprint",
+   "name": "Sprint",
+   "generations": [
+    {
+     "years": "1983 – 1989",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "stelvio",
+   "name": "Stelvio",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sz",
+   "name": "SZ",
+   "generations": [
+    {
+     "years": "1989 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "tonale",
+   "name": "Tonale",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Alfa Romeo",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Alfa Romeo",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "145",
+   "name": "145",
+   "generations": [
+    {
+     "years": "1999 – 2001",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "146",
+   "name": "146",
+   "generations": [
+    {
+     "years": "1995 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "147",
+   "name": "147",
+   "generations": [
+    {
+     "years": "2004 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "155",
+   "name": "155",
+   "generations": [
+    {
+     "years": "1995 – 1997",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1992 – 1995",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "156",
+   "name": "156",
+   "generations": [
+    {
+     "years": "2003 – 2007",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2002 – 2003",
+     "name": "I Рестайлинг 1"
+    },
+    {
+     "years": "1997 – 2002",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "159",
+   "name": "159",
+   "generations": [
+    {
+     "years": "2005 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "164",
+   "name": "164",
+   "generations": [
+    {
+     "years": "1992 – 1998",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1987 – 1992",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "166",
+   "name": "166",
+   "generations": [
+    {
+     "years": "2003 – 2007",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "1900",
+   "name": "1900",
+   "generations": [
+    {
+     "years": "1950 – 1959",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2600",
+   "name": "2600",
+   "generations": [
+    {
+     "years": "1962 – 1968",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "33",
+   "name": "33",
+   "generations": [
+    {
+     "years": "1990 – 1994",
+     "name": "II"
+    },
+    {
+     "years": "1986 – 1989",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1983 – 1986",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "6",
+   "name": "6",
+   "generations": [
+    {
+     "years": "1979 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "75",
+   "name": "75",
+   "generations": [
+    {
+     "years": "1988 – 1992",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1985 – 1992",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "90",
+   "name": "90",
+   "generations": [
+    {
+     "years": "1984 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

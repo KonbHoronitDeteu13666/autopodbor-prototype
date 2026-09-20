@@ -1,0 +1,374 @@
+{
+ "slug": "maserati",
+ "name": "Maserati",
+ "models": [
+  {
+   "slug": "3200gt",
+   "name": "3200 GT",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "3500_gt",
+   "name": "3500 GT",
+   "generations": [
+    {
+     "years": "1957 – 1964",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "4200_gt",
+   "name": "4200 GT",
+   "generations": [
+    {
+     "years": "2002 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "barchetta_stradale",
+   "name": "Barchetta Stradale",
+   "generations": [
+    {
+     "years": "1991 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "biturbo",
+   "name": "Biturbo",
+   "generations": [
+    {
+     "years": "1981 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "bora",
+   "name": "Bora",
+   "generations": [
+    {
+     "years": "1971 – 1980",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "chubasco",
+   "name": "Chubasco",
+   "generations": [
+    {
+     "years": "1990 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "ghibli",
+   "name": "Ghibli",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "III Рестайлинг 2"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "III"
+    },
+    {
+     "years": "1992 – 1998",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gran_cabrio",
+   "name": "GranCabrio",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "gran_turismo",
+   "name": "GranTurismo",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "2007 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "grecale",
+   "name": "Grecale",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gt2_stradale",
+   "name": "GT2 Stradale",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "indy",
+   "name": "Indy",
+   "generations": [
+    {
+     "years": "1969 – 1974",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "karif",
+   "name": "Karif",
+   "generations": [
+    {
+     "years": "1988 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "khamsin",
+   "name": "Khamsin",
+   "generations": [
+    {
+     "years": "1974 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "kyalami",
+   "name": "Kyalami",
+   "generations": [
+    {
+     "years": "1976 – 1985",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "levante",
+   "name": "Levante",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mc12",
+   "name": "MC12",
+   "generations": [
+    {
+     "years": "2004 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "mc20",
+   "name": "MC20",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "mcpura",
+   "name": "MCPura",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "merak",
+   "name": "Merak",
+   "generations": [
+    {
+     "years": "1975 – 1983",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "mexico",
+   "name": "Mexico",
+   "generations": [
+    {
+     "years": "1967 – 1972",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "mostro_zagato",
+   "name": "Mostro Zagato",
+   "generations": [
+    {
+     "years": "2015 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "quattroporte",
+   "name": "Quattroporte",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "VI Рестайлинг 2"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "VI Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "VI"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2003 – 2008",
+     "name": "V"
+    },
+    {
+     "years": "1994 – 2001",
+     "name": "IV"
+    },
+    {
+     "years": "1979 – 1990",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "royale",
+   "name": "Royale",
+   "generations": [
+    {
+     "years": "1985 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "shamal",
+   "name": "Shamal",
+   "generations": [
+    {
+     "years": "1989 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Maserati",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Maserati",
+   "generations": [],
+   "body": "купе"
+  },
+  {
+   "slug": "228",
+   "name": "228",
+   "generations": [
+    {
+     "years": "1986 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "420",
+   "name": "420",
+   "generations": [
+    {
+     "years": "1985 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

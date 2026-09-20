@@ -1,0 +1,81 @@
+{
+ "slug": "zx",
+ "name": "ZX",
+ "models": [
+  {
+   "slug": "admiral",
+   "name": "Admiral",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "grand_tiger",
+   "name": "Grand Tiger",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг 4"
+    },
+    {
+     "years": "2007 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "grandlion",
+   "name": "Grandlion",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "landmark",
+   "name": "Landmark",
+   "generations": [
+    {
+     "years": "2009 – 2011",
+     "name": "I (V5) Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "terralord",
+   "name": "Terralord",
+   "generations": [
+    {
+     "years": "c 2016 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей ZX",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели ZX",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

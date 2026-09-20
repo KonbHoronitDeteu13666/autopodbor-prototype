@@ -1,0 +1,40 @@
+{
+ "slug": "hanomag",
+ "name": "Hanomag",
+ "models": [
+  {
+   "slug": "rekord",
+   "name": "Rekord",
+   "generations": [
+    {
+     "years": "1934 – 1940",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "typ_13",
+   "name": "Typ 13",
+   "generations": [
+    {
+     "years": "1939 – 1941",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hanomag",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hanomag",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

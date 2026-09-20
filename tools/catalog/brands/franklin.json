@@ -1,0 +1,29 @@
+{
+ "slug": "franklin",
+ "name": "Franklin",
+ "models": [
+  {
+   "slug": "series_15",
+   "name": "Series 15",
+   "generations": [
+    {
+     "years": "1930 – 1934",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Franklin",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Franklin",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

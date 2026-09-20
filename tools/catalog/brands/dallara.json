@@ -1,0 +1,29 @@
+{
+ "slug": "dallara",
+ "name": "Dallara",
+ "models": [
+  {
+   "slug": "stradale",
+   "name": "Stradale",
+   "generations": [
+    {
+     "years": "c 2017 года",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Dallara",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Dallara",
+   "generations": [],
+   "body": ""
+  }
+ ]
+}

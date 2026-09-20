@@ -1,0 +1,51 @@
+{
+ "slug": "rivian",
+ "name": "Rivian",
+ "models": [
+  {
+   "slug": "r1s",
+   "name": "R1S",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "r1t",
+   "name": "R1T",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "r2",
+   "name": "R2",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Rivian",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Rivian",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

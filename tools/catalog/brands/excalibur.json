@@ -1,0 +1,40 @@
+{
+ "slug": "excalibur",
+ "name": "Excalibur",
+ "models": [
+  {
+   "slug": "series_iv",
+   "name": "Series IV",
+   "generations": [
+    {
+     "years": "1980 – 1985",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "series_v",
+   "name": "Series V",
+   "generations": [
+    {
+     "years": "1985 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Excalibur",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Excalibur",
+   "generations": [],
+   "body": ""
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "byvin",
+ "name": "Byvin",
+ "models": [
+  {
+   "slug": "bd_132j",
+   "name": "BD132J (CoCo)",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "bd_326j",
+   "name": "BD326J (Moca)",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Byvin",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Byvin",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

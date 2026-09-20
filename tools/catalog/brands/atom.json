@@ -1,0 +1,29 @@
+{
+ "slug": "atom",
+ "name": "Атом",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Атом",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Атом",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "01",
+   "name": "01",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  }
+ ]
+}

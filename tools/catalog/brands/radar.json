@@ -1,0 +1,29 @@
+{
+ "slug": "radar",
+ "name": "Radar",
+ "models": [
+  {
+   "slug": "rd6",
+   "name": "RD6",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Radar",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Radar",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "desoto",
+ "name": "DeSoto",
+ "models": [
+  {
+   "slug": "custom",
+   "name": "Custom",
+   "generations": [
+    {
+     "years": "1949 – 1952",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "deluxe",
+   "name": "Deluxe",
+   "generations": [
+    {
+     "years": "1946 – 1952",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "firedome",
+   "name": "Firedome",
+   "generations": [
+    {
+     "years": "1952 – 1959",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "fireflite",
+   "name": "Fireflite",
+   "generations": [
+    {
+     "years": "1955 – 1960",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей DeSoto",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели DeSoto",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

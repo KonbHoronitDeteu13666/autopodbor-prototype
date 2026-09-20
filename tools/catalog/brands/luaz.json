@@ -1,0 +1,51 @@
+{
+ "slug": "luaz",
+ "name": "ЛуАЗ",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей ЛуАЗ",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели ЛуАЗ",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "1302",
+   "name": "1302 Волынь",
+   "generations": [
+    {
+     "years": "1990 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "967",
+   "name": "967",
+   "generations": [
+    {
+     "years": "1965 – 1989",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "969",
+   "name": "969",
+   "generations": [
+    {
+     "years": "1966 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

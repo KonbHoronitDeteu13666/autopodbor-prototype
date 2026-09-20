@@ -1,0 +1,29 @@
+{
+ "slug": "hsv",
+ "name": "HSV",
+ "models": [
+  {
+   "slug": "maloo",
+   "name": "Maloo",
+   "generations": [
+    {
+     "years": "2013 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей HSV",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели HSV",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

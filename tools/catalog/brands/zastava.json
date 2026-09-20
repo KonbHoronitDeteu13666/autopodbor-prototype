@@ -1,0 +1,62 @@
+{
+ "slug": "zastava",
+ "name": "Zastava",
+ "models": [
+  {
+   "slug": "florida",
+   "name": "Florida",
+   "generations": [
+    {
+     "years": "1990 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "skala",
+   "name": "Skala",
+   "generations": [
+    {
+     "years": "1973 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "yugo",
+   "name": "Yugo",
+   "generations": [
+    {
+     "years": "1990 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Zastava",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Zastava",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "10",
+   "name": "10",
+   "generations": [
+    {
+     "years": "2006 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "slug": "arcfox",
+ "name": "Arcfox",
+ "models": [
+  {
+   "slug": "alpha_s",
+   "name": "Alpha S",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "alpha_s5",
+   "name": "Alpha S5",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "alpha_s6",
+   "name": "Alpha S6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "alpha_t",
+   "name": "Alpha T",
+   "generations": [
+    {
+     "years": "2020 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "alpha_t5",
+   "name": "Alpha T5",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "alpha_t6",
+   "name": "Alpha T6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "alpha_t7",
+   "name": "Alpha T7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "beta_t1",
+   "name": "Beta T1",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "kaola",
+   "name": "Kaola",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "lite",
+   "name": "Lite",
+   "generations": [
+    {
+     "years": "2017 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "s3",
+   "name": "S3",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "t1",
+   "name": "T1",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "wendao_v9",
+   "name": "Wendao V9",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Arcfox",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Arcfox",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

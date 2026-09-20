@@ -1,0 +1,92 @@
+{
+ "slug": "omoda",
+ "name": "Omoda",
+ "models": [
+  {
+   "slug": "c5",
+   "name": "C5",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c7",
+   "name": "C7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "c9",
+   "name": "C9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e5",
+   "name": "E5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s5",
+   "name": "S5",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s5_gt",
+   "name": "S5 GT",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Omoda",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Omoda",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

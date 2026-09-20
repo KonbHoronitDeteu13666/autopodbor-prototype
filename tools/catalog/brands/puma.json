@@ -1,0 +1,40 @@
+{
+ "slug": "puma",
+ "name": "Puma",
+ "models": [
+  {
+   "slug": "gtb",
+   "name": "GTB",
+   "generations": [
+    {
+     "years": "1973 – 1984",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "gte",
+   "name": "GTE",
+   "generations": [
+    {
+     "years": "1967 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Puma",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Puma",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

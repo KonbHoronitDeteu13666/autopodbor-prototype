@@ -1,0 +1,29 @@
+{
+ "slug": "polar_stone_jishi",
+ "name": "Polar Stone (Jishi)",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Polar Stone (Jishi)",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Polar Stone (Jishi)",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "01",
+   "name": "01",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

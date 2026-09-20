@@ -1,0 +1,48 @@
+{
+ "slug": "spyker",
+ "name": "Spyker",
+ "models": [
+  {
+   "slug": "c12",
+   "name": "C12",
+   "generations": [
+    {
+     "years": "2006 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "c8",
+   "name": "C8",
+   "generations": [
+    {
+     "years": "c 2016 года",
+     "name": "III"
+    },
+    {
+     "years": "2009 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2000 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Spyker",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Spyker",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

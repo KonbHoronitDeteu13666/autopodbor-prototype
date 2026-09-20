@@ -1,0 +1,29 @@
+{
+ "slug": "hispano_suiza",
+ "name": "Hispano-Suiza",
+ "models": [
+  {
+   "slug": "k6",
+   "name": "K6",
+   "generations": [
+    {
+     "years": "1934 – 1937",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hispano-Suiza",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hispano-Suiza",
+   "generations": [],
+   "body": "кабриолет"
+  }
+ ]
+}

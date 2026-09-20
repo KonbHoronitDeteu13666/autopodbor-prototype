@@ -1,0 +1,128 @@
+{
+ "slug": "maruti",
+ "name": "Maruti",
+ "models": [
+  {
+   "slug": "alto",
+   "name": "Alto",
+   "generations": [
+    {
+     "years": "2000 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "baleno",
+   "name": "Baleno",
+   "generations": [
+    {
+     "years": "1999 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "esteem",
+   "name": "Esteem",
+   "generations": [
+    {
+     "years": "1994 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gypsy",
+   "name": "Gypsy",
+   "generations": [
+    {
+     "years": "1983 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "omni",
+   "name": "Omni",
+   "generations": [
+    {
+     "years": "1984 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "versa",
+   "name": "Versa",
+   "generations": [
+    {
+     "years": "2001 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "wagon_r",
+   "name": "Wagon R",
+   "generations": [
+    {
+     "years": "1999 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "zen",
+   "name": "Zen",
+   "generations": [
+    {
+     "years": "1993 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Maruti",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Maruti",
+   "generations": [],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "1000",
+   "name": "1000",
+   "generations": [
+    {
+     "years": "1990 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "800",
+   "name": "800",
+   "generations": [
+    {
+     "years": "1983 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  }
+ ]
+}

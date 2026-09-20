@@ -1,0 +1,29 @@
+{
+ "slug": "freelander",
+ "name": "Freelander",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Freelander",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Freelander",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "8",
+   "name": "8",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

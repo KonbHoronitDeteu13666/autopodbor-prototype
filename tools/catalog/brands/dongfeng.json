@@ -1,0 +1,630 @@
+{
+ "slug": "dongfeng",
+ "name": "Dongfeng",
+ "models": [
+  {
+   "slug": "a30",
+   "name": "A30",
+   "generations": [
+    {
+     "years": "2014 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "a9",
+   "name": "A9",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "aeolus_ax7_plus",
+   "name": "Aeolus AX7 Plus",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "aeolus_e70",
+   "name": "Aeolus E70",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I (Pro) Рестайлинг"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "aeolus_haohan",
+   "name": "Aeolus Haohan",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "aeolus_haoji",
+   "name": "Aeolus Haoji",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "aeolus_l7",
+   "name": "Aeolus L7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "aeolus_l8",
+   "name": "Aeolus L8",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "aeolus_yixuan",
+   "name": "Aeolus Yixuan",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "yixuan_gs",
+   "name": "Aeolus Yixuan GS",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "aeolus_yixuan_max",
+   "name": "Aeolus Yixuan Max",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ax4",
+   "name": "AX4",
+   "generations": [
+    {
+     "years": "2017 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ax7",
+   "name": "AX7",
+   "generations": [
+    {
+     "years": "2015 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "box",
+   "name": "Box",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c36",
+   "name": "C36",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "df6",
+   "name": "DF6",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "dfsk_500",
+   "name": "DFSK 500",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dfsk_ix5",
+   "name": "DFSK ix5",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dfsk_ix7",
+   "name": "DFSK ix7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e11k",
+   "name": "E11K",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ec36",
+   "name": "EC36",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "fengon_500",
+   "name": "Fengon 500",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fengon_560",
+   "name": "Fengon 560",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fengon_e5",
+   "name": "Fengon E5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "PLUS"
+    },
+    {
+     "years": "2023 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fengon_ix5",
+   "name": "Fengon ix5",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fengon_ix7",
+   "name": "Fengon ix7",
+   "generations": [
+    {
+     "years": "2019 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fengon_mini_ev",
+   "name": "Fengon Mini EV",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "fukang_es600",
+   "name": "Fukang ES600",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "h30_cross",
+   "name": "H30 Cross",
+   "generations": [
+    {
+     "years": "2011 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "huge",
+   "name": "Huge",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mage",
+   "name": "Mage",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mengshi_800",
+   "name": "Mengshi M-Hero 800",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mengshi_817",
+   "name": "Mengshi M-Hero 817",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mengshi_917",
+   "name": "Mengshi M-Hero 917",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mpv",
+   "name": "MPV",
+   "generations": [
+    {
+     "years": "2006 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "nammi_01",
+   "name": "Nammi 01",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "nammi_06",
+   "name": "Nammi 06",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "nano_ex1",
+   "name": "Nano EX1",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "oting",
+   "name": "Oting",
+   "generations": [
+    {
+     "years": "2007 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "paladin",
+   "name": "Paladin",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rich",
+   "name": "Rich",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2007 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "rich_7",
+   "name": "Rich 7",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "s30",
+   "name": "S30",
+   "generations": [
+    {
+     "years": "2013 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "shine",
+   "name": "Shine",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "shine_gs",
+   "name": "Shine GS",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "shine_max",
+   "name": "Shine Max",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sky_ev01",
+   "name": "Sky EV01",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xinghai_t5",
+   "name": "Xinghai T5",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "young_guang_xiaoxin",
+   "name": "Young Guang Xiaoxin",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "z9",
+   "name": "Z9",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Dongfeng",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Dongfeng",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "370",
+   "name": "370",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "580",
+   "name": "580",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "II"
+    },
+    {
+     "years": "2018 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

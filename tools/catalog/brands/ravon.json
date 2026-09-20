@@ -1,0 +1,73 @@
+{
+ "slug": "ravon",
+ "name": "Ravon",
+ "models": [
+  {
+   "slug": "gentra",
+   "name": "Gentra",
+   "generations": [
+    {
+     "years": "2015 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "matiz",
+   "name": "Matiz",
+   "generations": [
+    {
+     "years": "2015 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "nexia_r3",
+   "name": "Nexia R3",
+   "generations": [
+    {
+     "years": "2015 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "r2",
+   "name": "R2",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "r4",
+   "name": "R4",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ravon",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ravon",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

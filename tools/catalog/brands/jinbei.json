@@ -1,0 +1,48 @@
+{
+ "slug": "jinbei",
+ "name": "Jinbei",
+ "models": [
+  {
+   "slug": "haise",
+   "name": "Haise",
+   "generations": [
+    {
+     "years": "2008 – 2014",
+     "name": "VI"
+    },
+    {
+     "years": "c 2006 года",
+     "name": "V"
+    },
+    {
+     "years": "2002 – 2011",
+     "name": "IV"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "haise_s",
+   "name": "Haise S",
+   "generations": [
+    {
+     "years": "2023 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Jinbei",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Jinbei",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

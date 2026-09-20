@@ -1,0 +1,51 @@
+{
+ "slug": "zis",
+ "name": "ЗиС",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей ЗиС",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели ЗиС",
+   "generations": [],
+   "body": "лимузин"
+  },
+  {
+   "slug": "101",
+   "name": "101",
+   "generations": [
+    {
+     "years": "1936 – 1941",
+     "name": ""
+    }
+   ],
+   "body": "лимузин"
+  },
+  {
+   "slug": "102",
+   "name": "102",
+   "generations": [
+    {
+     "years": "1938 – 1939",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "110",
+   "name": "110",
+   "generations": [
+    {
+     "years": "1945 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "лимузин"
+  }
+ ]
+}

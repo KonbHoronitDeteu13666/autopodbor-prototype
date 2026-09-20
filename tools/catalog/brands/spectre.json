@@ -1,0 +1,29 @@
+{
+ "slug": "spectre",
+ "name": "Spectre",
+ "models": [
+  {
+   "slug": "r42",
+   "name": "R42",
+   "generations": [
+    {
+     "years": "1996 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Spectre",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Spectre",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

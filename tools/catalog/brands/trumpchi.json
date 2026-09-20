@@ -1,0 +1,348 @@
+{
+ "slug": "trumpchi",
+ "name": "GAC Trumpchi",
+ "models": [
+  {
+   "slug": "e8",
+   "name": "E8",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "e9",
+   "name": "E9",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "emkoo",
+   "name": "Emkoo",
+   "generations": [
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "empow",
+   "name": "Empow",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "es9",
+   "name": "ES9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ga4",
+   "name": "GA4",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ga4_plus",
+   "name": "GA4 Plus",
+   "generations": [
+    {
+     "years": "2021 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ga6",
+   "name": "GA6",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ga8",
+   "name": "GA8",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ge3",
+   "name": "GE3",
+   "generations": [
+    {
+     "years": "2017 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gm6",
+   "name": "GM6",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "gm8",
+   "name": "GM8",
+   "generations": [
+    {
+     "years": "2017 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "gs3",
+   "name": "GS3",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gs3_power",
+   "name": "GS3 Power",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gs4",
+   "name": "GS4",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "III"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gs4_max",
+   "name": "GS4 Max",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gs4_plus",
+   "name": "GS4 Plus",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gs5",
+   "name": "GS5",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gs8",
+   "name": "GS8",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "m6",
+   "name": "M6",
+   "generations": [
+    {
+     "years": "2020 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "m6_max",
+   "name": "M6 Max",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "m6_pro",
+   "name": "M6 Pro",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "m8",
+   "name": "M8",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "s7",
+   "name": "S7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2025 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s9",
+   "name": "S9",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "yue_7",
+   "name": "Yue 7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей GAC Trumpchi",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели GAC Trumpchi",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

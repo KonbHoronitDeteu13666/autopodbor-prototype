@@ -1,0 +1,29 @@
+{
+ "slug": "thairung",
+ "name": "Thairung",
+ "models": [
+  {
+   "slug": "transformer",
+   "name": "Transformer",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "II"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Thairung",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Thairung",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

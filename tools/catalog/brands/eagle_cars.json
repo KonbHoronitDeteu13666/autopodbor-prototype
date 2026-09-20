@@ -1,0 +1,29 @@
+{
+ "slug": "eagle_cars",
+ "name": "Eagle Cars",
+ "models": [
+  {
+   "slug": "ss",
+   "name": "SS",
+   "generations": [
+    {
+     "years": "1982 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Eagle Cars",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Eagle Cars",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

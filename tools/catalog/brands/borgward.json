@@ -1,0 +1,51 @@
+{
+ "slug": "borgward",
+ "name": "Borgward",
+ "models": [
+  {
+   "slug": "bx5",
+   "name": "BX5",
+   "generations": [
+    {
+     "years": "2017 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hansa_1100",
+   "name": "Hansa 1100",
+   "generations": [
+    {
+     "years": "1934 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Borgward",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Borgward",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "2000",
+   "name": "2000",
+   "generations": [
+    {
+     "years": "1939 – 1942",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

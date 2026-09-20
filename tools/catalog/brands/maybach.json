@@ -1,0 +1,70 @@
+{
+ "slug": "maybach",
+ "name": "Maybach",
+ "models": [
+  {
+   "slug": "exelero",
+   "name": "Exelero",
+   "generations": [
+    {
+     "years": "2005 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "sw38",
+   "name": "SW38",
+   "generations": [
+    {
+     "years": "1936 – 1938",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Maybach",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Maybach",
+   "generations": [],
+   "body": "купе"
+  },
+  {
+   "slug": "57",
+   "name": "57",
+   "generations": [
+    {
+     "years": "2010 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "62",
+   "name": "62",
+   "generations": [
+    {
+     "years": "2010 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

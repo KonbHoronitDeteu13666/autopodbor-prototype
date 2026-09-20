@@ -1,0 +1,66 @@
+{
+ "slug": "xiaomi",
+ "name": "Xiaomi",
+ "models": [
+  {
+   "slug": "skynomad_n70",
+   "name": "Skynomad N70",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "skynomad_n90",
+   "name": "Skynomad N90",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "su7",
+   "name": "SU7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "yu7",
+   "name": "YU7",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Xiaomi",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Xiaomi",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

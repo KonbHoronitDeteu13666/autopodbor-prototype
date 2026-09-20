@@ -1,0 +1,29 @@
+{
+ "slug": "facel_vega",
+ "name": "Facel Vega",
+ "models": [
+  {
+   "slug": "fv",
+   "name": "FV",
+   "generations": [
+    {
+     "years": "1954 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Facel Vega",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Facel Vega",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

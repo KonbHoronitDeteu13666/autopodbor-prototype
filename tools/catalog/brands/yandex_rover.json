@@ -1,0 +1,29 @@
+{
+ "slug": "yandex_rover",
+ "name": "Яндекс Ровер",
+ "models": [
+  {
+   "slug": "r_3",
+   "name": "R3",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Яндекс Ровер",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Яндекс Ровер",
+   "generations": [],
+   "body": "фургон"
+  }
+ ]
+}

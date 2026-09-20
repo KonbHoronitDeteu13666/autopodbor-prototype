@@ -1,0 +1,159 @@
+{
+ "slug": "lifan",
+ "name": "Lifan",
+ "models": [
+  {
+   "slug": "650_ev",
+   "name": "650 EV",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "breez",
+   "name": "Breez (520)",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cebrium",
+   "name": "Cebrium (720)",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "celliya",
+   "name": "Celliya (530)",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "murman",
+   "name": "Murman (820)",
+   "generations": [
+    {
+     "years": "2015 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "myway",
+   "name": "Myway",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "smily",
+   "name": "Smily",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "I Рестайлинг (330)"
+    },
+    {
+     "years": "2008 – 2015",
+     "name": "I (320)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "solano",
+   "name": "Solano",
+   "generations": [
+    {
+     "years": "2016 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2014 – 2016",
+     "name": "I Рестайлинг (630)"
+    },
+    {
+     "years": "2008 – 2015",
+     "name": "I (620)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "x50",
+   "name": "X50",
+   "generations": [
+    {
+     "years": "2015 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "x60",
+   "name": "X60",
+   "generations": [
+    {
+     "years": "2016 – 2018",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2015 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x70",
+   "name": "X70",
+   "generations": [
+    {
+     "years": "2017 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Lifan",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Lifan",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

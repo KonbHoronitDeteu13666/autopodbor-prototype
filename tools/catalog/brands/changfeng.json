@@ -1,0 +1,51 @@
+{
+ "slug": "changfeng",
+ "name": "Changfeng",
+ "models": [
+  {
+   "slug": "flying",
+   "name": "Flying",
+   "generations": [
+    {
+     "years": "2005 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "liebao_leopard",
+   "name": "Liebao Leopard",
+   "generations": [
+    {
+     "years": "1999 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs6",
+   "name": "SUV (CS6)",
+   "generations": [
+    {
+     "years": "2007 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Changfeng",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Changfeng",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

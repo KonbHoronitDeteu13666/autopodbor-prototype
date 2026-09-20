@@ -1,0 +1,84 @@
+{
+ "slug": "shanghai_maple",
+ "name": "Shanghai Maple",
+ "models": [
+  {
+   "slug": "c31",
+   "name": "C31",
+   "generations": [
+    {
+     "years": "2004 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c32",
+   "name": "C32",
+   "generations": [
+    {
+     "years": "2007 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c51",
+   "name": "C51",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c52",
+   "name": "C52",
+   "generations": [
+    {
+     "years": "2007 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c61",
+   "name": "C61",
+   "generations": [
+    {
+     "years": "2007 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c81",
+   "name": "C81",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Shanghai Maple",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Shanghai Maple",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

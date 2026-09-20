@@ -1,0 +1,62 @@
+{
+ "slug": "trabant",
+ "name": "Trabant",
+ "models": [
+  {
+   "slug": "1_1",
+   "name": "1.1",
+   "generations": [
+    {
+     "years": "1990 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "p50",
+   "name": "P50",
+   "generations": [
+    {
+     "years": "1958 – 1962",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Trabant",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Trabant",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "600",
+   "name": "600",
+   "generations": [
+    {
+     "years": "1962 – 1964",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "601",
+   "name": "P 601",
+   "generations": [
+    {
+     "years": "1963 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

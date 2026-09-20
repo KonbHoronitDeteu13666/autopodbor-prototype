@@ -1,0 +1,735 @@
+{
+ "slug": "buick",
+ "name": "Buick",
+ "models": [
+  {
+   "slug": "cascada",
+   "name": "Cascada",
+   "generations": [
+    {
+     "years": "2015 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "century",
+   "name": "Century",
+   "generations": [
+    {
+     "years": "1997 – 2005",
+     "name": "VI"
+    },
+    {
+     "years": "1982 – 1996",
+     "name": "V"
+    },
+    {
+     "years": "1978 – 1982",
+     "name": "IV"
+    },
+    {
+     "years": "1973 – 1977",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "electra",
+   "name": "Electra",
+   "generations": [
+    {
+     "years": "1985 – 1990",
+     "name": "VI"
+    },
+    {
+     "years": "1977 – 1984",
+     "name": "V"
+    },
+    {
+     "years": "1959 – 1960",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "electra_e4",
+   "name": "Electra E4",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "electra_e5",
+   "name": "Electra E5",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "electra_e7",
+   "name": "Electra E7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "electra_l7",
+   "name": "Electra L7",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "enclave",
+   "name": "Enclave",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III"
+    },
+    {
+     "years": "2019 – 2025",
+     "name": "II (China Market)"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "encore",
+   "name": "Encore",
+   "generations": [
+    {
+     "years": "2016 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "encore_gx",
+   "name": "Encore GX",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "encore_plus",
+   "name": "Encore Plus",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "envision",
+   "name": "Envision",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I Рестайлинг 2 (China Market)"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "envista",
+   "name": "Envista",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "estate_wagon",
+   "name": "Estate Wagon",
+   "generations": [
+    {
+     "years": "1977 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "excelle",
+   "name": "Excelle",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2015 – 2017",
+     "name": "III"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gl6",
+   "name": "GL6",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "gl8",
+   "name": "GL8",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "IV Century"
+    },
+    {
+     "years": "2020 – 2022",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "III"
+    },
+    {
+     "years": "2010 – 2017",
+     "name": "II"
+    },
+    {
+     "years": "2000 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "gs",
+   "name": "GS",
+   "generations": [
+    {
+     "years": "1970 – 1972",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "la_crosse",
+   "name": "LaCrosse",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "IV"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "III"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "II"
+    },
+    {
+     "years": "2007 – 2009",
+     "name": "I (China)"
+    },
+    {
+     "years": "2004 – 2009",
+     "name": "I (North America)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "le_sabre",
+   "name": "LeSabre",
+   "generations": [
+    {
+     "years": "2000 – 2005",
+     "name": "VIII"
+    },
+    {
+     "years": "1992 – 1999",
+     "name": "VII"
+    },
+    {
+     "years": "1986 – 1991",
+     "name": "VI"
+    },
+    {
+     "years": "1977 – 1986",
+     "name": "V"
+    },
+    {
+     "years": "1965 – 1970",
+     "name": "III"
+    },
+    {
+     "years": "1961 – 1964",
+     "name": "II"
+    },
+    {
+     "years": "1959 – 1960",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "limited",
+   "name": "Limited",
+   "generations": [
+    {
+     "years": "1958 – 1959",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "lucerne",
+   "name": "Lucerne",
+   "generations": [
+    {
+     "years": "2008 – 2011",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "park_avenue",
+   "name": "Park Avenue",
+   "generations": [
+    {
+     "years": "2007 – 2012",
+     "name": "III"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1996 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1991 – 1996",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "rainier",
+   "name": "Rainier",
+   "generations": [
+    {
+     "years": "2003 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "reatta",
+   "name": "Reatta",
+   "generations": [
+    {
+     "years": "1988 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "regal",
+   "name": "Regal",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "VI Рестайлинг 2"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "VI Рестайлинг 1"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "VI"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "V"
+    },
+    {
+     "years": "1997 – 2008",
+     "name": "IV"
+    },
+    {
+     "years": "1988 – 1997",
+     "name": "III"
+    },
+    {
+     "years": "1982 – 1996",
+     "name": "Japan"
+    },
+    {
+     "years": "1978 – 1987",
+     "name": "II"
+    },
+    {
+     "years": "1973 – 1977",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "rendezvous",
+   "name": "Rendezvous",
+   "generations": [
+    {
+     "years": "2001 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "riviera",
+   "name": "Riviera",
+   "generations": [
+    {
+     "years": "1994 – 1999",
+     "name": "VIII"
+    },
+    {
+     "years": "1985 – 1993",
+     "name": "VII"
+    },
+    {
+     "years": "1979 – 1985",
+     "name": "VI"
+    },
+    {
+     "years": "1971 – 1973",
+     "name": "III"
+    },
+    {
+     "years": "1966 – 1970",
+     "name": "II"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "roadmaster",
+   "name": "Roadmaster",
+   "generations": [
+    {
+     "years": "1991 – 1996",
+     "name": "VIII"
+    },
+    {
+     "years": "1949 – 1953",
+     "name": "V"
+    },
+    {
+     "years": "1942 – 1948",
+     "name": "IV"
+    },
+    {
+     "years": "1938 – 1939",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "skyhawk",
+   "name": "Skyhawk",
+   "generations": [
+    {
+     "years": "1981 – 1989",
+     "name": "II"
+    },
+    {
+     "years": "1974 – 1979",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "skylark",
+   "name": "Skylark",
+   "generations": [
+    {
+     "years": "1992 – 1998",
+     "name": "IX"
+    },
+    {
+     "years": "1980 – 1985",
+     "name": "VI"
+    },
+    {
+     "years": "1975 – 1979",
+     "name": "IV"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "special",
+   "name": "Special",
+   "generations": [
+    {
+     "years": "1968 – 1969",
+     "name": "V"
+    },
+    {
+     "years": "1964 – 1967",
+     "name": "IV"
+    },
+    {
+     "years": "1961 – 1963",
+     "name": "III"
+    },
+    {
+     "years": "1958 – 1958",
+     "name": "II Рестайлинг 3"
+    },
+    {
+     "years": "1956 – 1957",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "1954 – 1955",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1949 – 1954",
+     "name": "II"
+    },
+    {
+     "years": "1936 – 1949",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "super",
+   "name": "Super",
+   "generations": [
+    {
+     "years": "1942 – 1953",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "terraza",
+   "name": "Terraza",
+   "generations": [
+    {
+     "years": "2005 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "velite_5",
+   "name": "Velite 5",
+   "generations": [
+    {
+     "years": "2017 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "velite_6",
+   "name": "Velite 6",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "velite_7",
+   "name": "Velite 7",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "verano",
+   "name": "Verano",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "III (Pro)"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2015 – 2017",
+     "name": "II"
+    },
+    {
+     "years": "2011 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "wildcat",
+   "name": "Wildcat",
+   "generations": [
+    {
+     "years": "1965 – 1970",
+     "name": "II"
+    },
+    {
+     "years": "1963 – 1964",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Buick",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Buick",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

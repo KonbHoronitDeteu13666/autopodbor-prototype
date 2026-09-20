@@ -1,0 +1,126 @@
+{
+ "slug": "zeekr",
+ "name": "Zeekr",
+ "models": [
+  {
+   "slug": "7x",
+   "name": "7X",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "8x",
+   "name": "8X",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "9x",
+   "name": "9X",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mix",
+   "name": "Mix",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "x",
+   "name": "X",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Zeekr",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Zeekr",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "001",
+   "name": "001",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 1"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "007",
+   "name": "007",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "009",
+   "name": "009",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  }
+ ]
+}

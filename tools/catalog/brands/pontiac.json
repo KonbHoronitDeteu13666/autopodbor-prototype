@@ -1,0 +1,507 @@
+{
+ "slug": "pontiac",
+ "name": "Pontiac",
+ "models": [
+  {
+   "slug": "aztek",
+   "name": "Aztek",
+   "generations": [
+    {
+     "years": "2001 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bonneville",
+   "name": "Bonneville",
+   "generations": [
+    {
+     "years": "2000 – 2005",
+     "name": "X"
+    },
+    {
+     "years": "1991 – 1999",
+     "name": "IX"
+    },
+    {
+     "years": "1987 – 1991",
+     "name": "VIII"
+    },
+    {
+     "years": "1965 – 1970",
+     "name": "IV"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "catalina",
+   "name": "Catalina",
+   "generations": [
+    {
+     "years": "1977 – 1981",
+     "name": "V"
+    },
+    {
+     "years": "1971 – 1976",
+     "name": "IV"
+    },
+    {
+     "years": "1965 – 1970",
+     "name": "III"
+    },
+    {
+     "years": "1961 – 1964",
+     "name": "II"
+    },
+    {
+     "years": "1959 – 1960",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "fiero",
+   "name": "Fiero",
+   "generations": [
+    {
+     "years": "1984 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "firebird",
+   "name": "Firebird",
+   "generations": [
+    {
+     "years": "1993 – 2002",
+     "name": "IV"
+    },
+    {
+     "years": "1982 – 1992",
+     "name": "III"
+    },
+    {
+     "years": "1970 – 1981",
+     "name": "II"
+    },
+    {
+     "years": "1967 – 1969",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "firefly",
+   "name": "Firefly",
+   "generations": [
+    {
+     "years": "1985 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "g4",
+   "name": "G4",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "g5",
+   "name": "G5",
+   "generations": [
+    {
+     "years": "2004 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "g6",
+   "name": "G6",
+   "generations": [
+    {
+     "years": "2004 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "g8",
+   "name": "G8",
+   "generations": [
+    {
+     "years": "2007 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "grand_am",
+   "name": "Grand AM",
+   "generations": [
+    {
+     "years": "1998 – 2005",
+     "name": "V"
+    },
+    {
+     "years": "1992 – 1998",
+     "name": "IV"
+    },
+    {
+     "years": "1984 – 1991",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "grand_prix",
+   "name": "Grand Prix",
+   "generations": [
+    {
+     "years": "2004 – 2008",
+     "name": "VII"
+    },
+    {
+     "years": "1996 – 2003",
+     "name": "VI"
+    },
+    {
+     "years": "1988 – 1996",
+     "name": "V"
+    },
+    {
+     "years": "1978 – 1987",
+     "name": "IV"
+    },
+    {
+     "years": "1972 – 1977",
+     "name": "III"
+    },
+    {
+     "years": "1968 – 1972",
+     "name": "II"
+    },
+    {
+     "years": "1962 – 1968",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "gto",
+   "name": "GTO",
+   "generations": [
+    {
+     "years": "2004 – 2006",
+     "name": "IV"
+    },
+    {
+     "years": "1974 – 1974",
+     "name": "III"
+    },
+    {
+     "years": "1968 – 1973",
+     "name": "II"
+    },
+    {
+     "years": "1964 – 1967",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "laurentian",
+   "name": "Laurentian",
+   "generations": [
+    {
+     "years": "1955 – 1957",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lemans",
+   "name": "LeMans",
+   "generations": [
+    {
+     "years": "1991 – 1993",
+     "name": "VI Рестайлинг"
+    },
+    {
+     "years": "1988 – 1991",
+     "name": "VI"
+    },
+    {
+     "years": "1978 – 1981",
+     "name": "V"
+    },
+    {
+     "years": "1973 – 1977",
+     "name": "IV"
+    },
+    {
+     "years": "1968 – 1972",
+     "name": "III"
+    },
+    {
+     "years": "1964 – 1967",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "montana",
+   "name": "Montana",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": "II SV6"
+    },
+    {
+     "years": "1997 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "parisienne",
+   "name": "Parisienne",
+   "generations": [
+    {
+     "years": "1971 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "phoenix",
+   "name": "Phoenix",
+   "generations": [
+    {
+     "years": "1979 – 1984",
+     "name": "II"
+    },
+    {
+     "years": "1977 – 1979",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "quality_115",
+   "name": "Quality 115",
+   "generations": [
+    {
+     "years": "1939 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "solstice",
+   "name": "Solstice",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "sunbird",
+   "name": "Sunbird",
+   "generations": [
+    {
+     "years": "1988 – 1994",
+     "name": "III"
+    },
+    {
+     "years": "1981 – 1988",
+     "name": "II"
+    },
+    {
+     "years": "1975 – 1980",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "sunfire",
+   "name": "Sunfire",
+   "generations": [
+    {
+     "years": "1995 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sunrunner",
+   "name": "Sunrunner",
+   "generations": [
+    {
+     "years": "1994 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tempest",
+   "name": "Tempest",
+   "generations": [
+    {
+     "years": "1987 – 1991",
+     "name": "III"
+    },
+    {
+     "years": "1964 – 1970",
+     "name": "II"
+    },
+    {
+     "years": "1961 – 1963",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "torpedo",
+   "name": "Torpedo",
+   "generations": [
+    {
+     "years": "1939 – 1948",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "torrent",
+   "name": "Torrent",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "trans_sport",
+   "name": "Trans Sport",
+   "generations": [
+    {
+     "years": "1996 – 1999",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1996",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "ventura",
+   "name": "Ventura",
+   "generations": [
+    {
+     "years": "1971 – 1977",
+     "name": "II"
+    },
+    {
+     "years": "1960 – 1970",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "vibe",
+   "name": "Vibe",
+   "generations": [
+    {
+     "years": "2008 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "wave",
+   "name": "Wave",
+   "generations": [
+    {
+     "years": "2006 – 2009",
+     "name": "T250"
+    },
+    {
+     "years": "2004 – 2006",
+     "name": "T200"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Pontiac",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Pontiac",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "6000",
+   "name": "6000",
+   "generations": [
+    {
+     "years": "1982 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

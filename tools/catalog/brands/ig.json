@@ -1,0 +1,99 @@
+{
+ "slug": "ig",
+ "name": "Иж",
+ "models": [
+  {
+   "slug": "21261_fabula",
+   "name": "21261 «Фабула»",
+   "generations": [
+    {
+     "years": "2004 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Иж",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Иж",
+   "generations": [],
+   "body": "фургон"
+  },
+  {
+   "slug": "2125",
+   "name": "2125 «Комби»",
+   "generations": [
+    {
+     "years": "1973 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "2126",
+   "name": "2126 «Ода»",
+   "generations": [
+    {
+     "years": "1990 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "2715",
+   "name": "2715",
+   "generations": [
+    {
+     "years": "1982 – 2001",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1972 – 1982",
+     "name": "I"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "2717",
+   "name": "2717",
+   "generations": [
+    {
+     "years": "1997 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "27175",
+   "name": "27175",
+   "generations": [
+    {
+     "years": "2005 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "412",
+   "name": "Москвич-412",
+   "generations": [
+    {
+     "years": "1967 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

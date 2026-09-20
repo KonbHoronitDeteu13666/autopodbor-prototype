@@ -1,0 +1,29 @@
+{
+ "slug": "tazzari",
+ "name": "Tazzari",
+ "models": [
+  {
+   "slug": "zero",
+   "name": "Zero",
+   "generations": [
+    {
+     "years": "2009 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Tazzari",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Tazzari",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

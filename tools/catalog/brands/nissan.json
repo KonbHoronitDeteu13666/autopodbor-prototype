@@ -1,0 +1,2848 @@
+{
+ "slug": "nissan",
+ "name": "Nissan",
+ "models": [
+  {
+   "slug": "100nx",
+   "name": "100NX",
+   "generations": [
+    {
+     "years": "1990 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "180sx",
+   "name": "180SX",
+   "generations": [
+    {
+     "years": "1988 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "200sx",
+   "name": "200SX",
+   "generations": [
+    {
+     "years": "1993 – 2000",
+     "name": "S14"
+    },
+    {
+     "years": "1988 – 1994",
+     "name": "S13"
+    },
+    {
+     "years": "1983 – 1988",
+     "name": "S12"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "240sx",
+   "name": "240SX",
+   "generations": [
+    {
+     "years": "1994 – 1999",
+     "name": "S14"
+    },
+    {
+     "years": "1989 – 1994",
+     "name": "S13"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "280zx",
+   "name": "280ZX",
+   "generations": [
+    {
+     "years": "1978 – 1984",
+     "name": ""
+    }
+   ],
+   "body": "кроссовер"
+  },
+  {
+   "slug": "300zx",
+   "name": "300ZX",
+   "generations": [
+    {
+     "years": "1989 – 2000",
+     "name": "II (Z32)"
+    },
+    {
+     "years": "1983 – 1989",
+     "name": "I (Z31)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "350z",
+   "name": "350Z",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "370z",
+   "name": "370Z",
+   "generations": [
+    {
+     "years": "2012 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "ad",
+   "name": "AD",
+   "generations": [
+    {
+     "years": "2016 – 2025",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2006 – 2016",
+     "name": "III"
+    },
+    {
+     "years": "1999 – 2008",
+     "name": "II"
+    },
+    {
+     "years": "1996 – 1999",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1990 – 1996",
+     "name": "I"
+    },
+    {
+     "years": "1982 – 1990",
+     "name": "VB11"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "almera",
+   "name": "Almera",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "IV (N18) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "IV (N18)"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "III (N17) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2018",
+     "name": "III (G15)"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "III (N17)"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "II (N16) Рестайлинг"
+    },
+    {
+     "years": "2000 – 2003",
+     "name": "II (N16)"
+    },
+    {
+     "years": "1995 – 2000",
+     "name": "I (N15)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "almera_classic",
+   "name": "Almera Classic",
+   "generations": [
+    {
+     "years": "2006 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "almera_tino",
+   "name": "Almera Tino",
+   "generations": [
+    {
+     "years": "2003 – 2006",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2000 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "altima",
+   "name": "Altima",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "VI (L34) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "VI (L34)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "V (L33) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "V (L33)"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "IV (L32) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "IV (L32)"
+    },
+    {
+     "years": "2004 – 2006",
+     "name": "III (L31) Рестайлинг"
+    },
+    {
+     "years": "2001 – 2004",
+     "name": "III (L31)"
+    },
+    {
+     "years": "1999 – 2001",
+     "name": "II (L30) Рестайлинг"
+    },
+    {
+     "years": "1997 – 1999",
+     "name": "II (L30)"
+    },
+    {
+     "years": "1992 – 1997",
+     "name": "I (U13)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ariya",
+   "name": "Ariya",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "armada",
+   "name": "Armada",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2007 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2003 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "auster",
+   "name": "Auster",
+   "generations": [
+    {
+     "years": "1985 – 1990",
+     "name": "III (T12)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "autech_zagato_stelvio_az1",
+   "name": "Autech Zagato Stelvio AZ1",
+   "generations": [
+    {
+     "years": "1989 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "avenir",
+   "name": "Avenir",
+   "generations": [
+    {
+     "years": "1998 – 2005",
+     "name": "II (W11)"
+    },
+    {
+     "years": "1990 – 1998",
+     "name": "I (W10)"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "bassara",
+   "name": "Bassara",
+   "generations": [
+    {
+     "years": "1999 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "be_1",
+   "name": "BE-1",
+   "generations": [
+    {
+     "years": "1987 – 1989",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "bluebird",
+   "name": "Bluebird",
+   "generations": [
+    {
+     "years": "1996 – 2001",
+     "name": "XI (U14)"
+    },
+    {
+     "years": "1991 – 1997",
+     "name": "X (U13)"
+    },
+    {
+     "years": "1987 – 1991",
+     "name": "IX (U12)"
+    },
+    {
+     "years": "1985 – 1990",
+     "name": "VIII (T12, T72)"
+    },
+    {
+     "years": "1983 – 1990",
+     "name": "VII (U11)"
+    },
+    {
+     "years": "1979 – 1983",
+     "name": "VI (910)"
+    },
+    {
+     "years": "1976 – 1979",
+     "name": "V (810)"
+    },
+    {
+     "years": "1971 – 1976",
+     "name": "IV (610)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "bluebird_maxima",
+   "name": "Bluebird Maxima",
+   "generations": [
+    {
+     "years": "1985 – 1988",
+     "name": "II (PU11) Рестайлинг"
+    },
+    {
+     "years": "1984 – 1985",
+     "name": "II (PU11)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "bluebird_sylphy",
+   "name": "Bluebird Sylphy",
+   "generations": [
+    {
+     "years": "2005 – 2012",
+     "name": "II (G11)"
+    },
+    {
+     "years": "2000 – 2005",
+     "name": "I (G10)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "caravan_coach",
+   "name": "Caravan",
+   "generations": [
+    {
+     "years": "2001 – 2012",
+     "name": "IV (E25)"
+    },
+    {
+     "years": "1986 – 2001",
+     "name": "III (E24)"
+    },
+    {
+     "years": "1980 – 1986",
+     "name": "II (E23)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "cedric",
+   "name": "Cedric",
+   "generations": [
+    {
+     "years": "1987 – 2014",
+     "name": "VII (Y31)"
+    },
+    {
+     "years": "1999 – 2004",
+     "name": "X (Y34)"
+    },
+    {
+     "years": "1995 – 1999",
+     "name": "IX (Y33)"
+    },
+    {
+     "years": "1983 – 1999",
+     "name": "VI (Y30)"
+    },
+    {
+     "years": "1991 – 1995",
+     "name": "VIII (Y32)"
+    },
+    {
+     "years": "1979 – 1983",
+     "name": "V (430)"
+    },
+    {
+     "years": "1975 – 1979",
+     "name": "IV (330)"
+    },
+    {
+     "years": "1971 – 1975",
+     "name": "III (230)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cefiro",
+   "name": "Cefiro",
+   "generations": [
+    {
+     "years": "2003 – 2008",
+     "name": "IV (J31)"
+    },
+    {
+     "years": "1998 – 2003",
+     "name": "III (A33)"
+    },
+    {
+     "years": "1994 – 2000",
+     "name": "II (A32)"
+    },
+    {
+     "years": "1988 – 1994",
+     "name": "I (A31)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cherry",
+   "name": "Cherry",
+   "generations": [
+    {
+     "years": "1982 – 1987",
+     "name": "IV (N12)"
+    },
+    {
+     "years": "1978 – 1983",
+     "name": "III (N10)"
+    },
+    {
+     "years": "1974 – 1978",
+     "name": "II (F10)"
+    },
+    {
+     "years": "1970 – 1974",
+     "name": "I (E10)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cima",
+   "name": "Cima",
+   "generations": [
+    {
+     "years": "2012 – 2022",
+     "name": "V (Y51)"
+    },
+    {
+     "years": "2001 – 2010",
+     "name": "IV (F50)"
+    },
+    {
+     "years": "1996 – 2001",
+     "name": "III (Y33)"
+    },
+    {
+     "years": "1991 – 1996",
+     "name": "II (Y32)"
+    },
+    {
+     "years": "1988 – 1991",
+     "name": "I (Y31)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "clipper_rio",
+   "name": "Clipper Rio",
+   "generations": [
+    {
+     "years": "2006 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "crew",
+   "name": "Crew",
+   "generations": [
+    {
+     "years": "1993 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cube",
+   "name": "Cube",
+   "generations": [
+    {
+     "years": "2008 – 2020",
+     "name": "III (Z12)"
+    },
+    {
+     "years": "2002 – 2008",
+     "name": "II (Z11)"
+    },
+    {
+     "years": "2000 – 2002",
+     "name": "I Рестайлинг (Z10)"
+    },
+    {
+     "years": "1998 – 2000",
+     "name": "I (Z10)"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "datsun",
+   "name": "Datsun",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": "D22"
+    },
+    {
+     "years": "1985 – 1997",
+     "name": "D21"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "dayz",
+   "name": "Dayz",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "dayz_roox",
+   "name": "Dayz Roox",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "dualis",
+   "name": "Dualis",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "elgrand",
+   "name": "Elgrand",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "IV (E53)"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "III (E52) Рестайлинг 2"
+    },
+    {
+     "years": "2014 – 2020",
+     "name": "III (E52) Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "III (E52)"
+    },
+    {
+     "years": "2002 – 2010",
+     "name": "II (E51)"
+    },
+    {
+     "years": "1997 – 2002",
+     "name": "I (E50)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "exa",
+   "name": "Exa",
+   "generations": [
+    {
+     "years": "1982 – 1990",
+     "name": "I"
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "expert",
+   "name": "Expert",
+   "generations": [
+    {
+     "years": "1999 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "fairlady_z",
+   "name": "Fairlady Z",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "VII (RZ34) Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "VII (RZ34)"
+    },
+    {
+     "years": "2008 – 2021",
+     "name": "VI (Z34)"
+    },
+    {
+     "years": "2002 – 2008",
+     "name": "V (Z33)"
+    },
+    {
+     "years": "1989 – 2000",
+     "name": "IV (Z32)"
+    },
+    {
+     "years": "1983 – 1989",
+     "name": "III (Z31)"
+    },
+    {
+     "years": "1978 – 1983",
+     "name": "II (S130)"
+    },
+    {
+     "years": "1969 – 1978",
+     "name": "I (S30)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "figaro",
+   "name": "Figaro",
+   "generations": [
+    {
+     "years": "1991 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "frontier",
+   "name": "Frontier",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "III (D41)"
+    },
+    {
+     "years": "2009 – 2021",
+     "name": "II Рестайлинг"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "frontier_pro",
+   "name": "Frontier Pro",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "fuga",
+   "name": "Fuga",
+   "generations": [
+    {
+     "years": "2015 – 2022",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "2007 – 2009",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gloria",
+   "name": "Gloria",
+   "generations": [
+    {
+     "years": "1999 – 2004",
+     "name": "XI (Y34)"
+    },
+    {
+     "years": "1995 – 1999",
+     "name": "X (Y33)"
+    },
+    {
+     "years": "1987 – 1999",
+     "name": "VIII (Y31)"
+    },
+    {
+     "years": "1983 – 1999",
+     "name": "VII (Y30)"
+    },
+    {
+     "years": "1991 – 1995",
+     "name": "IX (Y32)"
+    },
+    {
+     "years": "1979 – 1983",
+     "name": "VI (430)"
+    },
+    {
+     "years": "1975 – 1979",
+     "name": "V (330)"
+    },
+    {
+     "years": "1971 – 1975",
+     "name": "IV (230)"
+    },
+    {
+     "years": "1967 – 1971",
+     "name": "III (A30)"
+    },
+    {
+     "years": "1962 – 1967",
+     "name": "II (S40)"
+    },
+    {
+     "years": "1959 – 1962",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gravite",
+   "name": "Gravite",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "кроссовер"
+  },
+  {
+   "slug": "gt_r",
+   "name": "GT-R",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": "I Рестайлинг 4"
+    },
+    {
+     "years": "2016 – 2023",
+     "name": "I Рестайлинг 3"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "I Рестайлинг 1"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "homy",
+   "name": "Homy",
+   "generations": [
+    {
+     "years": "1990 – 1997",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "1986 – 1990",
+     "name": "IV"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "hypermini",
+   "name": "Hypermini",
+   "generations": [
+    {
+     "years": "1999 – 2001",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "juke",
+   "name": "Juke",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "juke_nismo",
+   "name": "Juke Nismo",
+   "generations": [
+    {
+     "years": "2014 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kait",
+   "name": "Kait",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kicks",
+   "name": "Kicks",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kix",
+   "name": "Kix",
+   "generations": [
+    {
+     "years": "2008 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kubistar",
+   "name": "Kubistar",
+   "generations": [
+    {
+     "years": "2003 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "lafesta",
+   "name": "Lafesta",
+   "generations": [
+    {
+     "years": "2011 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "langley",
+   "name": "Langley",
+   "generations": [
+    {
+     "years": "1986 – 1990",
+     "name": "III (N13)"
+    },
+    {
+     "years": "1982 – 1986",
+     "name": "II (N12)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "lannia",
+   "name": "Lannia",
+   "generations": [
+    {
+     "years": "2015 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "largo",
+   "name": "Largo",
+   "generations": [
+    {
+     "years": "1993 – 1999",
+     "name": "III (W30)"
+    },
+    {
+     "years": "1986 – 1993",
+     "name": "II (GC22)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "latio",
+   "name": "Latio",
+   "generations": [
+    {
+     "years": "2014 – 2016",
+     "name": "I (N17) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "I (N17)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "laurel",
+   "name": "Laurel",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": "VIII (C35)"
+    },
+    {
+     "years": "1993 – 1997",
+     "name": "VII (C34)"
+    },
+    {
+     "years": "1989 – 1993",
+     "name": "VI (C33)"
+    },
+    {
+     "years": "1984 – 1989",
+     "name": "V (C32)"
+    },
+    {
+     "years": "1980 – 1984",
+     "name": "IV (C31)"
+    },
+    {
+     "years": "1977 – 1980",
+     "name": "III (C230)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "laurel_spirit",
+   "name": "Laurel Spirit",
+   "generations": [
+    {
+     "years": "1986 – 1990",
+     "name": "II (B12L)"
+    },
+    {
+     "years": "1982 – 1986",
+     "name": "I (B11)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "leaf",
+   "name": "Leaf",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III (ZE2)"
+    },
+    {
+     "years": "2017 – 2024",
+     "name": "II (ZE1)"
+    },
+    {
+     "years": "2010 – 2017",
+     "name": "I (ZE0/AZE0)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "leopard",
+   "name": "Leopard",
+   "generations": [
+    {
+     "years": "1996 – 2000",
+     "name": "IV (Y33)"
+    },
+    {
+     "years": "1992 – 1996",
+     "name": "III (Y32)"
+    },
+    {
+     "years": "1986 – 1992",
+     "name": "II (F31)"
+    },
+    {
+     "years": "1980 – 1986",
+     "name": "I (F30)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "liberta_villa",
+   "name": "Liberta Villa",
+   "generations": [
+    {
+     "years": "1986 – 1990",
+     "name": "II (N13)"
+    },
+    {
+     "years": "1982 – 1986",
+     "name": "I (N12)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "liberty",
+   "name": "Liberty",
+   "generations": [
+    {
+     "years": "1998 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "livina",
+   "name": "Livina",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2006 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "lucino",
+   "name": "Lucino",
+   "generations": [
+    {
+     "years": "1994 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "magnite",
+   "name": "Magnite",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "march",
+   "name": "March",
+   "generations": [
+    {
+     "years": "2013 – 2022",
+     "name": "IV (K13) Рестайлинг"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "IV (K13)"
+    },
+    {
+     "years": "2002 – 2010",
+     "name": "III (K12)"
+    },
+    {
+     "years": "1992 – 2002",
+     "name": "II (K11)"
+    },
+    {
+     "years": "1982 – 1992",
+     "name": "I (K10)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "maxima",
+   "name": "Maxima",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": "VIII (A36) Рестайлинг"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "VIII (A36)"
+    },
+    {
+     "years": "2008 – 2014",
+     "name": "VII (A35)"
+    },
+    {
+     "years": "2003 – 2008",
+     "name": "VI (A34)"
+    },
+    {
+     "years": "1999 – 2006",
+     "name": "V (A33)"
+    },
+    {
+     "years": "1994 – 2000",
+     "name": "IV (A32)"
+    },
+    {
+     "years": "1988 – 1994",
+     "name": "III (J30)"
+    },
+    {
+     "years": "1984 – 1988",
+     "name": "II (U11)"
+    },
+    {
+     "years": "1981 – 1984",
+     "name": "I (G910)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "micra",
+   "name": "Micra",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "VI"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "V"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "IV (K13) Рестайлинг"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "IV (K13)"
+    },
+    {
+     "years": "2002 – 2010",
+     "name": "III (K12)"
+    },
+    {
+     "years": "1992 – 2002",
+     "name": "II (K11)"
+    },
+    {
+     "years": "1982 – 1992",
+     "name": "I (K10)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mistral",
+   "name": "Mistral",
+   "generations": [
+    {
+     "years": "1994 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "moco",
+   "name": "Moco",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": "III"
+    },
+    {
+     "years": "2006 – 2011",
+     "name": "II"
+    },
+    {
+     "years": "2001 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "murano",
+   "name": "Murano",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "IV (Z53)"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "III (Z52) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2023",
+     "name": "III (Z52)"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "II (Z51) Рестайлинг 2"
+    },
+    {
+     "years": "2010 – 2012",
+     "name": "II (Z51) Рестайлинг"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "II (Z51)"
+    },
+    {
+     "years": "2002 – 2008",
+     "name": "I (Z50)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "n6",
+   "name": "N6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "n7",
+   "name": "N7",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "navara",
+   "name": "Navara (Frontier)",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "V (D27)"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "IV (D23) Рестайлинг"
+    },
+    {
+     "years": "c 2014 года",
+     "name": "IV (D23)"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "III (D40) Рестайлинг"
+    },
+    {
+     "years": "2004 – 2010",
+     "name": "III (D40)"
+    },
+    {
+     "years": "1998 – 2007",
+     "name": "II (D22)"
+    },
+    {
+     "years": "1985 – 1998",
+     "name": "I (D21)"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "note",
+   "name": "Note",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "III"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "2008 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "np200",
+   "name": "NP200",
+   "generations": [
+    {
+     "years": "2008 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "np300",
+   "name": "NP300",
+   "generations": [
+    {
+     "years": "2008 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "clipper",
+   "name": "NV100 Clipper",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "c 2015 года",
+     "name": "III"
+    },
+    {
+     "years": "2013 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2006 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "nv200",
+   "name": "NV200",
+   "generations": [
+    {
+     "years": "c 2009 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "nv300",
+   "name": "NV300",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "nv350_caravan",
+   "name": "NV350 Caravan",
+   "generations": [
+    {
+     "years": "2017 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "nx_coupe",
+   "name": "NX Coupe",
+   "generations": [
+    {
+     "years": "1990 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "nx7",
+   "name": "NX7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "nx8",
+   "name": "NX8",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "otti",
+   "name": "Otti",
+   "generations": [
+    {
+     "years": "2006 – 2013",
+     "name": "II (H92)"
+    },
+    {
+     "years": "2005 – 2006",
+     "name": "I (H91)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "pao",
+   "name": "Pao",
+   "generations": [
+    {
+     "years": "1989 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "pathfinder",
+   "name": "Pathfinder",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "V (China Market)"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "V"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "IV"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2004 – 2010",
+     "name": "III"
+    },
+    {
+     "years": "1995 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1985 – 1995",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "patrol",
+   "name": "Patrol",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "VII (Y63)"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "VI (Y62) Рестайлинг 2"
+    },
+    {
+     "years": "2004 – 2024",
+     "name": "V (Y61) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "VI (Y62) Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "VI (Y62)"
+    },
+    {
+     "years": "1997 – 2004",
+     "name": "V (Y61)"
+    },
+    {
+     "years": "1987 – 1997",
+     "name": "IV (Y60)"
+    },
+    {
+     "years": "1980 – 1994",
+     "name": "III (K160, K260)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "pino",
+   "name": "Pino",
+   "generations": [
+    {
+     "years": "2007 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "pixo",
+   "name": "Pixo",
+   "generations": [
+    {
+     "years": "2008 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "prairie",
+   "name": "Prairie",
+   "generations": [
+    {
+     "years": "1998 – 2004",
+     "name": "III (M12)"
+    },
+    {
+     "years": "1988 – 1998",
+     "name": "II (M11)"
+    },
+    {
+     "years": "1982 – 1988",
+     "name": "I (M10)"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "presage",
+   "name": "Presage",
+   "generations": [
+    {
+     "years": "2003 – 2009",
+     "name": "II"
+    },
+    {
+     "years": "1998 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "presea",
+   "name": "Presea",
+   "generations": [
+    {
+     "years": "1995 – 2000",
+     "name": "II"
+    },
+    {
+     "years": "1990 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "president",
+   "name": "President",
+   "generations": [
+    {
+     "years": "2003 – 2010",
+     "name": "III (PGF50)"
+    },
+    {
+     "years": "1990 – 2002",
+     "name": "II (HG50)"
+    },
+    {
+     "years": "1973 – 1990",
+     "name": "I (150, 250)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "primastar",
+   "name": "Primastar",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "II"
+    },
+    {
+     "years": "2006 – 2014",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "primera",
+   "name": "Primera",
+   "generations": [
+    {
+     "years": "2001 – 2008",
+     "name": "III (P12)"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "II (P11) Рестайлинг"
+    },
+    {
+     "years": "1995 – 2000",
+     "name": "II (P11)"
+    },
+    {
+     "years": "1990 – 1997",
+     "name": "I (P10)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "pulsar",
+   "name": "Pulsar",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "VI (C13)"
+    },
+    {
+     "years": "2000 – 2005",
+     "name": "N16"
+    },
+    {
+     "years": "1995 – 2000",
+     "name": "V (N15)"
+    },
+    {
+     "years": "1990 – 1995",
+     "name": "IV (N14)"
+    },
+    {
+     "years": "1986 – 1990",
+     "name": "III (N13)"
+    },
+    {
+     "years": "1982 – 1986",
+     "name": "II (N12)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "qashqai",
+   "name": "Qashqai",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "III"
+    },
+    {
+     "years": "2017 – 2024",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2013 – 2019",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "qashqai_plus_2",
+   "name": "Qashqai+2",
+   "generations": [
+    {
+     "years": "2010 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "quest",
+   "name": "Quest",
+   "generations": [
+    {
+     "years": "2010 – 2018",
+     "name": "IV"
+    },
+    {
+     "years": "2003 – 2009",
+     "name": "III"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1992 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "rnessa",
+   "name": "R'nessa",
+   "generations": [
+    {
+     "years": "1997 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "rasheen",
+   "name": "Rasheen",
+   "generations": [
+    {
+     "years": "1995 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "rogue",
+   "name": "Rogue",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "IV"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "III"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rogue_sport",
+   "name": "Rogue Sport",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "roox",
+   "name": "Roox",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "s_cargo",
+   "name": "S-Cargo",
+   "generations": [
+    {
+     "years": "1989 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "safari",
+   "name": "Safari",
+   "generations": [
+    {
+     "years": "1997 – 2013",
+     "name": "V (Y61)"
+    },
+    {
+     "years": "1987 – 1997",
+     "name": "IV (Y60)"
+    },
+    {
+     "years": "1980 – 1987",
+     "name": "III (160)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sakura",
+   "name": "Sakura",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sentra",
+   "name": "Sentra",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "IX (B19)"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "VIII (B18) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "VIII (B18)"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "VII (B17) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "VII (B17)"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "VI (B16) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "VI (B16)"
+    },
+    {
+     "years": "1999 – 2006",
+     "name": "V (B15)"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "IV (B14)"
+    },
+    {
+     "years": "1985 – 1990",
+     "name": "II (B12)"
+    },
+    {
+     "years": "1982 – 1986",
+     "name": "I (B11)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "serena",
+   "name": "Serena",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "VI (C28) Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "VI (C28)"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "V (C27) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "V (C27)"
+    },
+    {
+     "years": "2010 – 2016",
+     "name": "IV (C26)"
+    },
+    {
+     "years": "2005 – 2012",
+     "name": "III (C25)"
+    },
+    {
+     "years": "1999 – 2005",
+     "name": "II (C24)"
+    },
+    {
+     "years": "1991 – 2002",
+     "name": "I (C23)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "silvia",
+   "name": "Silvia",
+   "generations": [
+    {
+     "years": "1999 – 2002",
+     "name": "VII (S15)"
+    },
+    {
+     "years": "1993 – 1999",
+     "name": "VI (S14)"
+    },
+    {
+     "years": "1988 – 1993",
+     "name": "V (S13)"
+    },
+    {
+     "years": "1983 – 1988",
+     "name": "IV (S12)"
+    },
+    {
+     "years": "1979 – 1983",
+     "name": "III (S110)"
+    },
+    {
+     "years": "1975 – 1979",
+     "name": "II"
+    },
+    {
+     "years": "1965 – 1968",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "skyline",
+   "name": "Skyline",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "XIII (V37) Рестайлинг 2"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "XIII (V37) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "XIII (V37)"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "XII (V36) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "XII (V36)"
+    },
+    {
+     "years": "2001 – 2007",
+     "name": "XI (V35)"
+    },
+    {
+     "years": "1998 – 2002",
+     "name": "X (R34)"
+    },
+    {
+     "years": "1993 – 1998",
+     "name": "IX (R33)"
+    },
+    {
+     "years": "1989 – 1994",
+     "name": "VIII (R32)"
+    },
+    {
+     "years": "1985 – 1989",
+     "name": "VII (R31)"
+    },
+    {
+     "years": "1981 – 1985",
+     "name": "VI (R30)"
+    },
+    {
+     "years": "1977 – 1981",
+     "name": "V (C210)"
+    },
+    {
+     "years": "1972 – 1977",
+     "name": "IV (C110)"
+    },
+    {
+     "years": "1968 – 1972",
+     "name": "III (C10)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "skyline_crossover",
+   "name": "Skyline Crossover",
+   "generations": [
+    {
+     "years": "2009 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "stagea",
+   "name": "Stagea",
+   "generations": [
+    {
+     "years": "2001 – 2007",
+     "name": "II"
+    },
+    {
+     "years": "1996 – 2001",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "stanza",
+   "name": "Stanza",
+   "generations": [
+    {
+     "years": "1990 – 1992",
+     "name": "III (U12)"
+    },
+    {
+     "years": "1986 – 1989",
+     "name": "II (T12)"
+    },
+    {
+     "years": "1981 – 1985",
+     "name": "I (T11)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sunny",
+   "name": "Sunny",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "N18 Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "N18"
+    },
+    {
+     "years": "2014 – 2020",
+     "name": "N17 Рестайлинг"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "N17"
+    },
+    {
+     "years": "2006 – 2012",
+     "name": "B10"
+    },
+    {
+     "years": "2000 – 2005",
+     "name": "N16"
+    },
+    {
+     "years": "1998 – 2004",
+     "name": "B15"
+    },
+    {
+     "years": "1990 – 2000",
+     "name": "Y10"
+    },
+    {
+     "years": "1993 – 1999",
+     "name": "B14"
+    },
+    {
+     "years": "1990 – 1995",
+     "name": "N14"
+    },
+    {
+     "years": "1989 – 1994",
+     "name": "B120"
+    },
+    {
+     "years": "1990 – 1993",
+     "name": "B13"
+    },
+    {
+     "years": "1986 – 1991",
+     "name": "N13"
+    },
+    {
+     "years": "1986 – 1991",
+     "name": "B12"
+    },
+    {
+     "years": "1982 – 1987",
+     "name": "B11"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sylphy",
+   "name": "Sylphy",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "V (B19)"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "IV (B18) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "IV (B18)"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "Zero Emission"
+    },
+    {
+     "years": "c 2016 года",
+     "name": "III (China Market) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2020",
+     "name": "III (B17)"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "III (China Market)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "teana",
+   "name": "Teana",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "IV (L34)"
+    },
+    {
+     "years": "2014 – 2020",
+     "name": "III (L33)"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "II (J32) Рестайлинг"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "II (J32)"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "I (J31) Рестайлинг"
+    },
+    {
+     "years": "2003 – 2005",
+     "name": "I (J31)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tekton",
+   "name": "Tekton",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "terra",
+   "name": "Terra",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "terrano",
+   "name": "Terrano",
+   "generations": [
+    {
+     "years": "2014 – 2022",
+     "name": "III (D10)"
+    },
+    {
+     "years": "1999 – 2006",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "1995 – 2002",
+     "name": "R50"
+    },
+    {
+     "years": "1996 – 1999",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1993 – 1996",
+     "name": "II"
+    },
+    {
+     "years": "1985 – 1995",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "terrano_regulus",
+   "name": "Terrano Regulus",
+   "generations": [
+    {
+     "years": "1996 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiida",
+   "name": "Tiida",
+   "generations": [
+    {
+     "years": "c 2016 года",
+     "name": "II (China Market)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2004 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "tino",
+   "name": "Tino",
+   "generations": [
+    {
+     "years": "1998 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "titan",
+   "name": "Titan",
+   "generations": [
+    {
+     "years": "2019 – 2024",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "II"
+    },
+    {
+     "years": "2007 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2003 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "townstar",
+   "name": "Townstar",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "urvan",
+   "name": "Urvan",
+   "generations": [
+    {
+     "years": "2001 – 2012",
+     "name": "IV (E25)"
+    },
+    {
+     "years": "1986 – 2001",
+     "name": "III (E24)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "vanette",
+   "name": "Vanette",
+   "generations": [
+    {
+     "years": "1999 – 2017",
+     "name": "IV"
+    },
+    {
+     "years": "1994 – 2002",
+     "name": "III"
+    },
+    {
+     "years": "1985 – 1994",
+     "name": "II"
+    },
+    {
+     "years": "1978 – 1988",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "versa",
+   "name": "Versa",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "IV"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "III"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "II"
+    },
+    {
+     "years": "2006 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "versa_note",
+   "name": "Versa Note",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "wingroad",
+   "name": "Wingroad",
+   "generations": [
+    {
+     "years": "2005 – 2018",
+     "name": "III (Y12)"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "II (Y11) Рестайлинг"
+    },
+    {
+     "years": "1999 – 2001",
+     "name": "II (Y11)"
+    },
+    {
+     "years": "1996 – 1999",
+     "name": "I (Y10)"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "x_terra",
+   "name": "X-Terra",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x_trail",
+   "name": "X-Trail",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "c 2025 года",
+     "name": "III Рестайлинг 2"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "IV"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2013 – 2019",
+     "name": "III"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2007",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2000 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xterra",
+   "name": "Xterra",
+   "generations": [
+    {
+     "years": "2008 – 2015",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "II"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1999 – 2001",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "z",
+   "name": "Z",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I (RZ34) Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Nissan",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Nissan",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

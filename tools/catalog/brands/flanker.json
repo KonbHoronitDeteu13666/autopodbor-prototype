@@ -1,0 +1,29 @@
+{
+ "slug": "flanker",
+ "name": "Flanker",
+ "models": [
+  {
+   "slug": "f",
+   "name": "F",
+   "generations": [
+    {
+     "years": "2018 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Flanker",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Flanker",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

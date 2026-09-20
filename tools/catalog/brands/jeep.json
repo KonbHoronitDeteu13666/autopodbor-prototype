@@ -1,0 +1,314 @@
+{
+ "slug": "jeep",
+ "name": "Jeep",
+ "models": [
+  {
+   "slug": "avenger",
+   "name": "Avenger",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cherokee",
+   "name": "Cherokee",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "VI (KM)"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "V (KL) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2018",
+     "name": "V (KL)"
+    },
+    {
+     "years": "2007 – 2012",
+     "name": "IV (KK)"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "III (KJ) Рестайлинг"
+    },
+    {
+     "years": "2001 – 2004",
+     "name": "III (KJ)"
+    },
+    {
+     "years": "1997 – 2001",
+     "name": "II (XJ) Рестайлинг"
+    },
+    {
+     "years": "1983 – 1996",
+     "name": "II (XJ)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cj",
+   "name": "CJ",
+   "generations": [
+    {
+     "years": "1966 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "comanche",
+   "name": "Comanche",
+   "generations": [
+    {
+     "years": "1985 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "commander",
+   "name": "Commander",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "compass",
+   "name": "Compass",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gladiator",
+   "name": "Gladiator",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II (JT) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II (JT)"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "grand_cherokee",
+   "name": "Grand Cherokee",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "V (WL) Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "V (WL)"
+    },
+    {
+     "years": "2013 – 2022",
+     "name": "IV (WK2) Рестайлинг"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "IV (WK2)"
+    },
+    {
+     "years": "2004 – 2010",
+     "name": "III (WK)"
+    },
+    {
+     "years": "1998 – 2004",
+     "name": "II (WJ)"
+    },
+    {
+     "years": "1996 – 1998",
+     "name": "I (ZJ) Рестайлинг"
+    },
+    {
+     "years": "1992 – 1996",
+     "name": "I (ZJ)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "grand_commander",
+   "name": "Grand Commander",
+   "generations": [
+    {
+     "years": "2021 – 2022",
+     "name": "I (K8) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "I (K8)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "libety_na",
+   "name": "Liberty (North America)",
+   "generations": [
+    {
+     "years": "2007 – 2012",
+     "name": "II"
+    },
+    {
+     "years": "2001 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "patriot",
+   "name": "Liberty (Patriot)",
+   "generations": [
+    {
+     "years": "2006 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "recon",
+   "name": "Recon",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "renegade",
+   "name": "Renegade",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2018 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "grand_wagoneer",
+   "name": "Wagoneer",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "WS"
+    },
+    {
+     "years": "1984 – 1991",
+     "name": "SJ"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "wagoneer_s",
+   "name": "Wagoneer S",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "wrangler",
+   "name": "Wrangler",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "IV (JL) Рестайлинг"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "IV (JL)"
+    },
+    {
+     "years": "2007 – 2018",
+     "name": "III (JK)"
+    },
+    {
+     "years": "1996 – 2006",
+     "name": "II (TJ)"
+    },
+    {
+     "years": "1986 – 1996",
+     "name": "I (YJ)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Jeep",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Jeep",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

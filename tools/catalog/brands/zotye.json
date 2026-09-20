@@ -1,0 +1,161 @@
+{
+ "slug": "zotye",
+ "name": "Zotye",
+ "models": [
+  {
+   "slug": "coupa",
+   "name": "Coupa",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "domy_x5",
+   "name": "Domy X5",
+   "generations": [
+    {
+     "years": "2015 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "domy_x7",
+   "name": "Domy X7",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e200",
+   "name": "E200",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "nomad",
+   "name": "Nomad (RX6400)",
+   "generations": [
+    {
+     "years": "2005 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sr9",
+   "name": "SR9",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t300",
+   "name": "T300",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t500",
+   "name": "T500",
+   "generations": [
+    {
+     "years": "2018 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t600",
+   "name": "T600",
+   "generations": [
+    {
+     "years": "2013 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t700",
+   "name": "T700",
+   "generations": [
+    {
+     "years": "2017 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t800",
+   "name": "T800",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "z100",
+   "name": "Z100",
+   "generations": [
+    {
+     "years": "2013 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "z300",
+   "name": "Z300",
+   "generations": [
+    {
+     "years": "2012 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Zotye",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Zotye",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

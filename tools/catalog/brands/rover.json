@@ -1,0 +1,240 @@
+{
+ "slug": "rover",
+ "name": "Rover",
+ "models": [
+  {
+   "slug": "maestro",
+   "name": "Maestro",
+   "generations": [
+    {
+     "years": "1991 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "metro",
+   "name": "Metro",
+   "generations": [
+    {
+     "years": "1987 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mini",
+   "name": "Mini",
+   "generations": [
+    {
+     "years": "1989 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "montego",
+   "name": "Montego",
+   "generations": [
+    {
+     "years": "1988 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "p3",
+   "name": "P3",
+   "generations": [
+    {
+     "years": "1948 – 1949",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "p4",
+   "name": "P4",
+   "generations": [
+    {
+     "years": "1949 – 1964",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "p6",
+   "name": "P6",
+   "generations": [
+    {
+     "years": "1963 – 1977",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sd1",
+   "name": "SD1",
+   "generations": [
+    {
+     "years": "1976 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "streetwise",
+   "name": "Streetwise",
+   "generations": [
+    {
+     "years": "2003 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Rover",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Rover",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "100",
+   "name": "100",
+   "generations": [
+    {
+     "years": "1994 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "14",
+   "name": "14",
+   "generations": [
+    {
+     "years": "1933 – 1948",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "200",
+   "name": "200",
+   "generations": [
+    {
+     "years": "1995 – 1999",
+     "name": "III (R3)"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "II (R8) Рестайлинг 2"
+    },
+    {
+     "years": "1992 – 1993",
+     "name": "II (R8) Рестайлинг"
+    },
+    {
+     "years": "1989 – 1992",
+     "name": "II (R8)"
+    },
+    {
+     "years": "1984 – 1989",
+     "name": "I (SD3)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "25",
+   "name": "25",
+   "generations": [
+    {
+     "years": "1999 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "400",
+   "name": "400",
+   "generations": [
+    {
+     "years": "1995 – 2000",
+     "name": "II (HH-R)"
+    },
+    {
+     "years": "1990 – 1998",
+     "name": "I (R8)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "45",
+   "name": "45",
+   "generations": [
+    {
+     "years": "1999 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "600",
+   "name": "600",
+   "generations": [
+    {
+     "years": "1993 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "75",
+   "name": "75",
+   "generations": [
+    {
+     "years": "2004 – 2005",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1999 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "800",
+   "name": "800",
+   "generations": [
+    {
+     "years": "1986 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

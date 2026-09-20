@@ -1,0 +1,110 @@
+{
+ "slug": "tatra",
+ "name": "Tatra",
+ "models": [
+  {
+   "slug": "t600",
+   "name": "T600",
+   "generations": [
+    {
+     "years": "1946 – 1952",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "t603",
+   "name": "T603",
+   "generations": [
+    {
+     "years": "1968 – 1975",
+     "name": "II"
+    },
+    {
+     "years": "1956 – 1968",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "t613",
+   "name": "T613",
+   "generations": [
+    {
+     "years": "1973 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "t700",
+   "name": "T700",
+   "generations": [
+    {
+     "years": "1996 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Tatra",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Tatra",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "57",
+   "name": "57",
+   "generations": [
+    {
+     "years": "1932 – 1949",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "77",
+   "name": "77",
+   "generations": [
+    {
+     "years": "1934 – 1938",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "80",
+   "name": "80",
+   "generations": [
+    {
+     "years": "1931 – 1935",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "87",
+   "name": "87",
+   "generations": [
+    {
+     "years": "1936 – 1950",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "karma",
+ "name": "Karma",
+ "models": [
+  {
+   "slug": "revero",
+   "name": "Revero",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "revero_gt",
+   "name": "Revero GT",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Karma",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Karma",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,450 @@
+{
+ "slug": "baic",
+ "name": "BAIC",
+ "models": [
+  {
+   "slug": "a1",
+   "name": "A1",
+   "generations": [
+    {
+     "years": "2012 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "bj_2020",
+   "name": "BJ2020",
+   "generations": [
+    {
+     "years": "1989 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj2021",
+   "name": "BJ2021",
+   "generations": [
+    {
+     "years": "1984 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj2025f",
+   "name": "BJ2025F",
+   "generations": [
+    {
+     "years": "1985 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj_2026",
+   "name": "BJ2026",
+   "generations": [
+    {
+     "years": "2011 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj2030",
+   "name": "BJ2030",
+   "generations": [
+    {
+     "years": "1993 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj_212",
+   "name": "BJ212",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1964 – 1987",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj30",
+   "name": "BJ30",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj40",
+   "name": "BJ40",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj41",
+   "name": "BJ41",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj60",
+   "name": "BJ60",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj80",
+   "name": "BJ80",
+   "generations": [
+    {
+     "years": "c 2016 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bj90",
+   "name": "BJ90",
+   "generations": [
+    {
+     "years": "2016 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ec3",
+   "name": "EC3",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "eu",
+   "name": "EU",
+   "generations": [
+    {
+     "years": "2015 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eu5",
+   "name": "EU5",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "I (Plus) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eu5_plus",
+   "name": "EU5 Plus",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eu7",
+   "name": "EU7",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eu8",
+   "name": "EU8",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ex3",
+   "name": "EX3",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ex5",
+   "name": "EX5",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "jeep_cherokee_2500",
+   "name": "Jeep 2500",
+   "generations": [
+    {
+     "years": "2003 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "kenbo_600",
+   "name": "Kenbo 600",
+   "generations": [
+    {
+     "years": "2015 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "luba",
+   "name": "Luba (XB624)",
+   "generations": [
+    {
+     "years": "2000 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ruixiang_x3",
+   "name": "Ruixiang X3",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ruixiang_x5",
+   "name": "Ruixiang X5",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "taitan_700",
+   "name": "Taitan 700",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "u5",
+   "name": "U5",
+   "generations": [
+    {
+     "years": "2017 – 2022",
+     "name": "II"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "u5_plus",
+   "name": "U5 Plus",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "u7",
+   "name": "U7",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "x3",
+   "name": "X3",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x35",
+   "name": "X35",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x5",
+   "name": "X5",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": "II (Beijing X5)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I (Senova X55)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x55",
+   "name": "X55",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x7",
+   "name": "X7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x75",
+   "name": "X75",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей BAIC",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели BAIC",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

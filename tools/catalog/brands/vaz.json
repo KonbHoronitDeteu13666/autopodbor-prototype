@@ -1,0 +1,506 @@
+{
+ "slug": "vaz",
+ "name": "Lada (ВАЗ)",
+ "models": [
+  {
+   "slug": "2131_4x4",
+   "name": "2131 (4x4)",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг (2020)"
+    },
+    {
+     "years": "1993 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "aura",
+   "name": "Aura",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "azimut",
+   "name": "Azimut",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e_largus",
+   "name": "e-Largus",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "ellada",
+   "name": "EL Lada",
+   "generations": [
+    {
+     "years": "2012 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "granta",
+   "name": "Granta",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "iskra",
+   "name": "Iskra",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "kalina",
+   "name": "Kalina",
+   "generations": [
+    {
+     "years": "2013 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "largus",
+   "name": "Largus",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "niva",
+   "name": "Niva",
+   "generations": [
+    {
+     "years": "2020 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "niva_legend",
+   "name": "Niva Legend",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "niva_travel",
+   "name": "Niva Travel",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "revolution",
+   "name": "Revolution",
+   "generations": [
+    {
+     "years": "2006 – 2006",
+     "name": "SuperSport"
+    },
+    {
+     "years": "2003 – 2004",
+     "name": "Sport"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "vesta",
+   "name": "Vesta",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг (NG)"
+    },
+    {
+     "years": "2015 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "x_cross_5",
+   "name": "X-cross 5",
+   "generations": [
+    {
+     "years": "2023 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xray",
+   "name": "XRAY",
+   "generations": [
+    {
+     "years": "2015 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Lada (ВАЗ)",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Lada (ВАЗ)",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "1111",
+   "name": "1111 Ока",
+   "generations": [
+    {
+     "years": "1987 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "2101",
+   "name": "2101",
+   "generations": [
+    {
+     "years": "1970 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2102",
+   "name": "2102",
+   "generations": [
+    {
+     "years": "1971 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "2103",
+   "name": "2103",
+   "generations": [
+    {
+     "years": "1972 – 1984",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2104",
+   "name": "2104",
+   "generations": [
+    {
+     "years": "1984 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "2105",
+   "name": "2105",
+   "generations": [
+    {
+     "years": "1979 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2106",
+   "name": "2106",
+   "generations": [
+    {
+     "years": "1976 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2107",
+   "name": "2107",
+   "generations": [
+    {
+     "years": "1982 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2108",
+   "name": "2108",
+   "generations": [
+    {
+     "years": "1984 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "2109",
+   "name": "2109",
+   "generations": [
+    {
+     "years": "1987 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "21099",
+   "name": "21099",
+   "generations": [
+    {
+     "years": "1990 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2110",
+   "name": "2110",
+   "generations": [
+    {
+     "years": "1995 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2111",
+   "name": "2111",
+   "generations": [
+    {
+     "years": "1997 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "2112",
+   "name": "2112",
+   "generations": [
+    {
+     "years": "1998 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "2113",
+   "name": "2113",
+   "generations": [
+    {
+     "years": "2004 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "2114",
+   "name": "2114",
+   "generations": [
+    {
+     "years": "2001 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "2115",
+   "name": "2115",
+   "generations": [
+    {
+     "years": "1997 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2120",
+   "name": "2120 Надежда",
+   "generations": [
+    {
+     "years": "2002 – 2006",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "2121",
+   "name": "2121 (4x4)",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг (2020)"
+    },
+    {
+     "years": "1993 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1977 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "2123",
+   "name": "2123",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "2129",
+   "name": "2129",
+   "generations": [
+    {
+     "years": "1992 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "2328",
+   "name": "2328",
+   "generations": [
+    {
+     "years": "1995 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "2329",
+   "name": "2329",
+   "generations": [
+    {
+     "years": "1995 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "2170",
+   "name": "Priora",
+   "generations": [
+    {
+     "years": "2013 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  }
+ ]
+}

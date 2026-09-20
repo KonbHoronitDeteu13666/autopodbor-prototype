@@ -1,0 +1,51 @@
+{
+ "slug": "caterham",
+ "name": "Caterham",
+ "models": [
+  {
+   "slug": "c21",
+   "name": "21",
+   "generations": [
+    {
+     "years": "1994 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "csr",
+   "name": "CSR",
+   "generations": [
+    {
+     "years": "c 2005 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "seven",
+   "name": "Seven",
+   "generations": [
+    {
+     "years": "c 1992 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Caterham",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Caterham",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

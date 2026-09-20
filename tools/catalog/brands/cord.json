@@ -1,0 +1,29 @@
+{
+ "slug": "cord",
+ "name": "Cord",
+ "models": [
+  {
+   "slug": "l_29",
+   "name": "L-29",
+   "generations": [
+    {
+     "years": "1929 – 1932",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Cord",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Cord",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

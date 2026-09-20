@@ -1,0 +1,40 @@
+{
+ "slug": "jidu",
+ "name": "Jidu",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Jidu",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Jidu",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "01",
+   "name": "01",
+   "generations": [
+    {
+     "years": "2024 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "07",
+   "name": "07",
+   "generations": [
+    {
+     "years": "2024 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  }
+ ]
+}

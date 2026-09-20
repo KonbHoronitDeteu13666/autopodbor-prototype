@@ -1,0 +1,29 @@
+{
+ "slug": "songsan",
+ "name": "Songsan",
+ "models": [
+  {
+   "slug": "ss_dolphin",
+   "name": "SS Dolphin",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Songsan",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Songsan",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

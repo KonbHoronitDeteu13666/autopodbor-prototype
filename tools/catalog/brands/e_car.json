@@ -1,0 +1,29 @@
+{
+ "slug": "e_car",
+ "name": "E-Car",
+ "models": [
+  {
+   "slug": "gd04b",
+   "name": "GD04B",
+   "generations": [
+    {
+     "years": "2012 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей E-Car",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели E-Car",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

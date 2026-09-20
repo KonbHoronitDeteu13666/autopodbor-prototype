@@ -1,0 +1,29 @@
+{
+ "slug": "shay_motors",
+ "name": "Shay Motors",
+ "models": [
+  {
+   "slug": "model_a",
+   "name": "Model A",
+   "generations": [
+    {
+     "years": "1979 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Shay Motors",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Shay Motors",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

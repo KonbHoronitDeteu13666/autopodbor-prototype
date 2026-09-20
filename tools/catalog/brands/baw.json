@@ -1,0 +1,95 @@
+{
+ "slug": "baw",
+ "name": "BAW",
+ "models": [
+  {
+   "slug": "ace_m7",
+   "name": "Ace M7",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "f7",
+   "name": "Calorie F7",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "jiabao",
+   "name": "Jiabao",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "m8",
+   "name": "M8",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "mpv",
+   "name": "MPV",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "yuanbao",
+   "name": "Pony (Yuanbao)",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей BAW",
+   "generations": [],
+   "body": "минивэн"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели BAW",
+   "generations": [],
+   "body": "минивэн"
+  },
+  {
+   "slug": "212",
+   "name": "212",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

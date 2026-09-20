@@ -1,0 +1,73 @@
+{
+ "slug": "marcos",
+ "name": "Marcos",
+ "models": [
+  {
+   "slug": "gts",
+   "name": "GTS",
+   "generations": [
+    {
+     "years": "1997 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "lm400",
+   "name": "LM 400",
+   "generations": [
+    {
+     "years": "1994 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "lm500",
+   "name": "LM 500",
+   "generations": [
+    {
+     "years": "1994 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "mantis_gt",
+   "name": "Mantis",
+   "generations": [
+    {
+     "years": "1997 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "marcasite",
+   "name": "Marcasite",
+   "generations": [
+    {
+     "years": "2002 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Marcos",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Marcos",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

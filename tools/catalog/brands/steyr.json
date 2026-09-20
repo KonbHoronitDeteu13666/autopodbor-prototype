@@ -1,0 +1,40 @@
+{
+ "slug": "steyr",
+ "name": "Steyr",
+ "models": [
+  {
+   "slug": "haflinger",
+   "name": "Haflinger",
+   "generations": [
+    {
+     "years": "1959 – 1974",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Steyr",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Steyr",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "1500",
+   "name": "1500",
+   "generations": [
+    {
+     "years": "1941 – 1944",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

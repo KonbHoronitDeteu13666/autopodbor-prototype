@@ -1,0 +1,29 @@
+{
+ "slug": "jonway",
+ "name": "Jonway",
+ "models": [
+  {
+   "slug": "ufo_a380",
+   "name": "UFO A380",
+   "generations": [
+    {
+     "years": "2005 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Jonway",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Jonway",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

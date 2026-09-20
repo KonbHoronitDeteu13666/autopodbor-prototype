@@ -1,0 +1,889 @@
+{
+ "slug": "fiat",
+ "name": "Fiat",
+ "models": [
+  {
+   "slug": "124_spider",
+   "name": "124 Spider",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "124_sport_spider",
+   "name": "124 Sport Spider",
+   "generations": [
+    {
+     "years": "1966 – 1985",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "500l",
+   "name": "500L",
+   "generations": [
+    {
+     "years": "2017 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "500x",
+   "name": "500X",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "600e",
+   "name": "600e",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "900t",
+   "name": "900T",
+   "generations": [
+    {
+     "years": "1976 – 1985",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "albea",
+   "name": "Albea",
+   "generations": [
+    {
+     "years": "2005 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "argenta",
+   "name": "Argenta",
+   "generations": [
+    {
+     "years": "1981 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "barchetta",
+   "name": "Barchetta",
+   "generations": [
+    {
+     "years": "2003 – 2005",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1995 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "brava",
+   "name": "Brava",
+   "generations": [
+    {
+     "years": "1995 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "bravo",
+   "name": "Bravo",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": "II"
+    },
+    {
+     "years": "1995 – 2001",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "cinquecento",
+   "name": "Cinquecento",
+   "generations": [
+    {
+     "years": "1991 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "coupe",
+   "name": "Coupe",
+   "generations": [
+    {
+     "years": "1993 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "croma",
+   "name": "Croma",
+   "generations": [
+    {
+     "years": "2008 – 2011",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "II"
+    },
+    {
+     "years": "1985 – 1996",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "doblo",
+   "name": "Doblo",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "III"
+    },
+    {
+     "years": "2015 – 2022",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2009 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "2005 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2000 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "duna",
+   "name": "Duna",
+   "generations": [
+    {
+     "years": "1987 – 1991",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "egea",
+   "name": "Egea",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "fastback",
+   "name": "Fastback",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fiorino",
+   "name": "Fiorino",
+   "generations": [
+    {
+     "years": "2016 – 2024",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2007 – 2024",
+     "name": "III"
+    },
+    {
+     "years": "1987 – 2013",
+     "name": "II"
+    },
+    {
+     "years": "1977 – 1987",
+     "name": "I"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "freemont",
+   "name": "Freemont",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "fullback",
+   "name": "Fullback",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "grande_panda",
+   "name": "Grande Panda",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "idea",
+   "name": "Idea",
+   "generations": [
+    {
+     "years": "2003 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "linea",
+   "name": "Linea",
+   "generations": [
+    {
+     "years": "2007 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "marea",
+   "name": "Marea",
+   "generations": [
+    {
+     "years": "1996 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "multipla",
+   "name": "Multipla",
+   "generations": [
+    {
+     "years": "2004 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "palio",
+   "name": "Palio",
+   "generations": [
+    {
+     "years": "2011 – 2017",
+     "name": "II"
+    },
+    {
+     "years": "2001 – 2004",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1996 – 2001",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "panda",
+   "name": "Panda",
+   "generations": [
+    {
+     "years": "c 2011 года",
+     "name": "III"
+    },
+    {
+     "years": "2003 – 2012",
+     "name": "II"
+    },
+    {
+     "years": "1981 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "pulse",
+   "name": "Pulse",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "punto",
+   "name": "Punto",
+   "generations": [
+    {
+     "years": "2012 – 2018",
+     "name": "III Punto"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "III Punto Evo"
+    },
+    {
+     "years": "2003 – 2011",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2005 – 2010",
+     "name": "III Grande Punto"
+    },
+    {
+     "years": "1999 – 2003",
+     "name": "II"
+    },
+    {
+     "years": "1993 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "qubo",
+   "name": "Qubo",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "regata",
+   "name": "Regata",
+   "generations": [
+    {
+     "years": "1983 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ritmo",
+   "name": "Ritmo",
+   "generations": [
+    {
+     "years": "1978 – 1989",
+     "name": "I"
+    },
+    {
+     "years": "1982 – 1988",
+     "name": "I Рестайлинг"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "scudo",
+   "name": "Scudo",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "III"
+    },
+    {
+     "years": "2007 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "1995 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "sedici",
+   "name": "Sedici",
+   "generations": [
+    {
+     "years": "2005 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "seicento",
+   "name": "Seicento",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "siena",
+   "name": "Siena",
+   "generations": [
+    {
+     "years": "1996 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "stilo",
+   "name": "Stilo",
+   "generations": [
+    {
+     "years": "2001 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "strada",
+   "name": "Strada",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2021",
+     "name": "I Рестайлинг 4"
+    },
+    {
+     "years": "2008 – 2014",
+     "name": "I Рестайлинг 3"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "tempra",
+   "name": "Tempra",
+   "generations": [
+    {
+     "years": "1990 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tipo",
+   "name": "Tipo",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "356 Рестайлинг"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "356"
+    },
+    {
+     "years": "1988 – 1995",
+     "name": "160"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "topolino",
+   "name": "Topolino",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "ulysse",
+   "name": "Ulysse",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "III"
+    },
+    {
+     "years": "2002 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "1998 – 2002",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1994 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "uno",
+   "name": "Uno",
+   "generations": [
+    {
+     "years": "1989 – 2002",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1983 – 1989",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "x_1_9",
+   "name": "X 1/9",
+   "generations": [
+    {
+     "years": "1972 – 1989",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Fiat",
+   "generations": [],
+   "body": "купе"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Fiat",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "1100",
+   "name": "1100",
+   "generations": [
+    {
+     "years": "1939 – 1948",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "124",
+   "name": "124",
+   "generations": [
+    {
+     "years": "1966 – 1976",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "125",
+   "name": "125",
+   "generations": [
+    {
+     "years": "1967 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "126",
+   "name": "126",
+   "generations": [
+    {
+     "years": "1972 – 1996",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "127",
+   "name": "127",
+   "generations": [
+    {
+     "years": "1971 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "128",
+   "name": "128",
+   "generations": [
+    {
+     "years": "1969 – 1985",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "130",
+   "name": "130",
+   "generations": [
+    {
+     "years": "1969 – 1978",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "131",
+   "name": "131",
+   "generations": [
+    {
+     "years": "1974 – 1985",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "132",
+   "name": "132",
+   "generations": [
+    {
+     "years": "1972 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "1500",
+   "name": "1500",
+   "generations": [
+    {
+     "years": "1935 – 1950",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2300",
+   "name": "2300",
+   "generations": [
+    {
+     "years": "1961 – 1969",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "238",
+   "name": "238",
+   "generations": [
+    {
+     "years": "1966 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "500",
+   "name": "500",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "III"
+    },
+    {
+     "years": "2015 – 2024",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2007 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "1957 – 1975",
+     "name": "I"
+    },
+    {
+     "years": "1936 – 1955",
+     "name": "Topolino"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "508",
+   "name": "508",
+   "generations": [
+    {
+     "years": "1932 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "600",
+   "name": "600",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "850",
+   "name": "850",
+   "generations": [
+    {
+     "years": "1964 – 1971",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

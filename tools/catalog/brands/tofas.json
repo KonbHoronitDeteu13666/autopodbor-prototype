@@ -1,0 +1,73 @@
+{
+ "slug": "tofas",
+ "name": "Tofas",
+ "models": [
+  {
+   "slug": "kartal",
+   "name": "Kartal",
+   "generations": [
+    {
+     "years": "1985 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "murat_124",
+   "name": "Murat 124",
+   "generations": [
+    {
+     "years": "1971 – 1977",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "murat_131",
+   "name": "Murat 131",
+   "generations": [
+    {
+     "years": "1985 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sahin",
+   "name": "Sahin",
+   "generations": [
+    {
+     "years": "1990 – 2002",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "serce",
+   "name": "Serce",
+   "generations": [
+    {
+     "years": "1985 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Tofas",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Tofas",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

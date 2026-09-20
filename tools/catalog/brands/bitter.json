@@ -1,0 +1,40 @@
+{
+ "slug": "bitter",
+ "name": "Bitter",
+ "models": [
+  {
+   "slug": "cd",
+   "name": "CD",
+   "generations": [
+    {
+     "years": "1973 – 1979",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "type_3",
+   "name": "Type 3",
+   "generations": [
+    {
+     "years": "1987 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bitter",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bitter",
+   "generations": [],
+   "body": "кабриолет"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "stelato",
+ "name": "Stelato",
+ "models": [
+  {
+   "slug": "g9",
+   "name": "G9",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s9",
+   "name": "S9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Stelato",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Stelato",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

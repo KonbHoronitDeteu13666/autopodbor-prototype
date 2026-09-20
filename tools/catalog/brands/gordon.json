@@ -1,0 +1,29 @@
+{
+ "slug": "gordon",
+ "name": "Gordon",
+ "models": [
+  {
+   "slug": "roadster",
+   "name": "Roadster",
+   "generations": [
+    {
+     "years": "c 1997 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Gordon",
+   "generations": [],
+   "body": "родстер"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Gordon",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "knewstar",
+ "name": "Knewstar",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Knewstar",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Knewstar",
+   "generations": [],
+   "body": "купе"
+  },
+  {
+   "slug": "001",
+   "name": "001",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

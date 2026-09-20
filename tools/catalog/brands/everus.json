@@ -1,0 +1,29 @@
+{
+ "slug": "everus",
+ "name": "Everus",
+ "models": [
+  {
+   "slug": "ve_1",
+   "name": "VE-1",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Everus",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Everus",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

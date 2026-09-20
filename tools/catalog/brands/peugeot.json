@@ -1,0 +1,829 @@
+{
+ "slug": "peugeot",
+ "name": "Peugeot",
+ "models": [
+  {
+   "slug": "205_gti",
+   "name": "205 GTi",
+   "generations": [
+    {
+     "years": "1984 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "207i",
+   "name": "207i (Iran Khodro)",
+   "generations": [
+    {
+     "years": "2016 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "208_gti",
+   "name": "208 GTi",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "308_gti",
+   "name": "308 GTi",
+   "generations": [
+    {
+     "years": "2017 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2015 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "bipper",
+   "name": "Bipper",
+   "generations": [
+    {
+     "years": "2008 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "expert",
+   "name": "Expert",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2016 – 2023",
+     "name": "III"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2007 – 2012",
+     "name": "II"
+    },
+    {
+     "years": "1995 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "ion",
+   "name": "iOn",
+   "generations": [
+    {
+     "years": "2010 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "landtrek",
+   "name": "Landtrek",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "partner",
+   "name": "Partner",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "III"
+    },
+    {
+     "years": "c 2015 года",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "II"
+    },
+    {
+     "years": "2002 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1997 – 2002",
+     "name": "I"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "pick_up",
+   "name": "Pick Up",
+   "generations": [
+    {
+     "years": "2017 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "rcz",
+   "name": "RCZ",
+   "generations": [
+    {
+     "years": "2012 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2010 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "rifter",
+   "name": "Rifter",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "traveller",
+   "name": "Traveller",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Peugeot",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Peugeot",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "1007",
+   "name": "1007",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "104",
+   "name": "104",
+   "generations": [
+    {
+     "years": "1972 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "106",
+   "name": "106",
+   "generations": [
+    {
+     "years": "1996 – 2004",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1991 – 1996",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "107",
+   "name": "107",
+   "generations": [
+    {
+     "years": "2012 – 2014",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "108",
+   "name": "108",
+   "generations": [
+    {
+     "years": "2014 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "2008",
+   "name": "2008",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "201",
+   "name": "201",
+   "generations": [
+    {
+     "years": "1929 – 1937",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "202",
+   "name": "202",
+   "generations": [
+    {
+     "years": "1938 – 1948",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "203",
+   "name": "203",
+   "generations": [
+    {
+     "years": "1948 – 1960",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "204",
+   "name": "204",
+   "generations": [
+    {
+     "years": "1965 – 1977",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "205",
+   "name": "205",
+   "generations": [
+    {
+     "years": "1983 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "206",
+   "name": "206",
+   "generations": [
+    {
+     "years": "1998 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "207",
+   "name": "207",
+   "generations": [
+    {
+     "years": "2009 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "208",
+   "name": "208",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "3008",
+   "name": "3008",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "301",
+   "name": "301",
+   "generations": [
+    {
+     "years": "2016 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "304",
+   "name": "304",
+   "generations": [
+    {
+     "years": "1969 – 1980",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "305",
+   "name": "305",
+   "generations": [
+    {
+     "years": "1977 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "306",
+   "name": "306",
+   "generations": [
+    {
+     "years": "1993 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "307",
+   "name": "307",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "308",
+   "name": "308",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "III"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "II"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "309",
+   "name": "309",
+   "generations": [
+    {
+     "years": "1989 – 1993",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1985 – 1990",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "4007",
+   "name": "4007",
+   "generations": [
+    {
+     "years": "2007 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "4008",
+   "name": "4008",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2016 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "402",
+   "name": "402",
+   "generations": [
+    {
+     "years": "1935 – 1942",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "403",
+   "name": "403",
+   "generations": [
+    {
+     "years": "1955 – 1966",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "404",
+   "name": "404",
+   "generations": [
+    {
+     "years": "1960 – 1975",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "405",
+   "name": "405",
+   "generations": [
+    {
+     "years": "1987 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "406",
+   "name": "406",
+   "generations": [
+    {
+     "years": "1999 – 2005",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1995 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "407",
+   "name": "407",
+   "generations": [
+    {
+     "years": "2004 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "408",
+   "name": "408",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "III"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "5008",
+   "name": "5008",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "504",
+   "name": "504",
+   "generations": [
+    {
+     "years": "1968 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "505",
+   "name": "505",
+   "generations": [
+    {
+     "years": "1979 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "508",
+   "name": "508",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "604",
+   "name": "604",
+   "generations": [
+    {
+     "years": "1977 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "605",
+   "name": "605",
+   "generations": [
+    {
+     "years": "1989 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "607",
+   "name": "607",
+   "generations": [
+    {
+     "years": "2004 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "806",
+   "name": "806",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1994 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "807",
+   "name": "807",
+   "generations": [
+    {
+     "years": "2008 – 2014",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  }
+ ]
+}

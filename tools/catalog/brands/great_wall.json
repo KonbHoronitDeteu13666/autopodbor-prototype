@@ -1,0 +1,332 @@
+{
+ "slug": "great_wall",
+ "name": "Great Wall",
+ "models": [
+  {
+   "slug": "coolbear",
+   "name": "Coolbear",
+   "generations": [
+    {
+     "years": "2009 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "cowry",
+   "name": "Cowry (V80)",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "deer",
+   "name": "Deer",
+   "generations": [
+    {
+     "years": "1996 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "florid",
+   "name": "Florid",
+   "generations": [
+    {
+     "years": "2008 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "hover_2005",
+   "name": "Hover",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hoverh3",
+   "name": "Hover H3",
+   "generations": [
+    {
+     "years": "2014 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2010 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hoverh5",
+   "name": "Hover H5",
+   "generations": [
+    {
+     "years": "2010 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hoverh6",
+   "name": "Hover H6",
+   "generations": [
+    {
+     "years": "2011 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hover_m1",
+   "name": "Hover M1 (Peri 4x4)",
+   "generations": [
+    {
+     "years": "2008 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hover_m2",
+   "name": "Hover M2",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hover_m4",
+   "name": "Hover M4",
+   "generations": [
+    {
+     "years": "2012 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hover_pi",
+   "name": "Hover Pi",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "лимузин"
+  },
+  {
+   "slug": "pegasus",
+   "name": "Pegasus",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "peri",
+   "name": "Peri",
+   "generations": [
+    {
+     "years": "2008 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "poer",
+   "name": "Poer",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "poer_king_kong",
+   "name": "Poer King Kong",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "safe",
+   "name": "Safe",
+   "generations": [
+    {
+     "years": "2001 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sailor",
+   "name": "Sailor",
+   "generations": [
+    {
+     "years": "2003 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "shanhai_poer",
+   "name": "Shanhai Poer",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "sing",
+   "name": "Sing RUV",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "socool",
+   "name": "Socool",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "voleexc10",
+   "name": "Voleex C10 (Phenom)",
+   "generations": [
+    {
+     "years": "2010 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "voleexc30",
+   "name": "Voleex C30",
+   "generations": [
+    {
+     "years": "2014 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2010 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "voleexc50",
+   "name": "Voleex C50",
+   "generations": [
+    {
+     "years": "2014 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "wingle_up",
+   "name": "Wingle",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "III (Wingle 5) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "III (Wingle 5)"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "II (Wingle 5)"
+    },
+    {
+     "years": "2006 – 2012",
+     "name": "I (Wingle 3)"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "wingle_7",
+   "name": "Wingle 7",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Great Wall",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Great Wall",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

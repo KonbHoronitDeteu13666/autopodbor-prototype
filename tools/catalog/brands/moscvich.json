@@ -1,0 +1,385 @@
+{
+ "slug": "moscvich",
+ "name": "Москвич",
+ "models": [
+  {
+   "slug": "3e",
+   "name": "3е",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "434p",
+   "name": "434П",
+   "generations": [
+    {
+     "years": "1968 – 1973",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "duet",
+   "name": "Дуэт",
+   "generations": [
+    {
+     "years": "1999 – 2001",
+     "name": "Дуэт-2"
+    },
+    {
+     "years": "1999 – 2001",
+     "name": "Дуэт-1"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "ivan_kalita",
+   "name": "Иван Калита",
+   "generations": [
+    {
+     "years": "1998 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "knyaz_vladimir",
+   "name": "Князь Владимир",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "m70",
+   "name": "М70",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "m90",
+   "name": "М90",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "svyatogor",
+   "name": "Святогор",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "yuri_dolgorukiy",
+   "name": "Юрий Долгорукий",
+   "generations": [
+    {
+     "years": "1997 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Москвич",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Москвич",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "2136",
+   "name": "2136",
+   "generations": [
+    {
+     "years": "1976 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "2137",
+   "name": "2137",
+   "generations": [
+    {
+     "years": "1976 – 1985",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "2138",
+   "name": "2138",
+   "generations": [
+    {
+     "years": "1976 – 1982",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2140",
+   "name": "2140",
+   "generations": [
+    {
+     "years": "1976 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "2141",
+   "name": "2141",
+   "generations": [
+    {
+     "years": "1986 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "2142",
+   "name": "2142",
+   "generations": [
+    {
+     "years": "1990 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "3",
+   "name": "3",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "400",
+   "name": "400",
+   "generations": [
+    {
+     "years": "1946 – 1956",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "401",
+   "name": "401",
+   "generations": [
+    {
+     "years": "1954 – 1956",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "402",
+   "name": "402",
+   "generations": [
+    {
+     "years": "1956 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "403",
+   "name": "403",
+   "generations": [
+    {
+     "years": "1962 – 1965",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "407",
+   "name": "407",
+   "generations": [
+    {
+     "years": "1958 – 1963",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "408",
+   "name": "408",
+   "generations": [
+    {
+     "years": "1964 – 1975",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "410",
+   "name": "410",
+   "generations": [
+    {
+     "years": "1957 – 1961",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "411",
+   "name": "411",
+   "generations": [
+    {
+     "years": "1959 – 1961",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "412",
+   "name": "412",
+   "generations": [
+    {
+     "years": "1967 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "423",
+   "name": "423",
+   "generations": [
+    {
+     "years": "1957 – 1963",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "424",
+   "name": "424",
+   "generations": [
+    {
+     "years": "1963 – 1965",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "426",
+   "name": "426",
+   "generations": [
+    {
+     "years": "1967 – 1976",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "427",
+   "name": "427",
+   "generations": [
+    {
+     "years": "1967 – 1976",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "430",
+   "name": "430",
+   "generations": [
+    {
+     "years": "1958 – 1963",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "5",
+   "name": "5",
+   "generations": [
+    {
+     "years": "2024 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "6",
+   "name": "6",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "8",
+   "name": "8",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

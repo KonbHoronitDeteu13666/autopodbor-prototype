@@ -1,0 +1,29 @@
+{
+ "slug": "cizeta",
+ "name": "Cizeta",
+ "models": [
+  {
+   "slug": "v16t",
+   "name": "V16t",
+   "generations": [
+    {
+     "years": "1991 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Cizeta",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Cizeta",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

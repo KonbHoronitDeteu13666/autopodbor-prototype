@@ -1,0 +1,121 @@
+{
+ "slug": "brabus",
+ "name": "Brabus",
+ "models": [
+  {
+   "slug": "73_s",
+   "name": "7.3S",
+   "generations": [
+    {
+     "years": "1991 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "bodo",
+   "name": "Bodo",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "crawler",
+   "name": "Crawler",
+   "generations": [
+    {
+     "years": "2022 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "e_v12",
+   "name": "E V12",
+   "generations": [
+    {
+     "years": "2009 – 2013",
+     "name": "W212, C207, A207"
+    },
+    {
+     "years": "1996 – 1999",
+     "name": "W210, S210"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "g_v12",
+   "name": "G V12",
+   "generations": [
+    {
+     "years": "2004 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "m_v12",
+   "name": "M V12",
+   "generations": [
+    {
+     "years": "1997 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ml_63_biturbo",
+   "name": "ML 63 Biturbo",
+   "generations": [
+    {
+     "years": "2009 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rocket_gts",
+   "name": "Rocket GTS",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sv12",
+   "name": "SV12",
+   "generations": [
+    {
+     "years": "2009 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Brabus",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Brabus",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

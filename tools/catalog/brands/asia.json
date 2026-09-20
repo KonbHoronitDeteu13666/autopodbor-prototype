@@ -1,0 +1,62 @@
+{
+ "slug": "asia",
+ "name": "Asia",
+ "models": [
+  {
+   "slug": "retona",
+   "name": "Retona",
+   "generations": [
+    {
+     "years": "1998 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rocsta",
+   "name": "Rocsta",
+   "generations": [
+    {
+     "years": "1990 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "topic",
+   "name": "Topic",
+   "generations": [
+    {
+     "years": "1987 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "towner",
+   "name": "Towner",
+   "generations": [
+    {
+     "years": "1992 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Asia",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Asia",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

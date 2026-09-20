@@ -1,0 +1,73 @@
+{
+ "slug": "luxgen",
+ "name": "Luxgen",
+ "models": [
+  {
+   "slug": "luxgen5",
+   "name": "Luxgen5",
+   "generations": [
+    {
+     "years": "2012 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "7_mpv",
+   "name": "Luxgen7 MPV",
+   "generations": [
+    {
+     "years": "2009 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "7_suv",
+   "name": "Luxgen7 SUV",
+   "generations": [
+    {
+     "years": "2013 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "u6_turbo",
+   "name": "U6 Turbo",
+   "generations": [
+    {
+     "years": "2013 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "u7_turbo",
+   "name": "U7 Turbo",
+   "generations": [
+    {
+     "years": "2013 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Luxgen",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Luxgen",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

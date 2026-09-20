@@ -1,0 +1,158 @@
+{
+ "slug": "samsung",
+ "name": "Renault Samsung",
+ "models": [
+  {
+   "slug": "qm3",
+   "name": "QM3",
+   "generations": [
+    {
+     "years": "2013 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "qm5",
+   "name": "QM5",
+   "generations": [
+    {
+     "years": "2007 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "qm6",
+   "name": "QM6",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sm3",
+   "name": "SM3",
+   "generations": [
+    {
+     "years": "2017 – 2020",
+     "name": "Z.E. Рестайлинг"
+    },
+    {
+     "years": "2009 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2011 – 2017",
+     "name": "Z.E."
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sm5",
+   "name": "SM5",
+   "generations": [
+    {
+     "years": "2015 – 2019",
+     "name": "III Рестайлинг 2 (Nova)"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "III Рестайлинг (Platinum)"
+    },
+    {
+     "years": "2010 – 2012",
+     "name": "III"
+    },
+    {
+     "years": "2005 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "1998 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sm6",
+   "name": "SM6",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sm7",
+   "name": "SM7",
+   "generations": [
+    {
+     "years": "2014 – 2019",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xm3",
+   "name": "XM3",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Renault Samsung",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Renault Samsung",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

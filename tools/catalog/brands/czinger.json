@@ -1,0 +1,29 @@
+{
+ "slug": "czinger",
+ "name": "Czinger",
+ "models": [
+  {
+   "slug": "21c",
+   "name": "21C",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Czinger",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Czinger",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

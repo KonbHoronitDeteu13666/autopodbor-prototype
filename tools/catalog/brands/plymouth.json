@@ -1,0 +1,297 @@
+{
+ "slug": "plymouth",
+ "name": "Plymouth",
+ "models": [
+  {
+   "slug": "acclaim",
+   "name": "Acclaim",
+   "generations": [
+    {
+     "years": "1989 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "barracuda",
+   "name": "Barracuda",
+   "generations": [
+    {
+     "years": "1964 – 1974",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "breeze",
+   "name": "Breeze",
+   "generations": [
+    {
+     "years": "1995 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "caravelle",
+   "name": "Caravelle",
+   "generations": [
+    {
+     "years": "1983 – 1988",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "colt_vista",
+   "name": "Colt Vista",
+   "generations": [
+    {
+     "years": "1991 – 1995",
+     "name": "II"
+    },
+    {
+     "years": "1983 – 1991",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "cranbrook",
+   "name": "Cranbrook",
+   "generations": [
+    {
+     "years": "1951 – 1953",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "de_luxe",
+   "name": "De Luxe",
+   "generations": [
+    {
+     "years": "1946 – 1950",
+     "name": "II"
+    },
+    {
+     "years": "1933 – 1942",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "fury",
+   "name": "Fury",
+   "generations": [
+    {
+     "years": "1975 – 1978",
+     "name": "VII"
+    },
+    {
+     "years": "1974 – 1974",
+     "name": "VI"
+    },
+    {
+     "years": "1969 – 1973",
+     "name": "V"
+    },
+    {
+     "years": "1965 – 1968",
+     "name": "IV"
+    },
+    {
+     "years": "1962 – 1964",
+     "name": "III"
+    },
+    {
+     "years": "1960 – 1961",
+     "name": "II"
+    },
+    {
+     "years": "1959 – 1960",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gran_fury",
+   "name": "Gran Fury",
+   "generations": [
+    {
+     "years": "1982 – 1989",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "horizon",
+   "name": "Horizon",
+   "generations": [
+    {
+     "years": "1977 – 1990",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "laser",
+   "name": "Laser",
+   "generations": [
+    {
+     "years": "1989 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "neon",
+   "name": "Neon",
+   "generations": [
+    {
+     "years": "1993 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "prowler",
+   "name": "Prowler",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "reliant",
+   "name": "Reliant",
+   "generations": [
+    {
+     "years": "1981 – 1989",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "road_runner",
+   "name": "Road Runner",
+   "generations": [
+    {
+     "years": "1975 – 1975",
+     "name": "III"
+    },
+    {
+     "years": "1971 – 1974",
+     "name": "II"
+    },
+    {
+     "years": "1968 – 1970",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "satellite",
+   "name": "Satellite",
+   "generations": [
+    {
+     "years": "1970 – 1974",
+     "name": "III"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "sundance",
+   "name": "Sundance",
+   "generations": [
+    {
+     "years": "1986 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "turismo",
+   "name": "Turismo",
+   "generations": [
+    {
+     "years": "1983 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "valiant",
+   "name": "Valiant",
+   "generations": [
+    {
+     "years": "1967 – 1973",
+     "name": "III"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "volare",
+   "name": "Volare",
+   "generations": [
+    {
+     "years": "1975 – 1980",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "voyager",
+   "name": "Voyager",
+   "generations": [
+    {
+     "years": "1995 – 2000",
+     "name": "III"
+    },
+    {
+     "years": "1991 – 1995",
+     "name": "II"
+    },
+    {
+     "years": "1984 – 1990",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Plymouth",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Plymouth",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

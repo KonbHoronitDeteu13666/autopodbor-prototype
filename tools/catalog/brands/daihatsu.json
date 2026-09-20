@@ -1,0 +1,912 @@
+{
+ "slug": "daihatsu",
+ "name": "Daihatsu",
+ "models": [
+  {
+   "slug": "altis",
+   "name": "Altis",
+   "generations": [
+    {
+     "years": "2017 – 2021",
+     "name": "V"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "IV (SXV50)"
+    },
+    {
+     "years": "2009 – 2010",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "III (SXV40)"
+    },
+    {
+     "years": "2004 – 2005",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2001 – 2004",
+     "name": "II (SXV30)"
+    },
+    {
+     "years": "2000 – 2001",
+     "name": "I (SXV20)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "applause",
+   "name": "Applause",
+   "generations": [
+    {
+     "years": "1997 – 2000",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1989 – 1997",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "atrai",
+   "name": "Atrai",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "VI"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "V Рестайлинг 2"
+    },
+    {
+     "years": "2007 – 2017",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2005 – 2007",
+     "name": "V"
+    },
+    {
+     "years": "1999 – 2005",
+     "name": "IV"
+    },
+    {
+     "years": "1981 – 1986",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "be_go",
+   "name": "Be-go",
+   "generations": [
+    {
+     "years": "2006 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bee",
+   "name": "Bee",
+   "generations": [
+    {
+     "years": "1951 – 1952",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "boon",
+   "name": "Boon",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2016 – 2018",
+     "name": "III"
+    },
+    {
+     "years": "2014 – 2016",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "boon_luminas",
+   "name": "Boon Luminas",
+   "generations": [
+    {
+     "years": "2008 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "cast",
+   "name": "Cast",
+   "generations": [
+    {
+     "years": "2015 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "ceria",
+   "name": "Ceria",
+   "generations": [
+    {
+     "years": "2001 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "charade",
+   "name": "Charade",
+   "generations": [
+    {
+     "years": "1995 – 2000",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "1993 – 1995",
+     "name": "IV"
+    },
+    {
+     "years": "1987 – 1993",
+     "name": "III"
+    },
+    {
+     "years": "1983 – 1987",
+     "name": "II"
+    },
+    {
+     "years": "1977 – 1983",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "charmant",
+   "name": "Charmant",
+   "generations": [
+    {
+     "years": "1981 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "coo",
+   "name": "Coo",
+   "generations": [
+    {
+     "years": "2006 – 2013",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "copen",
+   "name": "Copen",
+   "generations": [
+    {
+     "years": "c 2014 года",
+     "name": "II"
+    },
+    {
+     "years": "2002 – 2012",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "cuore",
+   "name": "Cuore",
+   "generations": [
+    {
+     "years": "2007 – 2013",
+     "name": "VII (L276)"
+    },
+    {
+     "years": "2003 – 2007",
+     "name": "VI (L251)"
+    },
+    {
+     "years": "1999 – 2003",
+     "name": "V (L700)"
+    },
+    {
+     "years": "1995 – 1999",
+     "name": "IV (L500)"
+    },
+    {
+     "years": "1990 – 1995",
+     "name": "III (L200)"
+    },
+    {
+     "years": "1985 – 1990",
+     "name": "II (L70)"
+    },
+    {
+     "years": "1980 – 1985",
+     "name": "I (L55)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "delta_wagon",
+   "name": "Delta Wagon",
+   "generations": [
+    {
+     "years": "1996 – 2001",
+     "name": "III"
+    },
+    {
+     "years": "1986 – 1996",
+     "name": "II"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "esse",
+   "name": "Esse",
+   "generations": [
+    {
+     "years": "2005 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "extol",
+   "name": "Extol",
+   "generations": [
+    {
+     "years": "1999 – 2004",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "fellow",
+   "name": "Fellow",
+   "generations": [
+    {
+     "years": "1970 – 1976",
+     "name": "II (Max)"
+    },
+    {
+     "years": "1966 – 1970",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "feroza",
+   "name": "Feroza",
+   "generations": [
+    {
+     "years": "1989 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gran_move",
+   "name": "Gran Move",
+   "generations": [
+    {
+     "years": "1996 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "hijet",
+   "name": "Hijet",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "XI"
+    },
+    {
+     "years": "2004 – 2021",
+     "name": "X"
+    },
+    {
+     "years": "1999 – 2004",
+     "name": "IX"
+    },
+    {
+     "years": "1990 – 1998",
+     "name": "VIII"
+    },
+    {
+     "years": "1986 – 1993",
+     "name": "VII"
+    },
+    {
+     "years": "1981 – 1986",
+     "name": "VI"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "hijet_caddie",
+   "name": "Hijet Caddie",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "leeza",
+   "name": "Leeza",
+   "generations": [
+    {
+     "years": "1986 – 1993",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "materia",
+   "name": "Materia",
+   "generations": [
+    {
+     "years": "2006 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "max",
+   "name": "MAX",
+   "generations": [
+    {
+     "years": "2003 – 2005",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2001 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mebius",
+   "name": "Mebius",
+   "generations": [
+    {
+     "years": "2014 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "midget_ii",
+   "name": "Midget",
+   "generations": [
+    {
+     "years": "1996 – 2002",
+     "name": "II"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "mira",
+   "name": "Mira",
+   "generations": [
+    {
+     "years": "2006 – 2018",
+     "name": "VII"
+    },
+    {
+     "years": "2002 – 2007",
+     "name": "VI"
+    },
+    {
+     "years": "1998 – 2002",
+     "name": "V"
+    },
+    {
+     "years": "1994 – 1998",
+     "name": "IV"
+    },
+    {
+     "years": "1990 – 1994",
+     "name": "III"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mira_cocoa",
+   "name": "Mira Cocoa",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2014",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mira_e_s",
+   "name": "Mira e:S",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mira_gino",
+   "name": "Mira Gino",
+   "generations": [
+    {
+     "years": "2004 – 2009",
+     "name": "II"
+    },
+    {
+     "years": "1999 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mira_tocot",
+   "name": "Mira Tocot",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "move",
+   "name": "Move",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "VII"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "VI Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "VI"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2010 – 2012",
+     "name": "V"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "IV"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "III"
+    },
+    {
+     "years": "1998 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1995 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "move_canbus",
+   "name": "Move Canbus",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "move_conte",
+   "name": "Move Conte",
+   "generations": [
+    {
+     "years": "2011 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "move_latte",
+   "name": "Move Latte",
+   "generations": [
+    {
+     "years": "2004 – 2009",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "naked",
+   "name": "Naked",
+   "generations": [
+    {
+     "years": "2000 – 2004",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "opti",
+   "name": "Opti",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1992 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "pyzar",
+   "name": "Pyzar",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1996 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "rocky",
+   "name": "Rocky",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "A200"
+    },
+    {
+     "years": "1989 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rugger",
+   "name": "Rugger",
+   "generations": [
+    {
+     "years": "1993 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1984 – 1992",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sirion",
+   "name": "Sirion",
+   "generations": [
+    {
+     "years": "2007 – 2015",
+     "name": "II (M3) Рестайлинг"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "II (M3)"
+    },
+    {
+     "years": "1998 – 2004",
+     "name": "I (M1)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sonica",
+   "name": "Sonica",
+   "generations": [
+    {
+     "years": "2006 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "storia",
+   "name": "Storia",
+   "generations": [
+    {
+     "years": "2001 – 2004",
+     "name": "I (M100) Рестайлинг 2"
+    },
+    {
+     "years": "2000 – 2001",
+     "name": "I (M100) Рестайлинг"
+    },
+    {
+     "years": "1998 – 2000",
+     "name": "I (M100)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "taft",
+   "name": "Taft",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "II"
+    },
+    {
+     "years": "1974 – 1984",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "tanto",
+   "name": "Tanto",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "IV"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2013 – 2015",
+     "name": "III"
+    },
+    {
+     "years": "2007 – 2013",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "tanto_exe",
+   "name": "Tanto Exe",
+   "generations": [
+    {
+     "years": "2011 – 2014",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2009 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "terios",
+   "name": "Terios",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": "III"
+    },
+    {
+     "years": "2009 – 2018",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1997 – 2012",
+     "name": "I"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "II"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "thor",
+   "name": "Thor",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "trevis",
+   "name": "Trevis",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "wake",
+   "name": "Wake",
+   "generations": [
+    {
+     "years": "2014 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "wildcat",
+   "name": "Wildcat",
+   "generations": [
+    {
+     "years": "1985 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xenia",
+   "name": "Xenia",
+   "generations": [
+    {
+     "years": "2003 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "yrv",
+   "name": "YRV",
+   "generations": [
+    {
+     "years": "2002 – 2005",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2000 – 2002",
+     "name": "I"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Daihatsu",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Daihatsu",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

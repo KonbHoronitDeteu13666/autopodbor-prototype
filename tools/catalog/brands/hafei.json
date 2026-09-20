@@ -1,0 +1,84 @@
+{
+ "slug": "hafei",
+ "name": "Hafei",
+ "models": [
+  {
+   "slug": "brio",
+   "name": "Brio",
+   "generations": [
+    {
+     "years": "2002 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "minyi",
+   "name": "Minyi",
+   "generations": [
+    {
+     "years": "2003 – 2018",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "princip",
+   "name": "Princip",
+   "generations": [
+    {
+     "years": "2004 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "saibao",
+   "name": "Saibao",
+   "generations": [
+    {
+     "years": "2004 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sigma",
+   "name": "Sigma",
+   "generations": [
+    {
+     "years": "2005 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "simbo",
+   "name": "Simbo",
+   "generations": [
+    {
+     "years": "2006 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hafei",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hafei",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

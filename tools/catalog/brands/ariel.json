@@ -1,0 +1,44 @@
+{
+ "slug": "ariel",
+ "name": "Ariel",
+ "models": [
+  {
+   "slug": "atom",
+   "name": "Atom",
+   "generations": [
+    {
+     "years": "2000 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "nomad",
+   "name": "Nomad",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ariel",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ariel",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

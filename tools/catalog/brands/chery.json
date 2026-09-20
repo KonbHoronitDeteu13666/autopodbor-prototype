@@ -1,0 +1,981 @@
+{
+ "slug": "chery",
+ "name": "Chery",
+ "models": [
+  {
+   "slug": "amulet",
+   "name": "Amulet (A15)",
+   "generations": [
+    {
+     "years": "2010 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2003 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "arrizo_3",
+   "name": "Arrizo 3",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "arrizo_5",
+   "name": "Arrizo 5",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "PRO"
+    },
+    {
+     "years": "2016 – 2024",
+     "name": "I"
+    },
+    {
+     "years": "2019 – 2020",
+     "name": "EX"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "arrizo_5_gt",
+   "name": "Arrizo 5 GT",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "arrizo_5_plus",
+   "name": "Arrizo 5 Plus",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "arrizo6",
+   "name": "Arrizo 6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "arrizo7",
+   "name": "Arrizo 7",
+   "generations": [
+    {
+     "years": "2013 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "arrizo_8",
+   "name": "Arrizo 8",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "arrizo_8_pro",
+   "name": "Arrizo 8 Pro",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2025 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "b13",
+   "name": "B13",
+   "generations": [
+    {
+     "years": "2006 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "bonus",
+   "name": "Bonus (A13)",
+   "generations": [
+    {
+     "years": "2011 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "bonus_3",
+   "name": "Bonus 3 (E3/A19)",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cross_eastar",
+   "name": "CrossEastar (B14)",
+   "generations": [
+    {
+     "years": "2006 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "domi",
+   "name": "Domi",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "e5",
+   "name": "E5",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eq1",
+   "name": "eQ1",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "eq5",
+   "name": "eQ5",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "eq7",
+   "name": "eQ7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "explore_06",
+   "name": "Explore 06",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "face",
+   "name": "Face",
+   "generations": [
+    {
+     "years": "2007 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "fora",
+   "name": "Fora (A21)",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "fulwin_a8",
+   "name": "Fulwin A8",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "fulwin_a9",
+   "name": "Fulwin A9",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "fulwin_a9l",
+   "name": "Fulwin A9L",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "fulwin_t10",
+   "name": "Fulwin T10",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fulwin_t11",
+   "name": "Fulwin T11",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fulwin_t6",
+   "name": "Fulwin T6",
+   "generations": [
+    {
+     "years": "2024 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fulwin_t7",
+   "name": "Fulwin T7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fulwin_t8",
+   "name": "Fulwin T8",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fulwin_t9",
+   "name": "Fulwin T9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fulwin_t9l",
+   "name": "Fulwin T9L",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fulwin_x3",
+   "name": "Fulwin X3",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "indis",
+   "name": "IndiS (S18D)",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "karry",
+   "name": "Karry",
+   "generations": [
+    {
+     "years": "2007 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "kimo",
+   "name": "Kimo (A1)",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "m11",
+   "name": "M11 (A3)",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "omoda_5",
+   "name": "Omoda 5",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "oriental_son",
+   "name": "Oriental Son (B11)",
+   "generations": [
+    {
+     "years": "2003 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "q22",
+   "name": "Q22",
+   "generations": [
+    {
+     "years": "2009 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "qq_ice_cream",
+   "name": "QQ Ice Cream",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "qq3",
+   "name": "QQ3",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "qq6",
+   "name": "QQ6 (S21)",
+   "generations": [
+    {
+     "years": "2006 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "qqme",
+   "name": "QQme",
+   "generations": [
+    {
+     "years": "2009 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "relay_r08",
+   "name": "Rely R08",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "qq",
+   "name": "Sweet (QQ)",
+   "generations": [
+    {
+     "years": "2003 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "tiggo",
+   "name": "Tiggo (T11)",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": "I Рестайлинг (FL)"
+    },
+    {
+     "years": "2005 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_2",
+   "name": "Tiggo 2",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_2_pro",
+   "name": "Tiggo 2 Pro",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_3",
+   "name": "Tiggo 3",
+   "generations": [
+    {
+     "years": "2014 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_3x",
+   "name": "Tiggo 3x",
+   "generations": [
+    {
+     "years": "2023 – 2024",
+     "name": "I рестайлинг 2"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_3xe",
+   "name": "Tiggo 3xe",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_4",
+   "name": "Tiggo 4",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_4_pro",
+   "name": "Tiggo 4 Pro",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_5",
+   "name": "Tiggo 5",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_5x",
+   "name": "Tiggo 5x",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 3"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_7",
+   "name": "Tiggo 7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_7_plus",
+   "name": "Tiggo 7 Plus",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_7_pro",
+   "name": "Tiggo 7 Pro",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_7_pro_max",
+   "name": "Tiggo 7 Pro Max",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_7_pro_plug_in_hybrid",
+   "name": "Tiggo 7 Pro Plug-in Hybrid",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_7l",
+   "name": "Tiggo 7L",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I (China Market)"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_8",
+   "name": "Tiggo 8",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_8_plus",
+   "name": "Tiggo 8 Plus",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 3"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_8_pro",
+   "name": "Tiggo 8 Pro",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I (China Market)"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_8_pro_eplus",
+   "name": "Tiggo 8 Pro e+",
+   "generations": [
+    {
+     "years": "2021 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_8_pro_max",
+   "name": "Tiggo 8 Pro Max",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_8_pro_plug_in_hybrid",
+   "name": "Tiggo 8 Pro Plug-in Hybrid",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_8l",
+   "name": "Tiggo 8L",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_9",
+   "name": "Tiggo 9",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I (China Market) Рестайлинг 2"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I (China Market) Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    },
+    {
+     "years": "2023 – 2024",
+     "name": "I (China Market)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_9x",
+   "name": "Tiggo 9x",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tiggo_e",
+   "name": "Tiggo E",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "very",
+   "name": "Very (A13)",
+   "generations": [
+    {
+     "years": "2011 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "windcloud",
+   "name": "Windcloud (A11)",
+   "generations": [
+    {
+     "years": "1999 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Chery",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Chery",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

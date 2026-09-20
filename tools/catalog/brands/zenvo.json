@@ -1,0 +1,51 @@
+{
+ "slug": "zenvo",
+ "name": "Zenvo",
+ "models": [
+  {
+   "slug": "aurora",
+   "name": "Aurora",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "st1",
+   "name": "ST1",
+   "generations": [
+    {
+     "years": "2009 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "tsr_s",
+   "name": "TSR-S",
+   "generations": [
+    {
+     "years": "2018 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Zenvo",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Zenvo",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

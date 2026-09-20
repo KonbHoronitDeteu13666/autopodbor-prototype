@@ -1,0 +1,29 @@
+{
+ "slug": "skm",
+ "name": "SKM",
+ "models": [
+  {
+   "slug": "m7",
+   "name": "M7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей SKM",
+   "generations": [],
+   "body": "минивэн"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели SKM",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

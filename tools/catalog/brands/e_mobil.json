@@ -1,0 +1,29 @@
+{
+ "slug": "e_mobil",
+ "name": "Ё-мобиль",
+ "models": [
+  {
+   "slug": "e_crossover",
+   "name": "Ё-Кроссовер",
+   "generations": [
+    {
+     "years": "2013 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "кроссовер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Ё-мобиль",
+   "generations": [],
+   "body": "кроссовер"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Ё-мобиль",
+   "generations": [],
+   "body": "кроссовер"
+  }
+ ]
+}

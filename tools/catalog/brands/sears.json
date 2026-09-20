@@ -1,0 +1,29 @@
+{
+ "slug": "sears",
+ "name": "Sears",
+ "models": [
+  {
+   "slug": "model_j",
+   "name": "Model J",
+   "generations": [
+    {
+     "years": "1908 – 1912",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Sears",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Sears",
+   "generations": [],
+   "body": "кабриолет"
+  }
+ ]
+}

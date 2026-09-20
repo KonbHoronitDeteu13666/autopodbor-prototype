@@ -1,0 +1,40 @@
+{
+ "slug": "w_motors",
+ "name": "W Motors",
+ "models": [
+  {
+   "slug": "fenyr_supersport",
+   "name": "Fenyr Supersport",
+   "generations": [
+    {
+     "years": "c 2015 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "lykan_hypersport",
+   "name": "Lykan Hypersport",
+   "generations": [
+    {
+     "years": "2013 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей W Motors",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели W Motors",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

@@ -1,0 +1,482 @@
+{
+ "slug": "isuzu",
+ "name": "Isuzu",
+ "models": [
+  {
+   "slug": "amigo",
+   "name": "Amigo",
+   "generations": [
+    {
+     "years": "1998 – 2000",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ascender",
+   "name": "Ascender",
+   "generations": [
+    {
+     "years": "2003 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "aska",
+   "name": "Aska",
+   "generations": [
+    {
+     "years": "1997 – 2002",
+     "name": "IV"
+    },
+    {
+     "years": "1994 – 1997",
+     "name": "III"
+    },
+    {
+     "years": "1990 – 1993",
+     "name": "II"
+    },
+    {
+     "years": "1983 – 1989",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "axiom",
+   "name": "Axiom",
+   "generations": [
+    {
+     "years": "2001 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bellett",
+   "name": "Bellett",
+   "generations": [
+    {
+     "years": "1963 – 1973",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "bighorn",
+   "name": "Bighorn",
+   "generations": [
+    {
+     "years": "1991 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1981 – 1991",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "d_max",
+   "name": "D-Max",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "III"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2012 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "fargo",
+   "name": "Fargo",
+   "generations": [
+    {
+     "years": "2001 – 2002",
+     "name": "E25"
+    },
+    {
+     "years": "1980 – 1995",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "fargo_filly",
+   "name": "Fargo Filly",
+   "generations": [
+    {
+     "years": "1997 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "florian",
+   "name": "Florian",
+   "generations": [
+    {
+     "years": "1977 – 1983",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1967 – 1977",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gemini",
+   "name": "Gemini",
+   "generations": [
+    {
+     "years": "1997 – 2000",
+     "name": "V"
+    },
+    {
+     "years": "1993 – 1996",
+     "name": "IV"
+    },
+    {
+     "years": "1990 – 1993",
+     "name": "III"
+    },
+    {
+     "years": "1985 – 1990",
+     "name": "II"
+    },
+    {
+     "years": "1974 – 1987",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "hombre",
+   "name": "Hombre",
+   "generations": [
+    {
+     "years": "1995 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "impulse",
+   "name": "Impulse",
+   "generations": [
+    {
+     "years": "1990 – 1993",
+     "name": "II"
+    },
+    {
+     "years": "1983 – 1990",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "kb",
+   "name": "KB",
+   "generations": [
+    {
+     "years": "1988 – 2003",
+     "name": "III (TF)"
+    },
+    {
+     "years": "1980 – 1988",
+     "name": "II"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "lingtuo",
+   "name": "Lingtuo",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "midi",
+   "name": "Midi",
+   "generations": [
+    {
+     "years": "1986 – 1996",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "mu",
+   "name": "MU",
+   "generations": [
+    {
+     "years": "1998 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mu_7",
+   "name": "MU-7",
+   "generations": [
+    {
+     "years": "2004 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mu_x",
+   "name": "MU-X",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2017 года",
+     "name": "I Рестайлинг (China Market)"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "oasis",
+   "name": "Oasis",
+   "generations": [
+    {
+     "years": "1995 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "pa_nero",
+   "name": "Pa Nero",
+   "generations": [
+    {
+     "years": "1990 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "piazza",
+   "name": "Piazza",
+   "generations": [
+    {
+     "years": "1990 – 1993",
+     "name": "II"
+    },
+    {
+     "years": "1980 – 1990",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "rodeo",
+   "name": "Rodeo",
+   "generations": [
+    {
+     "years": "1998 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ruimai",
+   "name": "Ruimai",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "stylus",
+   "name": "Stylus",
+   "generations": [
+    {
+     "years": "1990 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "t17",
+   "name": "T17",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "t30_explorer",
+   "name": "T30 Explorer",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "tf",
+   "name": "TF (Pickup)",
+   "generations": [
+    {
+     "years": "1988 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "trooper",
+   "name": "Trooper",
+   "generations": [
+    {
+     "years": "1992 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1981 – 1992",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vehi_cross",
+   "name": "VehiCross",
+   "generations": [
+    {
+     "years": "1997 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "wizard",
+   "name": "Wizard",
+   "generations": [
+    {
+     "years": "1998 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1990 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Isuzu",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Isuzu",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "117",
+   "name": "117",
+   "generations": [
+    {
+     "years": "1977 – 1981",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1968 – 1977",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  }
+ ]
+}

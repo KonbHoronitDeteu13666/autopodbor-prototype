@@ -1,0 +1,29 @@
+{
+ "slug": "rinspeed",
+ "name": "Rinspeed",
+ "models": [
+  {
+   "slug": "chopster",
+   "name": "Chopster",
+   "generations": [
+    {
+     "years": "2004 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Rinspeed",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Rinspeed",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

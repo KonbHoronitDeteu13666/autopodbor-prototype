@@ -1,0 +1,866 @@
+{
+ "slug": "changan",
+ "name": "Changan",
+ "models": [
+  {
+   "slug": "alsvin",
+   "name": "Alsvin",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "alsvin_v7",
+   "name": "Alsvin V7",
+   "generations": [
+    {
+     "years": "2014 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "auchan_a600",
+   "name": "Auchan A600",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "auchan_a600ev",
+   "name": "Auchan A600 EV",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "auchan_changxng",
+   "name": "Auchan Changxing",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "benben_e_star",
+   "name": "Benben E-Star",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "benni",
+   "name": "Benni",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": "Mini"
+    },
+    {
+     "years": "2006 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "benni_ec_ev",
+   "name": "Benni EC/EV",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "cm_8",
+   "name": "CM-8",
+   "generations": [
+    {
+     "years": "2008 – 2015",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "cs15",
+   "name": "CS15",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs35",
+   "name": "CS35",
+   "generations": [
+    {
+     "years": "2013 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs35max",
+   "name": "CS35 Max",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs35plus",
+   "name": "CS35 Plus",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs55",
+   "name": "CS55",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs55plus",
+   "name": "CS55 Plus",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs75",
+   "name": "CS75",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs75plus",
+   "name": "CS75 Plus",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "IV"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "III"
+    },
+    {
+     "years": "2021 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs75_pro",
+   "name": "CS75 Pro",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs85",
+   "name": "CS85",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs95",
+   "name": "CS95",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cs95plus",
+   "name": "CS95 Plus",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cx20",
+   "name": "CX20",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "g318",
+   "name": "Deepal G318",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "l06",
+   "name": "Deepal L06",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "l07",
+   "name": "Deepal L07",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "s05",
+   "name": "Deepal S05",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s07",
+   "name": "Deepal S07",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s09",
+   "name": "Deepal S09",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sl03",
+   "name": "Deepal SL03",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eado",
+   "name": "Eado",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "IV"
+    },
+    {
+     "years": "c 2025 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "III"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eado_dt",
+   "name": "Eado DT",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eado_plus",
+   "name": "Eado Plus",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "hunter",
+   "name": "Hunter",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I (China Market)"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "hunter_plus",
+   "name": "Hunter Plus",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "kaicene_f70",
+   "name": "Kaicene F70",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "lamore",
+   "name": "Lamore",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "explorer",
+   "name": "Lantuozhe (Explorer)",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "linmax",
+   "name": "Linmax",
+   "generations": [
+    {
+     "years": "2017 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "lumin",
+   "name": "Lumin",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "cx70",
+   "name": "Oshan CX70",
+   "generations": [
+    {
+     "years": "2016 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "oushan_changxing",
+   "name": "Oushan Changxing",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "a05",
+   "name": "Qiyuan A05",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2023 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "qiyuan_a05l",
+   "name": "Qiyuan A05L",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "a06",
+   "name": "Qiyuan A06",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "a07",
+   "name": "Qiyuan A07",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "e07",
+   "name": "Qiyuan E07",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hunter_k50",
+   "name": "Qiyuan Hunter K50",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "qiyuan_lumin",
+   "name": "Qiyuan Lumin",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "q05",
+   "name": "Qiyuan Q05",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q06",
+   "name": "Qiyuan Q06",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "q07",
+   "name": "Qiyuan Q07",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "raeton",
+   "name": "Raeton",
+   "generations": [
+    {
+     "years": "2013 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "raeton_cc",
+   "name": "Raeton CC",
+   "generations": [
+    {
+     "years": "2021 – 2022",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "raeton_plus",
+   "name": "Raeton Plus",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "uni_k",
+   "name": "UNI-K",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "uni_l",
+   "name": "UNI-L",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "uni_s",
+   "name": "UNI-S",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "uni_t",
+   "name": "UNI-T",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "uni_v",
+   "name": "UNI-V",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 1"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "uni_z",
+   "name": "UNI-Z",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x5_plus",
+   "name": "X5 Plus",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x7_plus",
+   "name": "X7 Plus",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "yida",
+   "name": "Yida",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "z_shine",
+   "name": "Z-Shine",
+   "generations": [
+    {
+     "years": "2008 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Changan",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Changan",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

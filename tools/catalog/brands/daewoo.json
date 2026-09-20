@@ -1,0 +1,384 @@
+{
+ "slug": "daewoo",
+ "name": "Daewoo",
+ "models": [
+  {
+   "slug": "alpheon",
+   "name": "Alpheon",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "arcadia",
+   "name": "Arcadia",
+   "generations": [
+    {
+     "years": "1994 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "chairman",
+   "name": "Chairman",
+   "generations": [
+    {
+     "years": "1999 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "damas",
+   "name": "Damas",
+   "generations": [
+    {
+     "years": "2003 – 2011",
+     "name": "II"
+    },
+    {
+     "years": "1991 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "espero",
+   "name": "Espero",
+   "generations": [
+    {
+     "years": "1990 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "evanda",
+   "name": "Evanda",
+   "generations": [
+    {
+     "years": "2002 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "g2x",
+   "name": "G2X",
+   "generations": [
+    {
+     "years": "2007 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "gentra",
+   "name": "Gentra",
+   "generations": [
+    {
+     "years": "2013 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "2005 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "kalos",
+   "name": "Kalos",
+   "generations": [
+    {
+     "years": "2002 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "korando",
+   "name": "Korando",
+   "generations": [
+    {
+     "years": "1999 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lacetti",
+   "name": "Lacetti",
+   "generations": [
+    {
+     "years": "2002 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lacetti_premiere",
+   "name": "Lacetti Premiere",
+   "generations": [
+    {
+     "years": "2008 – 2011",
+     "name": "J300"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "lanos",
+   "name": "Lanos",
+   "generations": [
+    {
+     "years": "1997 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "leganza",
+   "name": "Leganza",
+   "generations": [
+    {
+     "years": "1997 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "le_mans",
+   "name": "LeMans",
+   "generations": [
+    {
+     "years": "1986 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "magnus",
+   "name": "Magnus",
+   "generations": [
+    {
+     "years": "2000 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "matiz",
+   "name": "Matiz",
+   "generations": [
+    {
+     "years": "2009 – 2016",
+     "name": "III"
+    },
+    {
+     "years": "2000 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "II"
+    },
+    {
+     "years": "1998 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "matiz_creative",
+   "name": "Matiz Creative",
+   "generations": [
+    {
+     "years": "2009 – 2011",
+     "name": "M300"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "musso",
+   "name": "Musso",
+   "generations": [
+    {
+     "years": "1999 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "nexia",
+   "name": "Nexia",
+   "generations": [
+    {
+     "years": "2008 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1994 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "nubira",
+   "name": "Nubira",
+   "generations": [
+    {
+     "years": "2003 – 2005",
+     "name": "III"
+    },
+    {
+     "years": "1999 – 2003",
+     "name": "II"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "prince",
+   "name": "Prince",
+   "generations": [
+    {
+     "years": "1991 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "racer",
+   "name": "Racer",
+   "generations": [
+    {
+     "years": "1986 – 1997",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "rezzo",
+   "name": "Rezzo",
+   "generations": [
+    {
+     "years": "2000 – 2008",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "royale",
+   "name": "Royale",
+   "generations": [
+    {
+     "years": "1981 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sens",
+   "name": "Sens",
+   "generations": [
+    {
+     "years": "2002 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tacuma",
+   "name": "Tacuma",
+   "generations": [
+    {
+     "years": "2000 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "tico",
+   "name": "Tico",
+   "generations": [
+    {
+     "years": "1991 – 2001",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "tosca",
+   "name": "Tosca",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "windstorm",
+   "name": "Winstorm",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Daewoo",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Daewoo",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "morris",
+ "name": "Morris",
+ "models": [
+  {
+   "slug": "eight",
+   "name": "Eight",
+   "generations": [
+    {
+     "years": "1935 – 1937",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "marina",
+   "name": "Marina",
+   "generations": [
+    {
+     "years": "1971 – 1980",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Morris",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Morris",
+   "generations": [],
+   "body": "универсал"
+  }
+ ]
+}

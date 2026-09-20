@@ -1,0 +1,51 @@
+{
+ "slug": "pgo",
+ "name": "PGO",
+ "models": [
+  {
+   "slug": "cevennes",
+   "name": "Cevennes",
+   "generations": [
+    {
+     "years": "c 2005 года",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "hemera",
+   "name": "Hemera",
+   "generations": [
+    {
+     "years": "c 2009 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "speedster_ii",
+   "name": "Speedster II",
+   "generations": [
+    {
+     "years": "c 2005 года",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей PGO",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели PGO",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

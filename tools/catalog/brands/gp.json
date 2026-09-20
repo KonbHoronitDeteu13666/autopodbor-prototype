@@ -1,0 +1,29 @@
+{
+ "slug": "gp",
+ "name": "GP",
+ "models": [
+  {
+   "slug": "madison",
+   "name": "Madison",
+   "generations": [
+    {
+     "years": "1980 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей GP",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели GP",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

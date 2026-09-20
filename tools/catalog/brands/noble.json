@@ -1,0 +1,51 @@
+{
+ "slug": "noble",
+ "name": "Noble",
+ "models": [
+  {
+   "slug": "m12_gto",
+   "name": "M12 GTO",
+   "generations": [
+    {
+     "years": "2000 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "m15",
+   "name": "M15",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "m600",
+   "name": "M600",
+   "generations": [
+    {
+     "years": "2010 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Noble",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Noble",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

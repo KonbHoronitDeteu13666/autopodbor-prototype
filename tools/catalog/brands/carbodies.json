@@ -1,0 +1,29 @@
+{
+ "slug": "carbodies",
+ "name": "Carbodies",
+ "models": [
+  {
+   "slug": "fx4",
+   "name": "FX4",
+   "generations": [
+    {
+     "years": "1982 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Carbodies",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Carbodies",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

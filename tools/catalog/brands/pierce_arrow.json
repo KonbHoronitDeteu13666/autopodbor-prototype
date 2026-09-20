@@ -1,0 +1,29 @@
+{
+ "slug": "pierce_arrow",
+ "name": "Pierce-Arrow",
+ "models": [
+  {
+   "slug": "twelve",
+   "name": "Twelve",
+   "generations": [
+    {
+     "years": "1932 – 1938",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Pierce-Arrow",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Pierce-Arrow",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

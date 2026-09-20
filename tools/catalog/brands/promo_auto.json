@@ -1,0 +1,139 @@
+{
+ "slug": "promo_auto",
+ "name": "Спортивные авто и реп�",
+ "models": [
+  {
+   "slug": "gt_touring",
+   "name": "GT & Touring",
+   "generations": [
+    {
+     "years": "c 1950 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "offroad",
+   "name": "Offroad",
+   "generations": [
+    {
+     "years": "c 1950 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rally_cross",
+   "name": "Rally/cross",
+   "generations": [
+    {
+     "years": "c 1950 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "shortcut",
+   "name": "Shortcut",
+   "generations": [
+    {
+     "years": "c 2017 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "beach_buggy_type1",
+   "name": "Багги Type 1",
+   "generations": [
+    {
+     "years": "c 1964 года",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "dragster",
+   "name": "Драгстер",
+   "generations": [
+    {
+     "years": "c 1950 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "drift",
+   "name": "Дрифт-кар",
+   "generations": [
+    {
+     "years": "c 1950 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "replica_i_samodelki",
+   "name": "Самоделки",
+   "generations": [
+    {
+     "years": "c 1943 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "prototype",
+   "name": "Спортпрототип",
+   "generations": [
+    {
+     "years": "c 1950 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "formula",
+   "name": "Формула",
+   "generations": [
+    {
+     "years": "c 1950 года",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "hot_rod_custom",
+   "name": "Хот-род и Кастом",
+   "generations": [
+    {
+     "years": "c 1950 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Спортивные авто и реплики",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Спортивные авто и реплики",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

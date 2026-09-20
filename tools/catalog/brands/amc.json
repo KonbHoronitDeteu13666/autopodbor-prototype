@@ -1,0 +1,84 @@
+{
+ "slug": "amc",
+ "name": "AMC",
+ "models": [
+  {
+   "slug": "eagle",
+   "name": "Eagle",
+   "generations": [
+    {
+     "years": "1979 – 1987",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gremlin",
+   "name": "Gremlin",
+   "generations": [
+    {
+     "years": "1970 – 1978",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "hornet",
+   "name": "Hornet",
+   "generations": [
+    {
+     "years": "1974 – 1975",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "matador",
+   "name": "Matador",
+   "generations": [
+    {
+     "years": "1974 – 1978",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "rambler_ambassador",
+   "name": "Rambler Ambassador",
+   "generations": [
+    {
+     "years": "1965 – 1972",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "rambler_classic",
+   "name": "Rambler Classic",
+   "generations": [
+    {
+     "years": "1961 – 1966",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей AMC",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели AMC",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

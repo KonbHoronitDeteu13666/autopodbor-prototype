@@ -1,0 +1,29 @@
+{
+ "slug": "oltcit",
+ "name": "Oltcit",
+ "models": [
+  {
+   "slug": "club",
+   "name": "Club",
+   "generations": [
+    {
+     "years": "1981 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Oltcit",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Oltcit",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

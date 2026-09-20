@@ -1,0 +1,40 @@
+{
+ "slug": "adler",
+ "name": "Adler",
+ "models": [
+  {
+   "slug": "diplomat",
+   "name": "Diplomat",
+   "generations": [
+    {
+     "years": "1934 – 1940",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "trumpf_junior",
+   "name": "Trumpf Junior",
+   "generations": [
+    {
+     "years": "1934 – 1941",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Adler",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Adler",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

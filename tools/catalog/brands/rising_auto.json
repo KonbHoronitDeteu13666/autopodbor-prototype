@@ -1,0 +1,51 @@
+{
+ "slug": "rising_auto",
+ "name": "Rising Auto",
+ "models": [
+  {
+   "slug": "f7",
+   "name": "F7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "marvel_r",
+   "name": "Marvel R",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "r7",
+   "name": "R7",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Rising Auto",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Rising Auto",
+   "generations": [],
+   "body": "лифтбек"
+  }
+ ]
+}

@@ -1,0 +1,265 @@
+{
+ "slug": "bentley",
+ "name": "Bentley",
+ "models": [
+  {
+   "slug": "arnage",
+   "name": "Arnage",
+   "generations": [
+    {
+     "years": "2002 – 2009",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2002",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "azure",
+   "name": "Azure",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": "II"
+    },
+    {
+     "years": "1995 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "bentayga",
+   "name": "Bentayga",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2015 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "brooklands",
+   "name": "Brooklands",
+   "generations": [
+    {
+     "years": "2007 – 2011",
+     "name": "II"
+    },
+    {
+     "years": "1992 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "continental",
+   "name": "Continental",
+   "generations": [
+    {
+     "years": "1984 – 2003",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "continental_flying_spur",
+   "name": "Continental Flying Spur",
+   "generations": [
+    {
+     "years": "2005 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "continental_gt",
+   "name": "Continental GT",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "IV"
+    },
+    {
+     "years": "2017 – 2024",
+     "name": "III"
+    },
+    {
+     "years": "2015 – 2017",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "eight",
+   "name": "Eight",
+   "generations": [
+    {
+     "years": "1984 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "flying_spur",
+   "name": "Flying Spur",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "IV"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "III"
+    },
+    {
+     "years": "2013 – 2019",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "mark_vi",
+   "name": "Mark VI",
+   "generations": [
+    {
+     "years": "1946 – 1952",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "mulliner_bacalar",
+   "name": "Mulliner Bacalar",
+   "generations": [
+    {
+     "years": "2021 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "mulliner_batur",
+   "name": "Mulliner Batur",
+   "generations": [
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "mulsanne",
+   "name": "Mulsanne",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2010 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "1980 – 1993",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "r_type",
+   "name": "R Type",
+   "generations": [
+    {
+     "years": "1952 – 1955",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s",
+   "name": "S",
+   "generations": [
+    {
+     "years": "1962 – 1965",
+     "name": "III"
+    },
+    {
+     "years": "1959 – 1962",
+     "name": "II"
+    },
+    {
+     "years": "1955 – 1959",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "t_series",
+   "name": "T-Series",
+   "generations": [
+    {
+     "years": "1965 – 1980",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "turbo_r",
+   "name": "Turbo R",
+   "generations": [
+    {
+     "years": "1985 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bentley",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bentley",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "start",
+ "name": "Старт",
+ "models": [
+  {
+   "slug": "1963_1968",
+   "name": "1963-1968",
+   "generations": [
+    {
+     "years": "1963 – 1968",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Старт",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Старт",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

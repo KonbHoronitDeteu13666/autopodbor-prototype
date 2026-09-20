@@ -1,0 +1,40 @@
+{
+ "slug": "marussia",
+ "name": "Marussia",
+ "models": [
+  {
+   "slug": "b1",
+   "name": "B1",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "b2",
+   "name": "B2",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Marussia",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Marussia",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

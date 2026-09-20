@@ -1,0 +1,192 @@
+{
+ "slug": "haima",
+ "name": "Haima",
+ "models": [
+  {
+   "slug": "6p",
+   "name": "6P",
+   "generations": [
+    {
+     "years": "2021 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "7x",
+   "name": "7X",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "8s",
+   "name": "8S",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "aishang_ev",
+   "name": "Aishang EV",
+   "generations": [
+    {
+     "years": "2017 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "e3",
+   "name": "E3",
+   "generations": [
+    {
+     "years": "2017 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "family",
+   "name": "Family",
+   "generations": [
+    {
+     "years": "2010 – 2012",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "family_f7",
+   "name": "Family F7",
+   "generations": [
+    {
+     "years": "2016 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "freema",
+   "name": "Freema",
+   "generations": [
+    {
+     "years": "2010 – 2017",
+     "name": "II"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "m3",
+   "name": "M3",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s5",
+   "name": "S5",
+   "generations": [
+    {
+     "years": "2018 – 2019",
+     "name": "II"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s5_young",
+   "name": "S5 Young",
+   "generations": [
+    {
+     "years": "2017 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Haima",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Haima",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "2",
+   "name": "2",
+   "generations": [
+    {
+     "years": "2009 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "3",
+   "name": "3",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "7",
+   "name": "7",
+   "generations": [
+    {
+     "years": "2013 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

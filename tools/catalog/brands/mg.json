@@ -1,0 +1,518 @@
+{
+ "slug": "mg",
+ "name": "MG",
+ "models": [
+  {
+   "slug": "4_ev",
+   "name": "4 EV",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "4x",
+   "name": "4X",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "5_ev",
+   "name": "5 EV",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "5_scorpio",
+   "name": "5 Scorpio",
+   "generations": [
+    {
+     "years": "2022 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "6_pro",
+   "name": "6 Pro",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "cyberster",
+   "name": "Cyberster",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "es5",
+   "name": "ES5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "f",
+   "name": "F",
+   "generations": [
+    {
+     "years": "1995 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "gs",
+   "name": "GS",
+   "generations": [
+    {
+     "years": "2015 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "hs",
+   "name": "HS",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2018 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "maestro",
+   "name": "Maestro",
+   "generations": [
+    {
+     "years": "1983 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "metro",
+   "name": "Metro",
+   "generations": [
+    {
+     "years": "1982 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mga",
+   "name": "MGA",
+   "generations": [
+    {
+     "years": "1955 – 1962",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "mgb",
+   "name": "MGB",
+   "generations": [
+    {
+     "years": "1966 – 1980",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "midget",
+   "name": "Midget",
+   "generations": [
+    {
+     "years": "1964 – 1979",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "montego",
+   "name": "Montego",
+   "generations": [
+    {
+     "years": "1984 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "mulan",
+   "name": "Mulan",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "one",
+   "name": "One",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "pilot",
+   "name": "Pilot",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rv8",
+   "name": "RV8",
+   "generations": [
+    {
+     "years": "1992 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "rx5",
+   "name": "RX5",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rx8",
+   "name": "RX8",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "rx9",
+   "name": "RX9",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t60",
+   "name": "T60",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "td_midget",
+   "name": "TD Midget",
+   "generations": [
+    {
+     "years": "1950 – 1953",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "tf",
+   "name": "TF",
+   "generations": [
+    {
+     "years": "2002 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "u9",
+   "name": "U9",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "xpower_sv",
+   "name": "Xpower SV",
+   "generations": [
+    {
+     "years": "2003 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "zr",
+   "name": "ZR",
+   "generations": [
+    {
+     "years": "2001 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "zs",
+   "name": "ZS",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "zt",
+   "name": "ZT",
+   "generations": [
+    {
+     "years": "2001 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей MG",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели MG",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "07",
+   "name": "07",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "3",
+   "name": "3",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III"
+    },
+    {
+     "years": "2017 – 2024",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2013 – 2018",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2011 – 2013",
+     "name": "II"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "350",
+   "name": "350",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "5",
+   "name": "5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2017 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "550",
+   "name": "550",
+   "generations": [
+    {
+     "years": "2009 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "6",
+   "name": "6",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2017 года",
+     "name": "II"
+    },
+    {
+     "years": "2010 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "7",
+   "name": "7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "750",
+   "name": "750",
+   "generations": [
+    {
+     "years": "2006 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "8",
+   "name": "8",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  }
+ ]
+}

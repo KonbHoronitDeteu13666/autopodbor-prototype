@@ -1,0 +1,29 @@
+{
+ "slug": "kyc",
+ "name": "KYC",
+ "models": [
+  {
+   "slug": "f3",
+   "name": "F3",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей KYC",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели KYC",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

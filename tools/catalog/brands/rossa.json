@@ -1,0 +1,29 @@
+{
+ "slug": "rossa",
+ "name": "Rossa",
+ "models": [
+  {
+   "slug": "concept",
+   "name": "Concept",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Rossa",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Rossa",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

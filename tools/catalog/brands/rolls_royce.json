@@ -1,0 +1,315 @@
+{
+ "slug": "rolls_royce",
+ "name": "Rolls-Royce",
+ "models": [
+  {
+   "slug": "20_25",
+   "name": "20/25",
+   "generations": [
+    {
+     "years": "1929 – 1936",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "boat_tail",
+   "name": "Boat Tail",
+   "generations": [
+    {
+     "years": "2021 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "camargue",
+   "name": "Camargue",
+   "generations": [
+    {
+     "years": "1975 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "corniche",
+   "name": "Corniche",
+   "generations": [
+    {
+     "years": "2000 – 2002",
+     "name": "V"
+    },
+    {
+     "years": "1971 – 1995",
+     "name": "I - IV"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "cullinan",
+   "name": "Cullinan",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг (Series II)"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "I (Series I)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dawn",
+   "name": "Dawn",
+   "generations": [
+    {
+     "years": "2015 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "ghost",
+   "name": "Ghost",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II Рестайлинг (Series II)"
+    },
+    {
+     "years": "2020 – 2024",
+     "name": "II (Series I)"
+    },
+    {
+     "years": "2014 – 2020",
+     "name": "I Рестайлинг (Series II)"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "I (Series I)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "park_ward",
+   "name": "Park Ward",
+   "generations": [
+    {
+     "years": "2000 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "phantom",
+   "name": "Phantom",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "VIII Рестайлинг (Series II)"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "VIII (Series I)"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "VII Рестайлинг (Series II)"
+    },
+    {
+     "years": "2003 – 2012",
+     "name": "VII"
+    },
+    {
+     "years": "1959 – 1968",
+     "name": "V"
+    },
+    {
+     "years": "1950 – 1956",
+     "name": "IV"
+    },
+    {
+     "years": "1936 – 1939",
+     "name": "III"
+    },
+    {
+     "years": "1929 – 1936",
+     "name": "II"
+    },
+    {
+     "years": "1925 – 1931",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "silver_cloud",
+   "name": "Silver Cloud",
+   "generations": [
+    {
+     "years": "1963 – 1966",
+     "name": "III"
+    },
+    {
+     "years": "1959 – 1962",
+     "name": "II"
+    },
+    {
+     "years": "1955 – 1958",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "silver_ghost",
+   "name": "Silver Ghost",
+   "generations": [
+    {
+     "years": "1906 – 1926",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "silver_seraph",
+   "name": "Silver Seraph",
+   "generations": [
+    {
+     "years": "1998 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "silver_shadow",
+   "name": "Silver Shadow",
+   "generations": [
+    {
+     "years": "1965 – 1980",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "silver_spirit",
+   "name": "Silver Spirit",
+   "generations": [
+    {
+     "years": "1995 – 1997",
+     "name": "Mark IV"
+    },
+    {
+     "years": "1993 – 1995",
+     "name": "Mark III"
+    },
+    {
+     "years": "1989 – 1993",
+     "name": "Mark II"
+    },
+    {
+     "years": "1980 – 1989",
+     "name": "Mark I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "silver_spur",
+   "name": "Silver Spur",
+   "generations": [
+    {
+     "years": "1995 – 1999",
+     "name": "Mark IV"
+    },
+    {
+     "years": "1993 – 1994",
+     "name": "Mark III"
+    },
+    {
+     "years": "1989 – 1993",
+     "name": "Mark II"
+    },
+    {
+     "years": "1980 – 1989",
+     "name": "Mark I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "silver_wraith",
+   "name": "Silver Wraith",
+   "generations": [
+    {
+     "years": "1946 – 1959",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "spectre",
+   "name": "Spectre",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг (Series II)"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I (Series I)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "wraith",
+   "name": "Wraith",
+   "generations": [
+    {
+     "years": "2013 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Rolls-Royce",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Rolls-Royce",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "20",
+   "name": "20",
+   "generations": [
+    {
+     "years": "1905 – 1906",
+     "name": ""
+    }
+   ],
+   "body": ""
+  }
+ ]
+}

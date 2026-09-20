@@ -1,0 +1,88 @@
+{
+ "slug": "alpine",
+ "name": "Alpine",
+ "models": [
+  {
+   "slug": "a110",
+   "name": "A110",
+   "generations": [
+    {
+     "years": "c 2017 года",
+     "name": "II"
+    },
+    {
+     "years": "1961 – 1977",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "a290",
+   "name": "A290",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "a310",
+   "name": "A310",
+   "generations": [
+    {
+     "years": "1971 – 1985",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "a390",
+   "name": "A390",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "a610",
+   "name": "A610",
+   "generations": [
+    {
+     "years": "1991 – 1995",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "gta",
+   "name": "GTA",
+   "generations": [
+    {
+     "years": "1985 – 1990",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Alpine",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Alpine",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

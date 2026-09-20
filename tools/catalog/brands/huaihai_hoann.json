@@ -1,0 +1,29 @@
+{
+ "slug": "huaihai_hoann",
+ "name": "Huaihai (Hoann)",
+ "models": [
+  {
+   "slug": "ek01",
+   "name": "EK01",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Huaihai (Hoann)",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Huaihai (Hoann)",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

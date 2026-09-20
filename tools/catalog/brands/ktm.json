@@ -1,0 +1,29 @@
+{
+ "slug": "ktm",
+ "name": "KTM AG",
+ "models": [
+  {
+   "slug": "xbow",
+   "name": "X-Bow",
+   "generations": [
+    {
+     "years": "c 2008 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей KTM AG",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели KTM AG",
+   "generations": [],
+   "body": ""
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "slug": "sandstorm",
+ "name": "Sandstorm",
+ "models": [
+  {
+   "slug": "alreem",
+   "name": "Alreem",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s24",
+   "name": "S24",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Sandstorm",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Sandstorm",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

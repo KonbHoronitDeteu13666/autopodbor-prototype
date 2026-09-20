@@ -1,0 +1,40 @@
+{
+ "slug": "dkw",
+ "name": "DKW",
+ "models": [
+  {
+   "slug": "3_6",
+   "name": "3=6",
+   "generations": [
+    {
+     "years": "1953 – 1955",
+     "name": "F91"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "f7",
+   "name": "F7",
+   "generations": [
+    {
+     "years": "1936 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей DKW",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели DKW",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

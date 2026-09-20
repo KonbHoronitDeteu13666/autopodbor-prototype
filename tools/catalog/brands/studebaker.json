@@ -1,0 +1,29 @@
+{
+ "slug": "studebaker",
+ "name": "Studebaker",
+ "models": [
+  {
+   "slug": "golden_hawk",
+   "name": "Golden Hawk",
+   "generations": [
+    {
+     "years": "1956 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Studebaker",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Studebaker",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

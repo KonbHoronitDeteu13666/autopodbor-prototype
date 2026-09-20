@@ -1,0 +1,256 @@
+{
+ "slug": "mitsuoka",
+ "name": "Mitsuoka",
+ "models": [
+  {
+   "slug": "bubu_classic_ssk",
+   "name": "Bubu Classic SSK",
+   "generations": [
+    {
+     "years": "1987 – 1989",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "buddy",
+   "name": "Buddy",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "galue",
+   "name": "Galue",
+   "generations": [
+    {
+     "years": "2005 – 2020",
+     "name": "III"
+    },
+    {
+     "years": "1999 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1998 – 2002",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "galue_204",
+   "name": "Galue 204",
+   "generations": [
+    {
+     "years": "2008 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "himiko",
+   "name": "Himiko",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": "II"
+    },
+    {
+     "years": "2008 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "le_seyde",
+   "name": "Le-Seyde",
+   "generations": [
+    {
+     "years": "2000 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1990 – 2001",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "like",
+   "name": "Like",
+   "generations": [
+    {
+     "years": "2010 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "m55",
+   "name": "M55",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mc_1",
+   "name": "MC-1",
+   "generations": [
+    {
+     "years": "1998 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "nouera",
+   "name": "Nouera",
+   "generations": [
+    {
+     "years": "2008 – 2012",
+     "name": "II (6-02)"
+    },
+    {
+     "years": "2003 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "orochi",
+   "name": "Orochi",
+   "generations": [
+    {
+     "years": "2006 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "ray",
+   "name": "Ray",
+   "generations": [
+    {
+     "years": "1999 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1996 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "rock_star",
+   "name": "Rock Star",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "ryoga",
+   "name": "Ryoga",
+   "generations": [
+    {
+     "years": "2001 – 2004",
+     "name": "II (B15)"
+    },
+    {
+     "years": "1998 – 2001",
+     "name": "I (P11)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ryugi",
+   "name": "Ryugi",
+   "generations": [
+    {
+     "years": "c 2015 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "viewt",
+   "name": "Viewt",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "IV"
+    },
+    {
+     "years": "2012 – 2023",
+     "name": "III (K13)"
+    },
+    {
+     "years": "2005 – 2012",
+     "name": "II (K12)"
+    },
+    {
+     "years": "1993 – 2003",
+     "name": "I (K11)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "yuga",
+   "name": "Yuga",
+   "generations": [
+    {
+     "years": "2000 – 2002",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "zero_one",
+   "name": "Zero 1",
+   "generations": [
+    {
+     "years": "1996 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Mitsuoka",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Mitsuoka",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

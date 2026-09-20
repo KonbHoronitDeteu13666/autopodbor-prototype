@@ -1,0 +1,29 @@
+{
+ "slug": "merkur",
+ "name": "Merkur",
+ "models": [
+  {
+   "slug": "xr4ti",
+   "name": "XR4Ti",
+   "generations": [
+    {
+     "years": "1985 – 1989",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Merkur",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Merkur",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

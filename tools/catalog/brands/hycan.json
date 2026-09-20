@@ -1,0 +1,62 @@
+{
+ "slug": "hycan",
+ "name": "Hycan",
+ "models": [
+  {
+   "slug": "a06",
+   "name": "A06",
+   "generations": [
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "v09",
+   "name": "V09",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "z03",
+   "name": "Z03",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hycan",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hycan",
+   "generations": [],
+   "body": "минивэн"
+  },
+  {
+   "slug": "007",
+   "name": "007",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  }
+ ]
+}

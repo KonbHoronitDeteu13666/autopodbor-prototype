@@ -1,0 +1,29 @@
+{
+ "slug": "auto_union",
+ "name": "Auto Union",
+ "models": [
+  {
+   "slug": "1000_sp",
+   "name": "1000 Sp",
+   "generations": [
+    {
+     "years": "1958 – 1965",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Auto Union",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Auto Union",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

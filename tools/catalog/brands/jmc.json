@@ -1,0 +1,77 @@
+{
+ "slug": "jmc",
+ "name": "JMC",
+ "models": [
+  {
+   "slug": "baodian",
+   "name": "Baodian",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "dadao",
+   "name": "Dadao",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "vigus",
+   "name": "Vigus",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "vigus_work",
+   "name": "Vigus Work",
+   "generations": [
+    {
+     "years": "2021 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "yuhu_7",
+   "name": "Yuhu 7",
+   "generations": [
+    {
+     "years": "c 2017 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей JMC",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели JMC",
+   "generations": [],
+   "body": "пикап"
+  }
+ ]
+}

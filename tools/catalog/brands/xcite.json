@@ -1,0 +1,40 @@
+{
+ "slug": "xcite",
+ "name": "Xcite",
+ "models": [
+  {
+   "slug": "x_cross_7",
+   "name": "X-Cross 7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x_cross_8",
+   "name": "X-Cross 8",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Xcite",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Xcite",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

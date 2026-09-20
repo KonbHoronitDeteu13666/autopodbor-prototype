@@ -1,0 +1,40 @@
+{
+ "slug": "saic",
+ "name": "SAIC",
+ "models": [
+  {
+   "slug": "h5",
+   "name": "H5",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "z7",
+   "name": "Z7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей SAIC",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели SAIC",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "mega",
+ "name": "Mega",
+ "models": [
+  {
+   "slug": "club",
+   "name": "Club",
+   "generations": [
+    {
+     "years": "1992 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "monte_carlo",
+   "name": "Monte Carlo",
+   "generations": [
+    {
+     "years": "1996 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "track",
+   "name": "Track",
+   "generations": [
+    {
+     "years": "1992 – 2000",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Mega",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Mega",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

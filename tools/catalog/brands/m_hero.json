@@ -1,0 +1,29 @@
+{
+ "slug": "m_hero",
+ "name": "M-Hero",
+ "models": [
+  {
+   "slug": "i",
+   "name": "I",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей M-Hero",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели M-Hero",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

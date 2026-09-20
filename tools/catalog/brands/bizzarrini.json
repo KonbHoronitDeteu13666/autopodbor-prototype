@@ -1,0 +1,29 @@
+{
+ "slug": "bizzarrini",
+ "name": "Bizzarrini",
+ "models": [
+  {
+   "slug": "5300_gt",
+   "name": "5300 GT",
+   "generations": [
+    {
+     "years": "1964 – 1968",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bizzarrini",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bizzarrini",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

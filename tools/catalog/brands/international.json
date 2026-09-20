@@ -1,0 +1,40 @@
+{
+ "slug": "international",
+ "name": "International Harvester",
+ "models": [
+  {
+   "slug": "scout",
+   "name": "Scout",
+   "generations": [
+    {
+     "years": "1971 – 1980",
+     "name": "II"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "travelall",
+   "name": "Travelall",
+   "generations": [
+    {
+     "years": "1969 – 1975",
+     "name": "IV"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей International Harvester",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели International Harvester",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

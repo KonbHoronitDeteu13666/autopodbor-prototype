@@ -1,0 +1,55 @@
+{
+ "slug": "hummer",
+ "name": "Hummer",
+ "models": [
+  {
+   "slug": "h1",
+   "name": "H1",
+   "generations": [
+    {
+     "years": "1992 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "h2",
+   "name": "H2",
+   "generations": [
+    {
+     "years": "2007 – 2009",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2002 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "h3",
+   "name": "H3",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hummer",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hummer",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

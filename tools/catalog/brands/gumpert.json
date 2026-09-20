@@ -1,0 +1,29 @@
+{
+ "slug": "gumpert",
+ "name": "Gumpert",
+ "models": [
+  {
+   "slug": "apollo",
+   "name": "Apollo",
+   "generations": [
+    {
+     "years": "2005 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Gumpert",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Gumpert",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

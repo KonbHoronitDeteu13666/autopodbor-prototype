@@ -1,0 +1,40 @@
+{
+ "slug": "goggomobil",
+ "name": "Goggomobil",
+ "models": [
+  {
+   "slug": "t",
+   "name": "T",
+   "generations": [
+    {
+     "years": "1955 – 1969",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ts",
+   "name": "TS",
+   "generations": [
+    {
+     "years": "1957 – 1969",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Goggomobil",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Goggomobil",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

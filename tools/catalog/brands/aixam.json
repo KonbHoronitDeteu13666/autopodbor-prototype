@@ -1,0 +1,40 @@
+{
+ "slug": "aixam",
+ "name": "Aixam",
+ "models": [
+  {
+   "slug": "coupe",
+   "name": "Coupe",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Aixam",
+   "generations": [],
+   "body": "купе"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Aixam",
+   "generations": [],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "500",
+   "name": "500",
+   "generations": [
+    {
+     "years": "2000 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  }
+ ]
+}

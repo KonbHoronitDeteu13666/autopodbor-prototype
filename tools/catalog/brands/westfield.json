@@ -1,0 +1,40 @@
+{
+ "slug": "westfield",
+ "name": "Westfield",
+ "models": [
+  {
+   "slug": "sei_sport",
+   "name": "SEi & Sport",
+   "generations": [
+    {
+     "years": "1982 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "seight",
+   "name": "SEiGHT",
+   "generations": [
+    {
+     "years": "1991 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Westfield",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Westfield",
+   "generations": [],
+   "body": "кабриолет"
+  }
+ ]
+}

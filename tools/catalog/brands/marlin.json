@@ -1,0 +1,40 @@
+{
+ "slug": "marlin",
+ "name": "Marlin",
+ "models": [
+  {
+   "slug": "5exi",
+   "name": "5EXi",
+   "generations": [
+    {
+     "years": "2004 – 2019",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "sportster",
+   "name": "Sportster",
+   "generations": [
+    {
+     "years": "2003 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Marlin",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Marlin",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

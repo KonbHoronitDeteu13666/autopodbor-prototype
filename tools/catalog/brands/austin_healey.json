@@ -1,0 +1,52 @@
+{
+ "slug": "austin_healey",
+ "name": "Austin Healey",
+ "models": [
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Austin Healey",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Austin Healey",
+   "generations": [],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "100",
+   "name": "100",
+   "generations": [
+    {
+     "years": "1956 – 1959",
+     "name": "100 (BN4/BN6)"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "3000",
+   "name": "3000",
+   "generations": [
+    {
+     "years": "1964 – 1967",
+     "name": "III (BJ8)"
+    },
+    {
+     "years": "1962 – 1964",
+     "name": "II (BJ7)"
+    },
+    {
+     "years": "1961 – 1962",
+     "name": "II (BN7, BT7)"
+    },
+    {
+     "years": "1959 – 1961",
+     "name": "I (BN7, BT7)"
+    }
+   ],
+   "body": "родстер"
+  }
+ ]
+}

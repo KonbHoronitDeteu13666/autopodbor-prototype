@@ -1,0 +1,40 @@
+{
+ "slug": "jensen",
+ "name": "Jensen",
+ "models": [
+  {
+   "slug": "interceptor",
+   "name": "Interceptor",
+   "generations": [
+    {
+     "years": "1966 – 1976",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "s_v8",
+   "name": "S-V8",
+   "generations": [
+    {
+     "years": "2001 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Jensen",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Jensen",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

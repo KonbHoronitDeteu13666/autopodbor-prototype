@@ -1,0 +1,29 @@
+{
+ "slug": "bilenkin",
+ "name": "Bilenkin",
+ "models": [
+  {
+   "slug": "vintage",
+   "name": "Vintage",
+   "generations": [
+    {
+     "years": "2015 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Bilenkin",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Bilenkin",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

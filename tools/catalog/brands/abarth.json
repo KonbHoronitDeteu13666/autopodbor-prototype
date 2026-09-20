@@ -1,0 +1,115 @@
+{
+ "slug": "abarth",
+ "name": "Abarth",
+ "models": [
+  {
+   "slug": "124_spider",
+   "name": "124 Spider",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "600e",
+   "name": "600e",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "fastback",
+   "name": "Fastback",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "pulse",
+   "name": "Pulse",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Abarth",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Abarth",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "500",
+   "name": "500",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "2008 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "595",
+   "name": "595",
+   "generations": [
+    {
+     "years": "2016 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "695",
+   "name": "695",
+   "generations": [
+    {
+     "years": "2016 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2010 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  }
+ ]
+}

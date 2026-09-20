@@ -1,0 +1,154 @@
+{
+ "slug": "morgan",
+ "name": "Morgan",
+ "models": [
+  {
+   "slug": "3_wheeler",
+   "name": "3 Wheeler",
+   "generations": [
+    {
+     "years": "2011 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "4_seater",
+   "name": "4 Seater",
+   "generations": [
+    {
+     "years": "2004 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "4_4",
+   "name": "4/4",
+   "generations": [
+    {
+     "years": "1962 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "aero_8",
+   "name": "Aero 8",
+   "generations": [
+    {
+     "years": "2001 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "aero_coupe",
+   "name": "Aero Coupe",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "aero_supersports",
+   "name": "Aero SuperSports",
+   "generations": [
+    {
+     "years": "2009 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "тарга"
+  },
+  {
+   "slug": "aeromax",
+   "name": "AeroMax",
+   "generations": [
+    {
+     "years": "2008 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "plus_4",
+   "name": "Plus 4",
+   "generations": [
+    {
+     "years": "1950 – 2020",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "plus_8",
+   "name": "Plus 8",
+   "generations": [
+    {
+     "years": "2012 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "1968 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "plus_six",
+   "name": "Plus Six",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "roadster",
+   "name": "Roadster",
+   "generations": [
+    {
+     "years": "2004 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "supersport",
+   "name": "Supersport",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Morgan",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Morgan",
+   "generations": [],
+   "body": "родстер"
+  }
+ ]
+}

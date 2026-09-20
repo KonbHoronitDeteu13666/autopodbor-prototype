@@ -1,0 +1,29 @@
+{
+ "slug": "blaval",
+ "name": "Blaval",
+ "models": [
+  {
+   "slug": "fh_eq",
+   "name": "FH-EQ",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Blaval",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Blaval",
+   "generations": [],
+   "body": "хэтчбек"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "piaggio",
+ "name": "Piaggio",
+ "models": [
+  {
+   "slug": "porter",
+   "name": "Porter",
+   "generations": [
+    {
+     "years": "1992 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "фургон"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Piaggio",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Piaggio",
+   "generations": [],
+   "body": ""
+  }
+ ]
+}

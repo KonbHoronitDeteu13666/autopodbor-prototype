@@ -1,0 +1,66 @@
+{
+ "slug": "hudson",
+ "name": "Hudson",
+ "models": [
+  {
+   "slug": "custom_eight",
+   "name": "Custom Eight",
+   "generations": [
+    {
+     "years": "1937 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "deluxe_eight",
+   "name": "Deluxe Eight",
+   "generations": [
+    {
+     "years": "1936 – 1937",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "hornet",
+   "name": "Hornet",
+   "generations": [
+    {
+     "years": "1955 – 1957",
+     "name": "II"
+    },
+    {
+     "years": "1950 – 1954",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "super_six",
+   "name": "Super Six",
+   "generations": [
+    {
+     "years": "1916 – 1928",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Hudson",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Hudson",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

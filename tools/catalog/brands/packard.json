@@ -1,0 +1,121 @@
+{
+ "slug": "packard",
+ "name": "Packard",
+ "models": [
+  {
+   "slug": "200_250",
+   "name": "200/250",
+   "generations": [
+    {
+     "years": "1951 – 1952",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "caribbean",
+   "name": "Caribbean",
+   "generations": [
+    {
+     "years": "1955 – 1956",
+     "name": "II"
+    },
+    {
+     "years": "1953 – 1954",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "clipper",
+   "name": "Clipper",
+   "generations": [
+    {
+     "years": "1941 – 1947",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "custom_eight",
+   "name": "Custom Eight",
+   "generations": [
+    {
+     "years": "1948 – 1950",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "one_ten",
+   "name": "One-Ten",
+   "generations": [
+    {
+     "years": "1940 – 1941",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "one_twenty",
+   "name": "One-Twenty",
+   "generations": [
+    {
+     "years": "1935 – 1941",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "six",
+   "name": "Six",
+   "generations": [
+    {
+     "years": "1912 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "super_eight",
+   "name": "Super Eight",
+   "generations": [
+    {
+     "years": "1933 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "twelve",
+   "name": "Twelve",
+   "generations": [
+    {
+     "years": "1932 – 1939",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Packard",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Packard",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

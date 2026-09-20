@@ -1,0 +1,29 @@
+{
+ "slug": "iveco",
+ "name": "Iveco",
+ "models": [
+  {
+   "slug": "massif",
+   "name": "Massif",
+   "generations": [
+    {
+     "years": "2007 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Iveco",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Iveco",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

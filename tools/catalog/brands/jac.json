@@ -1,0 +1,603 @@
+{
+ "slug": "jac",
+ "name": "JAC",
+ "models": [
+  {
+   "slug": "a5",
+   "name": "A5",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "e30x",
+   "name": "E30X",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "hunter",
+   "name": "Hunter",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "iev7l",
+   "name": "iEV7L",
+   "generations": [
+    {
+     "years": "c 2017 года",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "iev7s",
+   "name": "iEV7S",
+   "generations": [
+    {
+     "years": "2018 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ieva50",
+   "name": "iEVA50",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "ievs4",
+   "name": "iEVS4",
+   "generations": [
+    {
+     "years": "2019 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "j2",
+   "name": "J2 (Yueyue)",
+   "generations": [
+    {
+     "years": "2010 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "j3",
+   "name": "J3 (Tongyue,Tojoy)",
+   "generations": [
+    {
+     "years": "2009 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "j4",
+   "name": "J4 (Heyue A30)",
+   "generations": [
+    {
+     "years": "2013 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "j5",
+   "name": "J5 (Heyue)",
+   "generations": [
+    {
+     "years": "2014 – 2017",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "j6",
+   "name": "J6 (Heyue RS)",
+   "generations": [
+    {
+     "years": "2011 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "j7",
+   "name": "J7",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "j7_binyue",
+   "name": "J7 (Binyue)",
+   "generations": [
+    {
+     "years": "2008 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "jiayue_x7",
+   "name": "Jiayue X7",
+   "generations": [
+    {
+     "years": "2020 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "js2",
+   "name": "JS2",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "js2_pro",
+   "name": "JS2 Pro",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "js3",
+   "name": "JS3",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "js4",
+   "name": "JS4",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "js5",
+   "name": "JS5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "js6",
+   "name": "JS6",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "js9",
+   "name": "JS9",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "refine",
+   "name": "M1 (Refine)",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "m4",
+   "name": "M4",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2016 года",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "m5",
+   "name": "M5",
+   "generations": [
+    {
+     "years": "2011 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "qx",
+   "name": "QX",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "refine_l6_max",
+   "name": "Refine L6 Max",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "refine_m3",
+   "name": "Refine M3",
+   "generations": [
+    {
+     "years": "c 2016 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "refine_rf8",
+   "name": "Refine RF8",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "rf8",
+   "name": "RF8",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "s1_rein",
+   "name": "S1 (Rein)",
+   "generations": [
+    {
+     "years": "2011 – 2013",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s_2",
+   "name": "S2",
+   "generations": [
+    {
+     "years": "2015 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s_3",
+   "name": "S3",
+   "generations": [
+    {
+     "years": "c 2019 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s3_pro",
+   "name": "S3 Pro",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s4",
+   "name": "S4",
+   "generations": [
+    {
+     "years": "2018 – 2022",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s5",
+   "name": "S5 (Eagle)",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2013 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s6",
+   "name": "S6",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s7",
+   "name": "S7",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sehol_a5_plus",
+   "name": "Sehol A5 Plus",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "sehol_aipao",
+   "name": "Sehol Aipao",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "sehol_e10x",
+   "name": "Sehol E10X",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sehol_e20x",
+   "name": "Sehol E20X",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sehol_qx",
+   "name": "Sehol QX",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sehol_x6",
+   "name": "Sehol X6",
+   "generations": [
+    {
+     "years": "2022 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sehol_x8",
+   "name": "Sehol X8",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "sehol_x8_plus",
+   "name": "Sehol X8 Plus",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "t6",
+   "name": "T6",
+   "generations": [
+    {
+     "years": "c 2015 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "t8",
+   "name": "T8",
+   "generations": [
+    {
+     "years": "c 2018 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "t8_pro",
+   "name": "T8 Pro",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "t9",
+   "name": "T9",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "yttrium_3",
+   "name": "Yttrium 3",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей JAC",
+   "generations": [],
+   "body": "пикап"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели JAC",
+   "generations": [],
+   "body": "минивэн"
+  }
+ ]
+}

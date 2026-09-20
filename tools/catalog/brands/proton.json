@@ -1,0 +1,264 @@
+{
+ "slug": "proton",
+ "name": "Proton",
+ "models": [
+  {
+   "slug": "arena",
+   "name": "Arena",
+   "generations": [
+    {
+     "years": "2002 – 2010",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "exora",
+   "name": "Exora",
+   "generations": [
+    {
+     "years": "2009 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "gen_2",
+   "name": "Gen-2",
+   "generations": [
+    {
+     "years": "2004 – 2012",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "inspira",
+   "name": "Inspira",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "iriz",
+   "name": "Iriz",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": "I Рестайлинг 3"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "juara",
+   "name": "Juara",
+   "generations": [
+    {
+     "years": "2001 – 2003",
+     "name": ""
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "perdana",
+   "name": "Perdana",
+   "generations": [
+    {
+     "years": "1995 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "persona",
+   "name": "Persona",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "III Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2021",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "III"
+    },
+    {
+     "years": "2007 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "1993 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "preve",
+   "name": "Preve",
+   "generations": [
+    {
+     "years": "2011 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "putra",
+   "name": "Putra",
+   "generations": [
+    {
+     "years": "1996 – 2004",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "saga",
+   "name": "Saga",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2016 – 2025",
+     "name": "III"
+    },
+    {
+     "years": "2008 – 2016",
+     "name": "II"
+    },
+    {
+     "years": "1985 – 2008",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "satria",
+   "name": "Satria",
+   "generations": [
+    {
+     "years": "2006 – 2015",
+     "name": "II"
+    },
+    {
+     "years": "1996 – 2005",
+     "name": "I (300 Series)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "savvy",
+   "name": "Savvy",
+   "generations": [
+    {
+     "years": "2005 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "tiara",
+   "name": "Tiara",
+   "generations": [
+    {
+     "years": "1996 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "waja",
+   "name": "Waja",
+   "generations": [
+    {
+     "years": "2000 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "wira",
+   "name": "Wira (400 Series)",
+   "generations": [
+    {
+     "years": "1993 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "x50",
+   "name": "X50",
+   "generations": [
+    {
+     "years": "2020 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "x70",
+   "name": "X70",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Proton",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Proton",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

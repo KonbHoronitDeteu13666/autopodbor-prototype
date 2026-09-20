@@ -1,0 +1,51 @@
+{
+ "slug": "hiphi",
+ "name": "HiPhi",
+ "models": [
+  {
+   "slug": "x",
+   "name": "X",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "y",
+   "name": "Y",
+   "generations": [
+    {
+     "years": "2023 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "z",
+   "name": "Z",
+   "generations": [
+    {
+     "years": "2022 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей HiPhi",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели HiPhi",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

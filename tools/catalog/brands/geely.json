@@ -1,0 +1,1170 @@
+{
+ "slug": "geely",
+ "name": "Geely",
+ "models": [
+  {
+   "slug": "atlas",
+   "name": "Atlas",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "atlas_pro",
+   "name": "Atlas Pro",
+   "generations": [
+    {
+     "years": "2019 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "azkarra",
+   "name": "Azkarra",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "beauty_leopard",
+   "name": "Beauty Leopard",
+   "generations": [
+    {
+     "years": "2005 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "binrui",
+   "name": "Binrui",
+   "generations": [
+    {
+     "years": "2020 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "binrui_cool",
+   "name": "Binrui Cool",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "binyue",
+   "name": "Binyue",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "binyue_cool",
+   "name": "Binyue Cool",
+   "generations": [
+    {
+     "years": "2022 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "binyue_l",
+   "name": "Binyue L",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "boyue",
+   "name": "Boyue",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "II"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "boyue_cool",
+   "name": "Boyue Cool",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "boyue_l",
+   "name": "Boyue L",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II"
+    },
+    {
+     "years": "2024 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "boyue_pro",
+   "name": "Boyue Pro",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "boyue_rev",
+   "name": "Boyue REV",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cityray",
+   "name": "Cityray",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ck",
+   "name": "CK (Otaka)",
+   "generations": [
+    {
+     "years": "2008 – 2016",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "coolray",
+   "name": "Coolray",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2024",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "cowboy",
+   "name": "Cowboy",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "emgrand",
+   "name": "Emgrand",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "II"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "emgrand_7",
+   "name": "Emgrand 7",
+   "generations": [
+    {
+     "years": "2018 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "emgrand_ec7",
+   "name": "Emgrand EC7",
+   "generations": [
+    {
+     "years": "2009 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "emgrand_8",
+   "name": "Emgrand EC8",
+   "generations": [
+    {
+     "years": "2012 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "emgrand_gl",
+   "name": "Emgrand GL",
+   "generations": [
+    {
+     "years": "2020 – 2021",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2018 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2016 – 2018",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "emgrand_gt",
+   "name": "Emgrand GT",
+   "generations": [
+    {
+     "years": "2015 – 2020",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "emgrand_l",
+   "name": "Emgrand L",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "emgrand_s",
+   "name": "Emgrand S",
+   "generations": [
+    {
+     "years": "2021 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "emgrand_x7",
+   "name": "Emgrand X7",
+   "generations": [
+    {
+     "years": "2018 – 2021",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ex2",
+   "name": "EX2",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "ex5",
+   "name": "EX5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "ex5_hybrid",
+   "name": "EX5 Гибрид",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "yuancheng_farizon_fx",
+   "name": "Farizon FX",
+   "generations": [
+    {
+     "years": "2020 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "happiness",
+   "name": "Farizon Happiness",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "farizon_v6e",
+   "name": "Farizon V6E",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "vision",
+   "name": "FC (Vision)",
+   "generations": [
+    {
+     "years": "2006 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "galaxy_a7",
+   "name": "Galaxy A7",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "galaxy_cruiser_700",
+   "name": "Galaxy Cruiser 700",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "galaxy_e5",
+   "name": "Galaxy E5",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "galaxy_e8",
+   "name": "Galaxy E8",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "galaxy_l6",
+   "name": "Galaxy L6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "galaxy_l7",
+   "name": "Galaxy L7",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "galaxy_levc_l380",
+   "name": "Galaxy LEVC L380",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "galaxy_m7",
+   "name": "Galaxy M7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "galaxy_m9",
+   "name": "Galaxy M9",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "galaxy_starshine_6",
+   "name": "Galaxy Starshine 6",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "galaxy_starshine_7",
+   "name": "Galaxy Starshine 7",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "galaxy_starshine_8",
+   "name": "Galaxy Starshine 8",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "galaxy_starship_7",
+   "name": "Galaxy Starship 7",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "galaxy_tt",
+   "name": "Galaxy TT",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "galaxy_v900",
+   "name": "Galaxy V900",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "gc5",
+   "name": "GC5",
+   "generations": [
+    {
+     "years": "2011 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gc6",
+   "name": "GC6",
+   "generations": [
+    {
+     "years": "2014 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gc7",
+   "name": "GC7",
+   "generations": [
+    {
+     "years": "2010 – 2013",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "gc9",
+   "name": "GC9",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "geome_xingyuan",
+   "name": "Geome Xingyuan",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "geometry_a",
+   "name": "Geometry A",
+   "generations": [
+    {
+     "years": "2019 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "geometry_c",
+   "name": "Geometry C",
+   "generations": [
+    {
+     "years": "2020 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "geometry_e",
+   "name": "Geometry E",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "geometry_g6",
+   "name": "Geometry G6",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "geometry_m6",
+   "name": "Geometry M6",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gs",
+   "name": "GS",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gx3_pro",
+   "name": "GX3 Pro",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "haoqing",
+   "name": "Haoqing",
+   "generations": [
+    {
+     "years": "1998 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "haoyue",
+   "name": "Haoyue",
+   "generations": [
+    {
+     "years": "2021 – 2022",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "haoyue_l",
+   "name": "Haoyue L",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "haoyue_pro",
+   "name": "Haoyue Pro",
+   "generations": [
+    {
+     "years": "2024 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "icon",
+   "name": "Icon",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "jiaji",
+   "name": "Jiaji",
+   "generations": [
+    {
+     "years": "2021 – 2025",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "kandi_ex3",
+   "name": "Kandi EX3",
+   "generations": [
+    {
+     "years": "2018 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "lc",
+   "name": "LC (Panda)",
+   "generations": [
+    {
+     "years": "2008 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "lc_cross",
+   "name": "LC (Panda) Cross",
+   "generations": [
+    {
+     "years": "2008 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "mk",
+   "name": "MK",
+   "generations": [
+    {
+     "years": "2013 – 2015",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2006 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "mk_cross",
+   "name": "MK Cross",
+   "generations": [
+    {
+     "years": "2010 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "monjaro",
+   "name": "Monjaro",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг 2 (China Market)"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг (China Market)"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mr",
+   "name": "MR",
+   "generations": [
+    {
+     "years": "2003 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "okavango",
+   "name": "Okavango",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "panda",
+   "name": "Panda",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "preface",
+   "name": "Preface",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I (China Market) Рестайлинг 3"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I (China Market) Рестайлинг 2"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I"
+    },
+    {
+     "years": "2022 – 2024",
+     "name": "I (China Market) Рестайлинг"
+    },
+    {
+     "years": "2020 – 2022",
+     "name": "I (China Market)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "radar_king_kong",
+   "name": "Radar King Kong",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "sc7",
+   "name": "SC7",
+   "generations": [
+    {
+     "years": "2011 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "tugella",
+   "name": "Tugella",
+   "generations": [
+    {
+     "years": "2021 – 2024",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "tx4",
+   "name": "TX4",
+   "generations": [
+    {
+     "years": "2008 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "vision_s1",
+   "name": "Vision S1",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vision_x3",
+   "name": "Vision X3",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vision_x3_pro",
+   "name": "Vision X3 Pro",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vision_x6",
+   "name": "Vision X6",
+   "generations": [
+    {
+     "years": "2019 – 2021",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2018 – 2019",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2016 – 2018",
+     "name": "II"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vision_x6_pro",
+   "name": "Vision X6 Pro",
+   "generations": [
+    {
+     "years": "2021 – 2024",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xingyue",
+   "name": "Xingyue",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": "I Рестайлинг (S)"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "xingyue_l",
+   "name": "Xingyue L",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Geely",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Geely",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

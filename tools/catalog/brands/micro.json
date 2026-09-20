@@ -1,0 +1,29 @@
+{
+ "slug": "micro",
+ "name": "Micro",
+ "models": [
+  {
+   "slug": "microlino",
+   "name": "Microlino",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Micro",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Micro",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

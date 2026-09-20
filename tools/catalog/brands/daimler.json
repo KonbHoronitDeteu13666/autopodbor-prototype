@@ -1,0 +1,117 @@
+{
+ "slug": "daimler",
+ "name": "Daimler",
+ "models": [
+  {
+   "slug": "ds_420",
+   "name": "DS420",
+   "generations": [
+    {
+     "years": "1968 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "лимузин"
+  },
+  {
+   "slug": "regency",
+   "name": "Regency",
+   "generations": [
+    {
+     "years": "1951 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sovereign",
+   "name": "Sovereign (XJ6)",
+   "generations": [
+    {
+     "years": "1969 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "sp250",
+   "name": "SP250",
+   "generations": [
+    {
+     "years": "1959 – 1964",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "x_300",
+   "name": "X300",
+   "generations": [
+    {
+     "years": "1993 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "x_308",
+   "name": "X308",
+   "generations": [
+    {
+     "years": "1997 – 2003",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "x_350",
+   "name": "X350",
+   "generations": [
+    {
+     "years": "2005 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xj40",
+   "name": "XJ40",
+   "generations": [
+    {
+     "years": "1986 – 1994",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xjs",
+   "name": "XJS",
+   "generations": [
+    {
+     "years": "1973 – 1977",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Daimler",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Daimler",
+   "generations": [],
+   "body": "седан"
+  }
+ ]
+}

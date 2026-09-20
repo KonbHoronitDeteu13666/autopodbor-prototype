@@ -1,0 +1,29 @@
+{
+ "slug": "messerschmitt",
+ "name": "Messerschmitt",
+ "models": [
+  {
+   "slug": "kr200",
+   "name": "KR200",
+   "generations": [
+    {
+     "years": "1952 – 1964",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Messerschmitt",
+   "generations": [],
+   "body": ""
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Messerschmitt",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

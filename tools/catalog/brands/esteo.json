@@ -1,0 +1,73 @@
+{
+ "slug": "esteo",
+ "name": "Esteo",
+ "models": [
+  {
+   "slug": "exlantix_es",
+   "name": "Exlantix ES",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "exlantix_et",
+   "name": "Exlantix ET",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "exlantix_et8",
+   "name": "Exlantix ET8",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "mx",
+   "name": "MX",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "v_27",
+   "name": "V27",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Esteo",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Esteo",
+   "generations": [],
+   "body": "внедорожник"
+  }
+ ]
+}

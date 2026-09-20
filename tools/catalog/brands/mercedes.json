@@ -1,0 +1,2138 @@
+{
+ "slug": "mercedes",
+ "name": "Mercedes-Benz",
+ "models": [
+  {
+   "slug": "w201",
+   "name": "190 (W201)",
+   "generations": [
+    {
+     "years": "1982 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "190_sl",
+   "name": "190 SL",
+   "generations": [
+    {
+     "years": "1955 – 1963",
+     "name": "R121"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "220_w187",
+   "name": "220 (W187)",
+   "generations": [
+    {
+     "years": "1951 – 1955",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "300_slr",
+   "name": "300 SLR",
+   "generations": [
+    {
+     "years": "1954 – 1955",
+     "name": "W196"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "a_klasse",
+   "name": "A-Класс",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "IV (W177) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "IV (W177)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "III (W176) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "III (W176)"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "II (W169) Рестайлинг"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "II (W169)"
+    },
+    {
+     "years": "2001 – 2004",
+     "name": "I (W168) Рестайлинг"
+    },
+    {
+     "years": "1997 – 2001",
+     "name": "I (W168)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "a_klasse_amg",
+   "name": "A-Класс AMG",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "II (W177) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "II (W177)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I (W176) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2015",
+     "name": "I (W176)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "amg_gt",
+   "name": "AMG GT",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "amg_gt_4_door_coupe",
+   "name": "AMG GT 4-Door Coupe",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II"
+    },
+    {
+     "years": "c 2018 года",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "amg_one",
+   "name": "AMG ONE",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "amg_purespeed",
+   "name": "AMG PureSpeed",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "b_klasse",
+   "name": "B-Класс",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "III (W247) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "III (W247)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "II (W246) Рестайлинг"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "II (W246)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "I (W245) Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "I (W245)"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "c_klasse",
+   "name": "C-Класс",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "V (W206) Рестайлинг"
+    },
+    {
+     "years": "c 2026 года",
+     "name": "electric (W520)"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "V (W206)"
+    },
+    {
+     "years": "2018 – 2023",
+     "name": "IV (W205) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "IV (W205)"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "III (W204) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2011",
+     "name": "III (W204)"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "II (W203) Рестайлинг"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "II (W203)"
+    },
+    {
+     "years": "1997 – 2001",
+     "name": "I (W202) Рестайлинг"
+    },
+    {
+     "years": "1993 – 1997",
+     "name": "I (W202)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "c_klasse_amg",
+   "name": "C-Класс AMG",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "V (W206)"
+    },
+    {
+     "years": "2018 – 2022",
+     "name": "IV (W205) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "IV (W205)"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "III (W204) Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "III (W204)"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "II (W203) Рестайлинг"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "II (W203)"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "I (W202) Рестайлинг"
+    },
+    {
+     "years": "1994 – 1997",
+     "name": "I (W202)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "citan",
+   "name": "Citan",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "II"
+    },
+    {
+     "years": "2012 – 2021",
+     "name": "I (W415)"
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "cl_klasse",
+   "name": "CL-Класс",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": "III (C216) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "III (C216)"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "II (C215) Рестайлинг"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "II (C215)"
+    },
+    {
+     "years": "1992 – 2000",
+     "name": "I (C140)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "cl_klasse_amg",
+   "name": "CL-Класс AMG",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": "II (C216) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2010",
+     "name": "II (C216)"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "I (C215) Рестайлинг"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "I (C215)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "cla_klasse",
+   "name": "CLA",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "III (C174, X174)"
+    },
+    {
+     "years": "2023 – 2025",
+     "name": "II (C118, X118) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II (C118, X118)"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I (C117, X117) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I (C117, X117)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cla_klasse_amg",
+   "name": "CLA AMG",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "III (C174, X174)"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (C118, X118) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II (C118, X118)"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I (C117, X117) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "I (C117, X117)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "clc_klasse",
+   "name": "CLC-Класс",
+   "generations": [
+    {
+     "years": "2008 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "cle_klasse",
+   "name": "CLE",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "cle_klasse_amg",
+   "name": "CLE AMG",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "clk_amg_gtr",
+   "name": "CLK AMG GTR",
+   "generations": [
+    {
+     "years": "1997 – 1999",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "clk_klasse",
+   "name": "CLK-Класс",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": "II (W209) Рестайлинг"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "II (W209)"
+    },
+    {
+     "years": "1999 – 2003",
+     "name": "I (W208) Рестайлинг"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "I (W208)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "clk_klasse_amg",
+   "name": "CLK-Класс AMG",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": "II (W209) Рестайлинг"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "II (W209)"
+    },
+    {
+     "years": "2000 – 2003",
+     "name": "I (W208) Рестайлинг"
+    },
+    {
+     "years": "1999 – 2000",
+     "name": "I (W208)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "cls_klasse",
+   "name": "CLS",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": "III (C257) Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "III (C257)"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "II (C218) Рестайлинг"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "II (C218)"
+    },
+    {
+     "years": "2008 – 2010",
+     "name": "I (C219) Рестайлинг"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "I (C219)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "cls_klasse_amg",
+   "name": "CLS AMG",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": "III (C257) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "III (C257)"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "II (W218) Рестайлинг"
+    },
+    {
+     "years": "2011 – 2014",
+     "name": "II (W218)"
+    },
+    {
+     "years": "2008 – 2010",
+     "name": "I (C219) Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "I (C219)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "e_klasse",
+   "name": "E-Класс",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "VI (W214, S214)"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "V (W213, S213, C238) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2021",
+     "name": "V (W213, S213, C238)"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "IV (W212, S212, C207) Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "IV (W212, S212, C207)"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "III (W211, S211) Рестайлинг"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "III (W211, S211)"
+    },
+    {
+     "years": "1999 – 2003",
+     "name": "II (W210, S210) Рестайлинг"
+    },
+    {
+     "years": "1995 – 1999",
+     "name": "II (W210, S210)"
+    },
+    {
+     "years": "1992 – 1997",
+     "name": "I (W124)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "e_klasse_amg",
+   "name": "E-Класс AMG",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "VI (W214)"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "V (W213) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "V (W213)"
+    },
+    {
+     "years": "2013 – 2016",
+     "name": "IV (W212, S212) Рестайлинг"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "IV (W212, S212)"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "III (W211, S211) Рестайлинг"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "III (W211, S211)"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "II (W210, S210) Рестайлинг"
+    },
+    {
+     "years": "1996 – 1999",
+     "name": "II (W210, S210)"
+    },
+    {
+     "years": "1994 – 1996",
+     "name": "I (W124)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eqa",
+   "name": "EQA",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "eqb",
+   "name": "EQB",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "eqc",
+   "name": "EQC",
+   "generations": [
+    {
+     "years": "2019 – 2023",
+     "name": "I (N293)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "eqe",
+   "name": "EQE",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eqe_amg",
+   "name": "EQE AMG",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "eqe_suv",
+   "name": "EQE SUV",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "eqe_suv_amg",
+   "name": "EQE SUV AMG",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "eqs",
+   "name": "EQS",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2024 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2021 – 2025",
+     "name": "I"
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "eqs_amg",
+   "name": "EQS AMG",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": ""
+    }
+   ],
+   "body": "лифтбек"
+  },
+  {
+   "slug": "eqs_suv",
+   "name": "EQS SUV",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "eqt",
+   "name": "EQT",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "eqv",
+   "name": "EQV",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "g_klasse",
+   "name": "G-Класс",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "III (W465) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "III (W463)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "II (W463) Рестайлинг 4"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "II (W463) Рестайлинг 3"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "I (W461) Professional"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "II (W463) Рестайлинг 2"
+    },
+    {
+     "years": "1979 – 2009",
+     "name": "I (W460; W461)"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "II (W463) Рестайлинг 1"
+    },
+    {
+     "years": "1990 – 2006",
+     "name": "II (W463)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "g_klasse_amg",
+   "name": "G-Класс AMG",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "II (W465) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2024",
+     "name": "II (W463)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I (W463) Рестайлинг 3"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "I (W463) Рестайлинг 2"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "I (W463) Рестайлинг"
+    },
+    {
+     "years": "1993 – 2008",
+     "name": "I (W463)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "g_klasse_amg_6x6",
+   "name": "G-Класс AMG 6x6",
+   "generations": [
+    {
+     "years": "2018 – 2024",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "gl_klasse",
+   "name": "GL-Класс",
+   "generations": [
+    {
+     "years": "2012 – 2016",
+     "name": "II (X166)"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "I (X164) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "I (X164)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gl_klasse_amg",
+   "name": "GL-Класс AMG",
+   "generations": [
+    {
+     "years": "2012 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gla_class",
+   "name": "GLA",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "III (H244, H248)"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (H247) Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "II (H247)"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I (X156) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I (X156)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gla_class_amg",
+   "name": "GLA AMG",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II (H247) Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "II (H247)"
+    },
+    {
+     "years": "2017 – 2019",
+     "name": "I (X156) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I (X156)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "glb_klasse",
+   "name": "GLB",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "II (X244, X248)"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I (X247) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I (X247)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "glb_amg",
+   "name": "GLB AMG",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "I (X247) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I (X247)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "glc_klasse",
+   "name": "GLC",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "Electric (X540)"
+    },
+    {
+     "years": "c 2022 года",
+     "name": "II (X254)"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "I (X253) Рестайлинг"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I (X253)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "glc_klasse_amg",
+   "name": "GLC AMG",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II (X254)"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "I (X253) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I (X253)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "glc_coupe",
+   "name": "GLC Coupe",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II (C254)"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I (C253) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I (C253)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "amg_glc_coupe",
+   "name": "GLC Coupe AMG",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "II (C254)"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I (C253) Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I (C253)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gle_klasse",
+   "name": "GLE",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II (V167) Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (V167) Рестайлинг"
+    },
+    {
+     "years": "2018 – 2025",
+     "name": "II (V167)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I (W166)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gle_klasse_amg",
+   "name": "GLE AMG",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II (V167) Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (V167) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II (V167)"
+    },
+    {
+     "years": "2015 – 2018",
+     "name": "I (W166)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gle_klasse_coupe",
+   "name": "GLE Coupe",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II (C167) Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (C167) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II (C167)"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I (C292)"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "gle_klasse_coupe_amg",
+   "name": "GLE Coupe AMG",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II (C167) Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (C167) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "II (C167)"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I (C292)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "glk_klasse",
+   "name": "GLK-Класс",
+   "generations": [
+    {
+     "years": "2012 – 2015",
+     "name": "I (X204) Рестайлинг"
+    },
+    {
+     "years": "2008 – 2012",
+     "name": "I (X204)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gls_klasse",
+   "name": "GLS",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II (X167) Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (X167) Рестайлинг"
+    },
+    {
+     "years": "2019 – 2025",
+     "name": "II (X167)"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I (X166)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "gls_klasse_amg",
+   "name": "GLS AMG",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II (X167) Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "II (X167) Рестайлинг"
+    },
+    {
+     "years": "2020 – 2023",
+     "name": "II (X167)"
+    },
+    {
+     "years": "2015 – 2019",
+     "name": "I (X166)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "m_klasse",
+   "name": "M-Класс",
+   "generations": [
+    {
+     "years": "2011 – 2015",
+     "name": "III (W166)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "II (W164) Рестайлинг"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "II (W164)"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "I (W163) Рестайлинг"
+    },
+    {
+     "years": "1997 – 2001",
+     "name": "I (W163)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "m_klasse_amg",
+   "name": "M-Класс AMG",
+   "generations": [
+    {
+     "years": "2011 – 2015",
+     "name": "III (W166)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "II (W164) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "II (W164)"
+    },
+    {
+     "years": "2001 – 2005",
+     "name": "I (W163) Рестайлинг"
+    },
+    {
+     "years": "2000 – 2001",
+     "name": "I (W163)"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "marco_polo",
+   "name": "Marco Polo",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III (W447) Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "III (W447) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "III (W447)"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "II (W639) Рестайлинг"
+    },
+    {
+     "years": "2004 – 2010",
+     "name": "II (W639)"
+    },
+    {
+     "years": "1996 – 2003",
+     "name": "I (W638)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "maybach_eqs_suv",
+   "name": "Maybach EQS SUV",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "maybach_g_650",
+   "name": "Maybach G 650 Landaulet",
+   "generations": [
+    {
+     "years": "2017 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "maybach_gls",
+   "name": "Maybach GLS",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "c 2023 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "s_class_maybach",
+   "name": "Maybach S-Класс",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "II (Z223) Рестайлинг"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "II (Z223)"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "I (X222) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I (X222)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "maybach_sl",
+   "name": "Maybach SL",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": ""
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "metris",
+   "name": "Metris",
+   "generations": [
+    {
+     "years": "2015 – 2023",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "r_klasse",
+   "name": "R-Класс",
+   "generations": [
+    {
+     "years": "2010 – 2017",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2005 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "r_klasse_amg",
+   "name": "R-Класс AMG",
+   "generations": [
+    {
+     "years": "2006 – 2007",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "s_klasse",
+   "name": "S-Класс",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": "VII (W223) Рестайлинг"
+    },
+    {
+     "years": "c 2020 года",
+     "name": "VII (W223)"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "VI (W222, C217) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "VI (W222, C217)"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "V (W221) Рестайлинг"
+    },
+    {
+     "years": "2005 – 2009",
+     "name": "V (W221)"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "IV (W220) Рестайлинг"
+    },
+    {
+     "years": "1998 – 2005",
+     "name": "IV (W220)"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "III (W140) Рестайлинг"
+    },
+    {
+     "years": "1991 – 1998",
+     "name": "III (W140)"
+    },
+    {
+     "years": "1985 – 1991",
+     "name": "II (W126) Рестайлинг"
+    },
+    {
+     "years": "1979 – 1985",
+     "name": "II (W126)"
+    },
+    {
+     "years": "1972 – 1980",
+     "name": "I (W116)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "s_klasse_amg",
+   "name": "S-Класс AMG",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "IV (W223)"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "III (W222, C217) Рестайлинг"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "III (W222, C217)"
+    },
+    {
+     "years": "2009 – 2013",
+     "name": "II (W221) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "II (W221)"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "I (W220) Рестайлинг"
+    },
+    {
+     "years": "1999 – 2002",
+     "name": "I (W220)"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "simplex",
+   "name": "Simplex",
+   "generations": [
+    {
+     "years": "1904 – 1909",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "sl_klasse",
+   "name": "SL-Класс",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "VI (R231) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "VI (R231)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "V (R230) Рестайлинг 2"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "V (R230) Рестайлинг"
+    },
+    {
+     "years": "2001 – 2006",
+     "name": "V (R230)"
+    },
+    {
+     "years": "1998 – 2001",
+     "name": "IV (R129) Рестайлинг 2"
+    },
+    {
+     "years": "1995 – 1998",
+     "name": "IV (R129) Рестайлинг"
+    },
+    {
+     "years": "1989 – 1995",
+     "name": "IV (R129)"
+    },
+    {
+     "years": "1971 – 1989",
+     "name": "III (R107, C107)"
+    },
+    {
+     "years": "1963 – 1971",
+     "name": "II (W113)"
+    },
+    {
+     "years": "1955 – 1963",
+     "name": "I (R121)"
+    },
+    {
+     "years": "1954 – 1963",
+     "name": "W198"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "sl_klasse_amg",
+   "name": "SL-Класс AMG",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "IV (R232)"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "III (R231) Рестайлинг"
+    },
+    {
+     "years": "2012 – 2016",
+     "name": "III (R231)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "II (R230) Рестайлинг 2"
+    },
+    {
+     "years": "2006 – 2008",
+     "name": "II (R230) Рестайлинг"
+    },
+    {
+     "years": "2002 – 2006",
+     "name": "II (R230)"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "I (R129) Рестайлинг"
+    },
+    {
+     "years": "1993 – 1998",
+     "name": "I (R129)"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "slc_klasse",
+   "name": "SLC",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "I (R172)"
+    },
+    {
+     "years": "1971 – 1981",
+     "name": "C107"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "slc_klasse_amg",
+   "name": "SLC AMG",
+   "generations": [
+    {
+     "years": "2016 – 2020",
+     "name": "I (R172)"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "slk_klasse",
+   "name": "SLK-Класс",
+   "generations": [
+    {
+     "years": "2011 – 2016",
+     "name": "III (R172)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "II (R171) Рестайлинг"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "II (R171)"
+    },
+    {
+     "years": "2000 – 2004",
+     "name": "I (R170) Рестайлинг"
+    },
+    {
+     "years": "1996 – 2000",
+     "name": "I (R170)"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "slk_klasse_amg",
+   "name": "SLK-Класс AMG",
+   "generations": [
+    {
+     "years": "2012 – 2016",
+     "name": "III (R172)"
+    },
+    {
+     "years": "2008 – 2011",
+     "name": "II (R171) Рестайлинг"
+    },
+    {
+     "years": "2004 – 2008",
+     "name": "II (R171)"
+    },
+    {
+     "years": "2001 – 2004",
+     "name": "I (R170)"
+    }
+   ],
+   "body": "родстер"
+  },
+  {
+   "slug": "slr_klasse",
+   "name": "SLR McLaren",
+   "generations": [
+    {
+     "years": "2003 – 2009",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "sls_amg",
+   "name": "SLS AMG",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "t_klasse",
+   "name": "T-Класс",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "typ_630",
+   "name": "Typ 630",
+   "generations": [
+    {
+     "years": "1926 – 1929",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "v_klasse",
+   "name": "V-Класс",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III (W447) Рестайлинг 2"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "III (W447) Рестайлинг"
+    },
+    {
+     "years": "2014 – 2019",
+     "name": "III (W447)"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "II (W639) Рестайлинг"
+    },
+    {
+     "years": "2006 – 2011",
+     "name": "II (W639)"
+    },
+    {
+     "years": "1996 – 2003",
+     "name": "I (W638)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "vaneo",
+   "name": "Vaneo",
+   "generations": [
+    {
+     "years": "2001 – 2005",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "viano",
+   "name": "Viano",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": "I (W639) Рестайлинг"
+    },
+    {
+     "years": "2003 – 2010",
+     "name": "I (W639)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "vito",
+   "name": "Vito",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "III (W447) Рестайлинг 2"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "III (W447) Рестайлинг"
+    },
+    {
+     "years": "c 2014 года",
+     "name": "III (W447)"
+    },
+    {
+     "years": "2010 – 2014",
+     "name": "II (W639) Рестайлинг"
+    },
+    {
+     "years": "2003 – 2010",
+     "name": "II (W639)"
+    },
+    {
+     "years": "1996 – 2003",
+     "name": "I (W638)"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "vle",
+   "name": "VLE",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "w100",
+   "name": "W100",
+   "generations": [
+    {
+     "years": "1964 – 1981",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w105",
+   "name": "W105",
+   "generations": [
+    {
+     "years": "1956 – 1959",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w108",
+   "name": "W108",
+   "generations": [
+    {
+     "years": "1965 – 1972",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w110",
+   "name": "W110",
+   "generations": [
+    {
+     "years": "1965 – 1968",
+     "name": "Second Series"
+    },
+    {
+     "years": "1961 – 1965",
+     "name": "First Series"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w111",
+   "name": "W111",
+   "generations": [
+    {
+     "years": "1959 – 1971",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "w114",
+   "name": "W114",
+   "generations": [
+    {
+     "years": "1968 – 1977",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "w115",
+   "name": "W115",
+   "generations": [
+    {
+     "years": "1968 – 1977",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w120",
+   "name": "W120",
+   "generations": [
+    {
+     "years": "1953 – 1962",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w121",
+   "name": "W121",
+   "generations": [
+    {
+     "years": "1959 – 1961",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w123",
+   "name": "W123",
+   "generations": [
+    {
+     "years": "1975 – 1986",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w124",
+   "name": "W124",
+   "generations": [
+    {
+     "years": "1984 – 1993",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "w128",
+   "name": "W128",
+   "generations": [
+    {
+     "years": "1958 – 1960",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "w136",
+   "name": "W136",
+   "generations": [
+    {
+     "years": "1936 – 1955",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w138",
+   "name": "W138",
+   "generations": [
+    {
+     "years": "1935 – 1940",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w142",
+   "name": "W142",
+   "generations": [
+    {
+     "years": "1937 – 1942",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "w180",
+   "name": "W180",
+   "generations": [
+    {
+     "years": "1956 – 1959",
+     "name": "II"
+    },
+    {
+     "years": "1954 – 1956",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w186",
+   "name": "W186",
+   "generations": [
+    {
+     "years": "1951 – 1957",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w188",
+   "name": "W188",
+   "generations": [
+    {
+     "years": "1951 – 1958",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "w189",
+   "name": "W189",
+   "generations": [
+    {
+     "years": "1957 – 1962",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w191",
+   "name": "W191",
+   "generations": [
+    {
+     "years": "1949 – 1952",
+     "name": ""
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "w21",
+   "name": "W21",
+   "generations": [
+    {
+     "years": "1933 – 1936",
+     "name": ""
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "w29",
+   "name": "W29",
+   "generations": [
+    {
+     "years": "1934 – 1936",
+     "name": "I"
+    }
+   ],
+   "body": "кабриолет"
+  },
+  {
+   "slug": "x_klasse",
+   "name": "X-Класс",
+   "generations": [
+    {
+     "years": "2017 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Mercedes-Benz",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Mercedes-Benz",
+   "generations": [],
+   "body": "купе"
+  }
+ ]
+}

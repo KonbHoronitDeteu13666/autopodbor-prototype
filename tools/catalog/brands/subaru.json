@@ -1,0 +1,942 @@
+{
+ "slug": "subaru",
+ "name": "Subaru",
+ "models": [
+  {
+   "slug": "alcyone",
+   "name": "Alcyone",
+   "generations": [
+    {
+     "years": "1991 – 1996",
+     "name": "II"
+    },
+    {
+     "years": "1985 – 1991",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "ascent",
+   "name": "Ascent",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2017 – 2022",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "baja",
+   "name": "Baja",
+   "generations": [
+    {
+     "years": "2002 – 2006",
+     "name": ""
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "bighorn",
+   "name": "Bighorn",
+   "generations": [
+    {
+     "years": "1991 – 1992",
+     "name": "II"
+    },
+    {
+     "years": "1990 – 1991",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "bistro",
+   "name": "Bistro",
+   "generations": [
+    {
+     "years": "1995 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "brat",
+   "name": "Brat",
+   "generations": [
+    {
+     "years": "1978 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "пикап"
+  },
+  {
+   "slug": "brz",
+   "name": "BRZ",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2020",
+     "name": "I"
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "chiffon",
+   "name": "Chiffon",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2019 – 2022",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "crosstrek",
+   "name": "Crosstrek",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "III"
+    },
+    {
+     "years": "2020 – 2022",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "dex",
+   "name": "Dex",
+   "generations": [
+    {
+     "years": "2008 – 2011",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "dias_wagon",
+   "name": "Dias Wagon",
+   "generations": [
+    {
+     "years": "2009 – 2020",
+     "name": "II"
+    },
+    {
+     "years": "2003 – 2009",
+     "name": "I"
+    }
+   ],
+   "body": "минивэн"
+  },
+  {
+   "slug": "domingo",
+   "name": "Domingo",
+   "generations": [
+    {
+     "years": "1994 – 1998",
+     "name": "II"
+    },
+    {
+     "years": "1983 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "e_outback",
+   "name": "E-Outback",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "exiga",
+   "name": "Exiga",
+   "generations": [
+    {
+     "years": "2008 – 2018",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "forester",
+   "name": "Forester",
+   "generations": [
+    {
+     "years": "c 2024 года",
+     "name": "VI"
+    },
+    {
+     "years": "c 2021 года",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2018 – 2021",
+     "name": "V"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "IV Рестайлинг 2"
+    },
+    {
+     "years": "2015 – 2016",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2012 – 2015",
+     "name": "IV"
+    },
+    {
+     "years": "2010 – 2013",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "III"
+    },
+    {
+     "years": "2005 – 2008",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "II"
+    },
+    {
+     "years": "2000 – 2002",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1997 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "getaway",
+   "name": "Getaway",
+   "generations": [
+    {
+     "years": "c 2026 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "impreza",
+   "name": "Impreza",
+   "generations": [
+    {
+     "years": "c 2023 года",
+     "name": "VI"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2016 – 2019",
+     "name": "V"
+    },
+    {
+     "years": "2014 – 2016",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2011 – 2015",
+     "name": "IV"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "III"
+    },
+    {
+     "years": "2005 – 2007",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "II Рестайлинг 1"
+    },
+    {
+     "years": "2000 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1992 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "impreza_wrx",
+   "name": "Impreza WRX",
+   "generations": [
+    {
+     "years": "2010 – 2014",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2007 – 2010",
+     "name": "III"
+    },
+    {
+     "years": "2005 – 2007",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "II Рестайлинг 1"
+    },
+    {
+     "years": "2000 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1992 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "impreza_wrx_sti",
+   "name": "Impreza WRX STi",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": "III"
+    },
+    {
+     "years": "2005 – 2007",
+     "name": "II Рестайлинг 2"
+    },
+    {
+     "years": "2002 – 2005",
+     "name": "II Рестайлинг 1"
+    },
+    {
+     "years": "2000 – 2002",
+     "name": "II"
+    },
+    {
+     "years": "1994 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "justy",
+   "name": "Justy",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2016 – 2020",
+     "name": "V"
+    },
+    {
+     "years": "2007 – 2011",
+     "name": "IV"
+    },
+    {
+     "years": "2003 – 2007",
+     "name": "III"
+    },
+    {
+     "years": "1995 – 2003",
+     "name": "II"
+    },
+    {
+     "years": "1987 – 1995",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1984 – 1991",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "legacy",
+   "name": "Legacy",
+   "generations": [
+    {
+     "years": "2023 – 2025",
+     "name": "VII Рестайлинг"
+    },
+    {
+     "years": "2019 – 2023",
+     "name": "VII"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "VI Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "VI"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "V"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "IV"
+    },
+    {
+     "years": "1998 – 2004",
+     "name": "III"
+    },
+    {
+     "years": "1993 – 1999",
+     "name": "II"
+    },
+    {
+     "years": "1989 – 1994",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "legacy_lancaster",
+   "name": "Legacy Lancaster",
+   "generations": [
+    {
+     "years": "2001 – 2003",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "1998 – 2001",
+     "name": "II"
+    },
+    {
+     "years": "1995 – 1998",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "leone",
+   "name": "Leone",
+   "generations": [
+    {
+     "years": "1984 – 1994",
+     "name": "III"
+    },
+    {
+     "years": "1979 – 1984",
+     "name": "II"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "levorg",
+   "name": "Levorg",
+   "generations": [
+    {
+     "years": "c 2020 года",
+     "name": "II"
+    },
+    {
+     "years": "2017 – 2020",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "libero",
+   "name": "Libero",
+   "generations": [
+    {
+     "years": "1984 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "lucra",
+   "name": "Lucra",
+   "generations": [
+    {
+     "years": "2010 – 2015",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "outback",
+   "name": "Outback",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "VII"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": "VI Рестайлинг"
+    },
+    {
+     "years": "c 2019 года",
+     "name": "VI"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "V Рестайлинг"
+    },
+    {
+     "years": "2014 – 2018",
+     "name": "V"
+    },
+    {
+     "years": "2012 – 2014",
+     "name": "IV Рестайлинг"
+    },
+    {
+     "years": "2009 – 2012",
+     "name": "IV"
+    },
+    {
+     "years": "2006 – 2009",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2003 – 2006",
+     "name": "III"
+    },
+    {
+     "years": "1998 – 2004",
+     "name": "II"
+    },
+    {
+     "years": "1994 – 1999",
+     "name": "I"
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "pleo",
+   "name": "Pleo",
+   "generations": [
+    {
+     "years": "2010 – 2018",
+     "name": "II"
+    },
+    {
+     "years": "2004 – 2010",
+     "name": "I Рестайлинг 3"
+    },
+    {
+     "years": "2002 – 2004",
+     "name": "I Рестайлинг 2"
+    },
+    {
+     "years": "2000 – 2002",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "1998 – 2000",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "pleo_plus",
+   "name": "Pleo Plus",
+   "generations": [
+    {
+     "years": "c 2017 года",
+     "name": "II"
+    },
+    {
+     "years": "2013 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2012 – 2013",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "r1",
+   "name": "R1",
+   "generations": [
+    {
+     "years": "2005 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "r2",
+   "name": "R2",
+   "generations": [
+    {
+     "years": "2003 – 2010",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "rex",
+   "name": "Rex",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "IV"
+    },
+    {
+     "years": "1986 – 1992",
+     "name": "III"
+    },
+    {
+     "years": "1982 – 1985",
+     "name": "II"
+    },
+    {
+     "years": "1972 – 1981",
+     "name": "I"
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "sambar",
+   "name": "Sambar",
+   "generations": [
+    {
+     "years": "c 2022 года",
+     "name": "VIII"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "VII Рестайлинг"
+    },
+    {
+     "years": "2012 – 2017",
+     "name": "VII"
+    },
+    {
+     "years": "1999 – 2012",
+     "name": "VI"
+    },
+    {
+     "years": "1990 – 1999",
+     "name": "V"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "solterra",
+   "name": "Solterra",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2022 – 2025",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "stella",
+   "name": "Stella",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": "IV"
+    },
+    {
+     "years": "2017 – 2023",
+     "name": "III Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "III"
+    },
+    {
+     "years": "2013 – 2014",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2011 – 2012",
+     "name": "II"
+    },
+    {
+     "years": "2006 – 2011",
+     "name": "I"
+    }
+   ],
+   "body": ""
+  },
+  {
+   "slug": "svx",
+   "name": "SVX",
+   "generations": [
+    {
+     "years": "1991 – 1997",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "trailseeker",
+   "name": "Trailseeker",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "универсал"
+  },
+  {
+   "slug": "traviq",
+   "name": "Traviq",
+   "generations": [
+    {
+     "years": "2001 – 2004",
+     "name": ""
+    }
+   ],
+   "body": "компактвэн"
+  },
+  {
+   "slug": "trezia",
+   "name": "Trezia",
+   "generations": [
+    {
+     "years": "2010 – 2016",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "b9_tribeca",
+   "name": "Tribeca",
+   "generations": [
+    {
+     "years": "2007 – 2014",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2004 – 2007",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "uncharted",
+   "name": "Uncharted",
+   "generations": [
+    {
+     "years": "c 2025 года",
+     "name": ""
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "vivio",
+   "name": "Vivio",
+   "generations": [
+    {
+     "years": "1992 – 1998",
+     "name": ""
+    }
+   ],
+   "body": "хэтчбек"
+  },
+  {
+   "slug": "wrx",
+   "name": "WRX",
+   "generations": [
+    {
+     "years": "c 2021 года",
+     "name": "II"
+    },
+    {
+     "years": "2016 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "wrx_sti",
+   "name": "WRX STi",
+   "generations": [
+    {
+     "years": "2016 – 2021",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2014 – 2017",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "xt",
+   "name": "XT",
+   "generations": [
+    {
+     "years": "1987 – 1992",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  },
+  {
+   "slug": "xv",
+   "name": "XV",
+   "generations": [
+    {
+     "years": "2021 – 2023",
+     "name": "II Рестайлинг"
+    },
+    {
+     "years": "2017 – 2021",
+     "name": "II"
+    },
+    {
+     "years": "2015 – 2017",
+     "name": "I Рестайлинг"
+    },
+    {
+     "years": "2011 – 2016",
+     "name": "I"
+    }
+   ],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "photo",
+   "name": "Фотографии моделей Subaru",
+   "generations": [],
+   "body": "седан"
+  },
+  {
+   "slug": "engine",
+   "name": "Двигатели Subaru",
+   "generations": [],
+   "body": "внедорожник"
+  },
+  {
+   "slug": "1000",
+   "name": "1000",
+   "generations": [
+    {
+     "years": "1965 – 1969",
+     "name": "I"
+    }
+   ],
+   "body": "седан"
+  },
+  {
+   "slug": "360",
+   "name": "360",
+   "generations": [
+    {
+     "years": "1958 – 1971",
+     "name": ""
+    }
+   ],
+   "body": "купе"
+  }
+ ]
+}
