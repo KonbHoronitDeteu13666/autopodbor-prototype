@@ -355,6 +355,14 @@ ol.steps li::before{
   color:var(--muted);
   font-size:14.5px;
 }
+.search input{
+  flex:1;min-width:0;
+  border:0;background:transparent;outline:none;
+  font:inherit;color:var(--ink);
+}
+.search input::placeholder{color:var(--muted)}
+.search input::-webkit-search-cancel-button{cursor:pointer}
+.search:focus-within{border-color:var(--ink-2)}
 
 /* ---------- brand accordion ---------- */
 .brandrow{
@@ -649,14 +657,17 @@ ol.steps li::before{
           <section class="screen" id="s-catalog">
             <div class="search">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-              Марка или модель
+              <input id="brand-search" type="search" autocomplete="off" spellcheck="false" placeholder="Марка или модель">
             </div>
 
             <p class="sectionhead" id="recent-head" hidden>Недавние</p>
             <div class="card flush rows" id="recent-list" hidden></div>
 
-            <p class="sectionhead">Марки</p>
+            <p class="sectionhead" id="brands-head">Марки</p>
             <div class="card flush" id="brand-list"></div>
+            <div class="note" id="brand-empty" hidden>
+              <span>Ничего не нашлось. Проверьте написание или поищите по части названия.</span>
+            </div>
 
             <div class="note info">
               <span>Все данные лежат на телефоне и работают без сети.</span>
@@ -3192,25 +3203,57 @@ const CAT = buildCatalog();
 SEL.carId = "camry-xv40";
 function CUR(){ return CARS[SEL.carId]; }
 
-function renderBrands(){
-  document.getElementById("brand-list").innerHTML = CAT.map((b, bi) => {
-    const models = b.models.map((m, mi) => {
-      const total = m.gens.length + m.stubs.length;
-      return '<button class="modelrow" data-brand="' + bi + '" data-model="' + mi + '">' +
+/* Каталог большой — четыре с лишним сотни марок, — поэтому список марок
+   всегда идёт через поиск: без запроса он свёрнут по маркам, с запросом
+   показываются только совпадения, а марка с найденными моделями сразу
+   раскрыта. */
+const searchNorm = s => String(s).toLowerCase().replace(/ё/g, "е").replace(/\s+/g, " ").trim();
+
+function brandMatches(q){
+  if(!q) return CAT.map((b, bi) => ({b:b, bi:bi, models:b.models.map((m, mi) => ({m:m, mi:mi})), open:false}));
+  const out = [];
+  CAT.forEach((b, bi) => {
+    const brandHit = searchNorm(b.brand).indexOf(q) !== -1;
+    const models = [];
+    b.models.forEach((m, mi) => {
+      if(brandHit || searchNorm(m.name).indexOf(q) !== -1) models.push({m:m, mi:mi});
+    });
+    if(models.length) out.push({b:b, bi:bi, models:models, open:!brandHit || models.length <= 12});
+  });
+  return out;
+}
+
+function renderBrands(query){
+  const q = searchNorm(query || "");
+  const hits = brandMatches(q);
+
+  document.getElementById("brand-list").innerHTML = hits.map(h => {
+    const models = h.models.map(x => {
+      const m = x.m, total = m.gens.length + m.stubs.length;
+      return '<button class="modelrow" data-brand="' + h.bi + '" data-model="' + x.mi + '">' +
         '<span class="grow"><span>' + m.name + '</span>' +
         '<span class="sub">' + yearsRange(m) + ' · ' + total + ' ' +
           plural(total, "поколение", "поколения", "поколений") + '</span></span>' +
         '<span class="chip ' + (m.gens.length ? "ok" : "neutral") + '">' +
           (m.gens.length ? "Данные есть" : "Готовится") + '</span></button>';
     }).join("");
-    return '<button class="brandrow" data-brandtoggle="' + bi + '" aria-expanded="false">' +
+    return '<button class="brandrow" data-brandtoggle="' + h.bi + '" aria-expanded="' + h.open + '">' +
         '<svg class="caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>' +
-        '<span class="grow">' + b.brand + '</span>' +
-        '<span class="cnt">' + b.models.length + '</span></button>' +
-      '<div class="models" data-models="' + bi + '" hidden>' + models + '</div>';
+        '<span class="grow">' + h.b.brand + '</span>' +
+        '<span class="cnt">' + h.models.length + '</span></button>' +
+      '<div class="models" data-models="' + h.bi + '"' + (h.open ? '' : ' hidden') + '>' + models + '</div>';
   }).join("");
 
+  const head = document.getElementById("brands-head");
+  if(head) head.textContent = q ? "Найдено марок · " + hits.length : "Марки";
+  const empty = document.getElementById("brand-empty");
+  if(empty) empty.hidden = hits.length > 0;
 }
+
+document.addEventListener("input", e => {
+  if(e.target.id !== "brand-search") return;
+  renderBrands(e.target.value);
+});
 
 /* ---- недавние ---- */
 const VISITED = [];
