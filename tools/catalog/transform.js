@@ -54,6 +54,12 @@ function mergeGenerations(gens) {
 
   const out = [];
   for (const rec of byCode.values()) {
+    // машин, снятых с производства до 1980 года, на вторичном рынке нет:
+    // поколение, закончившееся раньше, в каталог не попадает. Поколения,
+    // начавшиеся до 1980-го и выпускавшиеся дальше (Нива, «шестёрка»,
+    // «буханка»), остаются
+    const ended = rec.open ? null : rec.to;
+    if (ended !== null && ended < 1980) continue;
     const years = rec.from + '–' + (rec.open || rec.to === null ? '…' : rec.to);
     out.push([rec.code, years]);
   }
