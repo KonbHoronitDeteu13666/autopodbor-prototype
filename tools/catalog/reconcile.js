@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DIR = __dirname;
-const PROTO = process.env.PROTO || 'C:/Users/HP/Desktop/autopodbor-prototype';
+const PROTO = process.env.PROTO || path.join(DIR, '..', '..');
 
 const norm = s => String(s).toLowerCase().replace(/ё/g, 'е')
   .replace(/[\s\u00a0]+/g, ' ').replace(/[«»"'’]/g, '').trim();
@@ -22,7 +22,7 @@ function packKeys() {
 }
 
 function loadCatalog() {
-  const src = fs.readFileSync(path.join(DIR, 'catalog.js'), 'utf8');
+  const src = fs.readFileSync(path.join(PROTO, 'catalog.js'), 'utf8');
   let STUB_CATALOG;
   eval(src.replace('const STUB_CATALOG', 'STUB_CATALOG'));
   return STUB_CATALOG;

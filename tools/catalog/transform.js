@@ -143,7 +143,7 @@ function applyPackCodes(brandsOut) {
 }
 
 const norm = s => String(s).toLowerCase().replace(/ё/g, 'е').replace(/\s+/g, ' ').trim();
-const PROTO = process.env.PROTO || 'C:/Users/HP/Desktop/autopodbor-prototype';
+const PROTO = process.env.PROTO || path.join(DIR, '..', '..');
 
 function main() {
   const files = fs.readdirSync(SRC).filter(f => f.endsWith('.json'));
@@ -200,7 +200,7 @@ const STUB_CATALOG = [
 
 `;
 
-  fs.writeFileSync(path.join(DIR, 'catalog.js'), header + blocks.join(',\n\n') + '\n\n];\n');
+  fs.writeFileSync(path.join(PROTO, 'catalog.js'), header + blocks.join(',\n\n') + '\n\n];\n');
   console.log(`brands ${blocks.length}\tmodels ${nModels}\tgens ${nGens}\tmodels without generations skipped ${skipped}`);
   console.log(`packs: ${packs.exact} matched as is, ${packs.renamed} catalog rows took the pack's code, ${packs.added} rows added, ${packs.unmatched.length} unmatched`);
   if (packs.unmatched.length) console.log(packs.unmatched.join('\n'));
